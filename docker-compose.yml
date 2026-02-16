@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15
+    container_name: adrenal_navigator_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: navigator
+      POSTGRES_PASSWORD: navigator
+      POSTGRES_DB: adrenal_navigator
+    ports:
+      - "5432:5432"
+    volumes:
+      - adrenal_navigator_pg:/var/lib/postgresql/data
+
+volumes:
+  adrenal_navigator_pg:
