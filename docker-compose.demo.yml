@@ -1,0 +1,22 @@
+services:
+  app:
+    build: .
+    container_name: adrenal_navigator_app
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: "postgresql://navigator:navigator@db:5432/adrenal_navigator?schema=public"
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
+      OPENAI_MODEL: "${OPENAI_MODEL:-gpt-4.1}"
+      OPENAI_ROUTER_MODEL: "${OPENAI_ROUTER_MODEL:-gpt-4.1}"
+      OPENAI_EMBEDDING_MODEL: "${OPENAI_EMBEDDING_MODEL:-text-embedding-3-small}"
+      ADMIN_TOKEN: "${ADMIN_TOKEN:-set-a-strong-token}"
+      NEXT_PUBLIC_BILLING_URL: "${NEXT_PUBLIC_BILLING_URL}"
+      NEXT_PUBLIC_ESTIMATE_URL: "${NEXT_PUBLIC_ESTIMATE_URL}"
+      NEXT_PUBLIC_SCHEDULING_URL: "${NEXT_PUBLIC_SCHEDULING_URL}"
+      RUN_INGEST: "${RUN_INGEST:-1}"
+    volumes:
+      - "./Reference documents:/app/Reference documents:ro"
