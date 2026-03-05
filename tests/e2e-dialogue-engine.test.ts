@@ -107,6 +107,8 @@ describe('Dialogue Engine E2E', () => {
 
     expect(turn.triage_level).toBe('emergency');
     expect(turn.mode).toBe('triage');
+    expect(turn.ui_cards.some((card: any) => card.type === 'handoff')).toBe(true);
+    expect(/urgent|emergency/i.test(turn.assistant_message)).toBe(true);
   });
 
   it('snapshot of AssistantTurn (IDs stripped)', async () => {

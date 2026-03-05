@@ -84,6 +84,43 @@ export const RouteDecisionSchema = z.object({
 
 export type RouteDecision = z.infer<typeof RouteDecisionSchema>;
 
+export const GateDecisionSchema = z.object({
+  safe: z.boolean(),
+  triage_level: TriageEnum,
+  refusal_reason: z.string().nullable(),
+  red_flags: z.array(z.string()).nullable()
+});
+
+export type GateDecision = z.infer<typeof GateDecisionSchema>;
+
+export const IntentDecisionSchema = z.object({
+  primary_question: z.string(),
+  secondary_questions: z.array(z.string()),
+  topic_tags: z.array(z.string()),
+  needs_clarification: z.boolean(),
+  clarification_questions: z.array(z.string())
+});
+
+export type IntentDecision = z.infer<typeof IntentDecisionSchema>;
+
+export const ScopeDecisionSchema = z.object({
+  in_scope: z.boolean(),
+  reason: z.string().nullable(),
+  redirect_message: z.string().nullable()
+});
+
+export type ScopeDecision = z.infer<typeof ScopeDecisionSchema>;
+
+export const ContextPlanSchema = z.object({
+  required_context: z.array(z.string()),
+  optional_context: z.array(z.string()),
+  info_missing: z.boolean(),
+  followup_questions: z.array(z.string()),
+  retrieval_queries: z.array(z.string())
+});
+
+export type ContextPlan = z.infer<typeof ContextPlanSchema>;
+
 export const AssistantTurnJsonSchema = {
   name: 'assistant_turn',
   strict: true,
@@ -234,5 +271,82 @@ export const RouteDecisionJsonSchema = {
       cards: { type: 'array', items: { type: 'string', enum: CardTypeEnum.options } }
     },
     required: ['mode', 'triage_level', 'cards']
+  }
+} as const;
+
+export const GateDecisionJsonSchema = {
+  name: 'gate_decision',
+  strict: true,
+  schema: {
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+      safe: { type: 'boolean' },
+      triage_level: { type: 'string', enum: TriageEnum.options },
+      refusal_reason: { type: ['string', 'null'] },
+      red_flags: { type: ['array', 'null'], items: { type: 'string' } }
+    },
+    required: ['safe', 'triage_level', 'refusal_reason', 'red_flags']
+  }
+} as const;
+
+export const IntentDecisionJsonSchema = {
+  name: 'intent_decision',
+  strict: true,
+  schema: {
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+      primary_question: { type: 'string' },
+      secondary_questions: { type: 'array', items: { type: 'string' } },
+      topic_tags: { type: 'array', items: { type: 'string' } },
+      needs_clarification: { type: 'boolean' },
+      clarification_questions: { type: 'array', items: { type: 'string' } }
+    },
+    required: [
+      'primary_question',
+      'secondary_questions',
+      'topic_tags',
+      'needs_clarification',
+      'clarification_questions'
+    ]
+  }
+} as const;
+
+export const ScopeDecisionJsonSchema = {
+  name: 'scope_decision',
+  strict: true,
+  schema: {
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+      in_scope: { type: 'boolean' },
+      reason: { type: ['string', 'null'] },
+      redirect_message: { type: ['string', 'null'] }
+    },
+    required: ['in_scope', 'reason', 'redirect_message']
+  }
+} as const;
+
+export const ContextPlanJsonSchema = {
+  name: 'context_plan',
+  strict: true,
+  schema: {
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+      required_context: { type: 'array', items: { type: 'string' } },
+      optional_context: { type: 'array', items: { type: 'string' } },
+      info_missing: { type: 'boolean' },
+      followup_questions: { type: 'array', items: { type: 'string' } },
+      retrieval_queries: { type: 'array', items: { type: 'string' } }
+    },
+    required: [
+      'required_context',
+      'optional_context',
+      'info_missing',
+      'followup_questions',
+      'retrieval_queries'
+    ]
   }
 } as const;
