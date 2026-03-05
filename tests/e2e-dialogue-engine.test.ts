@@ -23,11 +23,11 @@ const goldens = [
   },
   {
     prompt: 'I have severe headache, palpitations, sweating',
-    expected: { mode: 'triage', triage_level: 'emergency', cards: ['symptom_check', 'handoff'] }
+    expected: { mode: 'triage', triage_level: 'emergency', cards: ['handoff'] }
   },
   {
     prompt: 'Can you help me with intake questions?',
-    expected: { mode: 'guided_intake', triage_level: 'none', cards: ['symptom_check', 'checklist', 'questions_to_ask'] }
+    expected: { mode: 'guided_intake', triage_level: 'none', cards: ['checklist', 'questions_to_ask'] }
   }
 ];
 

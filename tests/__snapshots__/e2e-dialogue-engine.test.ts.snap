@@ -1,0 +1,105 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Dialogue Engine E2E > snapshot of AssistantTurn (IDs stripped) 1`] = `
+{
+  "assistant_message": "Here is a general overview of common next steps after an incidental adrenal nodule referral.",
+  "citations": [
+    {
+      "citation_key": "DOC:Sample knowledge|CHUNK:sample-chunk-001|P:1-1",
+      "quote": null,
+    },
+    {
+      "citation_key": "DOC:Sample knowledge|CHUNK:sample-chunk-002|P:2-2",
+      "quote": null,
+    },
+    {
+      "citation_key": "DOC:Sample knowledge|CHUNK:sample-chunk-003|P:3-3",
+      "quote": null,
+    },
+  ],
+  "disclaimer": "This information is general education and not a diagnosis. Do not change medications or stop prescribed treatment without your clinician.",
+  "mode": "faq",
+  "suggested_actions": [
+    {
+      "action_type": "quick_reply",
+      "label": "Ask about lab prep",
+      "payload": {
+        "href": null,
+        "value": "How should I prepare for labs?",
+      },
+    },
+    {
+      "action_type": "navigate",
+      "label": "View checklist",
+      "payload": {
+        "href": "/checklist",
+        "value": null,
+      },
+    },
+    {
+      "action_type": "share_summary",
+      "label": "Share summary",
+      "payload": {
+        "href": "/checklist",
+        "value": null,
+      },
+    },
+  ],
+  "triage_level": "none",
+  "ui_cards": [
+    {
+      "content": {
+        "bullets": [],
+        "checklist": [],
+        "cost_tips": [],
+        "handoff": {
+          "contacts": [],
+          "message": "",
+        },
+        "questions": [],
+        "steps": [
+          {
+            "detail": "Your clinician reviews scan details and prior imaging.",
+            "label": "Review imaging",
+          },
+          {
+            "detail": "Lab tests look for cortisol, aldosterone/renin, or catecholamines.",
+            "label": "Check hormones",
+          },
+          {
+            "detail": "Results guide next steps, which may include monitoring.",
+            "label": "Plan follow-up",
+          },
+        ],
+        "summary": "Most referrals include imaging review, hormone labs, and follow-up planning.",
+        "symptoms": [],
+        "tests": [],
+      },
+      "title": "Typical care roadmap",
+      "type": "roadmap",
+    },
+    {
+      "content": {
+        "bullets": [],
+        "checklist": [],
+        "cost_tips": [
+          "Ask if pre-authorization is needed for labs or imaging.",
+          "Request out-of-pocket estimates before scheduling.",
+          "Coordinate labs and visits to reduce repeat appointments.",
+        ],
+        "handoff": {
+          "contacts": [],
+          "message": "",
+        },
+        "questions": [],
+        "steps": [],
+        "summary": "",
+        "symptoms": [],
+        "tests": [],
+      },
+      "title": "Cost and scheduling",
+      "type": "cost_navigation",
+    },
+  ],
+}
+`;

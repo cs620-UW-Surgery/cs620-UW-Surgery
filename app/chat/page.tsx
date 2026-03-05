@@ -138,12 +138,6 @@ export default function ChatPage() {
     window.location.href = '/checklist';
   };
 
-  const handleSymptomUpdate = (selected: string[]) => {
-    const nextState = { ...clientState, selectedSymptoms: selected };
-    setClientState(nextState);
-    localStorage.setItem('navigator_client_state', JSON.stringify(nextState));
-  };
-
   const handleClearHistory = async () => {
     if (clearing) return;
     setClearing(true);
@@ -221,12 +215,6 @@ export default function ChatPage() {
                     <CardRenderer
                       key={`${card.type}-${index}`}
                       card={card}
-                      selectedSymptoms={
-                        Array.isArray(clientState?.selectedSymptoms)
-                          ? (clientState.selectedSymptoms as string[])
-                          : []
-                      }
-                      onSymptomSubmit={handleSymptomUpdate}
                       onShareSummary={handleShareSummary}
                       config={{
                         billing_phone: appConfig.billing_phone ?? null,

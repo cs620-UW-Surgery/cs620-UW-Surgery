@@ -6,7 +6,6 @@ export const CardTypeEnum = z.enum([
   'roadmap',
   'test_instructions',
   'cost_navigation',
-  'symptom_check',
   'checklist',
   'questions_to_ask',
   'handoff'
