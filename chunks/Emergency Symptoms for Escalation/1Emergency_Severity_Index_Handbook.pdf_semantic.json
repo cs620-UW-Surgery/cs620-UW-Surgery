@@ -1,0 +1,1241 @@
+[
+  {
+    "text": "iii CONTENTS CONTENTS Preface v Acknowledgments vi CHAPTER 1 – Introduction to the Emergency Severity Index 1 CHAPTER 2 – Overview of the ESI Algorithm 5 CHAPTER 3 – Decision Point A: Lifesaving Intervention Required? 9 CHAPTER 4 – Decision Point B : High-Risk Presentation? 11 CHAPTER 5 – Decision Point C : How Many Resources? 19 CHAPTER 6 – Decision Point D : High-Risk Vital Signs? 23 APPENDIX A – Frequently Asked Questions 27 APPENDIX B – ESI Triage Algorithm, v5 29",
+    "tokenCount": 121,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "9b695d855a7de464d1054115d1cc6f252c3a4c639894a4a4f4593f84c849f249"
+  },
+  {
+    "text": "iv EMERGENCY SEVERITY INDEX  V5 Dedication To those who pioneered and developed the Emergency Severity Index: Richard Wurez, David Eitel, Nicki Gilboy, Paula Tanabe, Debbie Travers, Alexander Rosenau, and a host of others.",
+    "tokenCount": 60,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "bb5e1c6fc8c9cf2dc3c5c37dc881a20bf9e2c7a23056ab41e86a55d38c7b2421"
+  },
+  {
+    "text": "With ED crowding, triage nurses have tended to misapply the algorithm by assigning an acuity based on the ED’s current capacity and bed availability rather than the patient’s physiologic status.",
+    "tokenCount": 43,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "e5fb6100ff2e7ca7ec6943cb965de3a7cabd271d3bd0893b1a0b9ef2dd25e744"
+  },
+  {
+    "text": "Some of the practice and competency cases in the fourth edition of the handbook reinforced bias that leads to poor decision-making and did not reflect best practice decisions related to abnormal vital signs, particularly regarding sepsis and anxiety.",
+    "tokenCount": 46,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "a5b476e3b34aa8492b387a30f561035b25214e4b996d217b037877768883f3c3"
+  },
+  {
+    "text": "This handbook does not provide a comprehensive triage educational program. This handbook is best used in conjunction with a comprehensive triage educational program in addition to education on institution-specific triage policies and protocols.",
+    "tokenCount": 42,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "5fc21f9ffe432ac95d2cad0539c3126fbc6a5ae759ba8b1ed100bdf93dbc5a73"
+  },
+  {
+    "text": "vi EMERGENCY SEVERITY INDEX  V5 ACKNOWLEDGEMENTS Contributors Lisa Wolf, PhD, RN, CEN, FAEN, FAAN Director, Emergency Nursing Research Emergency Nurses Association Schaumburg, Illinois Katrina Ceci, MSN, RN, TCRN, CPEN, NPD-BC, CEN Nursing Content Specialist Emergency Nurses Association Schaumburg, Illinois Danielle McCallum, BSN, RN, CEN Nursing Content Specialist Emergency Nurses Association Schaumburg, Illinois Deena Brecher, MSN, RN, ACNS-BC, CEN, CPEN, FAEN Patient Care Lead Mednition, Inc.",
+    "tokenCount": 142,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "c182d55b4c86cdd17d23bf3a80fe1ef672f27f9fdfb6f60e89e447c9628aef73"
+  },
+  {
+    "text": "Wilmington, Delaware Reviewers Deb Jeffries, MSN, RN, CEN, CPEN, TCRN, FAEN Nursing Content Specialist Emergency Nurses Association Schaumburg, Illinois Rebecca McNair, RN Principal Consultant MetaVerge Consultancy, LLC Founder, Triage First, Inc.",
+    "tokenCount": 62,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "4f040bf9b6444df55e33ad5d9a077d7754b4676ed76aecf3b23d4601ce41bb58"
+  },
+  {
+    "text": "Introduction to the Emergency Severity Index CHAPTER 1 Chapter 1 Introduction Chapter 2: Overview Chapter 3: Decision Point A Chapter 4: Decision Point B Chapter 5: Decision Point C Chapter 6: Decision Point D Appendix A Appendix B I n 2018, there were more than 143 million visits to emergency departments (EDs) in the United States (U.S.",
+    "tokenCount": 72,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "bc360c88236e7de8fd74b9006cab323d533482f70fdd314044e923ff594b461b"
+  },
+  {
+    "text": "Triage standardization also provides the capability to support clinical care through research activities, ED surveillance, and benchmarking capabilities (Barthell et al., 2004; Gilboy et al., 1999; Handler et al., 2004).",
+    "tokenCount": 45,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "46b436aa8faccb48d96f9d212433495408939e993de16de65e5c6ebce35c577e"
+  },
+  {
+    "text": "The American College of Emergency Physicians (ACEP) and the Emergency Nurses Association (ENA) recognized the need for triage standardization in 2003. A policy statement supporting standardization (2010), most recently updated in 2017, states, “Based on expert consensus of currently available evidence, ACEP and ENA support the adoption of a scientifically validated triage scale such as the Emergency Severity Index (ESI)” (ACEP, 2017, p.1).",
+    "tokenCount": 96,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "7832360d2d4952ca141de8f895bb8ae403ff5fef061b58c66f66e37a584282bb"
+  },
+  {
+    "text": "Following the initial adoption of this policy statement, the number of EDs using 3-level triage systems decreased, and the number of EDs using the ESI triage system increased significantly (McHugh et al., 2012).",
+    "tokenCount": 47,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "069f4106b3e19f574c2c64603cd6664787baf33dc6529b34a07d07d6c4b870af"
+  },
+  {
+    "text": "Other triage scales in use (e.g., the Australasian Triage Scale [ATS], the Canadian Triage and Acuity Scale [CTAS], and the Manchester Triage System [MTS]) utilize the triage decision to determine how long the patient can wait for care in the ED.",
+    "tokenCount": 62,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "bb79e598d702f97f126d6fa778b0adb61acf2b06a75d38a90e95823c4c5a8549"
+  },
+  {
+    "text": "Clear definitions of time to physician evaluation are an integral part of those algorithms. This represents a major difference between ESI, ATS, CTAS, and MTS. The ESI does not define expected time intervals to physician evaluation.",
+    "tokenCount": 47,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "b78e1475ce9756ddd73468b4b91fd951e37d284c3f719fca7644d0a7bb8f5e8e"
+  },
+  {
+    "text": "Description of the Emergency Severity Index The ESI is a 5-level triage acuity scale developed by ED physicians Richard Wuerz and David Eitel in the U.S. (Gilboy et al., 1999; Wuerz et al., 2000).",
+    "tokenCount": 55,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "603ad07d22625bfa40da16e5d0f2631d272715867f4451fb3504ff5fbfa5e30d"
+  },
+  {
+    "text": "Research on the Emergency Severity Index The ESI has been studied and evaluated in the United States, across other countries and languages, and across age groups demonstrating reliability and validity (Aeimchanbanjong & Pandee, 2017; Baumann & Strout, 2007; Blomaard et al., 2020; Chmielewski & Moretz, 2022; Durani et al., 2009; Ebrahimi et al., 2020; Platts-Mills et al., 2010; Takaoka et al., 2021; Travers et al., 2009).",
+    "tokenCount": 114,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "c04f5b5da0f3553631f91351c770708b0922a329856cb89165d8be59bf4abe45"
+  },
+  {
+    "text": "Benefits of Using the ESI ESI is the most used triage scale in the United States, and its adoption internationally is growing (Mistry et al., 2018, Hinson et al., 2019). ED clinicians, managers, and researchers at those sites have identified several benefits of ESI triage over conventional 3-level scales.",
+    "tokenCount": 68,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "da33b1894c74e8e7d2d79ff3aede8103f561caec517184e30532a2a3c8259465"
+  },
+  {
+    "text": "One benefit of using a 5-level acuity scale is the rapid identification of patients who need immediate interventions and treatment. The focus of 5-level acuity scales is on identification of unstable and high-risk patient situations and quick sorting of patients in the setting of constrained resources.",
+    "tokenCount": 56,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "4bb67719c2fd891c1488624f234ea346743701598587e58dde2c7c4094a7e99f"
+  },
+  {
+    "text": "For example, the triage nurse can tell the charge nurse, “I need a bed for a level-1 patient,” and through this common language, the charge nurse understands that the patient is unstable without a detailed explanation of the patient’s condition by the triage nurse.",
+    "tokenCount": 60,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "ba80e30d4cfe840cc2083b4f2d97b8d9328da8fefc030b5f536b52cd58fd8c27"
+  },
+  {
+    "text": "Summary ESI has been shown to be a uniquely effective triage tool. Evidence demonstrates its reliability and validity. Evidence also suggests the need for high quality education in its use in order to triage accurately.",
+    "tokenCount": 41,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "1b51ebc502aa105a1f550cdbb583c24d91efb6a783b1a8c02a9be1f33611a460"
+  },
+  {
+    "text": "3 CHAPTER 1 – Introduction to the Emergency Severity Index References Aeimchanbanjong, K., & Pandee, U. (2017). Validation of different pediatric triage systems in the emergency department. World Journal of Emergency Medicine, 8 (3), 223–227. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5496831/ American College of Emergency Physicians. (2003, 2010, 2017",
+    "tokenCount": 94,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "9a1b8df31ec3a3a91374aee527cea6c767abb835928d4f95becd962e1d48cbeb"
+  },
+  {
+    "text": "Triage scale standardization [Policy statement]. https://www.acep.org/globalassets/ new-pdfs/policy-statements/triage.scale.standardization.pdf Barthell, E. N., Coonan, K., Finnell, J., Pollock, D., & Cochrane, D. (2004). Disparate systems, disparate data: Integration, interfaces and standards in emergency medicine information technology. A cademic Emergency Medicine, 11 (11), 1142–1148. https://doi.org/10.1197/j.aem.2004.08.008 Baumann, M. R., & Strout, T. D. (2007",
+    "tokenCount": 145,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "25d35fda1b3d83ab964aafc300ac6685e7b89f689eb5e9770ee364f14951729a"
+  },
+  {
+    "text": "Triage of geriatric patients in the emergency department: Validity and survival with the Emergency Severity Index. Annals of Emergency Medicine, 49 (2), 234–240. https://doi.org/10.1016/j.annemergmed.2006.04.011 Blomaard, L. C., Speksnijder, C., Lucke, J. A., Gelder, J., Anten, S., Schuit, S. C. E., Steyerberg, E. W., Gussekloo, J., Groot, B., & Mooijaart, S. P. (2020). Geriatric screening, triage urgency, and 30‐day mortality in older emergency department patients. Journal of the American Geriatrics Society , 68 (8), 1755–1762. https://doi.org/10.1111/jgs.16427 Chmielewski, N., & Moretz, J. (2022",
+    "tokenCount": 202,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "d564eeac5458b0c0b15dc78e561360914d336aaed63fd2957410d1dcdb1a1685"
+  },
+  {
+    "text": "ESI triage distribution in U.S. emergency departments. Advanced Emergency Nursing Journal, 44 (1), 46–53. https://doi.org/10.1097/TME.0000000000000390 Durani, Y., Brecher, D., Walmsley, D., Attia, M. W., & Loiselle, J. M. L. (2009). The Emergency Severity Index version 4: Reliability in pediatric patients. Pediatric Emergency Care, 25 (11), 751–753. https://doi.org/10.1097/PEC.0b013e3181b0a0c6 Ebrahimi, M., Mirhaghi, A., Najafi, Z., Shafaee, H., & Hamechizfahm Roudi, M. (2020",
+    "tokenCount": 173,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "5f576bafe7f4e682e430e02652e4f98f5b461a28ba37afaa816b0087359d8390"
+  },
+  {
+    "text": "Are pediatric triage systems reliable in the emergency department? Emergency Medicine International , Article ID 9825730. https://doi.org/10.1155/2020/9825730 Emergency Nurses Association. (2017). Triage scale standardization [Joint policy statement with ACEP]. https://enau.ena.org/Users/LearningActivity/LearningActivityDetail. aspx?LearningActivityID=mC38oXqUbT4%2b4Btw8c%2fM8g%3d%3d Gilboy, N., Travers, D. A., & Wuerz, R. C. (1999 Re-evaluating triage in the new millennium: A comprehensive look at the need for standardization and quality. Journal of Emergency Nursing, 25 (6), 468–473. https://doi.org/10.1016/s0099-1767(99)70007-3 Handler, J. A., Adams, J. G., Feied, C. F., Gillam, M., Vozenilekv J., Barthell, E., & Davidson, S. J. (2004). Emergency medicine information technology consensus conference: Executive summary. Academic Emergency Medicine , 11 (11), 1112–1113. https://doi.org/10.1197/j.aem.2004.08.005 Hinson, J. S., Martinez, D. A., Cabral, S., George, K., Whalen, M., Hansoti, B., & Levin, S. (2019 Triage performance in emergency medicine: A systematic review. Annals of Emergency Medicine , 74 (1), 140–152. https://doi.org/10.1016/j.annemergmed.2018.09.022 Jordi, K., Grossmann, F., Gaddis, G. M., Cignacco, E., Denhaerynck, K., Schwendimann, R., & Nickel, C. H. (2015). Nurses’ accuracy and self- perceived ability using the emergency severity index triage tool: A cross- sectional study in four Swiss hospitals. Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine , 23 (1), Article 62. https://doi.org/10.1186/s13049-015-0142-y McHugh, M., Tanabe, P., McClelland, M., & Khare, R. K. (2012",
+    "tokenCount": 523,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "27e15344bfebe89583d6409ec1d69934403bc7f867d346023d293536d23fb2ea"
+  },
+  {
+    "text": "More patients are triaged using the Emergency Severity Index than any other triage acuity system in the United States. Academic Emergency Medicine , 19 (1), 106–109. https://doi.org/10.1111/j.1553-2712.2011.01240.x Mistry, B., Balhara, K. S., Hinson, J. S., Anton, X., Othman, I. Y., E’nouz, M. A., Avila, N. A., Henry, S., Levin, S., & De Ramirez, S. S. (2018). Nursing perceptions of the emergency severity index as a triage tool in the United Arab Emirates: A qualitative analysis. Journal of Emergency Nursing , 44 (4), 360–367. https://doi.org/10.1016/j.jen.2017.10.012 Platts-Mills, T. F., Travers, D., Biese, K., McCall, B., Kizer, S., LaMantia, M., Busby-Whitehead, J., & Cairns, C. B. (2010 Accuracy of the Emergency Severity Triage instrument for identifying elder emergency department patients receiving an immediate life-saving intervention. Academic Emergency Medicine , 17 (3), 238–243. https://doi.org/10.1111/j.1553- 2712.2010.00670.x Takaoka, K., Ooya, K., Ono, M., & Kakeda, T. (2021). Utility of the emergency severity index by accuracy of Interrater agreement by expert triage nurses in a simulated scenario in Japan: A randomized controlled trial. Journal of Emergency Nursing , 47 (4), 669–674. https://doi.org/10.1016/j.jen.2021.03.009 Travers, D. A., Waller, A. E., Katznelson, J., & Agan, R. (2009 Reliability and validity of the Emergency Severity Index for pediatric triage. Academic Emergency Medicine , 16 (9), 843–849. https://doi.org/10.1111/j.1553-2712.2009.00494.x U.S. Department of Health and Human Services. (2021, March 1). Trends in the utilization of emergency department services, 2009–2018 . [Report to Congress]. https://www.aspe.hhs.gov/sites/default/ files/migrated_legacy_files//199046/ED-report-to-Congress.pdf?_ ga=2.183792290.549132656.1672499253-624883666.1672499253 Worth, M., Davis, L. L., Wallace, D. C., Bartlet, R., & Travers, D. (2019 Are emergency departments in the United States following recommendations by the Emergency Severity Index to promote quality triage and reliability? Journal of Emergency Nursing , 45 (6), 677–684. https://doi.org/10.1016/j.jen.2019.05.006 Wuerz, R., Milne, L. W., Eitel, D. R., Travers, D., & Gilboy, N. (2000). Reliability and validity of a new five-level triage instrument. Academic Emergency Medicine , 7 (3), 236–242. https://doi.org/10.1111/j.1553-2712.2000.tb01066.x Wuerz, R., Travers, D., Gilboy, N., Eitel, D. R., Rosenau, A., & Yazhari, R. (2001",
+    "tokenCount": 787,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "5963238b167fbcb21fef35899e9aecab1d93bb4e44b599bfe70dcbef9fc86f39"
+  },
+  {
+    "text": "Implementation and refinement of the Emergency Severity Index. Academic Emergency Medicine , 8 (2), 170–176. https://doi.org/10.1111/j.1553-2712.2001.tb01283.x",
+    "tokenCount": 49,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "062c8cf371cc3e8fa78a307d65cf8995d2a420caa9e6ceef107a26fdc4fa3725"
+  },
+  {
+    "text": "Overview of the ESI Algorithm CHAPTER 2 Chapter 1 Introduction Chapter 2: Overview Chapter 3: Decision Point A Chapter 4: Decision Point B Chapter 5: Decision Point C Chapter 6: Decision Point D Appendix A Appendix B A lgorithms are frequently used in emergency care.",
+    "tokenCount": 56,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "9f89b30d5548496962726726a1396101e53bcbf3e2d58cae1706b45b049fa84f"
+  },
+  {
+    "text": "If a patient does not meet high risk instability criteria (ESI level 1 or 2), the triage nurse then evaluates expected resource needs to help determine a triage level (ESI level 3, 4, or 5).",
+    "tokenCount": 45,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "8ee5806c8db3931417dd5e48b067b5d4c2f5ab4ea6664ffb0910227ae616200d"
+  },
+  {
+    "text": "Decision point D incorporates vital signs to identify more subtle high- risk presentations or an immediate need for lifesaving interventions and to reassess the acuity decision, potentially resulting in assignment of a higher acuity level as appropriate.",
+    "tokenCount": 45,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "ca06f9325fc7b2437db5f92865662d941c764e82517ee9c89b967446b3b64785"
+  },
+  {
+    "text": "Is this patient unstable and in nseed of immediate lifesaving intervention? Is this a high-risk situation? How many resources will this patient need? Do the patient’s vital signs warrant a reassessment of the acuity level? Figure 2-1. Emergency Severity Index Conceptual Algorithm Requires lifesaving intervention? High risk-confused/distress? How many resources? None One Many High-risk vital signs?",
+    "tokenCount": 88,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "fec332224e96920be63b1d7c5f40ffc41ece69d63f503bd4adade86879cd7f17"
+  },
+  {
+    "text": "6 EMERGENCY SEVERITY INDEX  V5 Detailed Algorithm Figure 2-2 depicts the full algorithm with elaboration on the criteria for each decision point. (A similar representation is presented in Appendix B, “ESI Triage Algorithm, v5”.) The algorithm assumes the user has sufficient clinical knowledge to identify physiologic instability, determine risk of deterioration, and anticipate resource needs.",
+    "tokenCount": 85,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "fbef24166ef50da82c52d4958e1f9ffd2a2952b6b51885936f0f9eea86ec4940"
+  },
+  {
+    "text": "None One Many High-risk vital signs? < 1 mo 1–12 mo 1–3 y 3–5 y 5–12 y 12–18 y > 18 y > 190 > 180 > 140 > 120 > 120 > 100 > 100 > 60 > 55 > 40 > 35 > 30 > 20 > 20 SpO 2 < 92% Age HR RR A B C D 1 2 Yes No No No Reassess acuity decision Yes 5, 4, 3 A.",
+    "tokenCount": 96,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "4e250912eecf051a96919d0e87e08b07cc477b6bd50533f74085204b25788df9"
+  },
+  {
+    "text": "Immediate life-saving intervention required: Airway or respiratory support, emergency medications, hemodynamic interventions such as fluid resuscitation or blood products Clinical presentations requiring lifesaving interventions include the following: intubated, unresponsive, pulselessness, apneic, severe respiratory distress, profound hypotension or hypoglycemia.",
+    "tokenCount": 66,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "691fe1dc943eaaf4e4b8ab815ef5ac8c47b52f1559d127b6c363002b01568fd4"
+  },
+  {
+    "text": "Unresponsiveness is defined as a patient who either: 1. Is nonverbal and not following commands (acutely) OR 2. Requires noxious stimulus (P or U on AVPU scale) B.",
+    "tokenCount": 43,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "99a187afbce90393bc8ebf3203a5243f68d6b50176d64884ecccc13f81e457a6"
+  },
+  {
+    "text": "Resources: Count the number of different types of resources, not the individual tests or radiographs. ( For example, complete blood count, electrolytes, and coagulant studies equal one resource because they are all laboratory tests, while complete blood count plus chest radiograph equals two resources because one is a laboratory test and one is imaging ).",
+    "tokenCount": 68,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "1035f61fddce839630b5f79afdc03547b9367027f69cf80748392184e045dace"
+  },
+  {
+    "text": "ESI Resources Not ESI Resources • Labs (blood, urine) • Electrocardiogram, radiographs • Computed tomography, magnetic resonance imaging, ultrasound, angiography • Intravenous fluids (hydration) • Intravenous, intramuscular, or nebulized medications • Specialty consultation • Simple procedure = 1 (laceration repair, urinary catheter) • Complex procedure = 2 (procedural sedation) • History and physicaI exam (Including pelvic) • Point-of-care testing • Saline or heparin lock • Oral medications • Tetanus immunization • Prescription refills • Phone call to primary care physician • Simple wound care (dressings, recheck) • Crutches, splints, slings D.",
+    "tokenCount": 165,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "84ee288db4eacafe3739bc56960706a7134e771461bb0a58fa4b69cc983aae7a"
+  },
+  {
+    "text": "Pediatric Fever Considerations 1-28 days of age: Assign at least ESI 2 if T > 38° C (100.4 ° F) 1-3 months: Consider assigning ESI 2 if T > 38 ° C (100.4 ° F) 3 months and older: Consider assigning ESI 2 or 3 if: 1.",
+    "tokenCount": 71,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "3ce273d8b7f29dbd748e045d0260d9bd6b1ae90e7c1ea45f9442d23d160ce910"
+  },
+  {
+    "text": "CHAPTER 2 –Overview of the ESI Algorithm 7 The Purpose of Acuity Levels ESI is a triage acuity algorithm that is valid for evaluating patient acuity and resource needs as determined by a trained triage nurse upon the patient’s presentation to the emergency department . The ESI tool was developed to categorize patients by acuity and direct stable patients to resources upon presentation. It is a process to differentiate between those who are at risk of decompensation and those who are more stable. The validity and reliability of the tool have been tested in the triage environment, and it was not developed to be a means of updating or communicating a change in patient condition after the provider has seen the patient. Changing Triage Acuity The initial ESI acuity level represents a summative clinical judgment on the patient’s physiologic or psychological stability. Prior to a provider evaluation, a patient change in condition can be reflected in an amended ESI level. What is critical to this process is documentation of the change in condition, the reason for the change in ESI level, and the resultant action by the nurse. A dangerous but not uncommon practice is for colleagues to question the assigned acuity level or pressure the triage nurse to downgrade the patient based on the environmental conditions (crowding, boarding, staffing) (Wolf et al., 2018). The ESI level assigned by the nurse should reflect the patient’s current risk, not the environmental conditions of the ED. Nor should the ESI level be used to manipulate metrics such as door-to-ECG or door-to-CT times. Bias and Stigma The process of clinical decision-making is by its nature subjective, although there are objective ways to measure efficacy and accuracy. The correct application of the ESI algorithm relies on the emergency nurse to objectively assess each patient. Racial, age, and gender bias can impede accuracy in triage decision-making by causing nurses to ignore critical cues. Hinson et al. (2018), noted that high- risk presentations often went unrecognized across their general population, while López et al. (2010), Schrader and Lewis (2013), Puumala et al. (2016), and Zook et al. (2016), all noted undertriage in minority populations of all ages. Vigil et al. (2015) reported that Black patients in the Veterans Administration system were assigned less urgent ESI scores than white patients, and this effect was more pronounced for Black male patients than Black female patients. A similar outcome was found for Hispanic male patients. Grossmann et al. (2014) found significant undertriage in geriatric populations, and Arslanian-Engoren (2004) described inaccurate triage decisions made by emergency nurses about women presenting with chest pain. Patients presenting to the ED who have a past or current history of behavioral health issues or substance use are particularly susceptible to the effects of bias and stigma (Helmke., 2021",
+    "tokenCount": 597,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "16cedd1f66c274a3c2a4ea1e40a1d3d94b9bcac5e5c2c0fe67d5f7c1ce6aac39"
+  },
+  {
+    "text": "Patients who are described as “difficult” are perceived similarly (Mamede et al., 2017). It is critically important for the nurse to self-reflect, identify implicit and explicit bias, and use that knowledge to mitigate barriers to accurate assessment in triage. Experience does not always translate to expertise: more-experienced nurses tend to undertriage and less experienced nurses to overtriage (Levis-Elmelech et al., 2022",
+    "tokenCount": 92,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "becb8aba059d1b961f552cbf4d6302dafff3e36a83c6a06dd3d79c90a6d46275"
+  },
+  {
+    "text": "Summary The Emergency Severity Index is meant for use by nurses with both emergency nursing and triage experience. When a patient presents to the ED, the nurse follows decision points A through D to objectively assess them and assign an appropriate ESI acuity level. References Arslanian-Engoren, C. (2004). Do emergency nurses’ triage decisions predict differences in admission or discharge diagnoses for acute coronary syndromes? Journal of Cardiovascular Nursing, 19 (4), 280–286. https://doi.org/10.1097/00005082-200407000-00008 Grossmann, F. F., Zumbrunn, T., Ciprian, S., Stephan, F. P., Woy, N., Bingisser, R., & Nickel, C. H. (2014",
+    "tokenCount": 167,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "279634a09c3cb1a5bf626b16bbb2df20d1520593493e560808b0cdad4176af89"
+  },
+  {
+    "text": "Undertriage in older emergency department patients — tilting against windmills? PLOS ONE , 9 (8), Article e106203. https://doi.org/10.1371/journal.pone.0106203 Helmke, N. (2021). Risk of cognitive bias associated with the treatment of urinary tract infection in patients with psychiatric disorders. Journal of the Academy of Consultation-Liaison Psychiatry , 62 (5), 555–556. https://doi.org/10.1016/j.jaclp.2021.03.004 Hinson, J. S., Martinez, D. A., Schmitz, P. S. K., Toerper, M., Radu, D., Scheulen, J., Stewart de Ramirez, S. A., & Levin, S. (2018",
+    "tokenCount": 172,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "53290c0fc8f026b470b56704fa13937ed6e23925ceb769841b86d39cdb5c4842"
+  },
+  {
+    "text": "Accuracy of emergency department triage using the Emergency Severity Index and independent predictors of under-triage and over-triage in Brazil: a retrospective cohort analysis. International Journal of Emergency Medicine , 11 (1), 3. https://doi.org/10.1186/s12245-017-0161-8 Levis-Elmelech, T., Schwartz, D., & Bitan, Y. (2022). The effect of emergency department nurse experience on triage decision making. Human Factors in Healthcare , 2 , Article 100015. https://doi.org/10.1016/j.hfh.2022.100015 L ópez, L., Wilper, A. P., Cervantes, M. C., Betancourt, J. R., & Green, A. R. (2010",
+    "tokenCount": 176,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "581be7a49e8a355f151e244c20e93c5e7c50e65285e2394078fa2e8919dcb52a"
+  },
+  {
+    "text": "Racial and sex differences in emergency department triage assessment and test ordering for chest pain, 1997–2006. Academic Emergency Medicine , 17 (8), 801–808. https://doi.org/10.1111/j.1553-2712.2010.00823.x Mamede, S., Van Gog, T., Schuit, S. C., Van den Berge, K., Van Daele, P. L., Bueving, H., Van der Zee, T., Van den Broek, W. W., Van Saase, J. L., & Schmidt, H. G. (2017). Why patients' disruptive behaviours impair diagnostic reasoning: A randomised experiment. BMJ Quality & Safety , 26 (1), 13–18. https://doi.org/10.1136/bmjqs-2015-005065 Puumala, S. E., Burgess, K. M., Kharbanda, A. B., Zook, H. G., Castille, D. M., Pickner, W. J., & Payne, N. R. (2016",
+    "tokenCount": 235,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "a566564163b6f648360d38841abcaca40699785d3bce384892c019f46b15ec60"
+  },
+  {
+    "text": "The role of bias by emergency department providers in care for American Indian children. Medical Care , 54 (6), 562–569. https://doi.org/10.1097/MLR.0000000000000533 Schrader, C. D., & Lewis, L. M. (2013). Racial disparity in emergency department triage. The Journal of Emergency Medicine , 44 (2), 511–518. https://doi.org/10.1016/j.jemermed.2012.05.010 Vigil, J. M., Alcock, J., Coulombe, P., McPherson, L., Parshall, M., Murata, A., & Brislen, H. (2015",
+    "tokenCount": 150,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "7da8a8d7df00aff9067d495977779bc0e19a550acb51a35e3d65e9a1396a781f"
+  },
+  {
+    "text": "Ethnic disparities in emergency severity index scores among U.S. Veteran’s Affairs emergency department patients. PLOS ONE , 10 (5), Article e0126792. https://doi.org/10.1371/journal.pone.0126792 Wolf, L. A., Delao, A. M., Perhats, C., Moon, M. D., & Zavotsky, K. E. (2018). Triaging the emergency department, not the patient: United States emergency nurses’ experience of the triage process. Journal of Emergency Nursing , 44 (3), 258–266. https://doi.org/10.1016/j.jen.2017.06.010 Zook, H. G., Kharbanda, A. B., Flood, A., Harmon, B., Puumala, S. E., & Payne, N. R. (2016",
+    "tokenCount": 189,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "a45878621822f68a7b2d78cf07bc14687312c906936d2e24c6d4d32d5f5a6a2b"
+  },
+  {
+    "text": "Racial differences in pediatric emergency department triage scores. The Journal of Emergency Medicine , 50 (5), 720–727. https://doi.org/10.1016/j.jemermed.2015.02.056",
+    "tokenCount": 47,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "884d21c28744be0fc27faa7cc69cb96762cd9ea016546be2fd32096d784bab2f"
+  },
+  {
+    "text": "CHAPTER 3 Chapter 1 Introduction Chapter 2: Overview Chapter 3: Decision Point A Chapter 4: Decision Point B Chapter 5: Decision Point C Chapter 6: Decision Point D Appendix A Appendix B A t decision point A of the ESI algorithm, the determination needs to be made whether the patient requires immediate lifesaving interventions (Figure 3-1).",
+    "tokenCount": 68,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "88d5b2db230a6a8d96fa38cd211e24a011c7069279aa62cbf990d401d0c37885"
+  },
+  {
+    "text": "Signs of instability requiring immediate, lifesaving intervention include unresponsiveness, active seizure, occluded airway, ineffective gas exchange, and ineffective/ decreased perfusion (Giri et al., 2022; Siquera Moura et al., 2022).",
+    "tokenCount": 52,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "40a04a8d0537d5d0522d26f80414344ddf684748886005ceacc0104a19ca4e73"
+  },
+  {
+    "text": "When these signs are present, the patient is assigned an ESI level of 1. Figure 3-1. Decision Point A: Is Lifesaving Intervention Required? Requires immediate life-saving intervention?",
+    "tokenCount": 40,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "91948fde855154d1df4e5cf62d71c87c9c8c5f7465cf820a0c0da5545a1bf8f3"
+  },
+  {
+    "text": "A 1 Yes No Examples of ESI Level-1 Criteria Examples of ESI level-1 criteria include the following: • Ineffective airway clearance • Ineffective respiratory pattern • Impaired gas exchange • Ineffective tissue perfusion • Obtunded/unresponsive patient • SpO 2 < 90% that is not the patient’s norm, with other signs of respiratory compromise • Anaphylaxis • Hypotension with signs of hypoperfusion (e.g., Chest pain with signs of hypoperfusion and systolic blood pressure of 80 mm Hg) • Hypoglycemia • Severe bradycardia or tachycardia • Flaccid infant • Cardiac and/or pulmonary arrest (or appears to be imminent) • Penetrating trauma of head, neck, abdomen, chest requiring a lifesaving intervention Level-1 Considerations Level-1 considerations include method of arrival at the ED and the relationship between disposition and initial acuity level.",
+    "tokenCount": 203,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "92f2649a7767a6abfa76d2cccf1b854b73f74482c9ac0ebe9c713cdca3271485"
+  },
+  {
+    "text": "Examples of Lifesaving Interventions Intervention Type Lifesaving Interventions Airway/breathing Assisted ventilation Intubation Surgical airway Emergent non-invasive positive pressure ventilation Electrical Therapy Defibrillation Emergent cardioversion External pacing Procedures Chest needle decompression Pericardiocentesis Open thoracotomy Hemodynamics Significant intravenous fluid resuscitation Blood administration Control of external hemorrhage Medications Adenosine Atropine Dextrose Dopamine Epinephrine (including IM for anaphylaxis) Naloxone Note that diagnostics are not interventions.",
+    "tokenCount": 117,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "56152a956186c601b6c2a5f6c588658c3a02da12e3ca597f275a898795aae7b9"
+  },
+  {
+    "text": "10 EMERGENCY SEVERITY INDEX – V5 THE PROBLEM OF GEOGRAPHY An ESI level-1 patient is not always brought to the emergency department by ambulance but may be dropped at the front door. Infants and children, because they are “portable,” may be brought to the ED by car and carried into the emergency department. The triage nurse should not consider the method of arrival as a barrier to assigning the appropriate ESI level. DISPOSITION DOES NOT EQUAL INITIAL ACUITY There are certain ESI level-1 patients who may be discharged from the ED if they have a reversible cause for the change in level of consciousness or vital functions, such as with hypoglycemia, alcohol intoxication, drug or other substance overdose, or anaphylaxis. The likelihood of discharge does not have an impact on assigning ESI 1. Summary The patient who meets criteria for an ESI level-1 designation shows signs of deterioration; intervention must be rapid and appropriate. References Giri, S., Watts, M., LeVine, S., & Tshering, U. (2022). Characteristics and outcomes of patients triaged as critically ill in the emergency department of a tertiary care hospital in Bhutan. International Journal of Emergency Medicine , 15 (1), Article 64. https://doi.org/10.1186/s12245-022-00468-8 Siquera Moura, B. R., Oliveira, G. N., Medeiros, G., de Souza Vieira, A., & de Souza Nogueira, L. (2022",
+    "tokenCount": 341,
+    "pageStart": 16,
+    "pageEnd": 16,
+    "hash": "58589caab2b5663c24703cb65f0eee0ae62e4a255bce1bcbf64c92204c383126"
+  },
+  {
+    "text": "Rapid triage performed by nurses: Signs and symptoms associated with identifying critically ill patients in the emergency department. International Journal of Nursing Practice , 28 (1), Article e13001. https://doi.org/10.1111/ijn.13001",
+    "tokenCount": 51,
+    "pageStart": 16,
+    "pageEnd": 16,
+    "hash": "1ca3146d3796cf3ba980cd4f220c678dd1c5ba1aee901d45fd01866f1290a32c"
+  },
+  {
+    "text": "CHAPTER 4 Chapter 1 Introduction Chapter 2: Overview Chapter 3: Decision Point A Chapter 4: Decision Point B Chapter 5: Decision Point C Chapter 6: Decision Point D Appendix A Appendix B I f it is determined that the patient does not meet ESI level-1 criteria, the nurse moves to decision point B (Figure 4-1).",
+    "tokenCount": 68,
+    "pageStart": 17,
+    "pageEnd": 17,
+    "hash": "0f29c984c493ebfa240b5fd55ecfa09c8a49865290710ab851fb5b2c86e9fb71"
+  },
+  {
+    "text": "Studies demonstrate that individuals 65 years of age and older are at an increased risk of inaccurate triage acuity assignment, or under-triage, increasing their risk of adverse patient outcomes (Blomaard et al., 2020).",
+    "tokenCount": 45,
+    "pageStart": 17,
+    "pageEnd": 17,
+    "hash": "d24092f852f475c233eda8619c11f0fab8e145d019677c84c63922d1c54af931"
+  },
+  {
+    "text": "B 2 No Yes The following questions are used to determine whether the patient meets the Level-2 high-risk criteria: • Is the situation high-risk? • Is the patient likely to deteriorate? • Does the patient have an acute change in mental status? • Is the patient in severe pain or distress (physiological or psychological)?",
+    "tokenCount": 68,
+    "pageStart": 17,
+    "pageEnd": 17,
+    "hash": "ae9bc1faa76ab39a6a20b4a39f576409887ea3755848bf7c684460fe9ceea5f0"
+  },
+  {
+    "text": "Similarly, there is a large body of research showing that other indicators such as heart rate, blood pressure, respiratory rate, oxygen saturation, level of consciousness, temperature, age, and cardiac complaints are also associated with, or predictors of, deterioration in patients (Considine et al., 2012, Goldhill & McNarry, 2004; Hillman et al., 2002).",
+    "tokenCount": 74,
+    "pageStart": 17,
+    "pageEnd": 17,
+    "hash": "15f6e0d9fe41d56ff3e33c8f16bbefa4569d923d0ba4daecd936d7164488ef65"
+  },
+  {
+    "text": "Unrecognized or unmanaged abnormalities of these vital signs (i.e., Glasgow Coma Scale [GCS] score, blood pressure, heart rate, respiratory rate, and oxygen saturation) is significantly associated with higher mortality rates (Buist et al., 2004), highlighting the importance of monitoring a wide range of vital signs to identify deterioration in the patient’s health status.",
+    "tokenCount": 77,
+    "pageStart": 17,
+    "pageEnd": 17,
+    "hash": "0e80e8695ec3306ab5d402cf01e90d689a831cfd635bd02919704621a3da1d62"
+  },
+  {
+    "text": "Consider vital signs in the context of medications before assigning an ESI level. (For more information see the ENA course “Geriatric Emergency Nursing Education (GENE) Level I 2.0”)",
+    "tokenCount": 43,
+    "pageStart": 17,
+    "pageEnd": 17,
+    "hash": "d90e68f7f831827280984035dbfbf8f18e6109100e1ccdb04cbafbbd30cd793b"
+  },
+  {
+    "text": "12 EMERGENCY SEVERITY INDEX  V5 Examples of high-risk situations include the following: • Active chest pain, suspicious for acute coronary syndrome but does not require an immediate lifesaving intervention. • Signs of a stroke but does not meet level-1 criteria. • A possible ectopic pregnancy, hemodynamically stable. • A patient on chemotherapy, and therefore immunocompromised, with a fever. • Transplant recipient presenting with a fever or other indication of infection. • Actively suicidal or homicidal patient • A needle stick in a health care worker (time sensitive to postexposure prophylaxis treatment) • Sexual assault survivor • Increasing respiratory effort • Postpartum hemorrhage Is the Patient Experiencing New Onset Confusion, Lethargy, or Disorientation?",
+    "tokenCount": 166,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "ec8afd98447d78c62d269f296567f230085186deb769df864e365b5912736757"
+  },
+  {
+    "text": "Approximately 5–10% of ED visits are for AMS (Smith & Han, 2019), with up to 40% of ED visits in the geriatric population (Smith & Han, 2019).",
+    "tokenCount": 40,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "2e484fa6e7a6a33f192133a9195577e2e91332b0166221d44be69f63d5a05e13"
+  },
+  {
+    "text": "AMS is a high-risk complaint and may be caused by a variety of serious medical conditions including hypoxia, hypoglycemia, or hyponatremia, underperfusion due to occlusion or vascular collapse, increased intracranial pressure, or toxicological conditions.",
+    "tokenCount": 60,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "aaa57a5cac97eb6bf80b8ee68a599fca2c9a76d22c990c7ed90a7db15ae00086"
+  },
+  {
+    "text": "If the patient’s history is unknown, and the patient presents as confused, lethargic, or disoriented, the nurse should assume this condition is new and assign an ESI level 2.",
+    "tokenCount": 41,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "bc83fa503140706d7b5da7b1291ba1d19ccc5e98cfec4a1ee926db3ab0505857"
+  },
+  {
+    "text": "Pain is the most common presenting symptom, with up to 78% of ED visits involving pain (Cordell et al., 2002) and 11.75% involving abdominal pain specifically (Hooker et al., 2019).",
+    "tokenCount": 45,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "a3c8548e9b97e26dc99da404e50b2113b8ba3d28887b7d8a0d103ac99731dd5a"
+  },
+  {
+    "text": "Because pain may or may not be proportional to actual tissue damage (Schiavenato & Craig, 2010), not all patients with a pain score greater than 7 should be triaged as ESI level 2, and every patient who presents with severe pain should be thoroughly assessed.",
+    "tokenCount": 55,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "20dff98768845ebb5e3e9fc8bbfd64089b9879631b86f4e298e387aff3db462c"
+  },
+  {
+    "text": "If the pain is a result of an orthopedic injury, for example, assuming no neurovascular compromise, the nurse can implement comfort measures at triage including ice, elevation, and analgesics (if standing orders are in place) to reduce the pain.",
+    "tokenCount": 53,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "8350694f114d9d7c572ae7da86b8b7a6819f6ab2c8617bb71adae96adc1a95ea"
+  },
+  {
+    "text": "Patients experiencing severe pain or distress as a result of a systemic disruption, for example, renal colic, cancer, or sickle cell crisis, should be triaged as ESI level 2, and placement should be facilitated as quickly as possible.",
+    "tokenCount": 50,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "294e956f6a7b098348b7a6aa4f86a27435aee55fd9b5d9455b488cb2f4ef9359"
+  },
+  {
+    "text": "Distress Psychological distress can be described as emotional suffering , a negative psychological reaction to threats to personal life goals and can affect up to 47% of ED patients who present for medical care (Faessler et al., 2016).",
+    "tokenCount": 44,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "0d3da20e6fe14d273f278102196efdaa412cdd0ebb1b6a180c9689c4e034c7da"
+  },
+  {
+    "text": "Examples of patient behavior or experiences reflecting or resulting in severe psychological distress include the following: • Distraught after experiencing a sexual assault • Behavioral outbursts at triage • Combativeness • Survivor of sexual violence • Survivor of domestic violence • Acute grief reaction • Suicidal ideation, plan, or attempt • Prenatal loss The following sections provides a nonexhaustive list of examples of other presenting symptoms and red flags that would warrant an ESI level-2 assignment.",
+    "tokenCount": 95,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "f533330c5ea58b2ec42f73f0947bb25d6b75079a171c201579a54c48f14b15b8"
+  },
+  {
+    "text": "Neurological Concerns Almost 3% of all ED visits are for headaches, with about 31% of those patients requiring neuroimaging (American College of Emergency Physician’s Clinical Policies Subcommittee (Writing Committee) on Acute Headache et al., 2019).",
+    "tokenCount": 55,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "0ac292cde37f8a15a08ef976aee3234fd593cef95a86d7cd2a868a5f4fad1885"
+  },
+  {
+    "text": "Most concerning is the “thunderclap headache” (a severe, rapid-onset headache), which is often associated with subarachnoid hemorrhage (Edlow, 2018) and warrants immediate evaluation.",
+    "tokenCount": 46,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "13998f94d8c8fa0d76a1567a92c486d26f509458471cf051c8f27d374ca9523c"
+  },
+  {
+    "text": "Other presentations of concern that warrant an ESI 2 designation include headache plus fever, vomiting, lower back pain, altered mental status, and/or signs and symptoms of stroke, including gross deficits such as aphasia, apraxia, agnosia, or dysarthria (Zweifler, 2017).",
+    "tokenCount": 64,
+    "pageStart": 18,
+    "pageEnd": 18,
+    "hash": "44debd3bd0910aabb2e70e08bb77a474df23112ac499e4f5acf6f350ac300a6f"
+  },
+  {
+    "text": "Neurological concerns include the following: • Pediatric patients presenting as alert and appropriate after a febrile seizure can be triaged based on their physiological assessment and anticipated resource needs. • A subtle change in a pediatric patient’s mental status can be suggestive of a change in hemodynamics and should be immediately investigated as high risk.",
+    "tokenCount": 70,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "987c45a9301506b2a61a4b26d827c397d21e7a7e66d5f85e299ee75b8d412cd4"
+  },
+  {
+    "text": "Bureau of Labor Statistics data shows that approximately 16,000 U.S. workers in private industry sustained work-related eye injuries in 2020, about a third of which were treated in EDs.",
+    "tokenCount": 40,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "1245c3516b768af885426b6695808771b97d9a6863713543ce220b879cb95d75"
+  },
+  {
+    "text": "The Alphabetic Triage score for Ophthalmology (ATSO) score (D’Oria et al., 2020) may be useful in stratifying risk; the elements of the score that predict urgency include the presence of altered vision; sudden diplopia, anisocoria, or exophthalmos; red eye; distress/pain (specifically intolerable pain); eye trauma; and “floaters and flashers,” with more symptoms in constellation predicting a more emergent problem and serve as a good guideline for the triage nurse.",
+    "tokenCount": 115,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "26371447fbf944c9c0ba24fac6e3ce6d148a0e0fdc3a4ff0786d35eec5552947"
+  },
+  {
+    "text": "Other common ophthalmic concerns, especially in pediatric patients, can include red eyes, traumatic injury, eye pain with headache, and visual loss (Henríquez-Recine et al., 2020; Noval et al., 2020).",
+    "tokenCount": 48,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "c08d0b1eaa4b113f7f0a5db8bf9c9db6d9938878e4cbd1df503208ff7988abd7"
+  },
+  {
+    "text": "The most frequent diagnoses in the pediatric population are conjunctivitis, corneal erosion, and allergic conjunctivitis (Henríquez-Recine et al., 2020; Noval et al., 2020); few of these merit an ESI level-2 designation.",
+    "tokenCount": 57,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "d895d47d4e06333f267c7024fc99b0ce27fdb2bfe5b264179062b9eeb715f91f"
+  },
+  {
+    "text": "Ear, Nose, and Throat Concerns Airway emergencies may affect adults and children, upper (croup, epiglottitis, neck abscess, bleeding tonsil) and lower (foreign body aspiration, lower bleeding) airways, as well as natural and artificially created airways (e.g., tracheostomy) (Klein, 2019; Sokolovs & Tan, 2020).",
+    "tokenCount": 83,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "8fc1fcca805459e64d6bc7c9adfa383d7f3b92f22812e2fa2942783c7d77b130"
+  },
+  {
+    "text": "Examples include brisk bleeding secondary to posterior nosebleed or when experienced by a patient with known thrombocytopenia, clotting dyscrasias, and use of warfarin or other anti-coagulants (Krulewitz & Fix, 2019; Hamlett et al., 2021).",
+    "tokenCount": 63,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "f952af5e773d80df6d17d4089efe4e84f4582fcdf30d811ffb60e42d6a89603f"
+  },
+  {
+    "text": "Esophageal button battery ingestion has a high risk of complication, especially in children less than 6 years of age and involving batteries greater than 20 mm in diameter (Mubarak et al., 2021).",
+    "tokenCount": 41,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "68002a4cd2f2d8312f451a15d849365026258d0ededc9733553e93916e4f1f1f"
+  },
+  {
+    "text": "Signs of distress can include tachypnea, tachycardia, tripoding, speaking in short, 2-to-3-word sentences; audible stridor; wheezing; or congestion.",
+    "tokenCount": 44,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "aecb379b65aa3e13bc326442eb2eca3175bfc8622df26d41731c2147af6e8d7e"
+  },
+  {
+    "text": "Chest pain specifically accounts for 5–10% of US emergency department visits (Sakamoto et al., 2016), yet the presentation of acute coronary syndromes (ACS) is not always symptom specific, and it is sometimes difficult to determine the risk of ACS during the triage assessment.",
+    "tokenCount": 59,
+    "pageStart": 19,
+    "pageEnd": 19,
+    "hash": "3d8f9c0625313a4e0b885eee0e728089f7b1974926012e9949c734ee3caca91e"
+  },
+  {
+    "text": "14 EMERGENCY SEVERITY INDEX  V5 Abdominal and Gastrointestinal Concerns Abdominal pain is a common presentation to the ED (Kamin et al., 2003) and presents a triage challenge—causes of abdominal pain can be emergent or benign (Medford-Davis et al., 2016).",
+    "tokenCount": 69,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "19a1d9c830ab82eb97563289e65f26a731693c7bf309edb0a696d93bf4eb4433"
+  },
+  {
+    "text": "A major cause of diagnostic errors involving abdominal pain is associated with inadequate history-taking, so a good history and assessment of current pain rating, location, onset, accompanying symptoms and current vital signs are important elements in determining the presence or absence of a high-risk situation.",
+    "tokenCount": 54,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "dbffc19f4ad8d5036f2808a90f1ed5b8319c1da5f81df46cf6a3b74a9f757af7"
+  },
+  {
+    "text": "The literature suggests that up to 31% of patients presenting with abdominal pain are undertriaged, with patients over the age of 80 undertriaged the most (52.1%) (Oh & Kim, 2021).",
+    "tokenCount": 43,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "05dfbf42139d58321b90b0ddcedf68deba116fa09b6e248f0be3910791e5abe0"
+  },
+  {
+    "text": "Such questions include the following: • Is the patient pregnant or postpartum? • Does the patient show signs of sepsis? • Does the patient show signs of hypoperfusion? • Was there blunt or penetrating trauma to the abdomen? • Is the patient’s pain refractory to analgesia, constant, and /or maximal on onset?",
+    "tokenCount": 74,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "60230e74b99a74b4b842770df6d93391a69c28220885ff6d7e67ca7c8b2404d7"
+  },
+  {
+    "text": "Differentiation between ESI 2 and ESI 3 in the context of abdominal pain may depend on vital signs, patient age, and previous history. • Pediatric considerations: In younger children, pneumonia can present as abdominal pain.",
+    "tokenCount": 45,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "d101660838bee72c7bfa431ae3dc6a4bc9c4e2727405c06490486b95f6a4de53"
+  },
+  {
+    "text": "Button battery or earth magnet ingestion are time sensitive presentations, with high morbidity (Mubarak et al., 2021). • Geriatric considerations: Elderly patients with abdominal pain are likely to need hospitalization (Lee & Kim, 2019). • Obstetric/gynecological concerns: Abdominal pain with vaginal bleeding can suggest ectopic pregnancy or other emergent pregnancy complications.",
+    "tokenCount": 76,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "b7cc257a3bf6c4f39a793a7cfa9b7a077c8bfe339aee6464cb8694b6e572d1ce"
+  },
+  {
+    "text": "The maternal death rate in the United States is approximately 23.8 per 100,000 live births, (55.3 per 100,000 deaths in Black women) (Hoyert, 2022), with an increase during the COVID-19 pandemic to 25.5 maternal deaths/100,000 live births (Thoma & Declercq, 2022).",
+    "tokenCount": 73,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "d9249757e83609b42cb4f43e64427bce63c10505e8117d02c5a053cf1b2c924b"
+  },
+  {
+    "text": "The pregnant or postpartum patient with a SBP of < 90 or > 150 should be designated an ESI 2 even in the absence of other symptoms (Hauspurg & Jeyabalan, 2022; Prejbisz et al., 2019).",
+    "tokenCount": 53,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "8b26ce53e90d03e0e9d6552372207089961436ad2583429b6416900c53e4ce73"
+  },
+  {
+    "text": "Approximately 60% of patients with new, delayed-onset postpartum preeclampsia have no antecedent diagnosis of a hypertensive disorder of pregnancy (Al-Safi et al, 2011).",
+    "tokenCount": 43,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "f5d8723dd480b1e158fdd7641848a078492269e033c9629a5091cec61a351fd2"
+  },
+  {
+    "text": "Pregnant patients with chest pain and/or shortness of breath, abdominal pain, or headache (Sperling et al., 2015) should be triaged as ESI 2 and rapidly assessed by ED and/or OB providers.",
+    "tokenCount": 48,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "77f13ca59b58b116f0b26f57a824b0835a3115e5220f9ee67db8d8beb35c8ed5"
+  },
+  {
+    "text": "Pregnant patients who present with heavy vaginal bleeding and abnormal vitals with suspicion of infection should be categorized at ESI level 2. (Heavy vaginal bleeding generally means soaking through a pad an hour, plum-sized clots, bright red bleeding that does not slow down, or bleeding that has increased after a decrease.) Postpartum patients presenting with heavy vaginal bleeding should also be assigned ESI level 2 and seen by a provider immediately (Borovac- Pinheiro et al., 2018).",
+    "tokenCount": 101,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "fa5400ceeec6aee03f7e6dd6f3a05d45ea6b07172e1ff4523ea33af539366d70"
+  },
+  {
+    "text": "Similarly, unilateral lower quadrant pain in patients with ovaries should be evaluated for ovarian torsion and ectopic pregnancy (Bridwell et al., 2022; Rey-Bellet Gasser et al., 2016).",
+    "tokenCount": 44,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "553ff842f2bfc343509b0a33574e798939c407d8a3f55b108033aee3914cd5e5"
+  },
+  {
+    "text": "The patient with symptoms of a UTI who is elderly (Liang, 2017) or who also complains of back pain, chills, and rigors may have urosepsis and should also be assigned to ESI 2.",
+    "tokenCount": 47,
+    "pageStart": 20,
+    "pageEnd": 20,
+    "hash": "a65132ad94c24810c9bf90acc7f63e0895016981793c865688fcdb6bb4883d36"
+  },
+  {
+    "text": "Mechanisms of injury that warrant an ESI 2 designation include falls of 20 feet (6 meters) or more, ejection from a vehicle, or removal from a vehicle with mechanical extrication tools, and sexual assault.",
+    "tokenCount": 46,
+    "pageStart": 21,
+    "pageEnd": 21,
+    "hash": "52b76e068dc1b0088e5d167a54cfae0e30de6e3085e1561cd70dd9bb109b5c84"
+  },
+  {
+    "text": "Specifically, advanced age is a known risk factor for poor outcomes among trauma patients, and the severity of injury in older adults often exceeds what would normally be expected from the mechanism (Jacobs et al., 2003).",
+    "tokenCount": 42,
+    "pageStart": 21,
+    "pageEnd": 21,
+    "hash": "aa3b859ade655a6b5db070413a19ce0682fd58d2529164ae20d22ff95dd0f6d7"
+  },
+  {
+    "text": "These injuries can be associated with significant blood loss and neurovascular compromise. Ingestions Toxic ingestion is a high-risk presentation which needs to be rapidly evaluated. The drug or substance that was taken and the amount may be unknown.",
+    "tokenCount": 47,
+    "pageStart": 21,
+    "pageEnd": 21,
+    "hash": "da78d453459f1e69217e64b9bcfb3c03adf16f76c5224cf2c9a86b4d2888accd"
+  },
+  {
+    "text": "Patients who present with alterations in mental status, difficulty breathing, changes in breathing pattern, or changes in heart rate and/or rhythm without an obvious cause should be evaluated as a possible toxic ingestion (Chandran & Krishna, 2019).",
+    "tokenCount": 48,
+    "pageStart": 21,
+    "pageEnd": 21,
+    "hash": "9c61ee010800ea013378bd72870036524afabb367f95f537e64968d41c2c75f0"
+  },
+  {
+    "text": "Usually, rather than move to the next patient, the triage nurse determines that the charge nurse or staff in the patient care area should be immediately alerted that they have an ESI level-2 patient.",
+    "tokenCount": 41,
+    "pageStart": 21,
+    "pageEnd": 21,
+    "hash": "08cc0db50dec5863d5db61baca07805e73410e9c2c10ea21f0ab2bf100fec316"
+  },
+  {
+    "text": "16 EMERGENCY SEVERITY INDEX  V5 References Al-Safi, Z., Imudia, A. N., Filetti, L. C., Hobson, D. T., Bahado-Singh, R. O., & Awonuga, A. O. (2011). Delayed postpartum preeclampsia and eclampsia: Demographics, clinical course, and complications. Obstetrics & Gynecology , 118 (5), 1102–1107. https://doi.org/10.1097/aog.0b013e318231934c American College of Emergency Physician’s Clinical Policies Subcommittee (Writing Committee) on Acute Headache, Godwin, S. A., Cherkas, D. S., Panagos, P. D., Shih, R. D., Byyny, R., & Wolf, S. J. (2019",
+    "tokenCount": 195,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "3f7e74429082467c5665cacc4c5e76d4a3a8abee0b4e7eb21a1f4576ff17934a"
+  },
+  {
+    "text": "Clinical policy: Critical issues in the evaluation and management of adult patients presenting to the emergency department with acute headache. Annals of Emergency Medicine , 74 (4), e41–e74. https://doi.org/10.1016/j.annemergmed.2019.07.009 Blomaard, L. C., Speksnijder, C., Lucke, J. A., de Gelder, J., Anten, S., Schuit, S. C. E., Steyerberg, E. W., Gussekloo, J., de Groot, B., & Mooijaart, S. P. (2020). Geriatric screening, triage urgency, and 30-day mortality in older emergency department patients. Journal of the American Geriatrics Society , 68 (8), 1755–1762. https://doi.org/10.1111/jgs.16427 Borovac-Pinheiro, A., Pacagnella, R. C., Cecatti, J. G., Miller, S., El Ayadi, A. M., Souza, J. P., Durocher, J., Blumenthal, P. D., & Winikoff, B. (2018",
+    "tokenCount": 255,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "f3cb89032106c3ada8c9aca3926a8bbdc0fa7b650380ecfa1b24d0f819d6d5b7"
+  },
+  {
+    "text": "Postpartum hemorrhage: New insights for definition and diagnosis. American Journal of Obstetrics and Gynecology , 219 (2), 162–168. https://doi.org/10.1016/j.ajog.2018.04.013 Boukhris, M., Hillani, A., Moroni, F., Annabi, M. S., Addad, F., Ribeiro, M. H., Mansour, S., Zhao, X., Ybarra, L. F., Abbate, A., Vilca, L. M., & Azzalini, L. (2020). Cardiovascular implications of the COVID-19 pandemic: A global perspective. The Canadian Journal of Cardiology , 36 (7), 1068–1080. https://doi.org/10.1016/j.cjca.2020.05.018 Bridwell, R. E., Koyfman, A., & Long, B. (2022",
+    "tokenCount": 203,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "f7008e0b80ba7bf9c24fe0a13ddbbb505088af1a324bfe05211c4aaff040a16e"
+  },
+  {
+    "text": "High risk and low prevalence diseases: Ovarian torsion. The American Journal of Emergency Medicine , 6 , 145–150. https://doi.org/10.1016/j.ajem.2022.03.046 Buist, M., Bernard, S., Nguyen, T. V., Moore, G., & Anderson, J. (2004). Association between clinically abnormal observations and subsequent in-hospital mortality: a prospective study. Resuscitation , 62 (2), 137–141. https://doi.org/10.1016/j.resuscitation.2004.03.005 Chaboyer, W., Thalib, L., Foster, M., Ball, C., & Richards, B. (2008",
+    "tokenCount": 150,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "4dc202ec7813229a2aa5c71e93194a648a5d47b33bb3827609015384f1ae5b6d"
+  },
+  {
+    "text": "Predictors of adverse events in patients after discharge from the intensive care unit. American Journal of Critical Care , 17 (3), 255–263. https://doi.org/10.4037/ajcc2008.17.3.255 Chandran, J., & Krishna, B. (2019). Initial management of poisoned patient. Indian Journal of Critical Care Medicine, 23 (Suppl 4), S234–S240. https://doi.org/10.5005/jp-journals-10071-23307 Considine, J., Lucas, E., & Wunderlich, B. (2012",
+    "tokenCount": 127,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "77b1b9790a365a8a25a4ac45036f72f40f99004778b1b43af2134c025802088c"
+  },
+  {
+    "text": "The uptake of an early warning system in an Australian emergency department: a pilot study. Critical Care and Resuscitation , 14 (2), 135–141. Cordell, W. H., Keene, K. K., Giles, B. K., Jones, J. B., Jones, J. H., & Brizendine, E. J. (2002). The high prevalence of pain in emergency medical care. The American Journal of Emergency Medicine , 20 (3), 165–169. https://doi.org/10.1053/ajem.2002.32643 D'Oria, F., Bordinone, M. A., Rizzo, T., Puzo, P., Favale, R. A., Guerriero, S., & Alessio, G. (2020",
+    "tokenCount": 168,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "ca0c2c6d10f11f2edce9ed438a0c783e28f6da01f2012f6dd29a52b3a35fb0fa"
+  },
+  {
+    "text": "Validation of a new system for triage of ophthalmic emergencies: the alphabetical triage score for ophthalmology (ATSO). International Ophthalmology , 40 (9), 2291–2296. https://doi.org/10.1007/s10792-020-01413-5 Edlow J. A. (2018",
+    "tokenCount": 72,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "38c7053831c951f5617b9f4c22222458663d2ce6429ae3dff23f5ad706b33790"
+  },
+  {
+    "text": "Managing patients with nontraumatic, severe, rapid onset headache. Annals of Emergency Medicine , 71 (3), 400–408. https://doi.org/10.1016/j.annemergmed.2017.04.044 Faessler, L., Perrig-Chiello, P., Mueller, B., & Schuetz, P. (2016). Psychological distress in medical patients seeking ED care for somatic reasons: results of a systematic literature review. Emergency Medicine Journal , 33 (8), 581–587. https://doi.org/10.1136/emermed-2014-204426 Gao, Z., Chen, Z., Sun, A., & Deng, X. (2019",
+    "tokenCount": 150,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "a15b3c0b209571223a74a5576a945b7b16dd673326eb81cb22772edca56a3683"
+  },
+  {
+    "text": "Gender differences in cardiovascular disease. Medicine in Novel Technology and Devices , 4 , Article 100025. https://doi.org/10.1016/j.medntd.2019.100025 Gelber, J., & Singh, A. (2021). Management of acute urinary retention in the emergency department. Emergency Medicine Practice , 23 (3), 1–28. https://www.ebmedicine.net/topics/genitourinary/urinary-retention Goldhill, D. R., & McNarry, A. F. (2004",
+    "tokenCount": 116,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "00f57635133ab7309222e21f77166c354e21d38007a0d6c107db1a4c42b6a6f7"
+  },
+  {
+    "text": "Physiological abnormalities in early warning scores are related to mortality in adult inpatients. British Journal of Anaesthesia , 92 (6), 882–884. https://doi.org/10.1093/bja/aeh113 Hamlett, K. E. L., Yaneza, M. M. C., & Grimmond, N. (2021). Epistaxis. Surgery , 39 (9), 577–590. https://doi.org/10.1016/j.mpsur.2021.08.002 Hatton, G. E., McNutt, M. K., Cotton, B. A., Hudson, J. A., Wade, C. E., & Kao, L. S. (2020",
+    "tokenCount": 157,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "3c7bc2dcbf141911a6a604cfe90cda4b7ef419af27e9411cf2c9b331cb836f0f"
+  },
+  {
+    "text": "Age-dependent association of occult hypoperfusion and outcomes in trauma. Journal of the American College of Surgeons , 230 (4), 417–425. https://doi.org/10.1016/j.jamcollsurg.2019.12.011 Hauspurg, A., & Jeyabalan, A. (2022). Postpartum preeclampsia or eclampsia: defining its place and management among the hypertensive disorders of pregnancy. American Journal of Obstetrics and Gynecology , 226 (2 Suppl.), S1211–S1221. https://doi.org/10.1016/j.ajog.2020.10.027 Henríquez-Recine, M. A., Noval, S., Zafra, B., De Manuel, S., & Contreras, I. (2020",
+    "tokenCount": 181,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "742ecf34d2cbac079ca812ac582a066b2d308d9b609775fdc14d3c487fef432b"
+  },
+  {
+    "text": "Ocular emergencies in children: Demographics, origin, symptoms, and most frequent diagnoses. Journal of Ophthalmology , Article 6820454. https://doi.org/10.1155/2020/6820454 Hillman, K. M., Bristow, P. J., Chey, T., Daffurn, K., Jacques, T., Norman, S. L., Bishop, G. F., & Simmons, G. (2002). Duration of life-threatening antecedents prior to intensive care admission. Intensive Care Medicine , 28 (11), 1629–1634. https://doi.org/10.1007/s00134-002-1496-y Hooker, E. A., Mallow, P. J., & Oglesby, M. M. (2019",
+    "tokenCount": 168,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "e12b1d699e0ef3b3604b58bbe53aaec4670d5ae7d1229d228c0cb24b6424341d"
+  },
+  {
+    "text": "Characteristics and trends of emergency department visits in the United States (2010–2014). The Journal of Emergency Medicine , 56 (3), 344–351. https://doi.org/10.1016/j.jemermed.2018.12.025 Hoyert, D. L. (2022",
+    "tokenCount": 62,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "1338722ea12f84321fe5f5ed30ab58ea9ed4342a0071aa34287be2ef9e4a7058"
+  },
+  {
+    "text": "Maternal mortality rates in the United States, 2020 . https://doi.org/10.15620/cdc:113967 Ivanov, O., Wolf, L., Brecher, D., Lewis, E., Masek, K., Montgomery, K., Andrieiev, Y., McLaughlin, M., Liu, S., Dunne, R., Klauer, K., & Reilly, C. (2021). Improving ED Emergency Severity Index acuity assignment using machine learning and clinical natural language processing. Journal of Emergency Nursing , 47 (2), 265–278.e7. https://doi.org/10.1016/j.jen.2020.11.001 Jacobs, D. G., Plaisier, B. R., Barie, P. S., Hammond, J. S., Holevar, M. R., Sinclair, K. E., Scalea, T. M., Wahl, W., & EAST Practice Management Guidelines Work Group (2003",
+    "tokenCount": 206,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "c70b32b5ec9f1403380f6acace866c3911fb659ba66246eaee124635e4b88d1f"
+  },
+  {
+    "text": "Practice management guidelines for geriatric trauma: The EAST Practice Management Guidelines Work Group. The Journal of Trauma , 54 (2), 391–416. https://doi.org/10.1097/01.TA.0000042015.54022.BE Kamin, R. A., Nowicki, T. A., Courtney, D. S., & Powers, R. D. (2003). Pearls and pitfalls in the emergency department evaluation of abdominal pain. Emergency Medicine Clinics , 21 (1), 61–72. https://doi.org/10.1016/s0733-8627(02)00080-9 Khare, G. D., Symons, R. C., & Do, D. V. (2008",
+    "tokenCount": 159,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "0181a0e66735f9150ef5222d19e7247fea03e001fdd071ed2d2760cb807f63fa"
+  },
+  {
+    "text": "Common ophthalmic emergencies. International Journal of Clinical Practice , 62 (11), 1776–1784. https://doi.org/10.1111/j.1742-1241.2008.01855.x",
+    "tokenCount": 46,
+    "pageStart": 22,
+    "pageEnd": 22,
+    "hash": "98b24489dc264306daec31c7ba75324a5e6301ca47a741075e3928cb6f107de1"
+  },
+  {
+    "text": "Emergency Medicine Clinics of North America , 37 (1), 69–80. https://doi.org/10.1016/j.emc.2018.09.002 Krulewitz, N.",
+    "tokenCount": 42,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "b765f34c603a3b74f0c66aa2e0d205bb720ea9086099895af97f8071082f42b2"
+  },
+  {
+    "text": "Emergency Medicine Clinics of North America , 37 (1), 29–39. https://doi.org/10.1016/j.emc.2018.09.005 Laher, A., Ragavan, S., Mehta, P., & Adam, A. (2020).",
+    "tokenCount": 60,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "bf112f22c9904958e8ac696b6d19b2966cf8ba1dcd7b854ca793731b2fef57d9"
+  },
+  {
+    "text": "Journal of Muscle and Joint Health , 26 (1), 27–34. https://doi.org/10.5953/JMJH.2019.26.1.27 Liang, S.",
+    "tokenCount": 41,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "bb44fac4c427146466daea3c032c6fd5bbc925996ae27623175f550c13aed7a4"
+  },
+  {
+    "text": "P., Zhang, R., Hockenberry, J. M., Schrager, J. D., Pastan, S. O., Adams, A. B., Mohan, S., Larsen, C. P., & Patzer, R. E. (2018). Emergency department use among kidney transplant recipients in the United States.",
+    "tokenCount": 70,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "e224cff99a2d5bffb9f0ca315e48b54dd1980c4b8e3976286adf82e9ffc6d5ec"
+  },
+  {
+    "text": "The American Surgeon , 76 (1), 65–69. https://doi.org/10.1177/000313481007600113 Melady, D., & Perry, A. (2018).",
+    "tokenCount": 44,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "c21f0c9d6e6bbd90f8a0b089b2aa044754ee7e7d4f2098d1744e35f75e789642"
+  },
+  {
+    "text": "Clinics in Geriatric Medicine , 34 (3), 313–326. https://doi.org/10.1016/j.cger.2018.04.001 McElroy, L.",
+    "tokenCount": 42,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "2618cf9c46461ac47e8f0392e918a022171814fbdbb3c5526dc426d700119afd"
+  },
+  {
+    "text": "M., Schmidt, K. A., Richards, C. T., Lapin, B., Abecassis, M. M., Holl, J. L., Adams, J., & Ladner, D. P. (2015). Early postoperative emergency department care of abdominal transplant recipients.",
+    "tokenCount": 59,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "0b2fe85dc4cfcf431b61f7836e403f21bf1f0fea3f8a7cf1675cd9e20b695895"
+  },
+  {
+    "text": "Transplantation , 99 (8), 1652–1657. https://doi.org/10.1097/tp.0000000000000781 Medford-Davis, L., Park, E., Shlamovitz, G., Suliburk, J., Meyer, A.",
+    "tokenCount": 58,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "5887ba7420f6c8cb75cdf1023e0b49515bb1fb20b176846c871e5c026718b02b"
+  },
+  {
+    "text": "J., Stocks, C., Owens, P. L. (2017). Trends in emergency department visits, 2006–2014 (HCUP Statistical Brief #22). Agency for Healthcare Research and Quality. https://www.hcup-us.ahrq.gov/reports/statbriefs/ sb227-Emergency-Department-Visit-Trends.pdf Mubarak, A., Benninga, M.",
+    "tokenCount": 87,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "d7e396d1583a04357ca999459f70499ea800e6ee88bbfd0a5a5c80dfcdfdb77b"
+  },
+  {
+    "text": "A., Broekaert, I., Dolinsek, J., Homan, M., Mas, E., Miele, E., Pienar, C., Thapar, N., Thomson, M., Tzivinikos, C., & de Ridder, L. (2021).",
+    "tokenCount": 66,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "785832e7fcec1b2229ca8a0f796e305bd4e3fcb1cdbb059793afaa332c3d8264"
+  },
+  {
+    "text": "Journal of Pediatric Gastroenterology and Nutrition , 73 (1), 129–136. https://doi.org/10.1097/MPG.0000000000003048 Noval, S., Zafra, B., De Manuel, S., & Contreras, I. (2020).",
+    "tokenCount": 63,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "74eb56b93b3de8a03859e69d2d8896433d3a364fe40c9ffd119817b4bde4bbfe"
+  },
+  {
+    "text": "International Emergency Nursing , 54 , Article 100933. https://doi.org/10.1016/j.ienj.2020.100933 Prejbisz, A., Dobrowolski, P., Kosiński, P., Bomba-Opoń, D., Adamczak, M., Bekiesińska-Figatowska, M., Kądziela, J., Konopka, A., Kostka-Jeziorny, K., Kurnatowska, I., Leszczyńska-Gorzelak, B., Litwin, M., Olszanecka, A., Orczykowski, M., Poniedziałek-Czajkowska, E., Sobieszczańska-Małek, M., Stolarz-Skrzypek, K., Szczepaniak-Chicheł, L., Szyndler, A., Wolf, J., Januszewicz, A.",
+    "tokenCount": 232,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "010625471c77ffde02c7838490b5c964db4e026fd46f4426b6996894f9c2ee36"
+  },
+  {
+    "text": "Arterial Hypertension , 23 (3), 117–182. https://doi.org/10.5603/AH.a2019.0011 Rey-Bellet Gasser, C., Gehri, M., Joseph, J.",
+    "tokenCount": 51,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "408067b0d7cd9e7926c392fb30b01a567f78b76b03794b1dc8c99d8302d47403"
+  },
+  {
+    "text": "T., Liu, N., Koh, Z. X., Fung, N. X., Heldeweg, M. L., Ng, J. C., & Ong, M. E. (2016).",
+    "tokenCount": 43,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "f9a5e4917f48d7e4aee0af60a2318feb3e33ae203e2af7c87ba3e4e13710ec51"
+  },
+  {
+    "text": "International Journal of Cardiology , 221 , 759–764. https://doi.org/10.1016/j.ijcard.2016.07.147 Sands, N., Elsom, S., Berk, M., Hosking, J., Prematunga, R., & Gerdtz, M. (2014).",
+    "tokenCount": 70,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "482715e78f41a84e7f71968713d7a8f282b247ac2741b6bf3b7ddb41fe6cca4c"
+  },
+  {
+    "text": "Nursing & Health Sciences , 16 (1), 11–18. https://doi.org/10.1111/nhs.12095 Schiavenato, M., & Craig, K.",
+    "tokenCount": 43,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "6ee47c4598d2d67ce86461c3f3b2ef1afcd3a51e096ce63abf3518baecaaa019"
+  },
+  {
+    "text": "Pain assessment as a social transaction: Beyond the “gold standard.” The Clinical Journal of Pain , 26 (8), 667–676. https://doi.org/10.1097/ajp.0b013e3181e72507 Smith, A., & Han, J. (2019).",
+    "tokenCount": 66,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "c5f1d5e3df1bc977af6d32571cee03e925d01044aec9d425ce0ecbda7ac51e31"
+  },
+  {
+    "text": "Seminars in Neurology , 39 (1), 5–19. https://doi.org/10.1055/s-0038-1677035 Smith, A., & Masterson, M. (2023).",
+    "tokenCount": 48,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "9dbc088b878b0fe7a61e109a5ef2c0a31ff20a131f50df5b7daf71a29e3811ad"
+  },
+  {
+    "text": "Physician Assistant Clinics , 8 (1), 139-150. https://doi.org/10.1016/j.cpha.2022.08.009 Sokolovs, D., & Tan, K.",
+    "tokenCount": 47,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "4db0ec92360b7a9256d262d1c45216dbcd900e3f486668cc5e3c9d134755c46a"
+  },
+  {
+    "text": "Anaesthesia & Intensive Care Medicine , 21 (4), 200–204. https://doi.org/10.1016/j.mpaic.2020.01.010 Sperling, J.",
+    "tokenCount": 43,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "057aa2509c22e25103f1f63a235923d638145948d0a4a21ad391e4e33be7919f"
+  },
+  {
+    "text": "D., Dahlke, J. D., Huber, W. J., & Sibai, B. M. (2015). The role of headache in the classification and management of hypertensive disorders in pregnancy.",
+    "tokenCount": 44,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "47db835a8e1cce3a73b6da95434af58812f768847c6b143da70476e3c201f67f"
+  },
+  {
+    "text": "Obstetrics and Gynecology , 126 (2), 297–302. https://doi.org/10.1097/AOG.0000000000000966 Thoma, M.",
+    "tokenCount": 40,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "15d33eedfbbc867c5be3df8c4285cc6598b8500e2e8f79e0efc2a002df515f35"
+  },
+  {
+    "text": "JAMA Network Open , 5 (6), Article e2219133. https://doi.org/10.1001/jamanetworkopen.2022.19133 Tsai, I.",
+    "tokenCount": 41,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "18721c4686a202eb9a85c177406a4cd6c0dbb2a1af663e2cb65bd9530392eead"
+  },
+  {
+    "text": "Tzu Chi Medical Journal , 28 (4), 151–156. https://doi.org/10.1016/j.tcmj.2016.07.002 Unterman, S., Zimmerman, M., Tyo, C., Sterk, E., Gehm, L., Edison, M., Benedetti, E., & Orsay, E. (2009).",
+    "tokenCount": 78,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "2e68a7a0f6d1cb5616decfc0876eff3c20183276160ac4849266e2f9a878791c"
+  },
+  {
+    "text": "Injuries, illnesses, and fatalities . https://www.bls.gov/iif/nonfatal-injuries-and-illnesses-tables.htm Wolf, L. (2009).",
+    "tokenCount": 43,
+    "pageStart": 23,
+    "pageEnd": 23,
+    "hash": "31557fb887e5122d39f8ef5ec1c264ebcf5e206827e4186efd72d76da5c10b20"
+  },
+  {
+    "text": "CHAPTER 5 Chapter 1 Introduction Chapter 2: Overview Chapter 3: Decision Point A Chapter 4: Decision Point B Chapter 5: Decision Point C Chapter 6: Decision Point D Appendix A Appendix B O nce an ESI 1 or 2 designation has been ruled out, the presumed stability of the patient enables the nurse to move to the next decision point (Figure 5-1).",
+    "tokenCount": 74,
+    "pageStart": 25,
+    "pageEnd": 25,
+    "hash": "1c7c3e95bdffb06a27da003583c94a22929cbaa3f0dee498baaf7e3db99a8d99"
+  },
+  {
+    "text": "The ESI triage acuity tool uses an approach that includes the nurse’s judgement about who should be seen first (ESI level 1 and 2) as well as resource prediction for less acute patients (ESI levels 3–5).",
+    "tokenCount": 50,
+    "pageStart": 25,
+    "pageEnd": 25,
+    "hash": "e5228adb6839d0fd465da9733c7bd0afcd89ed51ed2c957c9889538ff4a4c2f5"
+  },
+  {
+    "text": "Resource prediction requires the nurse to determine how many resources are likely to be used in order for the provider to reach a disposition decision, which could include discharge home, admission to an observation unit, transfer to another institution or others (Tanabe et al., 2004).",
+    "tokenCount": 52,
+    "pageStart": 25,
+    "pageEnd": 25,
+    "hash": "539f92805676b46b29aa68c9bd11e5e3482c8a6b4784324b759ec89e1a4f097c"
+  },
+  {
+    "text": "Illustrative examples follow: • A complete blood count and electrolyte panel comprise one resource (lab test). • A complete blood count and chest radiograph are two resources (lab test, radiograph). • A complete blood count and a urinalysis are both lab tests and together count as only one resource. • A chest radiograph and abdominal radiograph are one resource (radiograph). • Cervical-spine films and a computed tomography scan of the head are two resources (radiograph and computed tomography scan).",
+    "tokenCount": 110,
+    "pageStart": 25,
+    "pageEnd": 25,
+    "hash": "44c94d604c76cd9caee8ad9a8b9556145c31e236c279525d2df6599143f0857c"
+  },
+  {
+    "text": "The purpose of resource prediction in ESI is to sort patients into distinct groups and help get the right patient to the right area of the ED. Summary ESI is an approach to ED triage that includes prediction of the number of resources needed to make a patient disposition.",
+    "tokenCount": 54,
+    "pageStart": 25,
+    "pageEnd": 25,
+    "hash": "6396ae74bb25aa1d700406f8862d9068687b82666bb668c03f47af0a3fa9a8f8"
+  },
+  {
+    "text": "20 EMERGENCY SEVERITY INDEX  V5 Table 5-1 Predicted ESI Resources Resources Not Resources Labs (blood, urine) Electrocardiogram, radiographs Computed tomography, magnetic resonance imaging, ultrasound, angiography History and physical exam (including pelvic) Point-of-care testing Intravenous fluids (hydration) Saline or heparin lock Intravenous, intramuscular, or nebulized medications Oral medications Tetanus immunization Prescription refills Specialty consultation Phone call to primary care physician Simple procedure = 1 (laceration repair, urinary catheter) Complex procedure = 2 (procedural sedation Simple wound care (dressings, recheck)) Crutches, splints, slings Table 5-2 Patient Presentations and Predicting Resources ESI Level Patient Presentation Interventions Resources 5 Healthy 3-year-old patient with right ear pain, up to date on immunizations.",
+    "tokenCount": 200,
+    "pageStart": 26,
+    "pageEnd": 26,
+    "hash": "d2bd519826aee6f423c7b50e9612dcdca92b26badf68f84a2e395de79e2560ca"
+  },
+  {
+    "text": "Vitals signs WNL Needs an exam, urine, urine culture, maybe urine pregnancy, and prescriptions One ** 3 A 22-year-old assigned male at birth with right lower quadrant abdominal pain since early this morning, Vital signs WNL Needs an exam, lab studies, Intravenous fluid, abdominal computed tomography scan, and perhaps surgical consult Two or more 3 A 45-year-old patient with left lower leg pain and swelling, started 2 days ago after a 12- hour car trip.",
+    "tokenCount": 103,
+    "pageStart": 26,
+    "pageEnd": 26,
+    "hash": "33e2bc538e5dabf75f9612866df3b05b7b772e8efaa1927623babf5732f0104c"
+  },
+  {
+    "text": "21 CHAPTER 5 – Decision Point C: How Many Resources? References Tanabe, P., Gimbel, R., Yarnold, P. R., & Adams, J. G. (2004). The Emergency Severity Index (version 3) 5-level triage system scores predict ED resource consumption. Journal of Emergency Nursing , 30 (1), 22–29. https://doi.org/10.1016/j.jen.2003.11.004 Wuerz, R., Milne, L. W., Eitel, D. R., Travers, D., & Gilboy, N. (2000",
+    "tokenCount": 129,
+    "pageStart": 27,
+    "pageEnd": 27,
+    "hash": "db268dae181e0e59bfceed9db808aa01e03f8ff347bcf9d2dde6e93ff172b24b"
+  },
+  {
+    "text": "Reliability and validity of a new five-level triage instrument. Academic Emergency Medicine , 7 (3), 236–242. https://doi.org/10.1111/j.1553-2712.2000.tb01066.x",
+    "tokenCount": 52,
+    "pageStart": 27,
+    "pageEnd": 27,
+    "hash": "b2a6b1ffa56cf4880431f9b47e6e36698b903c8d3c53ace956ed77b4efed7664"
+  },
+  {
+    "text": "CHAPTER 6 Chapter 1 Introduction Chapter 2: Overview Chapter 3: Decision Point A Chapter 4: Decision Point B Chapter 5: Decision Point C Chapter 6: Decision Point D Appendix A Appendix B T o reach this point in the algorithm, the nurse has already determined that the patient does not meet ESI level-1 or level-2 criteria.",
+    "tokenCount": 68,
+    "pageStart": 29,
+    "pageEnd": 29,
+    "hash": "754b801e69b45dda46923fa897b2a1c24c6683ea3c397ff9cebd03d8f5f385f6"
+  },
+  {
+    "text": "For patients not meeting ESI level-1 or 2- criteria, a complete set of vital signs needs to be obtained to identify the “well- appearing ill.” This is important for the recognition of patients who may appear stable but whose vital signs indicate signs of instability.",
+    "tokenCount": 57,
+    "pageStart": 29,
+    "pageEnd": 29,
+    "hash": "989f356440bb81db8881dda993965d982e63c5dbc2f9d61e9aa4fa37e8341665"
+  },
+  {
+    "text": "An Iranian study (Nejad et al., 2016) reported that of 551 cases who were up-triaged from ESI level 3 to 2, 88.7% had an increased respiratory rate and 97.8% had an increased respiratory or heart rate, suggesting that vital signs for ESI level 3 patients are important in identifying those who should be assigned a higher acuity.",
+    "tokenCount": 77,
+    "pageStart": 29,
+    "pageEnd": 29,
+    "hash": "8c141a54bdfbf90cf1f5eae6f554db3ff47e50841aee0dd524ceb6261a3a5224"
+  },
+  {
+    "text": "High-Risk Vital Signs High-risk vital signs? < 1 mo 1–12 mo 1–3 y 3–5 y 5–12 12–18 y > 18 y > 190 > 180 > 140 > 120 > 120 > 100 > 100 > 60 > 55 > 40 > 35 > 30 > 20 > 20 SpO 2 < 92% Age HR RR D No 5, 4, 3 Patients who are immediately recognized and categorized as an ESI level 1 or 2 do not need vitals taken if it is going to delay initiation of care.",
+    "tokenCount": 112,
+    "pageStart": 29,
+    "pageEnd": 29,
+    "hash": "f973274dfee473e5b19fa79174d9ce8b2d30ed9a6b7acde32b7742bdd788bcf7"
+  },
+  {
+    "text": "These patients may appear pale, diaphoretic, or cyanotic. The nurse can obtain vital signs if it may assist in confirming the triage acuity level. Some patients may not be identified as ESI level 1 or 2 until vital signs are taken.",
+    "tokenCount": 53,
+    "pageStart": 29,
+    "pageEnd": 29,
+    "hash": "c7ced2c6f5130a512100bf4b7b96f3b6eaf2a3dac0a725e02411ebf7a47aa61f"
+  },
+  {
+    "text": "An awake, alert elderly patient who presents with dizziness might be found to have a life-threatening condition when a heart rate of 32 beats/minute or 180 beats/minute is discovered during vital sign measurement.",
+    "tokenCount": 42,
+    "pageStart": 29,
+    "pageEnd": 29,
+    "hash": "7df216cdb8e34c824f58ed9b4d6c71e9819c66b9b2e1705b2208855aa1250db4"
+  },
+  {
+    "text": "Table 6-1 Normal Vital Signs for Pediatric Patients by Age Groups Age Heart Rate (beats/min) Respiratory Rate (breaths/min) Systolic Blood Pressure (mm Hg) Term neonate to <1 month 90–190 35–60 67–84 Infant, 1–12 months 90–180 30–55 72–104 Toddler, 1–3 years 80–140 22–40 86–104 Preschooler, 3–5 years 65–120 18–35 89–112 School age, 5–12 years 70–120 16–30 90–115 Adolescent, 12–18 years 60–100 12–20 100–130 Data from American Heart Association. (2020).",
+    "tokenCount": 150,
+    "pageStart": 30,
+    "pageEnd": 30,
+    "hash": "722ee2f03f16eec4747c1bb2b409291b596f5e45417d23d61d2835d2aac56fcb"
+  },
+  {
+    "text": "Part 4: Systematic approach to the seriously ill or injured child. Pediatric advanced life support provider manual ; Ernst, G. (2020). Pediatric trauma. In J. Tintinalli, O. Ma, D. Yealy, G. Meckler, J. Stapczynski, D. Cline, & S.",
+    "tokenCount": 72,
+    "pageStart": 30,
+    "pageEnd": 30,
+    "hash": "96ad6cb1d21c3a0af9684c3a1f5f1824bd53dc38936d42b6df9808370686f204"
+  },
+  {
+    "text": "Pediatric Temperatures Temperature greater than 38°C (100.4°F) in an infant younger than 90 days old is a red flag and the patient should be considered high risk and assigned at least ESI level 2.",
+    "tokenCount": 46,
+    "pageStart": 30,
+    "pageEnd": 30,
+    "hash": "fc932fad1b5294613898424eaab5b92947c0a937644b92f042a3d88efd14400a"
+  },
+  {
+    "text": "Table 6-2 provides a quick summary of these pediatric temperature red flags. Table 6-2. Pediatric Temperature Red Flags Age Temperature < 90 days > 38°C (100.4°F) or < 36°C (96.8°F) > 3 months old > 38.5 °C (101.3°F) or < 36°C (96.8°F) Temperature guidelines adapted from from Depinet, H., Macias, C.",
+    "tokenCount": 97,
+    "pageStart": 30,
+    "pageEnd": 30,
+    "hash": "ad082aca385f3e2367621ad17b5d77a69329aba51d63df0c3105015963bc2520"
+  },
+  {
+    "text": "R., Patel, B., Richardson, T., Zaniletti, I., Paul, R., & American Academy of Pediatrics Pediatric Septic Shock Collaborative (PSSC) Investigators (2022).",
+    "tokenCount": 41,
+    "pageStart": 30,
+    "pageEnd": 30,
+    "hash": "56a82049acbdf84b4dca4a7d8326fba242270fb6c2f32ec923970f4716a5e86e"
+  },
+  {
+    "text": "Pediatric Research , 91 , 351–358. https://doi.org/10.1038/s41390-021-01708-y Case Examples The following cases are examples of the need for vital signs on every patient are they are an important part in assigning an appropriate triage acuity level.",
+    "tokenCount": 63,
+    "pageStart": 30,
+    "pageEnd": 30,
+    "hash": "2cda11cceb7ae6fc777dd061ab2ad1174ed4e0ec9df8598b83be603e0ee4a1df"
+  },
+  {
+    "text": "25 CHAPTER 6 – Decision Point D: High Risk Vital Signs? Example Three A 57-year-old presents with cough for multiple days. The patient tells you that they had a temperature of 101°F (38.3°C) last night. Vital signs are as follows: T 38.5°C (101.4°F), RR 26 breaths/minute, HR 100 beats/minute, and SpO 2 90%. At the beginning of the triage assessment, this patient presents as though they could have pneumonia or viral illness. Their low oxygen saturation and increased respiratory rate are a concern. After assessing vital signs, the nurse should uptriage the patient to an ESI level 2. Example Four A 34-year-old patient assigned female at birth presents with generalized abdominal pain, vomiting, and constipation. She has a history of laminectomy and currently takes no medications. She states her LMP was within the last 28 days. Vital signs are as follows: T 36.5°C (97.8°F), HR 102 beats/minute, RR 16 breaths/minute, BP 132/80 mm Hg, and SpO 2 99%. This patient will need a minimum of two or more resources: labs, intravenous fluids, perhaps intravenous medication for nausea, and a CT scan. The triage nurse would review the patient’s vital signs and consider the heart rate. The heart rate falls just outside the accepted parameter for the age of the patient, but other vital signs are within expected limits. In this case, the decision should be to assign the patient to ESI level 3. Example Five A 72-year-old patient presents to the ED with oxygen via nasal cannula for her advanced chronic obstructive pulmonary disease. She informs the triage nurse that she has an infected cat bite on her left hand. The hand is red, tender, and swollen. The patient has no other medical problems, takes daily inhaled steroids, uses albuterol as needed, and takes an aspirin daily. Vital signs include the following: T 37.5°C (99.6°F), HR 105 beats/minute, RR 24 breaths/minute, BP 138/80 mm Hg, and SpO 2 91% (on 2 L nasal cannula per norm, states her SpO 2 is 90 to 91% at home). She denies respiratory distress. This patient will require two or more resources: labs and intravenous antibiotics. She meets the criteria for ESI level 3. The triage nurse notices that her oxygen saturation and respiratory rate are outside the accepted parameters for the adult, but this patient has advanced chronic obstructive pulmonary disease. However, because the patient takes a steroid for her COPD, it is possible she will not mount a robust immune response, so her vital signs should be considered in the context of both immunosuppression and the possibility of sepsis. These vital signs are not surprising given the patient’s history, so the temptation is to attribute them to her respiratory disease. However, given the infected bite, it is critical to consider that as a cause of her elevated heart rate and respiratory rate and uptriage the patient to an ESI 2. Summary Vital signs can reveal many things about the patient’s condition, including the potential risk for deterioration. They also provide a baseline for trending of vital signs while the patient is in the ED. The information in this chapter provides a foundation for understanding the role of vital signs in the ESI acuity system. Vital signs can play a more important role in the evaluation of some patients at triage, especially those triaged as ESI level 3. The range of vital signs may provide supporting data for potential indicators of serious illness. If any of the high-risk vital signs are exceeded, it is recommended that the triage nurse reassess the patient and uptriage the patient from level 3 to level 2 if the vital signs",
+    "tokenCount": 800,
+    "pageStart": 31,
+    "pageEnd": 31,
+    "hash": "099bc385690e573aff7f40d75a6446b669f2cc92e97edcf0a9b0416c907fbeea"
+  },
+  {
+    "text": "Part 4: Systematic approach to the seriously ill or injured child. Pediatric advanced life support: Provider manua l. Balamuth, F., Alpern, E. R., Abbadessa, M. K., Hayes, K., Schast, A., Lavelle, J., Fitzgerald, J. C., Weiss, S. L., & Zorc, J. J. (2017). Improving recognition of pediatric severe sepsis in the emergency department: Contributions of a vital sign–based electronic alert and bedside clinician identification. Annals of Emergency Medicine , 70 (6), 759–768.E2. https://doi.org/10.1016/j.annemergmed.2017.03.019 Cioffi, J., Salter, C., Wilkes, L., Vonu-Boriceanu, O., & Scott, J. (2006",
+    "tokenCount": 189,
+    "pageStart": 31,
+    "pageEnd": 31,
+    "hash": "346fe3fe787399de35e673b8c3d3e391f71edea03c79155fe0f2c0c028b56a0c"
+  },
+  {
+    "text": "Clinicians’ responses to abnormal vital signs in an emergency department. Australian Critical Care , 19 (2), 66–72. https://doi.org/10.1016/s1036-7314(06)80011-1 Eisenberg, M. A., & Balamuth, F. (2021). Pediatric sepsis screening in U.S. hospitals. Pediatric Research , 91 , 351–358. https://doi.org/10.1038/s41390-021-01708-y Ernst, G. (2020",
+    "tokenCount": 118,
+    "pageStart": 31,
+    "pageEnd": 31,
+    "hash": "e9d26843a7266233276a9e78580ca599dccb3f9bc8047f1c90fca6ccdf4a6acd"
+  },
+  {
+    "text": "Pediatric trauma. In J. E. Tintinalli, O. J. Ma, D. M. Yealy, G. D. Meckler, J. S. Stapczynski, D. M. Cline, & S. H. Thomas (Eds.), Tintinalli’s emergency medicine: A comprehensive study guide (9 th ed., pp. 689–697). McGraw Hill. Lucia, D., & Glenn, J. (2017",
+    "tokenCount": 103,
+    "pageStart": 31,
+    "pageEnd": 31,
+    "hash": "bf02dd6b29d96bb635a35cd443d13533c51822ef6f9c067dd65c0cc18cad26fe"
+  },
+  {
+    "text": "Pediatric emergencies. In C. K. Stone & R. L. Humphries (Eds.), Current diagnosis and treatment: Emergency medicine (8 th ed., pp. 964–1016). McGraw Hill. Nejad, H. H., Banaie, M., Davarani, S. H. S., & Khazaeipour, Z. (2016",
+    "tokenCount": 78,
+    "pageStart": 31,
+    "pageEnd": 31,
+    "hash": "ed32cd2091619c42a739e667c9bffa5ef69b4ef9e05041c20c1645cad828f85d"
+  },
+  {
+    "text": "Evaluation of the significance of vital signs in the up-triage of patients visiting emergency department from Emergency Severity Index level 3 to 2. Acta Medica Iranica , 54 (6), 366–369. https://acta.tums.ac.ir/index.php/acta/article/view/5276",
+    "tokenCount": 70,
+    "pageStart": 31,
+    "pageEnd": 31,
+    "hash": "105449f8204048f742002bf25eb2809010794adef6255f66970f40176d8bce94"
+  },
+  {
+    "text": "Frequently Asked Questions APPENDIX A Chapter 1 Introduction Chapter 2: Overview Chapter 3: Decision Point A Chapter 4: Decision Point B Chapter 5: Decision Point C Chapter 6: Decision Point D Appendix A Appendix B If and when is it appropriate for a nurse to change an ESI level?",
+    "tokenCount": 59,
+    "pageStart": 33,
+    "pageEnd": 33,
+    "hash": "f31af251423689f95f037b4bb1e14ec5ade8179610867b7ab223f485d5bd6aed"
+  },
+  {
+    "text": "Therefore, once initial data are collected and a clinical judgment is rendered in the form of an ESI assignment, that ESI level should not be changed, unless the patient condition changes before they are placed from the waiting area.",
+    "tokenCount": 45,
+    "pageStart": 33,
+    "pageEnd": 33,
+    "hash": "06d326c8d73f267973beac300135bbaf172a54cafa60465c9c29e1f597d29d9c"
+  },
+  {
+    "text": "ESI Triage Algorithm, v5 APPENDIX B Chapter 1 Introduction Chapter 2: Overview Chapter 3: Decision Point A Chapter 4: Decision Point B Chapter 5: Decision Point C Chapter 6: Decision Point D Appendix A Appendix B ESI Triage Algorithm, v5 Requires immediate lifesaving intervention?",
+    "tokenCount": 63,
+    "pageStart": 35,
+    "pageEnd": 35,
+    "hash": "1b56000ebe9407436a59d3ba054b1d0f76b794fac981afe7f5d344a944b6873c"
+  },
+  {
+    "text": "None One Many High-risk vital signs? < 1 mo 1–12 mo 1– 3 y 3–5 y 5–12 y 12–1 8 y > 18 y > 190 > 180 > 140 > 120 > 120 > 100 > 100 > 60 > 55 > 40 > 35 > 30 > 20 > 20 SpO 2 < 92% Age HR RR A B C D 1 2 Yes No No No Reassess acuity decision Yes 5, 4, 3",
+    "tokenCount": 95,
+    "pageStart": 35,
+    "pageEnd": 35,
+    "hash": "4111395d64f6548be0c4c3a52dcc615072d2a1dcb9443ae2f86cc3ce5ce98e35"
+  },
+  {
+    "text": "Immediate lifesaving intervention required: Airway or respiratory support, emergency medications, hemodynamic interventions such as fluid resuscitation or blood products Clinical presentations requiring lifesaving interventions include the following: intubated, unresponsive, pulselessness, apneic, severe respiratory distress, profound hypotension or hypoglycemia.",
+    "tokenCount": 65,
+    "pageStart": 36,
+    "pageEnd": 36,
+    "hash": "30e1fbff145853ea6f31b50c0163390532185aeaf0bf6ff443c04b53bf8b87e3"
+  },
+  {
+    "text": "Unresponsiveness is defined as a patient who either: 1. Is nonverbal and not following commands (acutely) OR 2. Requires noxious stimulus (P or U on AVPU scale) B.",
+    "tokenCount": 43,
+    "pageStart": 36,
+    "pageEnd": 36,
+    "hash": "99a187afbce90393bc8ebf3203a5243f68d6b50176d64884ecccc13f81e457a6"
+  },
+  {
+    "text": "Resources: Count the number of different types of resources, not the individual tests or radiographs. (For example, complete blood count, electrolytes, and coagulant studies equal one resource because they are all laboratory tests, while complete blood count plus chest radiograph equals two resources because one is a laboratory test and one is imaging).",
+    "tokenCount": 68,
+    "pageStart": 36,
+    "pageEnd": 36,
+    "hash": "11b25c03f5edcd3e284037bc5cdbcb870a04914b9c00408960a1f9d685b3582b"
+  },
+  {
+    "text": "ESI Resources Not ESI Resources • Labs (blood, urine) • Electrocardiogram, radiographs • Computed tomography, magnetic resonance imaging, ultrasound, angiography • Intravenous fluids (hydration) • Intravenous, intramuscular, or nebulized medications • Specialty consultation • Simple procedure = 1 (laceration repair, urinary catheter) • Complex procedure = 2 (procedural sedation) • History and physicaI exam (Including pelvic) • Point-of-care testing • Saline or heparin lock • Oral medications • Tetanus immunization • Prescription refills • Phone call to primary care physician • Simple wound care (dressings, recheck) • Crutches, splints, slings D.",
+    "tokenCount": 165,
+    "pageStart": 36,
+    "pageEnd": 36,
+    "hash": "84ee288db4eacafe3739bc56960706a7134e771461bb0a58fa4b69cc983aae7a"
+  },
+  {
+    "text": "Pediatric Fever Considerations 1-28 days of age: Assign at least ESI 2 if T > 38° C (100.4 ° F) 1-3 months: Consider assigning ESI 2 if T > 38 ° C (100.4 ° F) 3 months and older: Consider assigning ESI 2 or 3 if: 1.",
+    "tokenCount": 71,
+    "pageStart": 36,
+    "pageEnd": 36,
+    "hash": "3ce273d8b7f29dbd748e045d0260d9bd6b1ae90e7c1ea45f9442d23d160ce910"
+  }
+]

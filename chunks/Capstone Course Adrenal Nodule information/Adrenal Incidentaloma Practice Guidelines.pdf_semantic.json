@@ -1,0 +1,1507 @@
+[
+  {
+    "text": "1542 Clinical Pr actice From the Division of General Surgery, Department of Surgery, Stanford University School of Medicine, Stanford, CA.",
+    "tokenCount": 27,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "c46323567ec46a950ecb1e8d34f3878e33b6eb5f55286c418738c6a0d925cd71"
+  },
+  {
+    "text": "Kebebew at the Division of General Surgery, Department of Surgery, Stanford University School of Medicine, 300 Pasteur Dr.",
+    "tokenCount": 26,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "f5881b763aaedc4a055490cf33f1a7c4613bb3dfcd955dcadfba25c58d1a53db"
+  },
+  {
+    "text": ", H3642, Stanford, CA 94305-2200, or at kebebew@ stanford .",
+    "tokenCount": 24,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "1476b67b4a3dc37b38ce2e862acaf8e1a7caa9795d58b1aa0858180dd6ca34a1"
+  },
+  {
+    "text": "1056/NEJMcp2031112 Copyright  2021 Massachusetts Medical Society.",
+    "tokenCount": 17,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "5ffe6ec7d95d09949e7d72bb5873501a887d04add228af92264ebba0a4c53127"
+  },
+  {
+    "text": "A 42-yearold woman has been in a motor vehicle accident in which her seat belt tightened.",
+    "tokenCount": 20,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "b48048454911f917c81b7b512a714e07721109aaca0129a0119c1464ab63991a"
+  },
+  {
+    "text": "She has upper abdominal pain and is evaluated with computed tomography (CT).",
+    "tokenCount": 15,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "8d711ab367d67cecf52846990a1f30b4d5413aa529d40671702734909419ea61"
+  },
+  {
+    "text": "This imaging shows no evidence of intraabdominal trauma but reveals a wellcircumscribed and homogeneous left adrenal mass that is 3.",
+    "tokenCount": 29,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "588e54acf468bf2ae12a0dfe5f773b4a4bcf8dc3a2e3d3e0be2c10139fc9848d"
+  },
+  {
+    "text": "The mass has an attenuation value of 7 Hounsf ield units on unenhanced CT.",
+    "tokenCount": 21,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "fe447d6890b76f9143085902b13bd400154f9f0f0dca4c8eebf82937e060601b"
+  },
+  {
+    "text": "The patients history is remarkable for obesity and newly diagnosed mild hypertension.",
+    "tokenCount": 13,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "71443fc90cd791670bf20da8700601ba055b13bb82770094676484c9c0e6c29c"
+  },
+  {
+    "text": "On physical examination, the blood pressure is 142/90 mm Hg.",
+    "tokenCount": 15,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "ff6b699da8c612eb8c262a4385925f63d7dbd99f5cd588eef712a08e803c682a"
+  },
+  {
+    "text": "There is sternal and upper abdominal bruising but no striae, moon facies, or fat accumulation over the dorsocervical spine (buffalo hump).",
+    "tokenCount": 32,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "cb227476ed01dbcba1be2a33774c473f0d53e8f5d6ad5732cac84f338ecf8f65"
+  },
+  {
+    "text": "How should this patient be further evaluated and treated?",
+    "tokenCount": 10,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "f84ad05c42669ce8b03569104ce9a3341ac2d891682b5e573d06a0ec88a33b4f"
+  },
+  {
+    "text": "The Clinical Problem A drenal incidentaloma is defined as a clinically unapparent adrenal lesion (1 cm in diameter) that is detected on imaging performed for indications other than evaluation for adrenal disease.",
+    "tokenCount": 43,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "129563aef529c74710432a379ef51da9667d4ef52f0ad916a5997b48a1f343f1"
+  },
+  {
+    "text": "1 This definition excludes patients who are undergoing screening and surveillance because of hereditary syndromes or those with known extraadrenal cancer who are undergoing imaging for staging or during followup after treatment.",
+    "tokenCount": 39,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "7d0272e30fefbdcf77dabaf2410e475ae9c85983f1a75bfbff2b30a4a121e38d"
+  },
+  {
+    "text": "Among adults, the prevalence of adrenal incidentaloma has been reported to be 1 to 6%, 2,3 and the prevalence has increased with the growing use of and technological advances in imaging and with the aging of the population.",
+    "tokenCount": 45,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "7a0fb64ac0e0b759ab5f566ca4fab0dd16bbaf10ec319df7554182245e09e425"
+  },
+  {
+    "text": "4,5 The prevalence is higher among older adults, with a peak (7%) in the fifth to seventh decades.",
+    "tokenCount": 24,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "240b8c565814751025712482a940e3f299ea7fe064e7ab293465b6e71df926f1"
+  },
+  {
+    "text": "3 Most adrenal incidentalomas are nonfunctioning benign tumors; 75% are nonfunctioning cortical adenomas.",
+    "tokenCount": 24,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "5fba47e93b58a141b12d2c3196fe7f230950e2109a19df3bba3517aa2f20aa65"
+  },
+  {
+    "text": "6-9 However, there are important clinical consequences in a subset of these masses.",
+    "tokenCount": 17,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "33268aeabaf57bc0cf4f07617c5a022e83c036739254b18acd8731e06f515460"
+  },
+  {
+    "text": "For example, approximately 14% of adrenal incidentalomas are functional tumors that secrete excess cortisol, aldosterone, or (rarely) both.",
+    "tokenCount": 31,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "32860386be3db61effa09e975b2f5f75744fb1ddb738e0a7245d6ed599937466"
+  },
+  {
+    "text": "Other masses with clinical significance are pheochromocytomas (approximately 7%) and primary adrenal cancers or metastases to the adrenal glands (approximately 4%).",
+    "tokenCount": 34,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "e79466b9e4a5142f56daaf8036fbac7b28867978530415e4842c79fc6d4da7b5"
+  },
+  {
+    "text": "6-9 When an adrenal mass is incidentally identified, the key clinical questions are whether it is functioning and whether it is malignant.",
+    "tokenCount": 28,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "f47d72baa51a07277c00f419f441dfd8ef5daba3045ad00a870dafbdbeb6af4d"
+  },
+  {
+    "text": "These determinations are guided by clinical and radiographic features and biochemical assessments.",
+    "tokenCount": 15,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "3761e81d2ccab8b7ca6c992a803ca4be43431fbeaa46d6bd58cd28d0d8674291"
+  },
+  {
+    "text": "Str ategies and Evidence In the absence of randomized, controlled trials in which various approaches to evaluation are compared, the workup is guided by data from prospective and retrospective observational studies.",
+    "tokenCount": 37,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "3dd2899a6aeca0bd6473206923e296ed462c37847dcc12df591aa854a67b8e75"
+  },
+  {
+    "text": "A careful history taking and physical examination Caren G.",
+    "tokenCount": 11,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "4a4d753ea4172db18a14b0b67a22a027894696d726bb108b2a155b548ad49055"
+  },
+  {
+    "text": ", Editor Adrenal Incidentaloma Electron Kebebew, M.",
+    "tokenCount": 16,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "2fec31e96ea6efc2af26299f3b3cb0aa1488ce00147c45c7c07b07ce586c93c3"
+  },
+  {
+    "text": "This Journal feature begins with a case vignette highlighting a common clinical problem.",
+    "tokenCount": 16,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "95d62c8a8d9bcebed9fe49a2cbc8d91b5b2517f8870213e1d087001f61e54ca0"
+  },
+  {
+    "text": "Evidence supporting various strategies is then presented, followed by a review of formal guidelines, when they exist.",
+    "tokenCount": 20,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "6c9634b4813b53ea28834a4827c5853b5be1f7f25eb116b55f369d25978eb404"
+  },
+  {
+    "text": "An audio version of this article is available at NEJM.",
+    "tokenCount": 12,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "7e541e7df0b3b1c8a5c3c617613e4b4e8d69ed35b0c1789fadac832e103197ce"
+  },
+  {
+    "text": "All rights reserved, including those for text and data mining, AI training, and similar technologies.",
+    "tokenCount": 19,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "91d5195352a80c18dd1684b75b4fa68010fdd3834aa9434004acea46388b39df"
+  },
+  {
+    "text": "Clinical Pr actice 1543 focusing on signs and symptoms that may be associated with hormonal hypersecretion or cancer are essential (Fig.",
+    "tokenCount": 28,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "55938d008cc6398f7e2dfaf054ff8b1fedef4dbd648582e8d9c68c96dc03e78e"
+  },
+  {
+    "text": "1, and Table S1 in the Supplementary Appendix, available with the full text of this article at NEJM.",
+    "tokenCount": 23,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "4adc667d5d63e7ec74243778b824149a2d739b4feac73a2c89ef83063dbb04c6"
+  },
+  {
+    "text": "Hormonal Evaluation Mild Autonomous Cortisol Excess Abnormal cortisol secretion that is independent of normal hypothalamicpituitary control in the absence of overt clinical signs of Cushings syndrome is called mild autonomous cortisol excess (also known as subclinical Cushings syndrome).",
+    "tokenCount": 54,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "8d8b7bf2747e00edaf43dd305172f2bde476dd464c5d8133bc3781110a489ee8"
+  },
+  {
+    "text": "A careful history taking and physical examination should focus on determining whether the patient has had recent weight gain or has a history of easy bruising, general weakness, poor wound healing, or decreases in memory and cognitive function.",
+    "tokenCount": 42,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "74207f2711770584ba6e39ffb5a044793b892e4d3911057401c9ab8ac9699157"
+  },
+  {
+    "text": "The patient should also be evaluated for the presence of central obesity, purple striae, facial rounding and plethora, supraclavicular and dorsocervical fat pads, acne, and hirsutism.",
+    "tokenCount": 43,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "dd2c2e7d6910fb1c858bffc49d5dbe235b898a510cfbaaf55f8fef84c85d7205"
+  },
+  {
+    "text": "Mild autonomous cortisol excess, the most common functional disorder detected in patients with adrenal incidentaloma, occurs in approximately 10% of such patients (range, 1 to 29), depending on the diagnostic criteria used and the population studied. 3,6 ,7,9 Patients with mild autonomous cortisol excess have a higher incidence of coexisting conditions such as hypertension, obesity, glucose intolerance or type 2 diabetes mellitus, dyslipidemia, and osteopenia or osteoporosis than patients with nonfunctioning adrenal tumors.",
+    "tokenCount": 106,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "4a89f7f8e996d92041f3230386063f5bab64af3dead3aa44e0057605db3df0d4"
+  },
+  {
+    "text": "10 An overnight dexamethasone (1 mg) suppression test should be performed in all patients with adrenal incidentaloma (Table 1).",
+    "tokenCount": 29,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "beaf26159318a4e5c5d826d98ddd4140bbffbebdec71598e4fe188da5a635bd4"
+  },
+  {
+    "text": "The most appropriate cutoff value for the morning serum cortisol level to make a diagnosis of mild autonomous cortisol excess is controversial.",
+    "tokenCount": 23,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "0b575dfcd68a44ddf92d68abef6c1f8369420e2cbfd1b2d874c36fbc737ce453"
+  },
+  {
+    "text": "8 g per deciliter (>50 nmol per liter) has high sensitivity (95 to 100%) but low specificity (60 to 80%), whereas a level of more than 5. 0 g per deciliter (>138 nmol per liter) has lower sensitivity (86%) but higher specificity (92 to 97%).",
+    "tokenCount": 64,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "1c9df1532d16d69aff01e197a9faa00856b314d6a751a3ebdbe0d958b2981c6c"
+  },
+  {
+    "text": "3,7,11-1 3 Additional findings on biochemical tests (e.",
+    "tokenCount": 16,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "0871297938122e384e3720d73ee1fae987b303a16b021746a6c65207cf38c9ac"
+  },
+  {
+    "text": ", a low corticotropin level, an elevated 24-hour urinary cortisol level, a high latenight salivary cortisol level, and a low dehydroepiandrosterone sulfate level) may help to confirm the diagnosis and magnitude of cortisol excess (Table 1).",
+    "tokenCount": 58,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "9f1916911041dc1b20a1175a3c195cde8471761bb047ca790ccf2d3d8cc2a0b8"
+  },
+  {
+    "text": "14 In a metaanalysis assessing outcomes in 4121 patients with adrenal incidentalomas that were either nonfunctioning or were causing mild autonomous cortisol excess, the risk of progression to overt Cushings syndrome was low (<0.",
+    "tokenCount": 45,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "b2065eca84694cf85f30f12f9ba799d474d42fa0b777dd6b5f9b80bb0ef49a24"
+  },
+  {
+    "text": "1%) in both groups during a mean followup of 50.",
+    "tokenCount": 13,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "e62ae774ca4583bc65c86b26c514f420a449033eb78805ee9a29f27efe6702be"
+  },
+  {
+    "text": "15 Furthermore, mild autonomous cortisol excess developed in only 4.",
+    "tokenCount": 12,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "48de180897e411dc64dca02c25c50c4be9af91cf79580b1fe688dc604e8d9767"
+  },
+  {
+    "text": "3% of the patients with nonfunctioning tumors, and fewer than 0.",
+    "tokenCount": 16,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "f5c514386ec4f7faa6afb52991f55d701d2de5f801abe385a2e81211dd1d1f42"
+  },
+  {
+    "text": "1% of the patients with mild autonomous cortisol excess had spontaneous resolution during followup.",
+    "tokenCount": 17,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "20211479969cfa8625b24340e523f5815268ac4210a8ddfa166dce140bf665fa"
+  },
+  {
+    "text": "The prevalence of type 2 diabetes mellitus, hypertension, obesity, dyslipidemia, Key Clinical Points Adrenal Incidentaloma  All patients with an adrenal mass that is discovered during diagnostic testing for another condition (an incidentaloma) should undergo biochemical testing to detect pheochromocytoma and excess cortisol secretion, and those who also have high blood pressure should undergo biochemical testing to detect primary hyperaldosteronism.",
+    "tokenCount": 87,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "037d2efedc875095ac69c51aa19fee23931cff106535c3f25e73d28308590c0b"
+  },
+  {
+    "text": "Patients with pheochromocytoma should undergo adrenalectomy after adequate presurgical alphablockade and betablockade, if necessary.",
+    "tokenCount": 33,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "c258e08a75d51f270aca7711b277f6478c58b56a132ee69a9a84c3cc4fa37651"
+  },
+  {
+    "text": "Patients with mild autonomous cortisol excess and primary hyperaldosteronism may benefit from adrenalectomy, but treatment should be individualized.",
+    "tokenCount": 28,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "63066288bcd17f9e785c3e7fdd5e98c47bbe942a901adad7bd7768789af657a1"
+  },
+  {
+    "text": "Nonfunctioning adrenal tumors that have an attenuation of 10 Hounsfield units or less on computed tomographic (CT) evaluation and that are smaller than 4 cm in greatest diameter generally do not warrant intervention or longterm followup.",
+    "tokenCount": 49,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "4276df32758f7c143e13e506e69151fbc7fbf55bbab26b3dacc14c739df41285"
+  },
+  {
+    "text": "All other adrenal incidentalomas with indeterminate features on imaging may warrant additional imaging with contrastenhanced CT, magnetic resonance imaging with chemicalshift analysis, positronemission tomographyCT with 18 Ffluorodeoxyglucose, or all of these tests.",
+    "tokenCount": 55,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "51bd907f1f5e5003a304e155f2450f4e2460331fe4a11103597295255b494315"
+  },
+  {
+    "text": "The management of these masses should be individualized and should involve a multidisciplinary team consisting of an endocrinologist, an endocrine surgeon, and a radiologist.",
+    "tokenCount": 34,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "ecfbee70cc969c1db50da99dc1580aee9f9c29d560e1928e68676f635c4c30e4"
+  },
+  {
+    "text": "Biochemical Evaluation in Patients with Adrenal Incidentaloma.",
+    "tokenCount": 12,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "508e06afb4baef520bf7e7b38cb167837cddcb3e67ea688de56f2caf8007e7a7"
+  },
+  {
+    "text": "* Clinical Diagnosis Screening Test Additional or Confirmatory Test Common Causes of False Positive or False Negative Findings Special Considerations Mild autonomous cortisol excess Overnight dexamethasone (1 mg) suppression test; an abnormal result is a serum cortisol level >1.",
+    "tokenCount": 55,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "ef35a9c9cbcddc459d39f7c55a5374572530951614085d07c4c19b8408bee093"
+  },
+  {
+    "text": "8 g per deciliter (50 nmol per liter) with confirmation of serum dexamethasone level (to ensure adherence); a higher serum cortisol cutoff level (e.",
+    "tokenCount": 37,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "b6179874f5be669d1fd490b3fec50a2eb17b8c723e14e40bb14c8294aa6d0ab9"
+  },
+  {
+    "text": ", 35 g per deciliter) can be used to reduce the risk of a false positive Measurement of levels of morning serum corticotropin and cortisol levels, 24-hr urinary cortisol, latenight salivary cortisol, midnight serum cortisol, and DHEAS False positives may occur in patients receiving medications that accelerate hepatic metabolism of dexamethasone and with nonadherence to dexamethasone Consider a pseudoCushings syndrome state due to diabetes, obesity, pregnancy, alcoholism, psychiatric disorders, or stress Pheochromocytoma Measurement of levels of plasmafree metanephrines or 24-hr urinary fractionated metanephrines Not applicable False positives may occur in patients with stress and illness warranting hospitalization; with medications that increase levels of endogenous catecholamines; with excessive caffeine; and with recreational drug use (e.",
+    "tokenCount": 183,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "73dbfc4b18aeafb0dc6a47f3fe4380167ed43f79975e8511a003cd4422df6f6f"
+  },
+  {
+    "text": ", amphetamines) Biochemical testing may not be necessary if the adrenal mass has CT attenuation of 10 Hounsfield units; genetic testing for inherited syndrome should be performed, regardless of family history, if screening test is positive Primary hyperaldosteronism Measurement of midmorning plasma aldosterone concentration and plasma renin activity; a ratio of plasma aldosterone concentration to plasma renin activity >20 confirms diagnosis If the ratio of plasma aldosterone concentration to plasma renin activity <20, confirmatory testing includes 24-hr urinary aldosterone excretion test with patient receiving highsodium diet, aldosterone suppression test, and testing with saline infusion while patient is sitting False positives can be caused by betablockers, methyldopa, clonidine, nonsteroidal antiinflammatory drugs, and oral contraceptives and estrogen; false negatives can be caused by angiotensinconvertingenzyme inhibitors, angiotensin II receptor blockers, and potassiumsparing diuretics (e.",
+    "tokenCount": 207,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "75ebbc599ce2ff74585f0e5664cc78a252f5e738a99e1841c7dcd91ffa8af303"
+  },
+  {
+    "text": ", spironolactone, eplerenone, and amiloride) If patient is a candidate for adrenalectomy and >35 yr of age, adrenal venous sampling is recommended to confirm lateralization of aldosterone to the side of the adrenal mass (some patients have bilateral aldosterone hypersecretion, or the contralateral adrenal gland may be the source of excess aldosterone and the tumor detected is nonfunctioning) * Reference ranges for specific assays based on age and sex should be used and may differ from the ranges shown here.",
+    "tokenCount": 119,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "b243d5aa4c090744d89c9c0d59291d02129be2c4fe78ee5f3618f968a4ce0855"
+  },
+  {
+    "text": "DHEAS denotes dehydroepiandrosterone sulfate.",
+    "tokenCount": 14,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "1cc58631c479426fc29b0f8ef2ae0eee7e08aa0c7af5809ff6334d375edb7b09"
+  },
+  {
+    "text": "Additional laboratory tests may include measurement of plasma chromogranin A levels, 24-hour urinary 3-methoxytyramine levels, or both, especially when a malignant pheochromocytoma is suspected because of the presence of potential metastatic disease sites or local invasion.",
+    "tokenCount": 60,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "eb5380637e125702d0991bd95e6f90658e470653fea4ee2dc24b774a121e144c"
+  },
+  {
+    "text": "Clinical Pr actice Primary Hyperaldosteronism Among patients with adrenal incidentaloma, primary hyperaldosteronism is less common than mild autonomous cortisol excess and pheochromocytoma; primary hyperaldosteronism accounts for 1.",
+    "tokenCount": 52,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "50b750a609e10855e968504085ae93c82254d80ebc5c0c1f41d54780ba383eb1"
+  },
+  {
+    "text": "9 However, any patient with adrenal incidentaloma and hypertension or hypokalemia should be screened for primary hyperaldosteronism with measurement of the midmorning plasma aldosterone concentration and plasma renin activity; patients should not be taking medications that could cause false positive or false negative results (Table 1).",
+    "tokenCount": 63,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "2c75d3ddbc60ea2370a8aab4032c76007558546d2d7bf7dba79a8c1d55651394"
+  },
+  {
+    "text": "31 Although studies have used various cutoff values to identify hyperaldosteronism, a ratio of the plasma aldosterone concentration to plasma renin activity that is higher than 20 is considered to be a reliable indicator of the diagnosis; if the ratio is high but below this level, confirmatory testing is recommended (Table 1).",
+    "tokenCount": 65,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "d0802ef45a7998a085d13d19cf4b0ddd8b2a1aad254f46acb8c951ddefa7432f"
+  },
+  {
+    "text": "31,32 Once the diagnosis is established, patientspecific factors guide decisions regarding medical versus surgical therapy (Fig.",
+    "tokenCount": 23,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "b00d996c477840f784d66e0719fb21796ca449823fd6d6a33b64e469a1203f57"
+  },
+  {
+    "text": "Additional Hormonal Secretion It is extremely rare for patients with adrenal incidentaloma to have sex hormone (estrogen or testosterone)secreting tumors without appreciable clinical manifestations.",
+    "tokenCount": 36,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "b43028e13f4e35a8a71f32ce63833721eeae6fef26829890bf67837515955faf"
+  },
+  {
+    "text": "In women, excess testosterone is associated with features of virilization such as facial hair growth, acne, and deepening of the voice, and excess estrogen is associated with irregular uterine bleeding and breast tenderness.",
+    "tokenCount": 42,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "d76616e6a6648e1813d414cf96d48465631f0a9b12fcdc14f16ba5b931268581"
+  },
+  {
+    "text": "In men, estrogensecreting tumors can cause gynecomastia, testicular atrophy, and decreased libido.",
+    "tokenCount": 27,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "e565eeba9d6e10fd6ed93d0483706c3ed2a3814cf6b6f6e3d4f0fe2e7d4c2b89"
+  },
+  {
+    "text": "Assessment for Cancer An adrenal incidentaloma may be a primary malignant tumor that has arisen from the adrenal cortex (adrenocortical carcinoma) or medulla (pheochromocytoma), or, rarely, a metastatic tumor.",
+    "tokenCount": 53,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "7c42912cdc234a9486884055175f19f22ce40200c1bbc5c6dc16f52af5d5d181"
+  },
+  {
+    "text": "Adrenocortical carcinoma, which accounts for 1.",
+    "tokenCount": 13,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "1d8abb801411b6c03f7ca1ae68b6733fd12f00974b1f6f78fb6142b841c8d3a5"
+  },
+  {
+    "text": "0% of adrenal incidentalomas, 9 depending on the study population, may secrete excess hormones or be nonfunctioning.",
+    "tokenCount": 26,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "cf2d88644e12a66a29bcf8f020257a343254aa0d943a5e0d378238872742617c"
+  },
+  {
+    "text": "Up to 21% of adrenal incidentalomas in patients with a history of or known current primary cancer indicate adrenal metastasis.",
+    "tokenCount": 26,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "e46b91b4e6895400f0dfadeedc1d7f2315bdc1f512be88e9df799d1da82c82de"
+  },
+  {
+    "text": "9,33 Cancers that are most likely to spread to the adrenal glands are lung cancer, gastrointestinal cancer, melanoma, and renalcell carcinoma.",
+    "tokenCount": 32,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "cdb88d691f3f4616d59d5cc9de3b95ea248abd63c8e5beb6d30c899a7509eb86"
+  },
+  {
+    "text": "33 Tumor size and imaging features are key to determining the likelihood of cancer and guiding treatment (Table 2 and Figs.",
+    "tokenCount": 26,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "c08e19f702e8345f32c900fb806342d5b96ccfbd6301960ae3547b3d3a814f3b"
+  },
+  {
+    "text": "Tumor Size Although many studies of the risks of cancer associated with tumor size are limited by small samples, retrospective design, and selection bias, data consistently support associations between tumors that are larger than 4 cm in greatest diameter and an increased risk of cancer among patients with a unilateral adrenal mass (Table 2).",
+    "tokenCount": 62,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "7d58f2eb2fe68c461066e37b3b3fb60ea6389f76d69c2f073453d9ae424237d4"
+  },
+  {
+    "text": "35,36 The risk of adrenocortical carcinoma is less than 2% among patients with tumors smaller than 4 cm in diameter, 6% among those with tumors between 4 cm and 6 cm in diameter, and 25% or higher among those with tumors that are at least 6 cm in diameter.",
+    "tokenCount": 61,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "2f0f89aaef0e9118976d43bac2754fbf9fe22815e4aeee772eddd628857e3e3e"
+  },
+  {
+    "text": "35 However, patient age is an important factor in estimating cancer risk; because benign incidentalomas are uncommon in patients younger than 40 years of age, cancer is a concern even with smaller tumors (<4 cm in diameter) in this age group.",
+    "tokenCount": 48,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "3140bac464019b4db4c3a3b3d15b982741bc1d59198f197736416b62fcfe7984"
+  },
+  {
+    "text": "It is important to measure the adrenal tumor in three dimensions (the greatest length, width, and height) because twodimensional (crosssectional) measurements often underestimate size.",
+    "tokenCount": 35,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "8623168e45e938efcfec3f9f91375804d96f619940b85fc8a6026442c987cf80"
+  },
+  {
+    "text": "Imaging Features Suggestive of Cancer On CT imaging, features other than tumor size can help to differentiate benign from malignant adrenal incidentalomas, although the ultimate diagnosis is based on histologic findings or clinical followup.",
+    "tokenCount": 44,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "33565c69828bc7641933237133e95078138b330e9cb68da54048938bd2e8969b"
+  },
+  {
+    "text": "34,37 Irregular tumor margins, heterogeneity, necrosis, vascularity, and calcification are features that arouse suspicion for cancer (Table 2).",
+    "tokenCount": 31,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "9db7fcf402df44aff57928722748c0eb7ac88de0e35b351922dde17a1aee3249"
+  },
+  {
+    "text": "An attenuation of 10 Hounsfield units or less on unenhanced CT is consistent with a benign lesion; in a series of 1161 adrenal tumors with an attenuation of 10 Hounsfield units or less, no malignant tumors were observed.",
+    "tokenCount": 55,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "9df2cb7ae22bea6753a866498d0766ca2bac77c6dd76ece34e1f14236825a7dd"
+  },
+  {
+    "text": "38 In patients who have incidentalomas with an attenuation of more than 10 Hounsfield units, followup imaging may include contrastenhanced CT (to measure the percentage of washout of contrast medium at various times), MRI with chemicalshift analysis, or positronemission tomography (PET)CT with 18 Ff luorodeoxyglucose ( 18 FFDG).",
+    "tokenCount": 80,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "104e512c72d693ff1ae567a6cef3921d08361c120514c2913cb26efb8ef4e07c"
+  },
+  {
+    "text": "On contrastenhanced CT, adenomas commonly enhance more rapidly and have faster washout of intravenous contrast medium when .",
+    "tokenCount": 25,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "d636990ecf83965bb8dd81393647d86be3eb93e751e22915810a445dacd18866"
+  },
+  {
+    "text": "Clinical Pr actice measured at 60 to 90 seconds (early enhancement) and at 10 to 15 minutes (delayed enhancement) after the administration of contrast medium than adrenocortical carcinomas.",
+    "tokenCount": 40,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "eb584a74724f4b5a3df23716d4c5dc7da1c3e693112e5af3be73c84bcba620c2"
+  },
+  {
+    "text": "Absolute washout is defined as the attenuation value in Hounsfield units on early enhanced CT minus Hounsfield units on delayed CT, divided by Hounsfield units on early enhanced CT minus Hounsfield units on unenhanced CT, multiplied by 100%, and relative washout is defined as Hounsfield units on early enhanced CT minus Hounsfield units on delayed CT, divided by Hounsfield units on enhanced CT, multiplied by 100%.",
+    "tokenCount": 99,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "03c5be6a10e42081da35f455a424460e3f695a62593bb17a8e6fd452a7013cc7"
+  },
+  {
+    "text": "Absolute washout of more than 60% of the contrast medium and relative washout of more than 40% of the contrast medium are suggestive of an adenoma, but the sensitivities and specificities of these cutoff values vary across studies owing to variations in technique and timing of measurement of washout.",
+    "tokenCount": 61,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "c9b825a6ecde711e23d3f001f7759928f0065c635073ae3f062c583a7a1ff8cb"
+  },
+  {
+    "text": "34 MRI with chemicalshift analysis, which assesses qualitative loss of signal intensity, quantitative loss of signal intensity, or both between inphase and outofphase imaging, is especially useful to avoid radiation exposure in pregnant women and children and in patients who are allergic to iodinated contrast medium.",
+    "tokenCount": 57,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "d91981e8c8eedc0f299388cc7da55a752e2b116254053ff23fc5c8231406b661"
+  },
+  {
+    "text": "In a systematic review, qualitative (visual) analysis of the adrenal signalintensity index and quantitative assessment of the adrenaltospleen ratio (i.",
+    "tokenCount": 31,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "8ff2987acb908a139897242183f83ac7fc5898094dba8e6435569bc631c09244"
+  },
+  {
+    "text": ", the signal intensity of the adrenal mass divided by the signal intensity of the spleen) both had high accuracy (pooled sensitivities and specificities, 94% and 95%, respectively) for identifying adenomas.",
+    "tokenCount": 45,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "bc485233a712199916284e5df82db2a431772299d306d9cec836011ae9b646d7"
+  },
+  {
+    "text": "37 In a metaanalysis of 29 studies, findings on 18 FFDG PETCT adrenal imaging that determined the maximum standardized uptake value and the ratio of the maximum standardized uptake value in the adrenal tumor as compared with the spleen or liver effectively distinguished benign from malignant tumors (pooled sensitivities, 85 to 91%, and pooled specificities, 89 to 91%).",
+    "tokenCount": 75,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "39360d97d515ab6f0e0c305d0905796988926ad1d167b4df9d004afba5750b50"
+  },
+  {
+    "text": "39 Adrenal Biopsy Biopsy of an adrenal incidentaloma is rarely indicated, 33 since it has low accuracy for distinguishing benign from malignant adrenal tumors and may lead to tumor seeding if the mass is an adrenocortical carcinoma.",
+    "tokenCount": 51,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "186a1b6e4be991b388de4a4675e0e89455e39a421f2e58cc28f09948846c741d"
+  },
+  {
+    "text": "An exception is the rare case in which adrenal metastasis is strongly suspected and biopsy confirmation would change the treatment plan; in such cases, biochemical testing to exclude a pheochromocytoma should be performed first to avoid precipitation of a hyperadrenergic crisis by biopsy.",
+    "tokenCount": 59,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "3bb6310eff2aeb501d23de42ce58e38fa2e173a306b5f74fc9eace98172c99c4"
+  },
+  {
+    "text": "Assessment of Bilateral Adrenal Masses Approximately 15% of patients with adrenal incidentaloma have bilateral adrenal masses.",
+    "tokenCount": 25,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "b2f1dc4945c74f92b509b0ed8cacd7b6e819e68377fbae39c33415c8e1543161"
+  },
+  {
+    "text": "40 The differential diagnosis of bilateral adrenal masses includes primary bilateral macronodular adrenal hyperplasia and adenomas, bilateral pheochromocytomas, congenital adrenal hyperplasia, bilateral adrenal hyperplasia due to Cushings disease or ectopic corticotropin secretion, metastases or primary cancers, myelolipomas, infections, hemorrhage, and partial glucocorticoid resistance.",
+    "tokenCount": 90,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "1c28cff0ab0610fcea2c8f2179b37eb81dc507855181f65968952741607c15ea"
+  },
+  {
+    "text": "In addition to the hormonal assessments described for a solitary adrenal incidentaloma, measurement of the serum 17-hydroxyprogesterone level is indicated to rule out congenital adrenal hyperplasia.",
+    "tokenCount": 41,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "c79bca7860e28331b58b9907ee42ba21336ba4138518e73c947949947233907e"
+  },
+  {
+    "text": "41 In addition, if bilateral adrenal masses appear on imaging to be hemorrhagic or infiltrative, the patient should undergo testing for adrenal insufficiency.",
+    "tokenCount": 32,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "bfb74c998253acb91cfda0d304c9d8fcefa3804bf0f1acf54f5fd99bcbb8b8a2"
+  },
+  {
+    "text": "In patients with bilateral adrenal masses, the imaging characteristics of each adrenal lesion should be evaluated independently in determining appropriate management.",
+    "tokenCount": 26,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "42f709b7861000a4567f8350465df39d115cc6358f21163b78fb90525ebee87e"
+  },
+  {
+    "text": "Followup in Patients with Nonfunctioning Lesions Nonfunctioning adrenal incidentalomas with features that are consistent with an adenoma on imaging (10 Hounsfield units) and that are smaller than 4 cm in greatest diameter usually have a benign course and do not warrant additional followup imaging.",
+    "tokenCount": 61,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "5f6997a12601f82c5beb80c70528651a00c231787d3554506dffaf3e3bd26907"
+  },
+  {
+    "text": "In a metaanalysis involving 4121 patients with nonfunctioning adrenal lesions, the mean tumor growth was 2 mm over a median of 52.",
+    "tokenCount": 29,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "590622f8cd80427583c3406062610e57e5a0ebcbe6908d1c937c7dbc5885dc69"
+  },
+  {
+    "text": "5% of the patients had tumor enlargement of 1 cm or more, and adrenocortical carcinoma did not develop in any of the patients.",
+    "tokenCount": 31,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "e17758ff8f482ad77f9f6c1d8c9dfa913a3c0245fc7d42a4dcb1962b1e89043e"
+  },
+  {
+    "text": "15 Followup with imaging and biochemical tests is recommended for patients with nonfunctioning tumors with indeterminate features on imaging.",
+    "tokenCount": 25,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "597d8441174fc0e396e8308e4ffb5ba7d6a3d541c456a9e645edcafc88a8aab6"
+  },
+  {
+    "text": "However, the most appropriate time intervals for reassessment are unclear, and they vary among different guidelines.",
+    "tokenCount": 20,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "63c9ee808872366ab06c825075442c01e5bf3b886fad8df72184cd2fa731287a"
+  },
+  {
+    "text": "Areas of Uncertainty The diagnostic criteria for and management of mild autonomous cortisol excess are uncertain.",
+    "tokenCount": 20,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "6d4afadad6521b82a314b2bf127dcb8ff9eb179be59059ab3a94163e49e642aa"
+  },
+  {
+    "text": "Muth A, Hammarstedt L, Hellstrm M, Sigurjnsdttir H, Almqvist E, Wngberg B.",
+    "tokenCount": 34,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "dde655460ddf821e574d03c047f19661a923e8917e6e9e4290063d1f1d05f2b8"
+  },
+  {
+    "text": "Cohort study of patients with adrenal lesions discovered incidentally.",
+    "tokenCount": 13,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "6cae5bca81d8136d17bab694c9897d18d73a81c35ec945a5d21b385e881ba31e"
+  },
+  {
+    "text": "Br J Surg 2011; 98: 1383-91.",
+    "tokenCount": 13,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "c2ff4e23cf8a82ccfcb93e5e9c31437006f21120e47999b7b081da37dd46a74b"
+  },
+  {
+    "text": "Sherlock M, Scarsbrook A, Abbas A, et al.",
+    "tokenCount": 15,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "093618d45a9d4a8058e05d06343d3c25f9d9cedcc40773757ae1cfb02db35a07"
+  },
+  {
+    "text": "Endocr Rev 2020; 41: 775-820.",
+    "tokenCount": 12,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "d359bd0899106a8f07d874bd799d7ec44d41a72b0aebba89e1212946a53047a7"
+  },
+  {
+    "text": "Papanicolas I, Woskie LR, Jha AK.",
+    "tokenCount": 15,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "f2cd3748980cbfd76c5f0ee40d7c70989edfc1621b3db7afbaa7fe670da181be"
+  },
+  {
+    "text": "Health care spending in the United States and other highincome countries.",
+    "tokenCount": 13,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "bf66b76e2bb99c782ad27945e98d6dc898a6449db726f4306416fc3d1afd1e3b"
+  },
+  {
+    "text": "JAMA 2018; 319: 1024-39.",
+    "tokenCount": 10,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "7e023822ab06fb5aa714e5f8e56afb14ead7bcde9a9c4352ff71fff91bbfe6b0"
+  },
+  {
+    "text": "Management of adrenal masses in children and adults.",
+    "tokenCount": 10,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "c8dfdc7b5f3da2eaa37b8bea0b292a4c4465cc7f3cac3264bc4ff69dc117edb0"
+  },
+  {
+    "text": "Barzon L, Sonino N, Fallo F, Palu G, Boscaro M.",
+    "tokenCount": 21,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "e5b1c7f2463e595552561ae27cf2e2151053a2e1635ac81da9f8ba079cdbb037"
+  },
+  {
+    "text": "Prevalence and natural history of adrenal incidentalomas.",
+    "tokenCount": 12,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "59c1f60bb246e30137346bef142b2d6dbf7ac37d89eb6328983cd1c5e57a6f2e"
+  },
+  {
+    "text": "Eur J Endocrinol 2003; 149: 273-85.",
+    "tokenCount": 14,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "e5b2629f427ade535902b0f97e4eb74d6fa4536d47426ad567b1734af31619f9"
+  },
+  {
+    "text": "Mantero F, Terzolo M, Arnaldi G, et al.",
+    "tokenCount": 17,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "38515ca4f3cec015690dce8ebd98c7d9f9ab311f01923dd837bc5028ce81e72f"
+  },
+  {
+    "text": "A survey on adrenal incidentaloma in Italy.",
+    "tokenCount": 10,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "67d166b2bf0d668e6a93d03972d9734f68ca802d91425038cf74383d6feccaf2"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 2000; 85: 637-44.",
+    "tokenCount": 16,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "efb1a8a016fee137aa57869afb8ba29059201907d8e96936a3c297d0bcbdc966"
+  },
+  {
+    "text": "Metastatic tumours of the adrenal glands: a 30-year experience in a teaching hospital.",
+    "tokenCount": 21,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "028f794e24a40ebe6f4c55a38a6d9af61d1a6e5f24c00de5e30db652ea5725c7"
+  },
+  {
+    "text": "Clin Endocrinol (Oxf ) 2002; 56: 95-101.",
+    "tokenCount": 17,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "d9aa4dc0ef7ea39b203fa18d5f1bb48164abb6db9e179387709c609c645079ec"
+  },
+  {
+    "text": "Fassnacht M, Arlt W, Bancos I, et al.",
+    "tokenCount": 18,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "69b8cb9aa836ab6c98527e551b45cb42cdb109871c72614baa391690df93ac40"
+  },
+  {
+    "text": "Management of adrenal incidentalomas: European Society of Endocrinology clinical practice guideline in collaboration .",
+    "tokenCount": 19,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "e152d0ed57536d9f4954845dc7bab9315f158b8642e456f655dfb5abd7b97ecb"
+  },
+  {
+    "text": "Clinical Pr actice with the European Network for the Study of Adrenal Tumors.",
+    "tokenCount": 19,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "cce631ed9dbd796735a773e8a0b8739d5f695ad7f188e12dd95b7f74366c8429"
+  },
+  {
+    "text": "Eur J Endocrinol 2016; 175: G1-G34.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "e7709eb660360ead7d4f04f161e88d6df420c10d9d559e1dce2187d509236c92"
+  },
+  {
+    "text": "Sbardella E, Minnetti M, DAluisio D, et al.",
+    "tokenCount": 19,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "4401ffbb9deef2a978b32e5b42bc4d93074fc31485832d4bc72cf493b178be42"
+  },
+  {
+    "text": "Cardiovascular features of possible autonomous cortisol secretion in patients with adrenal incidentalomas.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "afd1a81e8c70dbfda474ed28fea3b7a69bc9844da8d4f37291f5590c37679784"
+  },
+  {
+    "text": "Eur J Endocrinol 2018; 178: 501-11.",
+    "tokenCount": 14,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "d0c35f29a940585e166871a1d484eadfdfdae5639dd14157f1766baa43c5af39"
+  },
+  {
+    "text": "Ferreira L, Oliveira JC, Palma I.",
+    "tokenCount": 13,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "6081eb9578a982243617df35d2c09317b58107ac38a9cbd8003979e145f51da1"
+  },
+  {
+    "text": "Screening Tests for hypercortisolism in patients with adrenal incidentaloma.",
+    "tokenCount": 17,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "e432d500ca060de66323eaf194d1348e883945ad1b731c7e07c5b3d8663631d9"
+  },
+  {
+    "text": "J Endocrinol Metab 2018; 8: 62-8.",
+    "tokenCount": 14,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "908d00b96083920f02046fca3592060d415c6d74c1cd56a8123883ab334daf27"
+  },
+  {
+    "text": "Chiodini I, Torlontano M, Carnevale V, et al.",
+    "tokenCount": 19,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "78d5e9b1fd355ec865c9f1800331f791a513588bb4e73d82a0424a036a5da0e2"
+  },
+  {
+    "text": "Bone loss rate in adrenal incidentalomas: a longitudinal study.",
+    "tokenCount": 13,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "273f0d56729d7fdb2e8dd8f995bd1077431ee99f22c4e27b5250e60d9383db1a"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 2001; 86: 5337-41.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "852fbb53fe7a3d043c5db50ad700ef1d70ce2b766741f6254c355f78d697f85e"
+  },
+  {
+    "text": "Valli N, Catargi B, Ronci N, et al.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "f7894d3fac3f25365a6532670c2d54560ad126f728d84937f1546116cd525f20"
+  },
+  {
+    "text": "Biochemical screening for subclinical cortisolsecreting adenomas amongst adrenal incidentalomas.",
+    "tokenCount": 19,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "dca90a2d82704a2e925690c05be8a46e13c33776cbd931b185e975ca9b6a89d6"
+  },
+  {
+    "text": "Eur J Endocrinol 2001; 144: 401-8.",
+    "tokenCount": 14,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "a69dcd706ed45a5cbb6bbccff8aa098528b10599c158f2ae52f9c1955d00f0c8"
+  },
+  {
+    "text": "Dennedy MC, Annamalai AK, PrankerdSmith O, et al.",
+    "tokenCount": 20,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "be7da658ed7a5d486a62825ef3aee0c70e9a63198081f2cbb6504bc71416bfcb"
+  },
+  {
+    "text": "Low DHEAS: a sensitive and specific test for the detection of subclinical hypercortisolism in adrenal incidentalomas.",
+    "tokenCount": 27,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "32cc7df016aab461a5c8a211c695e4d4948f200655fa2e9416831f841265b579"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 2017; 102: 786-92.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "6000d4994f532328627ec994d37b4726d14df363ccb289149549952090926e5f"
+  },
+  {
+    "text": "Elhassan YS, Alahdab F, Prete A, et al.",
+    "tokenCount": 20,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "be3451da1bda61118165cb2cbc3f284db2666b8b05abb90f17248553dc515d28"
+  },
+  {
+    "text": "Natural history of adrenal incidentalomas with and without mild autonomous cortisol excess: a systematic review and metaanalysis.",
+    "tokenCount": 22,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "e3dfe7b39427e10b012bd0b469494ca8d2f0cacaa8a496ded1121c4bc7ef20f2"
+  },
+  {
+    "text": "Ann Intern Med 2019; 171: 107-16.",
+    "tokenCount": 11,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "4ab3ce1e8d75eaa38110e51083e3118e927524ad6f766bfa3a71d3b69b97971f"
+  },
+  {
+    "text": "Morelli V, Palmieri S, Lania A, et al.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "e36d14266a4984e879c94cb07bcd57ff9a48d52ea8030323fe648ac9360bdf53"
+  },
+  {
+    "text": "Cardiovascular events in patients with mild autonomous cortisol secretion: analysis with artificial neural networks.",
+    "tokenCount": 17,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "084535d8a18b54d5c1e881db5aa3623b4a4ac4ae573e02e7c07e97005d50a261"
+  },
+  {
+    "text": "Eur J Endocrinol 2017; 177: 73-83.",
+    "tokenCount": 14,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ee00b1228fec49acab50fcf0624348064d811f26bc17cc4b81dbbc444eba04db"
+  },
+  {
+    "text": "Patrova J, Kjellman M, Wahrenberg H, Falhammar H.",
+    "tokenCount": 21,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "af47917d9878f62833606b0d686a8318569e98c39c21b8be0a373d2cd60445e9"
+  },
+  {
+    "text": "Increased mortality in patients with adrenal incidentalomas and autonomous cortisol secretion: a 13-year retrospective study from one center.",
+    "tokenCount": 24,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "d0b6a7195cfbc293f3bff36ce4b644c43544b34ca4809cd3bf10265ed8db4d26"
+  },
+  {
+    "text": "Endocrine 2017; 58: 267-75.",
+    "tokenCount": 10,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "4211215f80c71823e4bc196e2c71313c75f7fb285e947ea767832186b5490805"
+  },
+  {
+    "text": "Di Dalmazi G, Vicennati V, Garelli S, et al.",
+    "tokenCount": 19,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "8af8ccde1afd5a1fdf5ef416fba975684b88c7833621fd4040e7cbeb1e5b4b45"
+  },
+  {
+    "text": "Cardiovascular events and mortality in patients with adrenal incidentalomas that are either nonsecreting or associated with intermediate phenotype or subclinical Cushings syndrome: a 15-year retrospective study.",
+    "tokenCount": 39,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "3571ed39d1efbaea4a855d700c3f333abae1f5e87a90c18ef36294673e51d3b1"
+  },
+  {
+    "text": "Lancet Diabetes Endocrinol 2014; 2: 396-405.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "27781eeec7d5f154ef8279c77dd6e429623d6103035f83ec607bdef252cb845c"
+  },
+  {
+    "text": "Park J, De Luca A, Dutton H, Malcolm JC, Doyle MA.",
+    "tokenCount": 18,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "63f218f0d1d1409d8c836a8e3bc988c48d2eb2dcf956a9b3fc825c9a1b69b96f"
+  },
+  {
+    "text": "Cardiovascular outcomes in autonomous cortisol secretion and nonfunctioning adrenal adenoma: a systematic review.",
+    "tokenCount": 21,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "7d2d9c15133dacddf62b0d226d4d3a82c8c76c5790f958409c49a46299088291"
+  },
+  {
+    "text": "J Endocr Soc 2019; 3: 996-1008.",
+    "tokenCount": 14,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "884e389cb9d866acc25516e8ba2ece24c9ff58344bbd8288338c6d7fa5a3d088"
+  },
+  {
+    "text": "Debono M, Bradburn M, Bull M, Harrison B, Ross RJ, NewellPrice J.",
+    "tokenCount": 22,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "35d56975d3d793245a5301913bee3f2bc8b284f137bdc0851437a91bd31c8369"
+  },
+  {
+    "text": "Cortisol as a marker for increased mortality in patients with incidental adrenocortical adenomas.",
+    "tokenCount": 21,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "b3f55a97b987caf1954271a35de06a9e098522c44457c712df51d22346eb1626"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 2014; 99: 4462-70.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "6142a3e976a9ed8134968f440e0b097d7c764c7e05027d82c12eea0a8ec3491c"
+  },
+  {
+    "text": "Toniato A, MeranteBoschin I, Opocher G, Pelizzo MR, Schiavi F, Ballotta E.",
+    "tokenCount": 31,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "2f6526b11bfedf082e602cfe4b5010a09a6382112562602a24295b9dd71f3ddf"
+  },
+  {
+    "text": "Surgical versus conservative management for subclinical Cushing syndrome in adrenal incidentalomas: a prospective randomized study.",
+    "tokenCount": 22,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "aed0ae18016c1d29877c53870a53ad227a1a7d95ea645ce62c34924412feea68"
+  },
+  {
+    "text": "Ann Surg 2009; 249: 388- 91.",
+    "tokenCount": 11,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "dcc71fa79fdc46112a9cd18f7ef835ad625f0125dac0f4c29831f8aa5ed91e55"
+  },
+  {
+    "text": "Perysinakis I, Marakaki C, Avlonitis S, et al.",
+    "tokenCount": 19,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ce3c037d39f204f755d034b7802aa700caf6d59d9c0193e6520cf8f1c0604ee4"
+  },
+  {
+    "text": "Laparoscopic adrenalectomy in patients with subclinical Cushing syndrome.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "1a420e89baa18c05dfd4a20b0ef848027bed313906ae98e90df5a31ef0c486bd"
+  },
+  {
+    "text": "Surg Endosc 2013; 27: 2145-8.",
+    "tokenCount": 13,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "febe7e8314ffdc49fe38604b77495f0e04c14c149862a6b07d2d68bf43bfbf33"
+  },
+  {
+    "text": "Iacobone M, Citton M, Viel G, et al.",
+    "tokenCount": 17,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "fb384dff60db8bc178bfd83a2b215aa8954219d3179ed55ad8fffa965951f27f"
+  },
+  {
+    "text": "Adrenalectomy may improve cardiovascular and metabolic impairment and ameliorate quality of life in patients with adrenal incidentalomas and subclinical Cushings syndrome.",
+    "tokenCount": 33,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "7ef5656d9d2eadc5dabe02f7959adb413825b613ac0f9b93b0f3d333ad2c0b2e"
+  },
+  {
+    "text": "Surgery 2012; 152: 991-7.",
+    "tokenCount": 11,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "fc0c7f84b8343532e468ca5ea728775d218110a56bdf7587a3b2a48ca8f610fc"
+  },
+  {
+    "text": "Zeiger MA, Thompson GB, Duh QY, et al.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "8338205c67d92ed7c06313449c10edebf3bfb86dc62078c0586fe006f03be49d"
+  },
+  {
+    "text": "American Association of Clinical Endocrinologists and American Association of Endocrine Surgeons medical guidelines for the management of adrenal incidentalomas: executive summary of recommendations.",
+    "tokenCount": 31,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "cbb19e1f22245b66ca214150c52cf7205dc490161d3913f900439b35884d09ef"
+  },
+  {
+    "text": "Endocr Pract 2009; 15: 450-3.",
+    "tokenCount": 11,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "51a60c1d7f5c7155c141a402b458f8b76e969500be963247d6584d8d2b1da217"
+  },
+  {
+    "text": "Tabarin A, Bardet S, Bertherat J, et al.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "44c7d3104b1a13011a6a1fe972a38eb1bfb273b0af477426a8486eec1d0144ad"
+  },
+  {
+    "text": "Exploration and management of adrenal incidentalomas.",
+    "tokenCount": 10,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "d2ed9c9dbc3459745e5517c480c5c04cba0eb05b6c92a4f46415c1a769b80486"
+  },
+  {
+    "text": "Ann Endocrinol (Paris) 2008; 69: 487-500.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "bdc90978a5bf120330eed485b267e9e88f4f6f0a590f95ff0397b303d1c11b6c"
+  },
+  {
+    "text": "Terzolo M, Stigliano A, Chiodini I, et al.",
+    "tokenCount": 18,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "d1a42f2c1567f845db7ad33bb2f89fa46dec5500f4aee0cfc4f4688634e8036a"
+  },
+  {
+    "text": "Eur J Endocrinol 2011; 164: 851-70.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "5650a4db7831a70e0b773269a0ba2b759acc5dbaff1bac39dec8ff74afd40cc2"
+  },
+  {
+    "text": "Lee JM, Kim MK, Ko SH, et al.",
+    "tokenCount": 12,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "e0a98ce1fdd21e01dd787fbf0fc81aa5c80e0376e27fe5bbd2ef5e47a9afd2c3"
+  },
+  {
+    "text": "Clinical guidelines for the management of adrenal incidentaloma.",
+    "tokenCount": 12,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ffc9279ae71b148952f26a0039cf86247cd077e0a07fdebc4491374d00ee2df1"
+  },
+  {
+    "text": "Endocrinol Metab (Seoul) 2017; 32: 200-18.",
+    "tokenCount": 17,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "379d6ed7ddd26f8b453f6816fd59557a7b8b0f6119429ad740e0bd7b9cf403c4"
+  },
+  {
+    "text": "Canu L, Van Hemert JAW, Kerstens MN, et al.",
+    "tokenCount": 18,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "7fd7fca66fb96397d6117b9bba96f295f25c4717994cd9600bb43df7e5fc918d"
+  },
+  {
+    "text": "CT characteristics of pheochromocytoma: relevance for the evaluation of adrenal incidentaloma.",
+    "tokenCount": 21,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "7169d7555ba3ff4c7cb1d3a9266c89f2ec664e686e78f871a155a8cafab086f1"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 2019; 104: 312-8.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "73881f9e47bf45beca7b6d5b3a241e241fb51ad211455cfb15b6898fb597c582"
+  },
+  {
+    "text": "Buitenwerf E, Korteweg T, Visser A, et al.",
+    "tokenCount": 21,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "bb0ad863bf28925836b93d5b6d5be9c13d0b0c4c31ffc55a2d5835a8f68722e5"
+  },
+  {
+    "text": "Unenhanced CT imaging is highly sensitive to exclude pheochromocytoma: a multicenter study.",
+    "tokenCount": 23,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "e02f92bc47f14058bc68a76856bf4a0105586a16abf2b90f7569a029e355e90d"
+  },
+  {
+    "text": "Eur J Endocrinol 2018; 178: 431-7.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ebddf87ce1f64fab663c1698cc8a1e5a94c40825c4e26e2e48657e7a81303c63"
+  },
+  {
+    "text": "Lenders JWM, Duh QY, Eisenhofer G, et al.",
+    "tokenCount": 18,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "57ef4a6b0c8e500d8eadc9a3b8d90a106e84ee2b79437eb5fee00ce6c7eb82ee"
+  },
+  {
+    "text": "Pheochromocytoma and paraganglioma: an Endocrine Society clinical practice guideline.",
+    "tokenCount": 22,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "7b2fcac91005c3a422efc10e2c3c477f55efa700e5d1cc7ecdc4245866e4b35b"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 2014; 99: 1915-42.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "0a093d82bdc3edd15c439c3e1d55a2234d42e507d7f1a21a03023b4a39b2d966"
+  },
+  {
+    "text": "Funder JW, Carey RM, Mantero F, et al.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "3bd9fd907b5381c0ad13255b58af75531ad4cbe07cb2e4aa725701608b4f1ac4"
+  },
+  {
+    "text": "The management of primary aldosteronism: case detection, diagnosis, and treatment: an Endocrine Society clinical practice guideline.",
+    "tokenCount": 26,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "11de25db79548c7dc3db2119eb70b04209814f8dea46b0f152bcf008e12f7466"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 2016; 101: 1889-916.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "16e6ff01469d29521ad977972482e8b53cb09ca833cfeb8aba12bb82d78f873f"
+  },
+  {
+    "text": "Reznik Y, Amar L, Tabarin A.",
+    "tokenCount": 12,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "63725793e1a670ad2b3364591b932cbceb4df00d928e6927454508a4940c1ef9"
+  },
+  {
+    "text": "SFE/ SFHTA/AFCE consensus on primary aldosteronism.",
+    "tokenCount": 19,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "2d84930b92f0f0c2fd61916fa6f4384a3a6d944753904391d0eb68591c1f388f"
+  },
+  {
+    "text": "Ann Endocrinol (Paris) 2016; 77: 202-7.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "6d2784be4fc4bf0d2b5bac91f4559fde0d4a4443ba1f2c53c728cd8aad1f26bd"
+  },
+  {
+    "text": "Bancos I, Tamhane S, Shah M, et al.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "286f23083f73e8542ba5a2d48574bc75cfab49c5bec0ce4fc56321e5c7ea75a8"
+  },
+  {
+    "text": "Diagnosis of endocrine disease: the diagnostic performance of adrenal biopsy: a systematic review and metaanalysis.",
+    "tokenCount": 24,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "7f6151a0bf46f609ae281736c667286dc9e2fa247535c49706b41a6be4fde81c"
+  },
+  {
+    "text": "Eur J Endocrinol 2016; 175: R65-R80.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "f9247d2aff72e25739e889f92d54991cc898795de212a6540860f8adc09a2de2"
+  },
+  {
+    "text": "Dinnes J, Bancos I, Ferrante di Ruffano L, et al.",
+    "tokenCount": 21,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "b925770393c4a3e849b472af35d58a4e0bb489ff2aef366bd48a7431fbea297e"
+  },
+  {
+    "text": "Management of endocrine disease: imaging for the diagnosis of malignancy in incidentally discovered adrenal masses: a systematic review and metaanalysis.",
+    "tokenCount": 28,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "7d1643b28bc9da7844b0b223ea50986f20231eabbe319f8359f85d2f56415938"
+  },
+  {
+    "text": "Eur J Endocrinol 2016; 175: R51-R64.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "c27d1ba2140d120a59c6883e0fdbd34e28118468a209c542baecd36feb56cd61"
+  },
+  {
+    "text": "NIH stateofthescience statement on management of the clinically inapparent adrenal mass (incidentaloma).",
+    "tokenCount": 23,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "62c53c848538a9877c4c6577fc53a8dc988c16440c7e2b14970dfb909a493adc"
+  },
+  {
+    "text": "NIH Consens State Sci Statements 2002; 19(2): 1-25.",
+    "tokenCount": 17,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ea9c056cfc53932a57f1a759d77172bafb198ca5df6da62c482827b61b3cbcbc"
+  },
+  {
+    "text": "Sturgeon C, Shen WT, Clark OH, Duh QY, Kebebew E.",
+    "tokenCount": 22,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "2914fb10764e82240037fe424c1fe623ea4c0141f18e665b538a5915fa9bfb53"
+  },
+  {
+    "text": "Risk assessment in 457 adrenal cortical carcinomas: how much does tumor size predict the likelihood of malignancy?",
+    "tokenCount": 24,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "f3dd8d97ce7499f7e24ac1e526340fca203a1866d5fb7852d92712290d83b1c5"
+  },
+  {
+    "text": "J Am Coll Surg 2006; 202: 423-30.",
+    "tokenCount": 13,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "5b2c632c33a47e4e39626d42e2a2eab1cee8d5b17d2dd882c76fb1fa84eb8e18"
+  },
+  {
+    "text": "Platzek I, Sieron D, Plodeck V, Borkowetz A, Laniado M, Hoffmann RT.",
+    "tokenCount": 30,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "d52608bf4e4700115fce3c9a2d3f183cbafe4ee95613ae7c658aaef65c8ce153"
+  },
+  {
+    "text": "Chemical shift imaging for evaluation of adrenal masses: a systematic review and metaanalysis.",
+    "tokenCount": 18,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "25d895daee6839535ccb56a6671a1ba28f34b8a23bcc856e2f6369256416f245"
+  },
+  {
+    "text": "Eur Radiol 2019; 29: 806-17.",
+    "tokenCount": 13,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "94a73b4b2f28a3b152003c10b334e5fafd3013bd7d830a25f36366cadbf7afb9"
+  },
+  {
+    "text": "Buitenwerf E, Berends AMA, van Asselt ADI, et al.",
+    "tokenCount": 22,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "5cf754854cc8d25826ba3af53fdd999f615e3190bdf16b0bce6ce3255cc432ad"
+  },
+  {
+    "text": "Diagnostic accuracy of computed tomography to exclude pheochromocytoma: a systematic review, metaanalysis, and cost analysis.",
+    "tokenCount": 29,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ef75a5151cb9bc7c82508544c028f13a5e6d3bec2688cf4bb319b63388aca1e4"
+  },
+  {
+    "text": "Mayo Clin Proc 2019; 94: 2040-52.",
+    "tokenCount": 13,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "0a4f8f0372493af10657e3c54fe005a694d51352afad21353496e5e2bb26d6a7"
+  },
+  {
+    "text": "Kim SJ, Lee SW, Pak K, Kim IJ, Kim K.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ca1c589eafe637bc5889fc0514919c73ae70c43f375daa5dd6408c6c85b5003c"
+  },
+  {
+    "text": "Diagnostic accuracy of 18 FFDG PET or PET/CT for the characterization of adrenal masses: a systematic review and metaanalysis.",
+    "tokenCount": 29,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "79f29b9ad906d45d9035fc50693952cd3edee2b9e5067ac915cebc48102305c2"
+  },
+  {
+    "text": "Br J Radiol 2018; 91(1086): 20170520.",
+    "tokenCount": 15,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ef6dd67cdcb05064c46cbbc43f9a75f7d0d2470f12f0f153a2c17e9d92458b6a"
+  },
+  {
+    "text": "Bourdeau I, El Ghorayeb N, Gagnon N, Lacroix A.",
+    "tokenCount": 23,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "eeb8b22cbff412a76bf7415123a1c2d49b05bd23f15f7e98f794da3aad07e855"
+  },
+  {
+    "text": "Management of endocrine disease: differential diagnosis, investigation and therapy of bilateral adrenal incidentalomas.",
+    "tokenCount": 19,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "4478cb39492f32a4d28201ad9c00a1c9c9029dbb51563c1756475f9044d61d4f"
+  },
+  {
+    "text": "Eur J Endocrinol 2018; 179: R57-R67.",
+    "tokenCount": 16,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "9f1997cc6d5672171730fdb50283b3331af0a93d2caefc51167c8ede55fe759c"
+  },
+  {
+    "text": "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency presenting as adrenal incidentaloma: a systematic review and metaanalysis.",
+    "tokenCount": 31,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "78e3e0a59702609e7aa43bc03edac4a0037ce2c0165476a82a827c9c1c131a35"
+  },
+  {
+    "text": "Endocr Pract 2016; 22: 736-52.",
+    "tokenCount": 12,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "1d62ce073a240418fe0e698a9707763a1483d78bc3d8c0ee1f37dfce7cdbd7f3"
+  }
+]

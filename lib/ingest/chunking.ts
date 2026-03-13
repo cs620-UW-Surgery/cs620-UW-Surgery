@@ -1,16 +1,21 @@
 import { createHash } from 'crypto';
-import { decode, encode } from 'gpt-3-encoder';
+import fs from 'fs/promises';
+import path from 'path';
+import { encode } from 'gpt-3-encoder';
+import OpenAI from 'openai';
 
-export type PageText = {
-  page: number;
-  text: string;
-};
+export type PageText = { page: number; text: string; title?: string };
 
 export type ChunkOptions = {
-  minTokens?: number;
   maxTokens?: number;
-  targetTokens?: number;
-  overlapTokens?: number;
+  similarityThreshold?: number;
+  saveDir?: string;
+  outputFileName?: string;
+  minTokenForMerge?: number;
+  skipHeaderPages?: number;
+  mergeReferences?: boolean;
+  referencesPerChunk?: number;
+  minChunkTokens?: number;
 };
 
 export type ChunkResult = {
@@ -18,103 +23,290 @@ export type ChunkResult = {
   tokenCount: number;
   pageStart: number | null;
   pageEnd: number | null;
+  hash: string;
 };
 
-export type ChunkWithHash = ChunkResult & { hash: string };
-
 const DEFAULT_OPTIONS: Required<ChunkOptions> = {
-  minTokens: 400,
-  maxTokens: 800,
-  targetTokens: 600,
-  overlapTokens: 120
+  maxTokens: 450,
+  similarityThreshold: 0.78,
+  saveDir: './chunks',
+  outputFileName: 'semantic_chunks.json',
+  minTokenForMerge: 20,
+  skipHeaderPages: 2,
+  mergeReferences: true,
+  referencesPerChunk: 2,
+  minChunkTokens: 40,
 };
 
 function normalizeText(text: string) {
-  return text.replace(/\s+/g, ' ').trim();
+  return text
+    .replace(/U\.\s*S\./g, 'U.S.')
+    .replace(/\.{3,}/g, ' ')  
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function isNoise(text: string) {
+  if (!text) return true;
+  if (/^\.+$/.test(text)) return true;
+  if (text.length < 5) return true;
+  if (/copyright|all rights reserved/i.test(text)) return true;
+  return false;
+}
+
+function splitIntoSentences(text: string) {
+  return text
+    .split(/(?<=[.!?])\s+|\n+|(?<=:)\s+/)
+    .map(s => s.trim())
+    .filter(Boolean);
+}
+
+function hardSplitByTokens(text: string, maxTokens: number) {
+  const words = text.split(' ');
+  const results: string[] = [];
+
+  let buffer = '';
+
+  for (const w of words) {
+    const test = buffer ? buffer + ' ' + w : w;
+
+    if (encode(test).length > maxTokens) {
+      if (buffer) {
+        results.push(buffer.trim());
+        buffer = w;
+      } else {
+        results.push(w);
+        buffer = '';
+      }
+    } else {
+      buffer = test;
+    }
+  }
+
+  if (buffer) results.push(buffer.trim());
+
+  return results;
+}
+
+function pushChunk(chunks: ChunkResult[], text: string, pages: number[], maxTokens: number) {
+  const safeChunks = hardSplitByTokens(text, maxTokens);
+
+  for (const c of safeChunks) {
+    const tokens = encode(c).length;
+    if (tokens > maxTokens) {
+      const mid = Math.floor(c.length / 2);
+      pushChunk(chunks, c.slice(0, mid), pages, maxTokens);
+      pushChunk(chunks, c.slice(mid), pages, maxTokens);
+      continue;
+    }
+    chunks.push({
+      text: c,
+      tokenCount: tokens,
+      pageStart: Math.min(...pages),
+      pageEnd: Math.max(...pages),
+      hash: hashText(c),
+    });
+  }
 }
 
 export function hashText(text: string) {
   return createHash('sha256').update(text).digest('hex');
 }
 
-export function chunkPagesByTokens(pages: PageText[], options: ChunkOptions = {}) {
-  const settings = { ...DEFAULT_OPTIONS, ...options };
-  settings.minTokens =
-    typeof settings.minTokens === 'number' && Number.isFinite(settings.minTokens)
-      ? settings.minTokens
-      : DEFAULT_OPTIONS.minTokens;
-  settings.maxTokens =
-    typeof settings.maxTokens === 'number' && Number.isFinite(settings.maxTokens)
-      ? settings.maxTokens
-      : DEFAULT_OPTIONS.maxTokens;
-  settings.targetTokens =
-    typeof settings.targetTokens === 'number' && Number.isFinite(settings.targetTokens)
-      ? settings.targetTokens
-      : DEFAULT_OPTIONS.targetTokens;
-  settings.overlapTokens =
-    typeof settings.overlapTokens === 'number' && Number.isFinite(settings.overlapTokens)
-      ? settings.overlapTokens
-      : DEFAULT_OPTIONS.overlapTokens;
-  const allTokens: number[] = [];
-  const tokenPages: number[] = [];
-
-  pages.forEach((page) => {
-    const normalized = normalizeText(page.text);
-    if (!normalized) return;
-    const tokens = encode(normalized);
-    tokens.forEach((token) => {
-      allTokens.push(token);
-      tokenPages.push(page.page);
-    });
-  });
-
-  if (allTokens.length === 0) return [] as ChunkResult[];
-
-  const chunks: ChunkResult[] = [];
-  let startIndex = 0;
-  while (startIndex < allTokens.length) {
-    let endIndex = Math.min(startIndex + settings.targetTokens, allTokens.length);
-    if (endIndex - startIndex < settings.minTokens && endIndex < allTokens.length) {
-      endIndex = Math.min(startIndex + settings.minTokens, allTokens.length);
-    }
-    if (endIndex - startIndex > settings.maxTokens) {
-      endIndex = startIndex + settings.maxTokens;
-    }
-
-    const chunkTokens = allTokens.slice(startIndex, endIndex);
-    const pagesSlice = tokenPages.slice(startIndex, endIndex);
-    const pageStart = pagesSlice.length ? Math.min(...pagesSlice) : null;
-    const pageEnd = pagesSlice.length ? Math.max(...pagesSlice) : null;
-    const text = normalizeText(decode(chunkTokens));
-
-    if (text) {
-      chunks.push({
-        text,
-        tokenCount: chunkTokens.length,
-        pageStart,
-        pageEnd
-      });
-    }
-
-    if (endIndex >= allTokens.length) break;
-    const nextStart = endIndex - settings.overlapTokens;
-    if (nextStart <= startIndex) break;
-    startIndex = nextStart;
-  }
-
-  return chunks;
+function cosineSimilarity(a: number[], b: number[]) {
+  const dot = a.reduce((sum, val, i) => sum + val * b[i], 0);
+  const normA = Math.sqrt(a.reduce((sum, val) => sum + val * val, 0));
+  const normB = Math.sqrt(b.reduce((sum, val) => sum + val * val, 0));
+  return dot / (normA * normB);
 }
 
-export function dedupeChunksByHash(chunks: ChunkResult[]) {
-  const seen = new Set<string>();
-  const deduped: ChunkWithHash[] = [];
+function averageEmbedding(embeddings: number[][]): number[] {
+  const dims = embeddings[0].length;
+  const avg = new Array(dims).fill(0);
 
-  for (const chunk of chunks) {
-    const hash = hashText(chunk.text);
-    if (seen.has(hash)) continue;
-    seen.add(hash);
-    deduped.push({ ...chunk, hash });
+  for (const e of embeddings) {
+    for (let i = 0; i < dims; i++) {
+      avg[i] += e[i];
+    }
   }
 
-  return deduped;
+  for (let i = 0; i < dims; i++) {
+    avg[i] /= embeddings.length;
+  }
+
+  return avg;
+}
+
+export async function semanticChunkPages(
+  pages: PageText[],
+  openai: OpenAI,
+  options: ChunkOptions = {}
+): Promise<ChunkResult[]> {
+
+  const settings = { ...DEFAULT_OPTIONS, ...options };
+  const sentences: { text: string; page: number }[] = [];
+
+  // =====================
+  // Sentence Extraction
+  // =====================
+  for (const page of pages) {
+
+    if (page.page <= settings.skipHeaderPages) continue;
+
+    const normalized = normalizeText(page.text);
+    if (!normalized) continue;
+
+    const isReference = /references|bibliography/i.test(normalized);
+
+    if (settings.mergeReferences && isReference) {
+
+      const refs = normalized.split(/\)\.\s+/);
+
+      for (let i = 0; i < refs.length; i += settings.referencesPerChunk) {
+
+        const chunk = refs.slice(i, i + settings.referencesPerChunk).join('). ');
+
+        const safeChunks = hardSplitByTokens(chunk, settings.maxTokens);
+
+        for (const c of safeChunks) {
+          if (!isNoise(c)) {
+            sentences.push({ text: c.trim(), page: page.page });
+          }
+        }
+      }
+
+      continue;
+    }
+
+    const rawSentences = splitIntoSentences(normalized);
+
+    let buffer = '';
+
+    for (const s of rawSentences) {
+
+      if (isNoise(s)) continue;
+
+      const tokenLen = encode(s).length;
+
+      if (tokenLen < settings.minTokenForMerge) {
+
+        buffer += ' ' + s;
+
+      } else {
+
+        if (buffer) {
+          sentences.push({ text: buffer.trim(), page: page.page });
+          buffer = '';
+        }
+
+        const safe = hardSplitByTokens(s, settings.maxTokens);
+
+        for (const part of safe) {
+          sentences.push({ text: part.trim(), page: page.page });
+        }
+      }
+    }
+
+    if (buffer) {
+      sentences.push({ text: buffer.trim(), page: page.page });
+    }
+  }
+
+  if (!sentences.length) return [];
+
+  // =====================
+  // Embeddings
+  // =====================
+  const inputs = sentences.map(s => s.text);
+  const embeddings: number[][] = [];
+
+  for (let i = 0; i < inputs.length; i += 50) {
+
+    const batch = inputs.slice(i, i + 50);
+
+    const response = await openai.embeddings.create({
+      model: "text-embedding-3-small",
+      input: batch,
+    });
+
+    embeddings.push(...response.data.map(d => d.embedding));
+  }
+
+  // =====================
+  // Semantic Chunking
+  // =====================
+  const chunks: ChunkResult[] = [];
+
+  let currentTexts: string[] = [];
+  let currentPages: number[] = [];
+  let currentEmbeddings: number[][] = [];
+  let currentTokenCount = 0;
+
+  const softMaxTokens = settings.maxTokens * 0.8;
+
+  for (let i = 0; i < inputs.length; i++) {
+
+    const sentence = inputs[i];
+    const sentenceEmbedding = embeddings[i];
+    const sentenceTokens = encode(sentence).length;
+
+    const candidateTokenCount = currentTokenCount + sentenceTokens;
+
+    let similarity = 1;
+
+    if (currentEmbeddings.length > 0) {
+      const avg = averageEmbedding(currentEmbeddings);
+      similarity = cosineSimilarity(avg, sentenceEmbedding);
+    }
+
+    const shouldSplit =
+      currentTexts.length > 0 &&
+      (
+        similarity < settings.similarityThreshold ||
+        candidateTokenCount > settings.maxTokens ||
+        (candidateTokenCount > softMaxTokens && similarity < 0.85)
+      );
+
+    if (shouldSplit) {
+
+      if (currentTokenCount >= settings.minChunkTokens) {
+
+        const finalText = currentTexts.join(' ');
+
+        pushChunk(chunks, finalText, currentPages, settings.maxTokens);
+      }
+
+      currentTexts = [sentence];
+      currentPages = [sentences[i].page];
+      currentEmbeddings = [sentenceEmbedding];
+      currentTokenCount = sentenceTokens;
+
+    } else {
+
+      currentTexts.push(sentence);
+      currentPages.push(sentences[i].page);
+      currentEmbeddings.push(sentenceEmbedding);
+      currentTokenCount = candidateTokenCount;
+    }
+  }
+
+  // final flush
+  if (currentTexts.length && currentTokenCount >= settings.minChunkTokens) {
+
+    const finalText = currentTexts.join(' ');
+
+    pushChunk(chunks, finalText, currentPages, settings.maxTokens);
+  }
+
+  // =====================
+  // Save
+  // =====================
+  await fs.mkdir(settings.saveDir, { recursive: true });
+
+  await fs.writeFile(
+    path.join(settings.saveDir, settings.outputFileName),
+    JSON.stringify(chunks, null, 2)
+  );
+
+  return chunks;
 }

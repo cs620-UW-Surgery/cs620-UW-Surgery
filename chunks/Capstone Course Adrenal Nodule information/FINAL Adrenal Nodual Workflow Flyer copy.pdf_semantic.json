@@ -1,0 +1,79 @@
+[
+  {
+    "text": "Evaluating adrenal nodules *See next page for hormonal workup reference Incidental adrenal nodule > 1 cm Found on noncontrast (noncon) CT? DO NOT BIOPSY adrenal mass without hormone workup and consulation Assess imaging characteristics Obtain adrenal protocol CT Suspicious appearance Hormonal workup* Abnormal DST or metanephrines or aldosterone : renin Normal hormonal workup Refer to Endocrine Surgery Adrenal Nodules Clinic Benign appearance Hormonal workup*  Size 4 cm in diameter  >10 Hounsfield units (HU) on noncon CT  CT contrast washout <4060%  On MRI, hyperintense on T2 imaging or no signal loss on chemicalshift analysis  On 18FFDG PETCT, SUVmax 5 or adrenaltospleen or adrenalto liver signalintensity ratio 1  Catecholamine Excess  Plasma fractionated metanephrines  Abnormal: >2x Upper Limit of Normal (ULN)  Adrenal hypercortisolism  1mg Dexamethasone suppression test (DST)  Abnormal: >1.",
+    "tokenCount": 246,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "30e1f1b2f10cbd6afd0d06f17d6279146023ce527cc7469cd639317816d87d69"
+  },
+  {
+    "text": "8 mcg/dl  Adrenal hyperaldosteronism  If patient has a history of HTN  Plasma aldosterone and renin  Abnormal: aldosterone >10 and renin <1.",
+    "tokenCount": 45,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "1888b83a2c91430a6483a5dbeb80ac9f929829510ac04ed74ee90eb8e93ca1f2"
+  },
+  {
+    "text": "0  Size 1-4 cm in diameter  10 Hounsfield units (HU) on noncon CT  CT contrast washout 4060%  Signal loss on MRI chemicalshift analysis  On 18FFDG PETCT, SUVmax <5 or adrenaltospleen or adrenalto liver signalintensity ratio <1  Adrenal hypercortisolism  1mg Dexamethasone suppression test (DST)  Abnormal: >1.",
+    "tokenCount": 98,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "c0856ceebb215d78fdb6cc48aa989c431b41e64d7b7bedef70a9c1c66705bfbd"
+  },
+  {
+    "text": "GS-2727550-26 Hormonal workup reference 1.",
+    "tokenCount": 14,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "49eb5fab9f931acf8fe0a5d0cb34dde8bf014609308ea0b2ff8b4c7d075b5ab1"
+  },
+  {
+    "text": "Cortisol evaluation Dexamethasone Suppression Test (DST)  Prescribe 1 mg of oral dexamethasone to be taken at 11 pm  The next morning at 8 am, a cortisol and dexamethasone level are drawn  If the 8 am cortisol is < 1.",
+    "tokenCount": 64,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "530bedc3c137603793ac35fc6ae82c23cce814d4f7b2219e6654a434a6d62d86"
+  },
+  {
+    "text": "8 mcg/dL, cortisol excess is ruled out  If the am cortisol after dexamethasone is >1.",
+    "tokenCount": 26,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "5cf61a8f6c15ef0875a27a7ab0c479b9ff0023a5e399fddb7ecb69ce1c7cdc62"
+  },
+  {
+    "text": "8mcg/dL, then screening is POSITIVE or ABNORMAL  Cortisol between 1.",
+    "tokenCount": 22,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "0c9b32ff332487d924156603b138547204174acf5a019d8a9f6166e155e91020"
+  },
+  {
+    "text": "0 mcg/dL may represent mild cortisol excess, therefore you need to proceed with confirmatory testing:  Morning serum corticotropin and cortisol levels  24-hr urinary cortisol  3 midnight/latenight salivary cortisol  Midnight serum cortisol  DHEAS (<40 mcg/dL)  Failure to suppress below 5. 0 mcg/dL raises concern for cortisol excess 2.",
+    "tokenCount": 82,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "343b5524cbce72ce58a9969dada36d2acfa64015a5e487733c5ac5a34a32bae5"
+  },
+  {
+    "text": "Screen for aldosteronoma Aldosterone level : Plasma Renin Activity (PRA)  Perform if patient has a history of hypertension or hypokalemia  Obtain midmorning plasma aldosterone concentration and plasma renin activity  These must be drawn at the same time and should not be done with the DST  Divide the aldosterone level by the PRA to calculate the aldosterone : renin (ARR)  If the ARR is > 20, screen is POSITIVE or ABNORMAL for hyperaldosteronism  If aldosterone > 10 ng/dL AND renin < 1.",
+    "tokenCount": 129,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "a73d5f95cf73dd83e142ccc51b2516ef2b99990db6eb2da134815e0898a25bfa"
+  },
+  {
+    "text": "0 ng/dL then screen is POSITIVE or ABNORMAL for hyperaldosteronism  Proceed to confirmatory testing with oral sodium load test, aldosterone suppression test or seated saline infusion test  If aldosterone < 10 ng/dL OR renin > 1. 0 ng/dL, then screen is NEGATIVE or NORMAL for hyperaldosteronism  If aldosterone > 10 ng/dL AND renin > 1.",
+    "tokenCount": 94,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "a7a708831b846919dd6785148565bee4609c4f511c549dd47152595080691e7f"
+  },
+  {
+    "text": "0 ng/dL and is on a potentially interfering medication, then hold/replace medications for 4 weeks and repeat 3.",
+    "tokenCount": 24,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "c0b020029a7371a6549a8956a4ae856ec5871bdb96f98097cae38973f1bdaea4"
+  }
+]

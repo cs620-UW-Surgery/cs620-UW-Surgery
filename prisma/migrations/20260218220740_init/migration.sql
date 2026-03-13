@@ -1,12 +1,3 @@
--- DropForeignKey
-ALTER TABLE "ChecklistItem" DROP CONSTRAINT "ChecklistItem_sessionId_fkey";
-
--- DropForeignKey
-ALTER TABLE "Message" DROP CONSTRAINT "Message_sessionId_fkey";
-
--- AlterTable
-ALTER TABLE "AppConfig" ALTER COLUMN "updatedAt" DROP DEFAULT;
-
 -- CreateTable
 CREATE TABLE "KnowledgeChunk" (
     "id" TEXT NOT NULL,
@@ -34,6 +25,47 @@ CREATE TABLE "KnowledgeEmbedding" (
     CONSTRAINT "KnowledgeEmbedding_pkey" PRIMARY KEY ("id")
 );
 
+-- CreateTable
+CREATE TABLE "Session" (
+    "id" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Session_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "Message" (
+    "id" TEXT NOT NULL,
+    "sessionId" TEXT NOT NULL,
+    "role" TEXT NOT NULL,
+    "contentJson" JSONB,
+    "contentText" TEXT,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Message_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "ChecklistItem" (
+    "id" TEXT NOT NULL,
+    "sessionId" TEXT NOT NULL,
+    "label" TEXT NOT NULL,
+    "status" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "ChecklistItem_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "AppConfig" (
+    "key" TEXT NOT NULL,
+    "value" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "AppConfig_pkey" PRIMARY KEY ("key")
+);
+
 -- CreateIndex
 CREATE UNIQUE INDEX "KnowledgeChunk_hash_key" ON "KnowledgeChunk"("hash");
 
@@ -42,6 +74,9 @@ CREATE UNIQUE INDEX "KnowledgeChunk_citationKey_key" ON "KnowledgeChunk"("citati
 
 -- CreateIndex
 CREATE UNIQUE INDEX "KnowledgeEmbedding_chunkId_key" ON "KnowledgeEmbedding"("chunkId");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "ChecklistItem_sessionId_label_key" ON "ChecklistItem"("sessionId", "label");
 
 -- AddForeignKey
 ALTER TABLE "KnowledgeEmbedding" ADD CONSTRAINT "KnowledgeEmbedding_chunkId_fkey" FOREIGN KEY ("chunkId") REFERENCES "KnowledgeChunk"("id") ON DELETE CASCADE ON UPDATE CASCADE;
