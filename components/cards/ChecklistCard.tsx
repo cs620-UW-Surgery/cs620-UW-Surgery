@@ -47,10 +47,10 @@ export default function ChecklistCard({ items }: { items: ChecklistItem[] }) {
           return (
             <div
               key={item.id}
-              className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-clay/60 bg-white/70 px-3 py-2"
+              className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-accent/60 bg-white/70 px-3 py-2"
             >
               <div>
-                <div className="font-semibold text-ink">{item.label}</div>
+                <div className="font-semibold text-darkgray">{item.label}</div>
                 {item.due_date && (
                   <div className="text-xs text-muted">Due: {item.due_date}</div>
                 )}
@@ -58,8 +58,8 @@ export default function ChecklistCard({ items }: { items: ChecklistItem[] }) {
               <button
                 onClick={() => updateStatus(item)}
                 className={`rounded-full px-3 py-1 text-xs font-semibold ${currentStatus === 'done'
-                    ? 'bg-moss text-white'
-                    : 'border border-moss text-moss'
+                    ? 'bg-uwred text-white'
+                    : 'border border-uwred text-uwred'
                   }`}
               >
                 {currentStatus === 'done' ? 'Completed' : 'Mark done'}

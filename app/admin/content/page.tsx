@@ -31,7 +31,7 @@ export default function AdminContentPage() {
   return (
     <div className="grid gap-8">
       <section className="card fade-in">
-        <h1 className="font-serif text-3xl text-ink">Knowledge Base</h1>
+        <h1 className="font-serif text-3xl text-darkgray">Knowledge Base</h1>
         <p className="mt-2 text-muted">
           Review the knowledge chunks used for citations. Versioning is tracked per chunk.
         </p>
@@ -46,8 +46,8 @@ export default function AdminContentPage() {
           <article key={chunk.id} className="card">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
-                <div className="text-xs uppercase tracking-[0.2em] text-moss">{chunk.id}</div>
-                <h2 className="mt-2 font-serif text-xl text-ink">{chunk.sourceDoc}</h2>
+                <div className="text-xs uppercase tracking-[0.2em] text-uwred">{chunk.id}</div>
+                <h2 className="mt-2 font-serif text-xl text-darkgray">{chunk.sourceDoc}</h2>
               </div>
               <div className="badge">v{chunk.version}</div>
             </div>
@@ -58,7 +58,7 @@ export default function AdminContentPage() {
                 : chunk.sourcePageStart ?? 'NA'}{' '}
               | Updated: {chunk.updatedAt}
             </div>
-            <div className="mt-3 rounded-2xl border border-clay bg-white/70 p-3 text-xs text-ink">
+            <div className="mt-3 rounded-2xl border border-accent bg-white/70 p-3 text-xs text-darkgray">
               Citation Key: {chunk.citationKey}
             </div>
             <p className="mt-4 text-sm text-muted whitespace-pre-wrap">{chunk.text}</p>

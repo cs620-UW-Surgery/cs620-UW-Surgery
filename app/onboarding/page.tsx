@@ -21,7 +21,7 @@ export default function OnboardingPage() {
   return (
     <div className="grid gap-8">
       <section className="card fade-in">
-        <h1 className="font-serif text-3xl text-ink">Onboarding</h1>
+        <h1 className="font-serif text-3xl text-darkgray">Onboarding</h1>
         <p className="mt-2 text-muted">
           Share high-level context so the navigator can personalize the flow. Avoid entering sensitive
           personal identifiers.
@@ -33,7 +33,7 @@ export default function OnboardingPage() {
               value={name}
               onChange={(event) => setName(event.target.value)}
               placeholder="Alex"
-              className="w-full rounded-2xl border border-clay bg-white/80 px-4 py-3"
+              className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3"
             />
           </label>
           <label className="grid gap-2 text-sm">
@@ -43,26 +43,26 @@ export default function OnboardingPage() {
               onChange={(event) => setQuestions(event.target.value)}
               placeholder="I want to know what labs are typical, how to prep, and who to call about costs."
               rows={4}
-              className="w-full rounded-2xl border border-clay bg-white/80 px-4 py-3"
+              className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3"
             />
           </label>
         </div>
         <div className="mt-6 flex flex-wrap gap-3">
           <button
             onClick={handleSave}
-            className="rounded-full bg-moss px-6 py-3 text-sm font-semibold text-white"
+            className="rounded-full bg-uwred px-6 py-3 text-sm font-semibold text-white"
           >
             Save onboarding
           </button>
           <Link
             href="/chat"
-            className="rounded-full border border-moss px-6 py-3 text-sm font-semibold text-moss"
+            className="rounded-full border border-uwred px-6 py-3 text-sm font-semibold text-uwred"
           >
             Continue to chat
           </Link>
         </div>
         {submitStatus === 'saved' && (
-          <p className="mt-3 text-sm text-moss">Saved locally for this browser.</p>
+          <p className="mt-3 text-sm text-uwred">Saved locally for this browser.</p>
         )}
       </section>
     </div>

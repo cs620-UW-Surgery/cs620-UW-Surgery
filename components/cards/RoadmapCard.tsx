@@ -10,12 +10,12 @@ export default function RoadmapCard({ summary }: { summary: string }) {
         {STEPS.map((step, index) => (
           <div
             key={step}
-            className="flex items-center gap-3 rounded-xl border border-clay/60 bg-white/70 px-3 py-2"
+            className="flex items-center gap-3 rounded-xl border border-accent/60 bg-white/70 px-3 py-2"
           >
-            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-moss text-xs font-semibold text-white">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-uwred text-xs font-semibold text-white">
               {index + 1}
             </div>
-            <div className="text-sm font-semibold text-ink">{step}</div>
+            <div className="text-sm font-semibold text-darkgray">{step}</div>
           </div>
         ))}
       </div>

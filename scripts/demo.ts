@@ -112,7 +112,7 @@ async function main() {
   }
 
   run('pnpm', ['prisma:generate'], env);
-  run('pnpm', ['prisma:migrate'], env);
+  run('npx', ['prisma', 'migrate', 'deploy'], env);
 
   if (process.env.RUN_INGEST === '1') {
     run('pnpm', ['ingest'], env);

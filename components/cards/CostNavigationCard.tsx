@@ -37,7 +37,7 @@ export default function CostNavigationCard({
             <a
               key={link.label}
               href={link.href ?? '#'}
-              className="rounded-full border border-moss px-4 py-2 text-xs font-semibold text-moss"
+              className="rounded-full border border-uwred px-4 py-2 text-xs font-semibold text-uwred"
             >
               {link.label}
             </a>
