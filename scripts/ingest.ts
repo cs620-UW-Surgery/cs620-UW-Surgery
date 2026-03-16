@@ -7,7 +7,7 @@ import { prisma } from '../lib/prisma';
 import { buildCitationKey } from '../lib/knowledge';
 import { semanticChunkPages, PageText } from '../lib/ingest/chunking';
 
-const PDF_DIR = path.join(__dirname, '..', 'Reference documents', 'Emergency Symptoms for Escalation');
+const PDF_DIR = path.join(__dirname, '..', 'Reference documents');
 
 const EMBEDDING_MODEL = process.env.OPENAI_EMBEDDING_MODEL ?? 'text-embedding-3-small';
 
@@ -83,6 +83,7 @@ async function ingestFile(filePath: string, openai: OpenAI, version: number, dry
     maxTokens: maxTokens ?? 800,
     outputFileName: `${sourceDoc}_semantic.json`
   });
+  console.log(`✓ ${sourceDoc} chunking completed (${chunks.length} chunks)`);
 
   let totalCreated = 0, totalSkipped = 0;
 

@@ -1,0 +1,212 @@
+[
+  {
+    "text": "Imaging and ordering provider characteristics The majority of the imaging which discovered the IAM was ordered by EM providers (50.6%), followed by subspecialists (36.7%), and PCPs (12.7%).",
+    "tokenCount": 44,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "7d68e9d901ade8d3e6b4e4f62a119c8ec9cf2bb1a65504f8bc332723cbb627bd"
+  },
+  {
+    "text": "More specifically, female (71.8% versus 28.2% males, P < 0.01) and advantaged (67.1% versus 32.9% disadvantaged, P ¼ 0.03) patients had a significantly higher rate of workup, while patients with imaging ordered by EM providers had a significantly lower rate of workup compared to those ordered by primary care (54.6% received no workup versus 7.5% from PCPs, P < 0.01).",
+    "tokenCount": 101,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "f76d3e40b3b8342c4c9ab34af15d81bfc3daca9cb9a8620abf89fb78d65567a4"
+  },
+  {
+    "text": "Among advan- taged patients, 54.8% had scans ordered by EM providers and 17.8% had scans ordered by PCPs ( Table 2 ). Of the disadvan- taged patients, scans ordered by EM providers and PCPs were 45.3% and 6.6%, respectively.",
+    "tokenCount": 63,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "b47dc8e7d9ccfeaeffdbe1c334fafb69d3ac9e2c1780d1f955795c722b6edd2b"
+  },
+  {
+    "text": "Factors associated with biochemical evaluation Logistic regression demonstrated disadvantaged patients were less likely to undergo any workup compared to advan- taged patients (odds ratio [OR] 0.51, confidence interval [CI] 0.26-0.98) ( Table 3 ).",
+    "tokenCount": 56,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "44e09cb21617a40efc36cc00e26c2461655bacb988e1d57d2c5be8a31264a089"
+  },
+  {
+    "text": "Other factors significantly associated with receiving any workup included female sex (OR 2.26, CI 1.19- 4.31) and scans ordered by PCPs (OR 4.08, CI 1.69-9.81) compared to EM providers.",
+    "tokenCount": 53,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "d2578c6d546e7b83817bd864b26c804375469f37392671e5c755ce58555cb93f"
+  },
+  {
+    "text": "While this was likely meant to signal that the lesion needed no further radiographic workup to evaluate for malignant potential, this was often interpreted as no further workup was needed at all, including biochemical workup.",
+    "tokenCount": 44,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "b0c3ea8ed850b6c400bf55b0f193bb930aefb7d95c484e84bdaed1691c4b1bb7"
+  },
+  {
+    "text": "For instance, a communi- cation from one PCP to a patient with an adrenal nodule noted that the scan demonstrated an adrenal lesion that was “benign,” and echoed the report that no further evaluation was needed, even though a functional workup was never performed.",
+    "tokenCount": 62,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "d1d9d5619007b547a9be8caec5ef138050cb8ec28bacc693becc6ea42f8cd992"
+  },
+  {
+    "text": "23 , 27 Furthermore, our secondary chart analysis revealed lack of follow-up as a common theme among patients in disadvantaged neighborhoods, reinforcing that many of the issues revolve around the ability to access Table 1 e Demographics.",
+    "tokenCount": 44,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "1d87ab4bd0121572d1ce3ab4cdf13b8fe80e13646b8114b3a1422aa6c0cc7b83"
+  },
+  {
+    "text": "No workup (n ¼ 174) % Any workup (n ¼ 71) % Total cohort (n ¼ 245) % P value Sex < 0.01 Female 53.5 71.8 58.8 Male 46.5 28.2 41.2 Age 0.10 < 65 54.6 66.2 58.0 > 65 45.4 33.8 42.0 Race/Ethnicity 0.68 White 86.2 85.9 86.1 Black 5.2 7.0 5.7 Hispanic 2.9 4.2 3.3 Asian 3.5 2.8 3.3 Other/Unknown 2.3 0.0 1.6 CCI 0.96 0 22.4 21.1 22.0 1 28.2 29.6 28.6 2 þ 49.4 49.3 49.4 ADI 0.03 Advantaged ( < 50 percentile) 51.5 67.1 56.0 Disadvantaged ( > 50 percentile) 48.5 32.9 44.0 Ordering provider < 0.001 EM 54.6 40.9 50.6 PCP 7.5 25.4 12.7 Specialist 37.9 33.8 36.7 Insurance 0.06 Private 38.5 54.9 43.3 Medicaid 1.7 4.2 2.5 Medicare 52.9 39.4 49.0 Uninsured 5.8 1.4 4.5 Tricare 1.2 0.0 0.8 146 journalofsurgicalresearch \u0001 july 2025 (311) 143 e 150",
+    "tokenCount": 329,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "bdbd149442fdf3d626fe004b56613138dbbc3a273dfead4b93c5da97df35a5a8"
+  },
+  {
+    "text": "Our chart review noted PCPs failing to acknowledge the nodule as a major reason for missed workup, and suggests that communication between EM and PCPs remains a challenge to properly addressing IAMs.",
+    "tokenCount": 40,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "d283c238fe9cab18933c35a97cd1ca95aeb52347059aab9fa8c787835e1c1645"
+  },
+  {
+    "text": "One strategy to improve coordination of care is the develop- ment of an adrenal nodule identification system which uses artificial intelligence natural language processing to create automated messages for PCPs regarding the nodule and guidelines for next steps.",
+    "tokenCount": 44,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "e1655261096c861a9dc037fd45f6c7e083686ebcae0472ca4617fd433c537fa1"
+  },
+  {
+    "text": "A recent study utilized artificial in- telligence technology to flag patient electronic health records with adrenal nodules 32 and pairing similar technology with notifications to PCPs can be an effective way to reduce the amount of IAMs lost during the transition of care.",
+    "tokenCount": 52,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "3b5c56a3d54b22857de0b2c7f46cf7dfe6d522aaee9b09b8548f8c8d2d22ea6b"
+  },
+  {
+    "text": "To combat the issue, the use of radiology reporting templates which encourage addi- tional testing and provide specific follow-up recommenda- tions have led to increased rates of follow-up imaging and biochemical testing.",
+    "tokenCount": 45,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "688dfcc7ef661fa8c7fba7a1901b3af9e11f3c7d23f4c3a5be7397fb24b4ceda"
+  },
+  {
+    "text": "33-35 While modifications to radiology reporting language (e.g., low concern for malignancy, could consider a functional workup) are a step in the right direction, additional protocols and interdisciplinary teams are neces- sary to ensure even more patients are adequately evaluated.",
+    "tokenCount": 58,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "76ad3eac6ce9aa5ed656ddcb4bfbbedb22c6ea2057efcde99c5859635b5fe2c0"
+  },
+  {
+    "text": "Recently, a program combining standardized radiologic reporting, chart-based messages to PCPs, and easier referrals to a multispecialty adrenal clinic resulted in an approximate 4x increase in the number of biochemical testing orders placed by PCPs.",
+    "tokenCount": 50,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "2aca21fbb15c723892ab0a12f86cc2f05720f25d8389eccf334cb9aab8efc455"
+  },
+  {
+    "text": "36 Similarly, interdisciplinary collaboration between radiologists, EM physicians, nurse case managers, and PCPs resulted in 95% of ED patients with incidental radi- ology findings having follow-up plans for evaluation after discharge.",
+    "tokenCount": 45,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "6bbc621091007e903eb2f1a8637435f22be8c261effd11d2fe98bfabc21d1c30"
+  },
+  {
+    "text": "Ordering provider ADI Advantaged ( < 50 percentile) Disadvantaged ( > 50 percentile) N% n % EM 74 54.8 48 45.3 PCP 24 17.8 7 6.6 Subspecialist 37 27.4 51 48.1 o’connor et al \u0001 adrenal incidentaloma management 147",
+    "tokenCount": 70,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "ed16488249b30ed48d3df9910e0bbade93d5047b7fb3cd71b127b1b1443635c2"
+  },
+  {
+    "text": "38 The adaptation of the socioecological model evaluates five domains (biological, behavioral, physical/built environment, sociocul- tural environment, and health-care system) and drives research and interventions toward solutions which address the fundamental causes of disparities.",
+    "tokenCount": 53,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "fcba6c18c8baa2958550538be3a7ab4bb1288ade1ac289a8d9e2c45a35f287d1"
+  },
+  {
+    "text": "Although we cannot determine the exact reason for each patient, one proposal could be the use of patient navi- gators who can help overcome environmental and neigh- borhood factors such as transportation, costs, and insurance coverage.",
+    "tokenCount": 46,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "3609df69ef9f190b85302eb4939b0d8d884dbb9db910a8a30e4fb83d2fbbbdd3"
+  },
+  {
+    "text": "Overall, the low rates of IAM follow-up, particularly among patients from disadvantaged neighborhoods, suggest the need for new protocols consid- ering health disparities to ensure more patients are adequately evaluated.",
+    "tokenCount": 40,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "61cd49092fbd23e910b292e9804d46e8d1c22204c0a95a4cfc24277967dc7b88"
+  },
+  {
+    "text": "Variable OR (95% CI) Sex Male ref Female 2.26 (1.19-4.31) Age > 65 ref < 65 1.34 (0.54-3.32) CCI 0 ref 1 1.03 (0.43-2.48) 2+ 1.16 (0.49-2.73) Race/Ethnicity White ref Black 1.54 (0.40-5.97) Hispanic 1.96 (0.37-10.49) Asian 0.68 (0.12-3.88) Other * Ordering provider ED ref PCP 4.08 (1.69-9.81) Subspecialist 1.48 (0.73-3.01) ADI < 50 ref > 50 0.51 (0.26-0.98) Insurance Private ref Medicaid 2.10 (0.35-12.67) Medicare 0.63 (0.25-1.55) Uninsured 0.16 (0.02-1.48) Tricare * * Not enough patients for analysis.",
+    "tokenCount": 227,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "21b0ffcabcc572bcbef4e44d3b1430258de32fba41f85e355eec0c42e996af1d"
+  },
+  {
+    "text": "Table 4 e Common themes for lack of workup among disadvantaged patients Radiologist recommended no workup PCP did not acknowledge nodule Patient lost to follow-up Number of patients 11 13 6 Selected quote from Electronic Health Record “Benign 1.6 cm left adrenal adenoma.",
+    "tokenCount": 59,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "74624d5d0e7cdb17d311b4b6a587a2fb82be983c165a3ae32f1e4780ef494d64"
+  },
+  {
+    "text": "No follow-up imaging is necessary” “Partially imaged, indeterminant 4.6 cm right adrenal mass, likely adenoma or adrenal myelolipoma, both benign.",
+    "tokenCount": 44,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "148443087747107abc145b2d1a1f73b5c1c831a90c7a1298be40de680095076a"
+  },
+  {
+    "text": "Consider follow-up in 12 mo if no history of malignancy versus nonurgent evaluation with adrenal protocol CT or MRI.” “Discussed the need to complete testing for evidence of hypercortisolism or pheochromocytoma.” MR ¼ magnetic resonance; MRI ¼ magnetic resonance imaging.",
+    "tokenCount": 70,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "b2235f335e6e8cbca9a1504603294d7485b09a1ef06af35030bb23bd5653c4d1"
+  },
+  {
+    "text": "Conclusions Overall, the rates of complete or partial guideline-based biochemical workup of adrenal incidentalomas in our study population were low at 11% and 18%, respectively. Patient neighborhood disadvantage and studies ordered by EM pro- viders were associated with lower rates of biochemical workup. Further investigation into barriers to IAM workup and focused interventions to improve the rate of IAM workup for patients in disadvantaged settings are needed. Supplementary Materials Supplementary data related to this article can be found at https://doi.org/10.1016/j.jss.2025.04.031 . Disclosure John P. O’Connor reports that financial support was provided by Herman and Gwendolyn Shapiro Foundation. Amy Kind reports financial support was provided by National Institute on Aging. The other authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. Funding None. CRediT authorship contribution statement John P. O’Connor: Writing e review & editing, Writing e original draft, Investigation, Formal analysis, Data curation. Alekya Poloju: Investigation, Formal analysis, Data curation. Samantha K. Pabich: Project administration, Methodology, Data curation. Betty Allen: Investigation, Data curation. Rebecca Sippel: Supervision, Project administration, Method- ology. Amy Kind: Supervision, Methodology. Alexander Chiu: Writing e review & editing, Validation, Supervision, Project administration, Methodology, Formal analysis, Data curation, Conceptualization. references 1. Sherlock M, Scarsbrook A, Abbas A, et al. Adrenal incidentaloma. Endocr Rev . 2020;41:775 e 820 . 2. Ebbehoj A, Li D, Kaur RJ, et al. Epidemiology of adrenal tumours in Olmsted County, Minnesota, USA: a population- based cohort study. Lancet Diabetes Endocrinol . 2020;8:894 e 902 . 3. Geelhoed GW, Druy EM. Management of the adrenal “incidentaloma.”. Surgery . 1982;92:866 e 874 . 4. Fassnacht M, Arlt W, Bancos I, et al. Management of adrenal incidentalomas: European society of endocrinology clinical practice guideline in collaboration with the European network for the study of adrenal tumors. Eur J Endocrinol . 2016;175:G1 e G34 . 5. Song JH, Chaudhry FS, Mayo-Smith WW. The incidental adrenal mass on CT: prevalence of adrenal disease in 1,049 consecutive adrenal masses in patients with No known malignancy. Am J Roentgenol . 2008;190:1163 e 1168 . 6. Zeiger MA, Thompson GB, Duh QY, et al. American association of clinical endocrinologists and American association of endocrine surgeons medical guidelines for the management of adrenal incidentalomas. Endocr Pract . 2009;15:1 e 20 . 7. Yilmaz N, Avsar E, Tazegul G, Sari R, Altunbas H, Balci MK. Clinical characteristics and follow-up results of adrenal incidentaloma. Exp Clin Endocrinol Diabetes . 2021;129:349 e 356 . 8. Sconfienza E, Tetti M, Forestiero V, Veglio F, Mulatero P, Monticone S. Prevalence of functioning adrenal incidentalomas: a systematic review and meta-analysis. J Clin Endocrinol Metab . 2023;108:1813 e 1823 . 9. Maas M, Nassiri N, Bhanvadia S, Carmichael JD, Duddalwar V, Daneshmand S.",
+    "tokenCount": 799,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "43159fd8b2e24eacaea15780564cc9880438664365e262545fd7ceabe4a41bf9"
+  },
+  {
+    "text": "Discrepancies in the recommended management of adrenal incidentalomas by various guidelines. J Urol . 2021;205:52 e 59 . 10. Taya M, Paroder V, Bellin E, Haramati LB. The relationship between adrenal incidentalomas and mortality risk. Eur Radiol . 2019;29:6245 e 6255 . 11. Di DG, Vicennati V, Garelli S, et al. Cardiovascular events and mortality in patients with adrenal incidentalomas that are either non-secreting or associated with intermediate phenotype or subclinical Cushing’s syndrome: a 15-year retrospective study. Lancet Diabetes Endocrinol . 2014;2:396 e 405 . 12. Feeney T, Madiedo A, Knapp PE, Gupta A, McAneny D, Drake FT. Incidental adrenal masses: adherence to guidelines and methods to improve initial follow-up: a systematic review. J Surg Res . 2022;269:18 e 27 . 13. Cho JK, Zafar HM, Lalevic D, Cook TS. Patient factor disparities in imaging follow-up rates after incidental abdominal findings. Am J Roentgenol . 2019;212:589 e 595 . 14. Liao GJ, Liao JM, Lalevic D, Zafar HM, Cook TS. Location, location, location: the association between imaging setting and follow-up of findings of indeterminate malignant potential. J Am Coll Radiol . 2019;16:781 e 787 . 15. Charlson ME, Pompei P, Ales KL, MacKenzie CR. A new method of classifying prognostic comorbidity in longitudinal studies: development and validation. J Chronic Dis . 1987;40:373 e 383 . 16. Singh GK. Area deprivation and widening inequalities in US mortality, 1969-1998. Am J Public Health . 2003;93:1137 e 1143 . 17. Kind AJH, Buckingham WR. Making neighborhood- disadvantage metrics accessible d the neighborhood atlas. N Engl J Med . 2018;378:2456 e 2458 . 18. Hu J, Kind AJH, Nerenz D. Area deprivation index predicts readmission risk at an urban teaching hospital. Am J Med Qual . 2018;33:493 e 501 . 19. Shen J, Fuemmeler BF, Sheppard VB, et al. Neighborhood disadvantage and biological aging biomarkers among breast cancer patients. Sci Rep . 2022;12:11006 . 20. Maher DI, Williams E, Grodski S, Serpell JW, Lee JC. Adrenal incidentaloma follow-up is influenced by patient, radiologic, and medical provider factors: a review of 804 cases. Surgery . 2018;164:1360 e 1365 . 21. Morelli V, Reimondo G, Giordano R, et al. Long-term follow-up in adrenal incidentalomas: an Italian multicenter study. J Clin Endocrinol Metab . 2014;99:827 e 834 . 22. Durfey SNM, Kind AJH, Buckingham WR, DuGoff EH, Trivedi AN. Neighborhood disadvantage and chronic disease management. Health Serv Res . 2019;54:206 e 216 . o’connor et al \u0001 adrenal incidentaloma management 149",
+    "tokenCount": 698,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "ee7a8e37baf7d1a62bc852302fce1ec939a2daecb93d42142ec21d0dd986a3d5"
+  },
+  {
+    "text": "Kirby JB, Kaneda T. Neighborhood socioeconomic disadvantage and access to health care. J Health Soc Behav . 2005;46:15 e 31 . Schut RA, Mortani Barbosa EJ. Racial/ethnic disparities in follow-up adherence for incidental pulmonary nodules: an application of a cascade-of-care Framework. J Am Coll Radiol . 2020;17:1410 e 1419 .",
+    "tokenCount": 86,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "f9525ee843fcc385d11bce314e23bb1e491f27225b8f8ffcceda6aba89efced2"
+  },
+  {
+    "text": "Racial and ethnic disparities in hypertension: barriers and opportunities to improve blood pressure control. Curr Cardiol Rep . 2023;25:17 e 27 . Hassan S, Gujral UP, Quarells RC, et al. Disparities in diabetes prevalence and management by race and ethnicity in the USA: defining a path forward. Lancet Diabetes Endocrinol . 2023;11:509 e 524 . Hussein M, Diez Roux AV, Field RI. Neighborhood socioeconomic status and primary health care: usual points of access and temporal trends in a major US urban area. J Urban Health Bull N Y Acad Med . 2016;93:1027 e 1045 . Nwana N, Chan W, Langabeer J, Kash B, Krause TM. Does hospital location matter? Association of neighborhood socioeconomic disadvantage with hospital quality in US metropolitan settings. Health Place . 2022;78:102911 . Feeney T, Talutis S, Janeway M, et al. Evaluation of incidental adrenal masses at a tertiary referral and trauma center. Surgery . 2020;167:868 e 875 . Becker J, Woloszyn J, Bold R, Campbell MJ. The adrenal incidentaloma: an opportunity to improve patient care. J Gen Intern Med . 2018;33:256 e 257 . Talutis SD, Childs E, Goldman AL, et al. Strategies to optimize management of incidental radiographic findings in the primary care setting: a mixed methods study. Am J Surg . 2022;223:297 e 302 . Schumm M, Hu MY, Sant V, et al. Automated extraction of incidental adrenal nodules from electronic health records. Surgery . 2023;173:52 e 58 . Woods AP, Godley F, Feeney T, et al. A standardized radiology template improves incidental adrenal mass follow-up: a prospective effectiveness and implementation study. JAm Coll Radiol . 2023;20:87 e 97 . Hamilton AE, Green RL, Gao TP, et al. To report hounsfeld units or not: there is no question. Am J Surg . 2024;229:111 e 115 . Watari J, Vekaria S, Lin Y, et al. Radiology report language positively influences adrenal incidentaloma guideline adherence. Am J Surg . 2022;223:231 e 236 .",
+    "tokenCount": 490,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "bf85a6a09ee44cb0ffd35362535f17d0b2206f3afbbbe6a452a22586b159364b"
+  },
+  {
+    "text": "Prospective study of a system-wide adrenal incidentaloma quality improvement initiative. J Am Coll Surg . 2024;238:961 e 970 . Barrett TW, Garland NM, Freeman CL, et al. Catching those who fall through the cracks: integrating a follow-up process for emergency department patients with incidental radiologic findings. Ann Emerg Med . 2022;80:235 e 242 .",
+    "tokenCount": 81,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "821a43510f40d9fba82b2c9400634813e595c55d882ef74b78930814856cfb89"
+  },
+  {
+    "text": "The national Institute on minority health and health disparities research Framework. Am J Public Health . 2019;109:S16 e S20 . Freund KM, Battaglia TA, Calhoun E, et al. Impact of patient navigation on timely cancer care: the patient navigation research program. JNCI J Natl Cancer Inst . 2014;106:dju115 . Shusted CS, Barta JA, Lake M, et al. The case for patient navigation in lung cancer screening in vulnerable populations: asystematicreview. Popul Health Manag . 2019;22:347 e 361 . Ell K, Vourlekis B, Lee PJ, Xie B. Patient navigation and case management following an abnormal mammogram: a randomized clinical trial. Prev Med . 2007;44:26 e 33 . 150 journalofsurgicalresearch \u0001 july 2025 (311) 143 e 150",
+    "tokenCount": 181,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "43783c8a5c24b99217a0d1c927af99697ad9a6474dacef16a04b6fa4afb9fc78"
+  }
+]

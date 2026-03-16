@@ -146,9 +146,7 @@ export async function semanticChunkPages(
   const settings = { ...DEFAULT_OPTIONS, ...options };
   const sentences: { text: string; page: number }[] = [];
 
-  // =====================
   // Sentence Extraction
-  // =====================
   for (const page of pages) {
 
     if (page.page <= settings.skipHeaderPages) continue;
@@ -214,9 +212,7 @@ export async function semanticChunkPages(
 
   if (!sentences.length) return [];
 
-  // =====================
   // Embeddings
-  // =====================
   const inputs = sentences.map(s => s.text);
   const embeddings: number[][] = [];
 
@@ -232,9 +228,7 @@ export async function semanticChunkPages(
     embeddings.push(...response.data.map(d => d.embedding));
   }
 
-  // =====================
   // Semantic Chunking
-  // =====================
   const chunks: ChunkResult[] = [];
 
   let currentTexts: string[] = [];
@@ -298,9 +292,7 @@ export async function semanticChunkPages(
     pushChunk(chunks, finalText, currentPages, settings.maxTokens);
   }
 
-  // =====================
   // Save
-  // =====================
   await fs.mkdir(settings.saveDir, { recursive: true });
 
   await fs.writeFile(
