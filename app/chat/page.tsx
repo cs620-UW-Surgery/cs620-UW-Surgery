@@ -18,7 +18,18 @@ export default function ChatPage() {
   const [clearing, setClearing] = useState(false);
   const [clientState, setClientState] = useState<Record<string, unknown>>({});
   const [appConfig, setAppConfig] = useState<Record<string, string | null>>({});
+  const [isRecording, setIsRecording] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const recognitionRef = useRef<ReturnType<typeof createRecognition> | null>(null);
+  const preRecordInputRef = useRef('');
+
+  useEffect(() => {
+    const SR =
+      (window as any).SpeechRecognition ||
+      (window as any).webkitSpeechRecognition;
+    setSpeechSupported(!!SR);
+  }, []);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -168,6 +179,63 @@ export default function ChatPage() {
     }
   };
 
+  function createRecognition() {
+    const SR =
+      (window as any).SpeechRecognition ||
+      (window as any).webkitSpeechRecognition;
+    if (!SR) return null;
+
+    const recognition = new SR() as SpeechRecognition;
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    recognition.lang = 'en-US';
+
+    recognition.onresult = (event: SpeechRecognitionEvent) => {
+      let finalTranscript = '';
+      let interimTranscript = '';
+      for (let i = 0; i < event.results.length; i++) {
+        const result = event.results[i];
+        if (result.isFinal) {
+          finalTranscript += result[0].transcript;
+        } else {
+          interimTranscript += result[0].transcript;
+        }
+      }
+      const prefix = preRecordInputRef.current;
+      const separator = prefix && !prefix.endsWith(' ') ? ' ' : '';
+      setInput(prefix + separator + finalTranscript + interimTranscript);
+    };
+
+    recognition.onerror = (event: SpeechRecognitionErrorEvent) => {
+      console.error('Speech recognition error:', event.error);
+      setIsRecording(false);
+    };
+
+    recognition.onend = () => {
+      setIsRecording(false);
+    };
+
+    return recognition;
+  }
+
+  const toggleRecording = () => {
+    if (isRecording) {
+      recognitionRef.current?.stop();
+      setIsRecording(false);
+      return;
+    }
+
+    if (!speechSupported) return;
+
+    const recognition = createRecognition();
+    if (!recognition) return;
+
+    preRecordInputRef.current = input;
+    recognitionRef.current = recognition;
+    recognition.start();
+    setIsRecording(true);
+  };
+
   return (
     <div className="grid gap-8">
       <section className="card fade-in">
@@ -299,19 +367,55 @@ export default function ChatPage() {
 
       <section className="card">
         <div className="grid gap-4">
-          <textarea
-            value={input}
-            onChange={(event) => setInput(event.target.value)}
-            onKeyDown={(event) => {
-              if (event.key === 'Enter' && !event.shiftKey) {
-                event.preventDefault();
-                handleSend();
-              }
-            }}
-            rows={3}
-            placeholder="What is the usual workup after an incidental adrenal nodule?"
-            className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3"
-          />
+          <div className="relative">
+            <textarea
+              value={input}
+              onChange={(event) => setInput(event.target.value)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' && !event.shiftKey) {
+                  event.preventDefault();
+                  handleSend();
+                }
+              }}
+              rows={3}
+              placeholder="What is the usual workup after an incidental adrenal nodule?"
+              className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3 pr-12"
+            />
+            {speechSupported && (
+              <button
+                type="button"
+                onClick={toggleRecording}
+                disabled={loading}
+                aria-label={isRecording ? 'Stop recording' : 'Start voice input'}
+                className={`absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full transition ${
+                  isRecording
+                    ? 'bg-uwred text-white animate-pulse'
+                    : 'bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-uwred'
+                } disabled:opacity-50`}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-4 w-4"
+                >
+                  <rect x="9" y="2" width="6" height="12" rx="3" />
+                  <path d="M5 10a7 7 0 0 0 14 0" />
+                  <line x1="12" y1="17" x2="12" y2="22" />
+                </svg>
+              </button>
+            )}
+          </div>
+          {isRecording && (
+            <div className="flex items-center gap-2 text-xs font-semibold text-uwred">
+              <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-uwred" />
+              Listening… speak now
+            </div>
+          )}
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted">
             <span>Please avoid entering sensitive identifiers like DOB, SSN, or insurance numbers.</span>
             <button
