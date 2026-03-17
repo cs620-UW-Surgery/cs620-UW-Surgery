@@ -1,5 +1,4 @@
 Website Link: https://cs620.masonmaeder.com/ 
-  
 # Adrenal Nodule Clinic Navigator
 
 Patient-facing web app that explains typical adrenal nodule workups, testing instructions, and scheduling/cost navigation. It provides general education only and includes safety escalation for red flags.
