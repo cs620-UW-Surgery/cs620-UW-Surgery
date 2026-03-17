@@ -2,7 +2,7 @@
 
 Patient-facing web app that explains typical adrenal nodule workups, testing instructions, and scheduling/cost navigation. It provides general education only and includes safety escalation for red flags.
 
-Website Link: https://cs620.masonmaeder.com/ 
+Website Link: [https://cs620.masonmaeder.com/](https://cs620-uw-surgery.vercel.app/chat) 
 
 ## Stack
 - Next.js (App Router) + TypeScript
