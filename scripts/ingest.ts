@@ -80,7 +80,7 @@ async function ingestFile(filePath: string, openai: OpenAI, version: number, dry
 
   const chunks = await semanticChunkPages(pages, openai, {
     similarityThreshold: 0.75,
-    maxTokens: maxTokens ?? 800,
+    ...(maxTokens ? { maxTokens } : {}),
     outputFileName: `${sourceDoc}_semantic.json`
   });
   console.log(`✓ ${sourceDoc} chunking completed (${chunks.length} chunks)`);

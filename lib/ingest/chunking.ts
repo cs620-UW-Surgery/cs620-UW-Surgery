@@ -144,12 +144,14 @@ export async function semanticChunkPages(
 ): Promise<ChunkResult[]> {
 
   const settings = { ...DEFAULT_OPTIONS, ...options };
+  const effectiveSkipHeaderPages =
+    pages.length <= settings.skipHeaderPages ? 0 : settings.skipHeaderPages;
   const sentences: { text: string; page: number }[] = [];
 
   // Sentence Extraction
   for (const page of pages) {
 
-    if (page.page <= settings.skipHeaderPages) continue;
+    if (page.page <= effectiveSkipHeaderPages) continue;
 
     const normalized = normalizeText(page.text);
     if (!normalized) continue;
@@ -263,10 +265,18 @@ export async function semanticChunkPages(
 
     if (shouldSplit) {
 
-      if (currentTokenCount >= settings.minChunkTokens) {
+      if (currentTokenCount < settings.minChunkTokens) {
+        if (candidateTokenCount <= settings.maxTokens) {
+          currentTexts.push(sentence);
+          currentPages.push(sentences[i].page);
+          currentEmbeddings.push(sentenceEmbedding);
+          currentTokenCount = candidateTokenCount;
+          continue;
+        }
+      }
 
+      if (currentTokenCount > 0) {
         const finalText = currentTexts.join(' ');
-
         pushChunk(chunks, finalText, currentPages, settings.maxTokens);
       }
 
@@ -285,10 +295,8 @@ export async function semanticChunkPages(
   }
 
   // final flush
-  if (currentTexts.length && currentTokenCount >= settings.minChunkTokens) {
-
+  if (currentTexts.length) {
     const finalText = currentTexts.join(' ');
-
     pushChunk(chunks, finalText, currentPages, settings.maxTokens);
   }
 
