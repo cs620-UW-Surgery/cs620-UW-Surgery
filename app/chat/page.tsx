@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { AssistantTurn } from '@/lib/schemas';
 import CardRenderer from '@/components/cards/CardRenderer';
 
@@ -18,6 +18,7 @@ export default function ChatPage() {
   const [clearing, setClearing] = useState(false);
   const [clientState, setClientState] = useState<Record<string, unknown>>({});
   const [appConfig, setAppConfig] = useState<Record<string, string | null>>({});
+  const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -68,6 +69,10 @@ export default function ChatPage() {
 
     loadConfig();
   }, []);
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages, loading]);
 
   const handleSend = async () => {
     if (!input.trim() || loading) return;
@@ -166,12 +171,12 @@ export default function ChatPage() {
   return (
     <div className="grid gap-8">
       <section className="card fade-in">
-        <h1 className="font-serif text-3xl text-ink">Navigator Chat</h1>
+        <h1 className="font-serif text-3xl text-darkgray">Navigator Chat</h1>
         <p className="mt-2 text-muted">
           Ask about typical testing steps, prep instructions, or what to expect after your referral.
         </p>
         {appConfig.clinic_description && (
-          <div className="mt-4 rounded-2xl border border-clay bg-white/70 px-4 py-3 text-sm text-muted">
+          <div className="mt-4 rounded-2xl border border-accent bg-white/70 px-4 py-3 text-sm text-muted">
             {appConfig.clinic_description}
           </div>
         )}
@@ -180,10 +185,10 @@ export default function ChatPage() {
       <section className="grid gap-4">
         {messages.map((message) => (
           <article key={message.id} className="card">
-            <div className="text-xs uppercase tracking-[0.2em] text-moss">
+            <div className="text-xs uppercase tracking-[0.2em] text-uwred">
               {message.role === 'user' ? 'You' : 'Navigator'}
             </div>
-            <p className="mt-3 text-base text-ink">{message.content}</p>
+            <p className="mt-3 text-base text-darkgray">{message.content}</p>
 
             {message.role === 'assistant' && message.data && (
               <div className="mt-4 grid gap-4 text-sm text-muted">
@@ -207,12 +212,12 @@ export default function ChatPage() {
                   </div>
                 )}
 
-                <div className="text-xs uppercase tracking-[0.2em] text-moss">
+                <div className="text-xs uppercase tracking-[0.2em] text-uwred">
                   Mode: {message.data.mode} | Triage: {message.data.triage_level}
                 </div>
 
                 <div>
-                  <div className="font-semibold text-ink">Disclaimer</div>
+                  <div className="font-semibold text-darkgray">Disclaimer</div>
                   <p className="mt-2">{message.data.disclaimer}</p>
                 </div>
 
@@ -254,7 +259,7 @@ export default function ChatPage() {
                             handleShareSummary();
                           }
                         }}
-                        className="rounded-full border border-moss px-4 py-2 text-xs font-semibold text-moss"
+                        className="rounded-full border border-uwred px-4 py-2 text-xs font-semibold text-uwred"
                       >
                         {action.label}
                       </button>
@@ -263,7 +268,7 @@ export default function ChatPage() {
                 )}
 
                 <div>
-                  <div className="font-semibold text-ink">Citations</div>
+                  <div className="font-semibold text-darkgray">Citations</div>
                   <ul className="mt-2 list-disc pl-5">
                     {message.data.citations.map((item) => (
                       <li key={`${item.citation_key}-${item.quote ?? 'none'}`}>
@@ -277,6 +282,19 @@ export default function ChatPage() {
             )}
           </article>
         ))}
+
+        {loading && (
+          <article className="card">
+            <div className="text-xs uppercase tracking-[0.2em] text-uwred">Navigator</div>
+            <div className="mt-3 flex items-center gap-1.5">
+              <span className="thinking-dot" />
+              <span className="thinking-dot thinking-dot-delay-1" />
+              <span className="thinking-dot thinking-dot-delay-2" />
+            </div>
+          </article>
+        )}
+
+        <div ref={messagesEndRef} />
       </section>
 
       <section className="card">
@@ -284,16 +302,22 @@ export default function ChatPage() {
           <textarea
             value={input}
             onChange={(event) => setInput(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                handleSend();
+              }
+            }}
             rows={3}
             placeholder="What is the usual workup after an incidental adrenal nodule?"
-            className="w-full rounded-2xl border border-clay bg-white/80 px-4 py-3"
+            className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3"
           />
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted">
             <span>Please avoid entering sensitive identifiers like DOB, SSN, or insurance numbers.</span>
             <button
               type="button"
               onClick={handleClearHistory}
-              className="font-semibold text-moss transition hover:underline"
+              className="font-semibold text-uwred transition hover:underline"
               disabled={clearing}
             >
               {clearing ? 'Clearing…' : 'Clear chat history'}
@@ -301,10 +325,10 @@ export default function ChatPage() {
           </div>
           <button
             onClick={handleSend}
-            className="rounded-full bg-moss px-6 py-3 text-sm font-semibold text-white"
+            className="rounded-full bg-uwred px-6 py-3 text-sm font-semibold text-white disabled:opacity-50"
             disabled={loading}
           >
-            {loading ? 'Thinking...' : 'Send'}
+            Send
           </button>
         </div>
       </section>

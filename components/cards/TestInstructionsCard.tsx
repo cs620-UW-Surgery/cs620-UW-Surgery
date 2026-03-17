@@ -18,7 +18,7 @@ export default function TestInstructionsCard({
     <CardFrame title="Test prep instructions" typeLabel="Test instructions">
       {(summary || bullets.length > 0) && (
         <div className="mb-4">
-          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-moss">
+          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-uwred">
             Why these tests
           </div>
           {summary && <p className="mt-2">{summary}</p>}
@@ -34,9 +34,9 @@ export default function TestInstructionsCard({
 
       <div className="grid gap-3">
         {tests.map((test) => (
-          <div key={test.name} className="rounded-xl border border-clay/60 bg-white/70 p-3">
-            <div className="text-sm font-semibold text-ink">{test.name}</div>
-            <div className="mt-2 text-xs uppercase tracking-[0.2em] text-moss">
+          <div key={test.name} className="rounded-xl border border-accent/60 bg-white/70 p-3">
+            <div className="text-sm font-semibold text-darkgray">{test.name}</div>
+            <div className="mt-2 text-xs uppercase tracking-[0.2em] text-uwred">
               How to prepare
             </div>
             <ul className="mt-2 list-disc pl-5">

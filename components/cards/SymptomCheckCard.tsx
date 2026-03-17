@@ -38,7 +38,7 @@ export default function SymptomCheckCard({
         {symptoms.map((symptom) => (
           <label
             key={symptom}
-            className="flex items-start gap-2 rounded-xl border border-clay/60 bg-white/70 px-3 py-2"
+            className="flex items-start gap-2 rounded-xl border border-accent/60 bg-white/70 px-3 py-2"
           >
             <input
               type="checkbox"
@@ -53,11 +53,11 @@ export default function SymptomCheckCard({
       <div className="mt-3 flex flex-wrap items-center gap-3">
         <button
           onClick={handleSubmit}
-          className="rounded-full bg-moss px-4 py-2 text-xs font-semibold text-white"
+          className="rounded-full bg-uwred px-4 py-2 text-xs font-semibold text-white"
         >
           Update symptoms
         </button>
-        {saved && <span className="text-xs text-moss">Saved to your session.</span>}
+        {saved && <span className="text-xs text-uwred">Saved to your session.</span>}
       </div>
     </CardFrame>
   );

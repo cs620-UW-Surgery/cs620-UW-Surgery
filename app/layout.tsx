@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { Fraunces, Manrope } from 'next/font/google';
 import Nav from '@/components/Nav';
+import PiiWarningModal from '@/components/PiiWarningModal';
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -29,8 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${fraunces.variable} ${manrope.variable}`}>
       <body>
+        <PiiWarningModal />
         <div className="page-shell">
-          <header className="sticky top-0 z-40 border-b border-clay/40 bg-sand/85 backdrop-blur">
+          <header className="sticky top-0 z-40 border-b-2 border-uwred bg-white/90 backdrop-blur">
             <div className="container-shell py-4 md:py-5">
               <Nav />
             </div>
