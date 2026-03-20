@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Document Viewer</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/web/pdf_viewer.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #525659; font-family: system-ui, sans-serif; }
+  #viewer { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 12px 0; }
+
+  .page-wrap {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+  }
+  .page-wrap canvas { display: block; }
+
+  /* Override pdf.js textLayer to make highlighted spans visible */
+  .textLayer .search-hl {
+    background: rgba(197, 5, 12, 0.35) !important;
+    border-radius: 3px;
+  }
+
+  #loading { color: #fff; text-align: center; padding: 48px; font-size: 14px; }
+  #error-msg { color: #fca5a5; text-align: center; padding: 48px; font-size: 14px; display: none; }
+</style>
+</head>
+<body>
+<div id="loading">Loading document...</div>
+<div id="error-msg"></div>
+<div id="viewer"></div>
+
+<script type="module">
+import { getDocument, GlobalWorkerOptions, TextLayer }
+  from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.min.mjs';
+
+GlobalWorkerOptions.workerSrc =
+  'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs';
+
+const params = new URLSearchParams(location.search);
+const file = params.get('file');
+const targetPage = parseInt(params.get('page') || '0', 10);
+const targetPageEnd = parseInt(params.get('pageEnd') || '0', 10) || targetPage;
+const search = (params.get('search') || '').trim();
+
+console.log('[pdfjs-viewer] search text:', JSON.stringify(search));
+console.log('[pdfjs-viewer] targetPage:', targetPage, 'targetPageEnd:', targetPageEnd);
+
+if (!file) {
+  showError('No document specified.');
+} else {
+  main(file).catch(err => { console.error(err); showError('Failed to load document.'); });
+}
+
+function showError(msg) {
+  document.getElementById('loading').style.display = 'none';
+  const el = document.getElementById('error-msg');
+  el.style.display = 'block';
+  el.textContent = msg;
+}
+
+async function main(url) {
+  const pdf = await getDocument({
+    url,
+    cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/cmaps/',
+    cMapPacked: true
+  }).promise;
+
+  document.getElementById('loading').style.display = 'none';
+  const viewerEl = document.getElementById('viewer');
+  const scale = 1.5;
+  const dpr = window.devicePixelRatio || 1;
+  let scrollTarget = null;
+
+  for (let num = 1; num <= pdf.numPages; num++) {
+    const page = await pdf.getPage(num);
+    const viewport = page.getViewport({ scale });
+
+    // --- wrapper ---
+    const wrap = document.createElement('div');
+    wrap.className = 'page-wrap';
+    wrap.style.width = viewport.width + 'px';
+    wrap.style.height = viewport.height + 'px';
+
+    // --- canvas ---
+    const canvas = document.createElement('canvas');
+    canvas.width  = Math.floor(viewport.width  * dpr);
+    canvas.height = Math.floor(viewport.height * dpr);
+    canvas.style.width  = viewport.width  + 'px';
+    canvas.style.height = viewport.height + 'px';
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+    wrap.appendChild(canvas);
+    await page.render({ canvasContext: ctx, viewport }).promise;
+
+    // --- text layer (uses pdf.js built-in TextLayer for correct positioning) ---
+    const textLayerDiv = document.createElement('div');
+    textLayerDiv.className = 'textLayer';
+    wrap.appendChild(textLayerDiv);
+
+    const textContent = await page.getTextContent();
+    const textLayer = new TextLayer({
+      textContentSource: textContent,
+      container: textLayerDiv,
+      viewport
+    });
+    await textLayer.render();
+
+    viewerEl.appendChild(wrap);
+
+    // --- highlight on the target page range, or all pages if no page specified ---
+    if (search && (targetPage === 0 || (num >= targetPage && num <= targetPageEnd))) {
+      const found = highlightSearch(textLayerDiv, search);
+      console.log(`[pdfjs-viewer] page ${num}: highlight ${found ? 'FOUND' : 'NOT FOUND'}`);
+      if (!found && num === targetPage) {
+        // Log what the page text looks like for debugging
+        const pageText = Array.from(textLayerDiv.querySelectorAll('span')).map(s => s.textContent).join(' ');
+        console.log('[pdfjs-viewer] page text (first 300):', pageText.slice(0, 300));
+        console.log('[pdfjs-viewer] search norm:', norm(search).slice(0, 200));
+        console.log('[pdfjs-viewer] page norm:', norm(pageText).slice(0, 300));
+      }
+      if (found && !scrollTarget) scrollTarget = wrap;
+    }
+    if (num === targetPage && !scrollTarget) scrollTarget = wrap;
+  }
+
+  if (scrollTarget) {
+    requestAnimationFrame(() =>
+      scrollTarget.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    );
+  }
+}
+
+/* ---- Search & Highlight ---- */
+
+// Extract content words (4+ chars, no stopwords) for fuzzy matching
+const STOP_WORDS = new Set([
+  'the','and','for','are','but','not','you','all','can','had','her','was','one',
+  'our','out','has','have','been','were','they','their','will','when','who',
+  'with','this','that','from','than','into','also','each','which','more','other',
+  'these','those','only','such','some','most','both','does','about','would',
+  'should','could','being','after','before','between','during','without','through'
+]);
+
+function extractKeywords(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length >= 4 && !STOP_WORDS.has(w));
+}
+
+function highlightSearch(container, searchText) {
+  const spans = Array.from(container.querySelectorAll('span'));
+  if (spans.length === 0) return false;
+
+  const keywords = extractKeywords(searchText);
+  if (keywords.length === 0) return false;
+
+  // Score each span by how many keywords it contains
+  const spanScores = spans.map(span => {
+    const text = (span.textContent || '').toLowerCase();
+    let score = 0;
+    for (const kw of keywords) {
+      if (text.includes(kw)) score++;
+    }
+    return { span, score };
+  });
+
+  // Find the best cluster: sliding window of spans where keywords concentrate
+  const WINDOW = 12; // look at groups of ~12 spans
+  let bestStart = 0;
+  let bestScore = 0;
+
+  for (let i = 0; i <= spanScores.length - 1; i++) {
+    const end = Math.min(i + WINDOW, spanScores.length);
+    let windowScore = 0;
+    for (let j = i; j < end; j++) {
+      windowScore += spanScores[j].score;
+    }
+    if (windowScore > bestScore) {
+      bestScore = windowScore;
+      bestStart = i;
+    }
+  }
+
+  if (bestScore === 0) {
+    console.log('[highlight] no keyword matches found');
+    return false;
+  }
+
+  // Expand the best window to include all adjacent spans that have matches
+  let hlStart = bestStart;
+  let hlEnd = Math.min(bestStart + WINDOW, spanScores.length);
+
+  // Expand backward while adjacent spans have hits
+  while (hlStart > 0 && spanScores[hlStart - 1].score > 0) hlStart--;
+  // Expand forward while adjacent spans have hits
+  while (hlEnd < spanScores.length && spanScores[hlEnd].score > 0) hlEnd++;
+
+  // Highlight the cluster
+  let found = false;
+  for (let i = hlStart; i < hlEnd; i++) {
+    spanScores[i].span.classList.add('search-hl');
+    found = true;
+  }
+
+  const matchedKws = new Set();
+  for (let i = hlStart; i < hlEnd; i++) {
+    const text = (spanScores[i].span.textContent || '').toLowerCase();
+    for (const kw of keywords) {
+      if (text.includes(kw)) matchedKws.add(kw);
+    }
+  }
+  console.log(`[highlight] matched ${matchedKws.size}/${keywords.length} keywords, highlighted spans ${hlStart}-${hlEnd}`);
+
+  return found;
+}
+</script>
+</body>
+</html>

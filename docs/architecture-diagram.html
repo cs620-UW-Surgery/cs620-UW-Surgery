@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Adrenal Nodule Clinic Navigator — Architecture</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #fff; padding: 32px 16px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 22px; color: #c5050c; margin-bottom: 6px; text-align: center; }
+  .subtitle { font-size: 13px; color: #555; margin-bottom: 32px; line-height: 1.6; text-align: center; max-width: 740px; margin-left: auto; margin-right: auto; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Adrenal Nodule Clinic Navigator</h1>
+  <p class="subtitle">
+    A RAG-powered patient education tool that retrieves clinical guideline excerpts via embedding similarity, generates structured responses through a multi-agent pipeline, and provides PDF citations with page-level highlighting.
+  </p>
+
+  <svg viewBox="0 0 880 820" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+    <defs>
+      <marker id="ah" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#bbb"/></marker>
+      <marker id="ar" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#c5050c"/></marker>
+      <marker id="ag" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#4caf50"/></marker>
+      <marker id="at" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#00897b"/></marker>
+      <filter id="sh"><feDropShadow dx="0" dy="1.5" stdDeviation="2.5" flood-opacity="0.07"/></filter>
+    </defs>
+
+    <!-- ====== PATIENT ====== -->
+    <rect x="310" y="8" width="260" height="44" rx="22" fill="#c5050c" filter="url(#sh)"/>
+    <text x="440" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">Patient asks a question</text>
+    <text x="440" y="42" text-anchor="middle" fill="#ffccd0" font-size="9">Chat interface (/chat)</text>
+
+    <line x1="440" y1="52" x2="440" y2="74" stroke="#c5050c" stroke-width="2" marker-end="url(#ar)"/>
+
+    <!-- ====== STEP 1: AGENT PIPELINE ====== -->
+    <rect x="180" y="78" width="520" height="112" rx="10" fill="#f7f8fc" stroke="#c0c8e0" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="200" y="96" fill="#6070a0" font-size="10" font-weight="700" letter-spacing="1">STEP 1 — AGENT PIPELINE</text>
+    <text x="555" y="96" fill="#999" font-size="8" font-weight="600">GPT-4.1-mini</text>
+
+    <!-- Gatekeeper -->
+    <rect x="200" y="106" width="150" height="32" rx="8" fill="#2a2a2a"/>
+    <text x="275" y="120" text-anchor="middle" fill="#fff" font-size="11" font-weight="600">Gatekeeper</text>
+    <text x="275" y="132" text-anchor="middle" fill="#aaa" font-size="8">Safety + medical emergency</text>
+
+    <!-- Parallel symbol -->
+    <text x="360" y="118" text-anchor="middle" fill="#8090c0" font-size="14" font-weight="300">&#x2016;</text>
+
+    <!-- Analyzer -->
+    <rect x="370" y="106" width="150" height="32" rx="8" fill="#2a2a2a"/>
+    <text x="445" y="120" text-anchor="middle" fill="#fff" font-size="11" font-weight="600">Analyzer</text>
+    <text x="445" y="132" text-anchor="middle" fill="#aaa" font-size="8">Classifies question type</text>
+
+    <!-- Arrow down to scope -->
+    <line x1="440" y1="138" x2="440" y2="150" stroke="#bbb" stroke-width="1.2" marker-end="url(#ah)"/>
+
+    <!-- Scope Validator -->
+    <rect x="290" y="152" width="300" height="28" rx="8" fill="#3a3a4a"/>
+    <text x="440" y="170" text-anchor="middle" fill="#fff" font-size="11" font-weight="600">Scope Validator — verifies adrenal topic</text>
+
+    <!-- Gatekeeper outcomes -->
+    <line x1="700" y1="120" x2="740" y2="120" stroke="#ccc" stroke-width="1.2" marker-end="url(#ah)" stroke-dasharray="4,3"/>
+    <rect x="744" y="100" width="120" height="56" rx="7" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+    <text x="804" y="118" text-anchor="middle" fill="#c62828" font-size="8.5" font-weight="600">medical_emergency</text>
+    <text x="804" y="130" text-anchor="middle" fill="#c62828" font-size="8">→ 911, no citations</text>
+    <text x="804" y="143" text-anchor="middle" fill="#888" font-size="8.5" font-weight="600">harmful</text>
+    <text x="804" y="153" text-anchor="middle" fill="#888" font-size="8">→ Block + redirect</text>
+
+    <!-- Arrow down from pipeline -->
+    <line x1="440" y1="190" x2="440" y2="216" stroke="#bbb" stroke-width="2" marker-end="url(#ah)"/>
+    <text x="452" y="208" fill="#6a6" font-size="8" font-weight="600">safe</text>
+
+    <!-- Spacer — no step 2 red flag scan anymore -->
+    <!-- Arrow into step 3 -->
+    <line x1="440" y1="216" x2="440" y2="286" stroke="#bbb" stroke-width="2" marker-end="url(#ah)"/>
+
+    <!-- ====== STEP 3: RAG RETRIEVAL ====== -->
+    <rect x="220" y="290" width="440" height="48" rx="10" fill="#e8f5e9" stroke="#81c784" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="240" y="310" fill="#2e7d32" font-size="10" font-weight="700" letter-spacing="1">STEP 2 — RAG RETRIEVAL</text>
+    <text x="240" y="326" fill="#558b2f" font-size="9">Question → vector embedding → top 12 chunks by cosine similarity</text>
+
+    <!-- DB box -->
+    <rect x="16" y="292" width="155" height="44" rx="8" fill="#e3f2fd" stroke="#64b5f6" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="93" y="310" text-anchor="middle" fill="#1565c0" font-size="10" font-weight="700">PostgreSQL</text>
+    <text x="93" y="324" text-anchor="middle" fill="#1976d2" font-size="8.5">289 chunks · 8 guideline PDFs</text>
+
+    <line x1="171" y1="314" x2="216" y2="314" stroke="#4caf50" stroke-width="1.2" marker-end="url(#ag)"/>
+
+    <line x1="440" y1="338" x2="440" y2="364" stroke="#bbb" stroke-width="2" marker-end="url(#ah)"/>
+
+    <!-- ====== STEP 4: ROUTER ====== -->
+    <rect x="260" y="368" width="360" height="44" rx="10" fill="#fff3e0" stroke="#ffb74d" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="280" y="386" fill="#bf6900" font-size="10" font-weight="700" letter-spacing="1">STEP 3 — ROUTER</text>
+    <text x="280" y="402" fill="#a05800" font-size="9">Picks response mode + which UI cards to show</text>
+    <text x="592" y="386" fill="#999" font-size="8" font-weight="600">GPT-4.1</text>
+
+    <!-- Mode labels -->
+    <rect x="744" y="370" width="120" height="38" rx="7" fill="#fff8ed" stroke="#ffe0a0" stroke-width="1"/>
+    <text x="804" y="387" text-anchor="middle" fill="#a07020" font-size="8.5" font-weight="600">Modes</text>
+    <text x="804" y="400" text-anchor="middle" fill="#b08030" font-size="7.5">FAQ · Intake · Summary · Triage</text>
+    <line x1="620" y1="390" x2="740" y2="390" stroke="#e0c080" stroke-width="1" marker-end="url(#ah)" stroke-dasharray="4,3"/>
+
+    <line x1="440" y1="412" x2="440" y2="438" stroke="#bbb" stroke-width="2" marker-end="url(#ah)"/>
+
+    <!-- ====== STEP 5: ANSWER LLM ====== -->
+    <rect x="220" y="442" width="440" height="56" rx="10" fill="#fff3e0" stroke="#ffb74d" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="240" y="460" fill="#bf6900" font-size="10" font-weight="700" letter-spacing="1">STEP 4 — GENERATE ANSWER</text>
+    <text x="240" y="474" fill="#a05800" font-size="9">LLM reads 12 retrieved chunks + router decision</text>
+    <text x="240" y="488" fill="#a05800" font-size="9">Outputs structured JSON: message, cards, citations</text>
+    <text x="632" y="460" fill="#999" font-size="8" font-weight="600">GPT-4.1</text>
+
+    <line x1="440" y1="498" x2="440" y2="524" stroke="#bbb" stroke-width="2" marker-end="url(#ah)"/>
+
+    <!-- ====== STEP 6: CITATION SANITIZER ====== -->
+    <rect x="250" y="528" width="380" height="40" rx="10" fill="#f3e5f5" stroke="#ce93d8" stroke-width="1.2" filter="url(#sh)"/>
+    <text x="270" y="546" fill="#6a1b9a" font-size="10" font-weight="700" letter-spacing="1">STEP 5 — VALIDATE CITATIONS</text>
+    <text x="270" y="560" fill="#7b1fa2" font-size="9">Only citations from retrieved chunks; top 3 shown to patient</text>
+
+    <line x1="440" y1="568" x2="440" y2="594" stroke="#c5050c" stroke-width="2" marker-end="url(#ar)"/>
+
+    <!-- ====== RESPONSE ====== -->
+    <rect x="240" y="598" width="400" height="60" rx="12" fill="#c5050c" filter="url(#sh)"/>
+    <text x="440" y="618" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">Patient sees the response</text>
+    <text x="440" y="634" text-anchor="middle" fill="#ffccd0" font-size="9.5">Answer + interactive UI cards + clickable PDF citations</text>
+    <text x="440" y="648" text-anchor="middle" fill="#ffccd0" font-size="9.5">Citations link to PDF viewer with page-level highlighting</text>
+
+    <!-- Card types -->
+    <rect x="16" y="602" width="190" height="52" rx="8" fill="#f8f8f8" stroke="#ddd" stroke-width="1"/>
+    <text x="111" y="620" text-anchor="middle" fill="#666" font-size="9" font-weight="700">7 UI Card Types</text>
+    <text x="111" y="634" text-anchor="middle" fill="#999" font-size="8">Roadmap · Test Prep · Symptoms</text>
+    <text x="111" y="646" text-anchor="middle" fill="#999" font-size="8">Checklist · Cost · Handoff · Q&amp;A</text>
+    <line x1="206" y1="628" x2="236" y2="628" stroke="#bbb" stroke-width="1.2" marker-end="url(#ah)"/>
+
+    <!-- Save to DB -->
+    <rect x="674" y="604" width="190" height="42" rx="8" fill="#e3f2fd" stroke="#64b5f6" stroke-width="1"/>
+    <text x="769" y="622" text-anchor="middle" fill="#1565c0" font-size="9" font-weight="700">Save to session</text>
+    <text x="769" y="636" text-anchor="middle" fill="#1976d2" font-size="8">Message history → PostgreSQL</text>
+    <line x1="640" y1="624" x2="670" y2="624" stroke="#64b5f6" stroke-width="1.2" marker-end="url(#ah)" stroke-dasharray="4,3"/>
+
+    <!-- ==================== INGESTION ==================== -->
+    <line x1="60" y1="690" x2="820" y2="690" stroke="#eee" stroke-width="1"/>
+    <text x="440" y="714" text-anchor="middle" font-size="10" font-weight="700" fill="#aaa" letter-spacing="1">KNOWLEDGE BASE (built offline)</text>
+
+    <rect x="16" y="730" width="148" height="34" rx="7" fill="#e0f2f1" stroke="#80cbc4" stroke-width="1"/>
+    <text x="90" y="746" text-anchor="middle" fill="#00695c" font-size="10" font-weight="600">8 Guideline PDFs</text>
+    <text x="90" y="758" text-anchor="middle" fill="#00897b" font-size="8">Reference documents/</text>
+
+    <line x1="164" y1="747" x2="186" y2="747" stroke="#00897b" stroke-width="1.2" marker-end="url(#at)"/>
+
+    <rect x="190" y="730" width="170" height="34" rx="7" fill="#e0f2f1" stroke="#80cbc4" stroke-width="1"/>
+    <text x="275" y="746" text-anchor="middle" fill="#00695c" font-size="10" font-weight="600">Chunk (512 tokens)</text>
+    <text x="275" y="758" text-anchor="middle" fill="#00897b" font-size="8">Sentence snap · strip bib</text>
+
+    <line x1="360" y1="747" x2="382" y2="747" stroke="#00897b" stroke-width="1.2" marker-end="url(#at)"/>
+
+    <rect x="386" y="730" width="148" height="34" rx="7" fill="#e0f2f1" stroke="#80cbc4" stroke-width="1"/>
+    <text x="460" y="746" text-anchor="middle" fill="#00695c" font-size="10" font-weight="600">Dedupe by hash</text>
+    <text x="460" y="758" text-anchor="middle" fill="#00897b" font-size="8">Remove duplicates</text>
+
+    <line x1="534" y1="747" x2="556" y2="747" stroke="#00897b" stroke-width="1.2" marker-end="url(#at)"/>
+
+    <rect x="560" y="730" width="148" height="34" rx="7" fill="#fff3e0" stroke="#ffb74d" stroke-width="1"/>
+    <text x="634" y="746" text-anchor="middle" fill="#e65100" font-size="10" font-weight="600">Embed</text>
+    <text x="634" y="758" text-anchor="middle" fill="#bf6900" font-size="8">text-embedding-3-small</text>
+
+    <line x1="708" y1="747" x2="730" y2="747" stroke="#00897b" stroke-width="1.2" marker-end="url(#at)"/>
+
+    <rect x="734" y="730" width="130" height="34" rx="7" fill="#e3f2fd" stroke="#64b5f6" stroke-width="1.2"/>
+    <text x="799" y="746" text-anchor="middle" fill="#1565c0" font-size="10" font-weight="600">Store in DB</text>
+    <text x="799" y="758" text-anchor="middle" fill="#1976d2" font-size="8">289 chunks ready</text>
+
+    <!-- Legend -->
+    <text x="440" y="800" text-anchor="middle" fill="#bbb" font-size="9">&#x2016; = run in parallel (Gatekeeper + Analyzer only)</text>
+
+  </svg>
+</div>
+</body>
+</html>

@@ -1,4 +1,6 @@
 import OpenAI from 'openai';
+import fs from 'fs';
+import path from 'path';
 import { prisma } from '@/lib/prisma';
 
 export type KnowledgeChunkRecord = {
@@ -7,6 +9,7 @@ export type KnowledgeChunkRecord = {
   sourcePageStart: number | null;
   sourcePageEnd: number | null;
   text: string;
+  leadSentence: string | null;
   hash: string;
   version: number;
   citationKey: string;
@@ -19,6 +22,7 @@ export type RetrievalChunk = {
   source_doc: string;
   page_range: string | null;
   text_snippet: string;
+  lead_sentence: string | null;
   citation_key: string;
 };
 
@@ -30,6 +34,7 @@ const SAMPLE_CHUNKS: KnowledgeChunkRecord[] = [
     sourcePageEnd: 1,
     text:
       'Incidental adrenal nodules are often discovered on imaging done for other reasons. Clinics typically confirm imaging details, review prior scans, and check whether the nodule has features that require follow-up. Most workups include a review of symptoms, blood pressure history, and targeted lab testing for hormone overproduction.',
+    leadSentence: 'Incidental adrenal nodules are often discovered on imaging done for other reasons.',
     hash: 'sample-hash-1',
     version: 1,
     citationKey: 'DOC:Sample knowledge|CHUNK:sample-chunk-001|P:1-1',
@@ -43,6 +48,7 @@ const SAMPLE_CHUNKS: KnowledgeChunkRecord[] = [
     sourcePageEnd: 2,
     text:
       'Common hormonal testing includes a dexamethasone suppression test (DST) for cortisol excess, plasma or urine metanephrines for catecholamine excess, and an aldosterone-renin ratio (ARR) when hypertension or low potassium is present. Timing and medication considerations are often reviewed by the care team.',
+    leadSentence: 'Common hormonal testing includes a dexamethasone suppression test (DST) for cortisol excess, plasma or urine metanephrines for catecholamine excess, and an aldosterone-renin ratio (ARR) when hypertension or low potassium is present.',
     hash: 'sample-hash-2',
     version: 1,
     citationKey: 'DOC:Sample knowledge|CHUNK:sample-chunk-002|P:2-2',
@@ -56,6 +62,7 @@ const SAMPLE_CHUNKS: KnowledgeChunkRecord[] = [
     sourcePageEnd: 3,
     text:
       'Clinics may provide prep instructions such as taking a prescribed dexamethasone tablet at night before morning labs, avoiding certain supplements before metanephrine testing, or noting current blood pressure medications before ARR testing. Patients should follow their clinician\'s specific instructions.',
+    leadSentence: 'Clinics may provide prep instructions such as taking a prescribed dexamethasone tablet at night before morning labs, avoiding certain supplements before metanephrine testing, or noting current blood pressure medications before ARR testing.',
     hash: 'sample-hash-3',
     version: 1,
     citationKey: 'DOC:Sample knowledge|CHUNK:sample-chunk-003|P:3-3',
@@ -152,7 +159,7 @@ export async function retrieveRelevantChunks(query: string, k = 4) {
         include: { chunk: true }
       });
 
-      rankedChunks = embeddings
+      const scored = embeddings
         .map((embedding) => ({
           chunk: {
             id: embedding.chunk.id,
@@ -160,6 +167,7 @@ export async function retrieveRelevantChunks(query: string, k = 4) {
             sourcePageStart: embedding.chunk.sourcePageStart,
             sourcePageEnd: embedding.chunk.sourcePageEnd,
             text: embedding.chunk.text,
+            leadSentence: embedding.chunk.leadSentence,
             hash: embedding.chunk.hash,
             version: embedding.chunk.version,
             citationKey: embedding.chunk.citationKey,
@@ -171,8 +179,9 @@ export async function retrieveRelevantChunks(query: string, k = 4) {
         .sort((a, b) => {
           if (b.score !== a.score) return b.score - a.score;
           return a.chunk.id.localeCompare(b.chunk.id);
-        })
-        .map((item) => item.chunk);
+        });
+
+      rankedChunks = scored.map((item) => item.chunk);
     } else {
       rankedChunks = rankChunksByKeyword(query, chunks);
     }
@@ -191,6 +200,7 @@ export async function retrieveRelevantChunks(query: string, k = 4) {
           ? `${chunk.sourcePageStart}-${chunk.sourcePageStart}`
           : null,
       text_snippet: makeSnippet(chunk.text),
+      lead_sentence: chunk.leadSentence,
       citation_key: chunk.citationKey
     }))
   };
@@ -209,6 +219,7 @@ export async function getKnowledgeChunks(): Promise<KnowledgeChunkRecord[]> {
           sourcePageStart: chunk.sourcePageStart,
           sourcePageEnd: chunk.sourcePageEnd,
           text: chunk.text,
+          leadSentence: chunk.leadSentence,
           hash: chunk.hash,
           version: chunk.version,
           citationKey: chunk.citationKey,
@@ -219,6 +230,49 @@ export async function getKnowledgeChunks(): Promise<KnowledgeChunkRecord[]> {
     } catch (error) {
       console.warn('Falling back to sample knowledge chunks.', error);
     }
+  }
+
+  // Try loading pre-computed JSON chunk files from the chunks/ directory
+  const chunksDir = path.resolve(process.cwd(), 'chunks');
+  try {
+    if (fs.existsSync(chunksDir)) {
+      const jsonFiles = fs.readdirSync(chunksDir).filter((f) => f.endsWith('.json'));
+      const allChunks: KnowledgeChunkRecord[] = [];
+      for (const file of jsonFiles) {
+        const sourceDoc = file.replace(/_semantic\.json$/, '');
+        const raw = JSON.parse(fs.readFileSync(path.join(chunksDir, file), 'utf-8'));
+        const items = Array.isArray(raw) ? raw : [];
+        for (let i = 0; i < items.length; i++) {
+          const item = items[i];
+          const id = item.hash || `${sourceDoc}-chunk-${i}`;
+          // Extract lead sentence if not provided — first sentence with 8+ words
+          let leadSentence = item.leadSentence ?? null;
+          if (!leadSentence && item.text) {
+            const sentences = item.text.match(/[^.!?]+[.!?]+/g) ?? [];
+            const lead = sentences.find((s: string) => s.trim().split(/\s+/).length >= 8);
+            if (lead) leadSentence = lead.trim();
+          }
+          allChunks.push({
+            id,
+            sourceDoc,
+            sourcePageStart: item.pageStart ?? null,
+            sourcePageEnd: item.pageEnd ?? null,
+            text: item.text ?? '',
+            leadSentence,
+            hash: item.hash ?? `json-${id}`,
+            version: 1,
+            citationKey: buildCitationKey(sourceDoc, id, item.pageStart, item.pageEnd),
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString()
+          });
+        }
+      }
+      if (allChunks.length > 0) {
+        return allChunks;
+      }
+    }
+  } catch (error) {
+    console.warn('Failed to load JSON chunk files, falling back to samples.', error);
   }
 
   return SAMPLE_CHUNKS;
