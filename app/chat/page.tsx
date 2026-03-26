@@ -4,6 +4,39 @@ import { useEffect, useRef, useState } from 'react';
 import type { AssistantTurn } from '@/lib/schemas';
 import CardRenderer from '@/components/cards/CardRenderer';
 
+// Type declarations for Web Speech API
+declare global {
+  interface SpeechRecognitionEvent extends Event {
+    results: SpeechRecognitionResultList;
+  }
+  interface SpeechRecognitionErrorEvent extends Event {
+    error: string;
+  }
+  interface SpeechRecognitionResultList {
+    readonly length: number;
+    [index: number]: SpeechRecognitionResult;
+  }
+  interface SpeechRecognitionResult {
+    readonly isFinal: boolean;
+    [index: number]: SpeechRecognitionAlternative;
+  }
+  interface SpeechRecognitionAlternative {
+    readonly transcript: string;
+    readonly confidence: number;
+  }
+  interface SpeechRecognition extends EventTarget {
+    continuous: boolean;
+    interimResults: boolean;
+    lang: string;
+    onresult: ((event: SpeechRecognitionEvent) => void) | null;
+    onerror: ((event: SpeechRecognitionErrorEvent) => void) | null;
+    onend: (() => void) | null;
+    start(): void;
+    stop(): void;
+    abort(): void;
+  }
+}
+
 type ChatMessage = {
   id: string;
   role: 'user' | 'assistant';
@@ -387,11 +420,10 @@ export default function ChatPage() {
                 onClick={toggleRecording}
                 disabled={loading}
                 aria-label={isRecording ? 'Stop recording' : 'Start voice input'}
-                className={`absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full transition ${
-                  isRecording
-                    ? 'bg-uwred text-white animate-pulse'
-                    : 'bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-uwred'
-                } disabled:opacity-50`}
+                className={`absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full transition ${isRecording
+                  ? 'bg-uwred text-white animate-pulse'
+                  : 'bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-uwred'
+                  } disabled:opacity-50`}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
