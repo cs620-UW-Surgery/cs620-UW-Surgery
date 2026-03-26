@@ -16,8 +16,10 @@ export const ChecklistItemSchema = z.object({
   id: z.string(),
   label: z.string(),
   status: z.enum(['todo', 'in_progress', 'done']),
-  due_date: z.string().nullable()
+  due_date: z.string().nullable().optional()
 });
+
+export type ChecklistItem = z.infer<typeof ChecklistItemSchema>;
 
 export const CardContentSchema = z.object({
   summary: z.string(),

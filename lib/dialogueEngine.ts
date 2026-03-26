@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 import { z } from 'zod';
-import type { ContextPlan, GateDecision, IntentDecision, RouteDecision, ScopeDecision } from '@/lib/schemas';
+import type { AssistantTurn, ContextPlan, GateDecision, IntentDecision, RouteDecision, ScopeDecision } from '@/lib/schemas';
 import {
   AssistantTurnJsonSchema,
   AssistantTurnSchema,
@@ -263,16 +263,16 @@ function buildRefusalTurn({
 
   const cards = isTriage
     ? [
-        buildCard('handoff', {
-          ...emptyCardContent(),
-          handoff: {
-            message:
-              emergencyGuidance ??
-              'Severe symptoms warrant urgent evaluation now or emergency services.',
-            contacts: ['Emergency services in your area', 'Your clinic or on-call provider']
-          }
-        })
-      ]
+      buildCard('handoff', {
+        ...emptyCardContent(),
+        handoff: {
+          message:
+            emergencyGuidance ??
+            'Severe symptoms warrant urgent evaluation now or emergency services.',
+          contacts: ['Emergency services in your area', 'Your clinic or on-call provider']
+        }
+      })
+    ]
     : [];
 
   const disclaimerParts = [
@@ -757,8 +757,7 @@ export async function runDialogueEngine({
   const chunkContext = retrieval.chunks
     .map(
       (chunk) =>
-        `CITATION_KEY: ${chunk.citation_key}\nSOURCE_DOC: ${chunk.source_doc}\nPAGES: ${
-          chunk.page_range ?? 'NA'
+        `CITATION_KEY: ${chunk.citation_key}\nSOURCE_DOC: ${chunk.source_doc}\nPAGES: ${chunk.page_range ?? 'NA'
         }\nTEXT: ${chunk.text_snippet}`
     )
     .join('\n\n');
@@ -829,8 +828,8 @@ export async function runDialogueEngine({
     sanitizedCitations.length > 0
       ? sanitizedCitations
       : inlineCitations.length > 0
-      ? inlineCitations
-      : buildCitations(retrieval.chunks);
+        ? inlineCitations
+        : buildCitations(retrieval.chunks);
   const disclaimer =
     parsed.disclaimer?.trim() ||
     normalized.extractedDisclaimer ||

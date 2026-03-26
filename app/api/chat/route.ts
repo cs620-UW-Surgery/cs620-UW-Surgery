@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { runDialogueEngine } from '@/lib/dialogueEngine';
 import { prisma } from '@/lib/prisma';
+import type { AssistantTurn, ChecklistItem } from '@/lib/schemas';
 
 export const runtime = 'nodejs';
 
@@ -44,11 +45,11 @@ export async function POST(request: NextRequest) {
         }
       });
 
-      const checklistCard = response.ui_cards.find((card) => card.type === 'checklist');
+      const checklistCard = response.ui_cards.find((card: AssistantTurn['ui_cards'][number]) => card.type === 'checklist');
       const checklistItems = checklistCard?.content.checklist ?? [];
       if (checklistItems.length > 0) {
         await Promise.all(
-          checklistItems.map((item) =>
+          checklistItems.map((item: ChecklistItem) =>
             prisma.checklistItem.upsert({
               where: { sessionId_label: { sessionId, label: item.label } },
               update: { status: item.status },
