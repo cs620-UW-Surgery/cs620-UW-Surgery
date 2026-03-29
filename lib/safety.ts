@@ -39,3 +39,41 @@ export function detectRedFlags(message: string): RedFlagResult {
       'These symptoms can be urgent. Please seek immediate medical care or call emergency services in your area.'
   };
 }
+
+const PROMPT_INJECTION_PATTERNS: { pattern: RegExp; label: string }[] = [
+  { pattern: /ignore (all|any|previous|earlier) (instructions|rules|messages)/i, label: 'Ignore prior instructions' },
+  { pattern: /disregard (system|developer) (prompt|message|instructions)/i, label: 'Disregard system/developer prompt' },
+  { pattern: /you are (now|no longer) (an?|the)?(system|developer|assistant)/i, label: 'Role override attempt' },
+  { pattern: /(reveal|show|print|leak).*(system|developer) prompt/i, label: 'Request to reveal prompt' },
+  { pattern: /(jailbreak|dan|do anything now|override safety)/i, label: 'Jailbreak attempt' },
+  { pattern: /begin (system|developer) prompt/i, label: 'Prompt extraction attempt' },
+  { pattern: /(tool|function) (call|use) .*without authorization/i, label: 'Unauthorized tool use' }
+];
+
+export type PromptInjectionResult = {
+  hasPromptInjection: boolean;
+  signals: string[];
+};
+
+export function detectPromptInjection(message: string): PromptInjectionResult {
+  const hits = PROMPT_INJECTION_PATTERNS.filter((item) => item.pattern.test(message)).map(
+    (item) => item.label
+  );
+
+  return {
+    hasPromptInjection: hits.length > 0,
+    signals: hits
+  };
+}
+
+export function scrubPromptInjection(message: string) {
+  const lines = message.split(/\r?\n/);
+  const kept = lines.filter(
+    (line) => !PROMPT_INJECTION_PATTERNS.some((item) => item.pattern.test(line))
+  );
+  const scrubbed = kept.join('\n').trim();
+  return {
+    scrubbed,
+    removedLineCount: Math.max(0, lines.length - kept.length)
+  };
+}

@@ -72,7 +72,7 @@ export default function ChecklistPage() {
   return (
     <div className="grid gap-8">
       <section className="card fade-in">
-        <h1 className="font-serif text-3xl text-ink">Visit Checklist</h1>
+        <h1 className="font-serif text-3xl text-darkgray">Visit Checklist</h1>
         <p className="mt-2 text-muted">
           This checklist summarizes the most recent navigator response. Refresh the chat if you need an
           updated plan.
@@ -80,13 +80,13 @@ export default function ChecklistPage() {
         <div className="mt-4 flex flex-wrap gap-3">
           <button
             onClick={() => window.print()}
-            className="rounded-full bg-moss px-6 py-2 text-xs font-semibold text-white"
+            className="rounded-full bg-uwred px-6 py-2 text-xs font-semibold text-white"
           >
             Print / share
           </button>
           <a
             href="/chat"
-            className="rounded-full border border-moss px-6 py-2 text-xs font-semibold text-moss"
+            className="rounded-full border border-uwred px-6 py-2 text-xs font-semibold text-uwred"
           >
             Back to chat
           </a>
@@ -94,15 +94,15 @@ export default function ChecklistPage() {
       </section>
 
       <section className="card">
-        <div className="text-sm uppercase tracking-[0.2em] text-moss">Summary</div>
-        <p className="mt-3 text-ink">
+        <div className="text-sm uppercase tracking-[0.2em] text-uwred">Summary</div>
+        <p className="mt-3 text-darkgray">
           {summary ||
             'No checklist saved yet. Ask the navigator a question to generate a plan.'}
         </p>
       </section>
 
       <section className="card">
-        <div className="text-sm uppercase tracking-[0.2em] text-moss">Tasks</div>
+        <div className="text-sm uppercase tracking-[0.2em] text-uwred">Tasks</div>
         <ul className="mt-4 grid gap-3">
           {checklist.length === 0 && (
             <li className="text-muted">No tasks yet.</li>
@@ -110,7 +110,7 @@ export default function ChecklistPage() {
           {checklist.map((item) => (
             <li
               key={item.id}
-              className="flex items-center justify-between rounded-2xl border border-clay bg-white/80 px-4 py-3"
+              className="flex items-center justify-between rounded-2xl border border-accent bg-white/80 px-4 py-3"
             >
               <div>
                 <div>{item.label}</div>
@@ -124,7 +124,7 @@ export default function ChecklistPage() {
 
       {assistantTurn && (
         <section className="card">
-          <div className="text-sm uppercase tracking-[0.2em] text-moss">Questions to ask</div>
+          <div className="text-sm uppercase tracking-[0.2em] text-uwred">Questions to ask</div>
           <ul className="mt-4 list-disc pl-5 text-muted">
             {(assistantTurn.ui_cards.find((card) => card.type === 'questions_to_ask')?.content.questions ??
               []).map((question) => (

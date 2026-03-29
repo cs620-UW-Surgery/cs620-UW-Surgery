@@ -18,7 +18,7 @@ export default function HandoffCard({
       {message && <p className="mb-3">{message}</p>}
       {contacts.length > 0 && (
         <div className="mb-4">
-          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-moss">
+          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-uwred">
             Contact options
           </div>
           <ul className="mt-2 list-disc pl-5">
@@ -30,7 +30,7 @@ export default function HandoffCard({
       )}
       {questions.length > 0 && (
         <div className="mb-4">
-          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-moss">
+          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-uwred">
             What to ask your clinic
           </div>
           <ul className="mt-2 list-disc pl-5">
@@ -42,7 +42,7 @@ export default function HandoffCard({
       )}
       {whatToBring && (
         <div className="mb-4">
-          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-moss">
+          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-uwred">
             What to bring
           </div>
           <p className="mt-2">{whatToBring}</p>
@@ -51,7 +51,7 @@ export default function HandoffCard({
       <div className="flex flex-wrap gap-3">
         <button
           onClick={onShare}
-          className="rounded-full bg-moss px-4 py-2 text-xs font-semibold text-white"
+          className="rounded-full bg-uwred px-4 py-2 text-xs font-semibold text-white"
         >
           Print / share summary
         </button>

@@ -39,7 +39,7 @@ export default function AccessibilityToggles() {
       <button
         onClick={() => setState((prev) => ({ ...prev, highContrast: !prev.highContrast }))}
         className={`rounded-full border px-3 py-1 ${
-          state.highContrast ? 'border-moss bg-moss text-white' : 'border-clay text-ink'
+          state.highContrast ? 'border-uwred bg-uwred text-white' : 'border-accent text-darkgray'
         }`}
       >
         High contrast
@@ -47,7 +47,7 @@ export default function AccessibilityToggles() {
       <button
         onClick={() => setState((prev) => ({ ...prev, largeText: !prev.largeText }))}
         className={`rounded-full border px-3 py-1 ${
-          state.largeText ? 'border-moss bg-moss text-white' : 'border-clay text-ink'
+          state.largeText ? 'border-uwred bg-uwred text-white' : 'border-accent text-darkgray'
         }`}
       >
         Large text

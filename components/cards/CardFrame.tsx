@@ -10,11 +10,11 @@ export default function CardFrame({
   children: ReactNode;
 }) {
   return (
-    <div className="rounded-2xl border border-clay bg-white/80 p-4 shadow-sm">
+    <div className="rounded-2xl border border-accent bg-white/80 p-4 shadow-sm">
       {typeLabel && (
-        <div className="text-xs uppercase tracking-[0.2em] text-moss">{typeLabel}</div>
+        <div className="text-xs uppercase tracking-[0.2em] text-uwred">{typeLabel}</div>
       )}
-      <div className="mt-2 font-semibold text-ink">{title}</div>
+      <div className="mt-2 font-semibold text-darkgray">{title}</div>
       <div className="mt-3 text-sm text-muted">{children}</div>
     </div>
   );
