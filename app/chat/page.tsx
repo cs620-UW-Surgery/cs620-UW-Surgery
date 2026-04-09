@@ -315,7 +315,7 @@ export default function ChatPage() {
               }
             }}
             rows={3}
-            placeholder="What is the usual workup after an incidental adrenal nodule?"
+              placeholder="Ask any question about adrenal nodules here."
             className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3"
           />
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted">
