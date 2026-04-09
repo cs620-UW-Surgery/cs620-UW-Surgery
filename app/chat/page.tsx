@@ -80,7 +80,9 @@ export default function ChatPage() {
   }, []);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (messages.length > 0) {
+      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
   }, [messages, loading]);
 
   const handleSend = async () => {
@@ -180,6 +182,19 @@ export default function ChatPage() {
 
   return (
     <div className="grid gap-8">
+      <section className="card fade-in overflow-hidden p-0">
+        <video
+          controls
+          playsInline
+          preload="metadata"
+          className="w-full"
+          poster=""
+        >
+          <source src="https://0qduonpuurottffe.public.blob.vercel-storage.com/Patient%20adrenal%20copy.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
       <section className="card fade-in">
         <h1 className="font-serif text-3xl text-darkgray">Navigator Chat</h1>
         <p className="mt-2 text-muted">
