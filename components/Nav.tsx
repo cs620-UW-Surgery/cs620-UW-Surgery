@@ -18,8 +18,8 @@ const resourceLinks = [
     label: 'UW Laboratory Services'
   },
   {
-    href: 'https://uwmadison.box.com/s/w0da2w6qatji0qrusm84sbt2j9isw17g',
-    label: 'FINAL Adrenal Nodual Workflow Flyer (PDF)'
+    href: '/FINAL-Adrenal-Nodual-Workflow-Flyer.pdf',
+    label: 'FINAL Adrenal Nodual Workflow Flyer'
   }
 ];
 
