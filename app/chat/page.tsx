@@ -327,7 +327,7 @@ export default function ChatPage() {
         </video>
       </section>
 
-      <section className="card fade-in">
+      <section id="chat" className="card fade-in scroll-mt-24 mt-7">
         <h1 className="font-serif text-3xl text-darkgray">Navigator Chat</h1>
         <p className="mt-2 text-muted">
           Ask about typical testing steps, prep instructions, or what to expect after your referral.
