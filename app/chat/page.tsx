@@ -6,6 +6,38 @@ import CardRenderer from '@/components/cards/CardRenderer';
 import CitationList from '@/components/CitationList';
 import PipelineTraceCard from '@/components/cards/PipelineTraceCard';
 
+declare global {
+  interface SpeechRecognitionEvent extends Event {
+    results: SpeechRecognitionResultList;
+  }
+  interface SpeechRecognitionErrorEvent extends Event {
+    error: string;
+  }
+  interface SpeechRecognitionResultList {
+    readonly length: number;
+    [index: number]: SpeechRecognitionResult;
+  }
+  interface SpeechRecognitionResult {
+    readonly isFinal: boolean;
+    [index: number]: SpeechRecognitionAlternative;
+  }
+  interface SpeechRecognitionAlternative {
+    readonly transcript: string;
+    readonly confidence: number;
+  }
+  interface SpeechRecognition extends EventTarget {
+    continuous: boolean;
+    interimResults: boolean;
+    lang: string;
+    onresult: ((event: SpeechRecognitionEvent) => void) | null;
+    onerror: ((event: SpeechRecognitionErrorEvent) => void) | null;
+    onend: (() => void) | null;
+    start(): void;
+    stop(): void;
+    abort(): void;
+  }
+}
+
 type ChatMessage = {
   id: string;
   role: 'user' | 'assistant';
@@ -21,7 +53,29 @@ export default function ChatPage() {
   const [clearing, setClearing] = useState(false);
   const [clientState, setClientState] = useState<Record<string, unknown>>({});
   const [appConfig, setAppConfig] = useState<Record<string, string | null>>({});
+  const [isRecording, setIsRecording] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(false);
+  const [ttsSupported, setTtsSupported] = useState(false);
+  const [speakingMessageId, setSpeakingMessageId] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const recognitionRef = useRef<ReturnType<typeof createRecognition> | null>(null);
+  const preRecordInputRef = useRef('');
+
+  useEffect(() => {
+    const SR =
+      (window as any).SpeechRecognition ||
+      (window as any).webkitSpeechRecognition;
+    setSpeechSupported(!!SR);
+    setTtsSupported(typeof window.speechSynthesis !== 'undefined');
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -34,8 +88,6 @@ export default function ChatPage() {
       }
     }
 
-    // Only load history within the same browser session.
-    // Fresh visit (close & reopen site) starts with a clean chat.
     if (sessionStorage.getItem('navigator_session_active')) {
       const loadHistory = async () => {
         try {
@@ -180,6 +232,86 @@ export default function ChatPage() {
     }
   };
 
+  function createRecognition() {
+    const SR =
+      (window as any).SpeechRecognition ||
+      (window as any).webkitSpeechRecognition;
+    if (!SR) return null;
+
+    const recognition = new SR() as SpeechRecognition;
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    recognition.lang = 'en-US';
+
+    recognition.onresult = (event: SpeechRecognitionEvent) => {
+      let finalTranscript = '';
+      let interimTranscript = '';
+      for (let i = 0; i < event.results.length; i++) {
+        const result = event.results[i];
+        if (result.isFinal) {
+          finalTranscript += result[0].transcript;
+        } else {
+          interimTranscript += result[0].transcript;
+        }
+      }
+      const prefix = preRecordInputRef.current;
+      const separator = prefix && !prefix.endsWith(' ') ? ' ' : '';
+      setInput(prefix + separator + finalTranscript + interimTranscript);
+    };
+
+    recognition.onerror = (event: SpeechRecognitionErrorEvent) => {
+      console.error('Speech recognition error:', event.error);
+      setIsRecording(false);
+    };
+
+    recognition.onend = () => {
+      setIsRecording(false);
+    };
+
+    return recognition;
+  }
+
+  const toggleSpeak = (messageId: string, text: string) => {
+    if (typeof window === 'undefined' || !window.speechSynthesis) return;
+
+    if (speakingMessageId === messageId) {
+      window.speechSynthesis.cancel();
+      setSpeakingMessageId(null);
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.onend = () => setSpeakingMessageId(null);
+    utterance.onerror = () => setSpeakingMessageId(null);
+    window.speechSynthesis.speak(utterance);
+    setSpeakingMessageId(messageId);
+  };
+
+  const toggleRecording = () => {
+    if (isRecording) {
+      recognitionRef.current?.stop();
+      setIsRecording(false);
+      return;
+    }
+
+    if (!speechSupported) return;
+
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+      setSpeakingMessageId(null);
+    }
+
+    const recognition = createRecognition();
+    if (!recognition) return;
+
+    preRecordInputRef.current = input;
+    recognitionRef.current = recognition;
+    recognition.start();
+    setIsRecording(true);
+  };
+
   return (
     <div className="grid gap-8">
       <section className="card fade-in overflow-hidden p-0">
@@ -210,8 +342,46 @@ export default function ChatPage() {
       <section className="grid gap-4">
         {messages.map((message) => (
           <article key={message.id} className="card">
-            <div className="text-xs uppercase tracking-[0.2em] text-uwred">
-              {message.role === 'user' ? 'You' : 'Navigator'}
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <div className="text-xs uppercase tracking-[0.2em] text-uwred">
+                {message.role === 'user' ? 'You' : 'Navigator'}
+              </div>
+              {message.role === 'assistant' && ttsSupported && (
+                <button
+                  type="button"
+                  onClick={() => toggleSpeak(message.id, message.content)}
+                  aria-label={speakingMessageId === message.id ? 'Stop reading' : 'Read message aloud'}
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-accent text-uwred transition hover:bg-gray-100"
+                >
+                  {speakingMessageId === message.id ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-4 w-4"
+                      aria-hidden
+                    >
+                      <rect x="6" y="6" width="12" height="12" rx="1" />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="h-4 w-4"
+                      aria-hidden
+                    >
+                      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+                      <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                      <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                    </svg>
+                  )}
+                </button>
+              )}
             </div>
             <p className="mt-3 text-base text-darkgray">{message.content}</p>
 
@@ -320,19 +490,54 @@ export default function ChatPage() {
 
       <section className="card">
         <div className="grid gap-4">
-          <textarea
-            value={input}
-            onChange={(event) => setInput(event.target.value)}
-            onKeyDown={(event) => {
-              if (event.key === 'Enter' && !event.shiftKey) {
-                event.preventDefault();
-                handleSend();
-              }
-            }}
-            rows={3}
+          <div className="relative">
+            <textarea
+              value={input}
+              onChange={(event) => setInput(event.target.value)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' && !event.shiftKey) {
+                  event.preventDefault();
+                  handleSend();
+                }
+              }}
+              rows={3}
               placeholder="Ask any question about adrenal nodules here."
-            className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3"
-          />
+              className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3 pr-12"
+            />
+            {speechSupported && (
+              <button
+                type="button"
+                onClick={toggleRecording}
+                disabled={loading}
+                aria-label={isRecording ? 'Stop recording' : 'Start voice input'}
+                className={`absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full transition ${isRecording
+                  ? 'bg-uwred text-white animate-pulse'
+                  : 'bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-uwred'
+                  } disabled:opacity-50`}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-4 w-4"
+                >
+                  <rect x="9" y="2" width="6" height="12" rx="3" />
+                  <path d="M5 10a7 7 0 0 0 14 0" />
+                  <line x1="12" y1="17" x2="12" y2="22" />
+                </svg>
+              </button>
+            )}
+          </div>
+          {isRecording && (
+            <div className="flex items-center gap-2 text-xs font-semibold text-uwred">
+              <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-uwred" />
+              Listening… speak now
+            </div>
+          )}
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted">
             <span>Please avoid entering sensitive identifiers like DOB, SSN, or insurance numbers.</span>
             <button
