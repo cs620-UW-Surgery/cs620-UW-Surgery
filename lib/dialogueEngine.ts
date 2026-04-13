@@ -8,7 +8,7 @@ import {
   RouteDecisionJsonSchema,
   RouteDecisionSchema
 } from '@/lib/schemas';
-import { BASE_DISCLAIMERS, detectRedFlags } from '@/lib/safety';
+import { BASE_DISCLAIMERS } from '@/lib/safety';
 import { retrieveRelevantChunks, type RetrievalChunk } from '@/lib/knowledge';
 import { getAppConfigMap } from '@/lib/appConfig';
 
@@ -106,8 +106,7 @@ export function buildFallbackDecision(message: string, hasRedFlags: boolean): Ro
 }
 
 export function decideRouteForMessage(message: string) {
-  const redFlags = detectRedFlags(message);
-  return buildFallbackDecision(message, redFlags.hasRedFlags);
+  return buildFallbackDecision(message, false);
 }
 
 function buildFallbackTurn({
@@ -124,7 +123,8 @@ function buildFallbackTurn({
   whatToBring?: string | null;
 }) {
   const lower = message.toLowerCase();
-  const citations = buildCitations(chunks);
+  const isTriage = decision.triage_level === 'emergency' || decision.triage_level === 'urgent';
+  const citations = isTriage ? [] : buildCitations(chunks);
   const cards = decision.cards.map((cardType) => {
     const content = emptyCardContent();
 
@@ -372,9 +372,8 @@ export async function runDialogueEngine({
 }) {
   const safeMessage = sanitizeUserMessage(userMessage);
   const routerMessage = safeMessage.slice(0, 500);
-  const redFlags = detectRedFlags(safeMessage);
   const appConfig = await getAppConfigMap();
-  const retrieval = await retrieveRelevantChunks(safeMessage, 6);
+  const retrieval = await retrieveRelevantChunks(safeMessage, 12);
 
   const shouldUseFallback =
     !process.env.OPENAI_API_KEY || process.env.NODE_ENV === 'test' || process.env.DISABLE_OPENAI === 'true';
@@ -409,11 +408,7 @@ export async function runDialogueEngine({
   }
 
   if (!decision) {
-    decision = buildFallbackDecision(safeMessage, redFlags.hasRedFlags);
-  }
-
-  if (redFlags.hasRedFlags) {
-    decision = { mode: 'triage', triage_level: 'emergency', cards: ['symptom_check', 'handoff'] };
+    decision = buildFallbackDecision(safeMessage, false);
   }
 
   if (shouldUseFallback) {
@@ -482,8 +477,11 @@ export async function runDialogueEngine({
   const inlineCitations = normalized.extractedCitationKeys
     .filter((key) => allowedCitations.has(key))
     .map((key) => ({ citation_key: key, quote: null as string | null }));
-  const mergedCitations =
-    sanitizedCitations.length > 0
+  // Suppress citations for triage/emergency — no reason to show papers when telling someone to call 911
+  const isTriage = decision.triage_level === 'emergency' || decision.triage_level === 'urgent';
+  const mergedCitations = isTriage
+    ? []
+    : sanitizedCitations.length > 0
       ? sanitizedCitations
       : inlineCitations.length > 0
       ? inlineCitations

@@ -6,6 +6,7 @@ const baseChunk = {
   sourcePageStart: 1,
   sourcePageEnd: 1,
   text: '',
+  leadSentence: null,
   hash: 'hash',
   version: 1,
   citationKey: 'DOC:Doc|CHUNK:|P:1-1',

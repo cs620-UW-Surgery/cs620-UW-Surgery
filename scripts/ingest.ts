@@ -5,17 +5,23 @@ import pdf from 'pdf-parse';
 import OpenAI from 'openai';
 import { prisma } from '../lib/prisma';
 import { buildCitationKey } from '../lib/knowledge';
-import { chunkPagesByTokens, dedupeChunksByHash } from '../lib/ingest/chunking';
+import {
+  chunkPagesByTokens,
+  chunkPagesSemantic,
+  dedupeChunksByHash,
+  extractLeadSentence
+} from '../lib/ingest/chunking';
 
 const DEFAULT_FILES = [
-  path.resolve(process.cwd(), 'Reference documents', 'Adrenal Nodule Workflow UW.pdf'),
-  path.resolve(process.cwd(), 'Reference documents', 'Adrenal Incidentaloma Practice Guidelines.pdf'),
-  path.resolve(
-    process.cwd(),
-    'Reference documents',
-    'Unveiling the Silent Threat_ Disparities in Adrenal Incidentaloma Management.pdf'
-  )
-];
+  'FINAL Adrenal Nodual Workflow Flyer copy.pdf',
+  'Adrenal Incidentaloma Practice Guidelines.pdf',
+  'Unveiling the Silent Threat_ Disparities in Adrenal Incidentaloma Management.pdf',
+  "Diagnosis of Cushing's Syndrome Clinical Practice Guideline.pdf",
+  'JAMA Guidelines for Adrenalectomy.pdf',
+  'Primary Aldosteronism- An Endocrine Society Clinical Practice Guideline.pdf',
+  'primary-aldosteronism Family Medicine Clinical Guidelines.pdf',
+  'Emergency_Severity_Index_Handbook.pdf'
+].map((name) => path.resolve(process.cwd(), 'Reference documents', name));
 
 const EMBEDDING_MODEL = process.env.OPENAI_EMBEDDING_MODEL ?? 'text-embedding-3-small';
 
@@ -173,12 +179,15 @@ async function main() {
 
     console.log(`Ingesting: ${sourceDoc}`);
     const pages = await extractPdfPages(filePath);
+
+    // Use token-based recursive chunking (512-token target with sentence boundary snapping)
     const chunks = chunkPagesByTokens(pages, {
       minTokens: args.minTokens,
       maxTokens: args.maxTokens,
       targetTokens: args.targetTokens,
       overlapTokens: args.overlapTokens
     });
+    console.log(`  ${chunks.length} chunks (token-based, target 512)`);
     const deduped = dedupeChunksByHash(chunks);
     if (deduped.length === 0) {
       console.warn(
@@ -192,6 +201,33 @@ async function main() {
         where: { hash: chunk.hash }
       });
       if (existing) {
+        // Backfill embedding if chunk exists but has no embedding
+        if (openai) {
+          const hasEmbedding = await prisma.knowledgeEmbedding.findUnique({
+            where: { chunkId: existing.id }
+          });
+          if (!hasEmbedding) {
+            try {
+              const embeddingResponse = await openai.embeddings.create({
+                model: EMBEDDING_MODEL,
+                input: existing.text
+              });
+              const vector = embeddingResponse.data?.[0]?.embedding;
+              if (vector) {
+                await prisma.knowledgeEmbedding.create({
+                  data: {
+                    chunkId: existing.id,
+                    model: EMBEDDING_MODEL,
+                    vector
+                  }
+                });
+                console.log(`  Backfilled embedding for ${existing.id}`);
+              }
+            } catch (error) {
+              console.warn(`  Embedding backfill failed for ${existing.id}:`, error);
+            }
+          }
+        }
         totalSkipped += 1;
         continue;
       }
@@ -210,6 +246,8 @@ async function main() {
         continue;
       }
 
+      const leadSentence = extractLeadSentence(chunk.text);
+
       const created = await prisma.knowledgeChunk.create({
         data: {
           id: chunkId,
@@ -217,6 +255,7 @@ async function main() {
           sourcePageStart: chunk.pageStart,
           sourcePageEnd: chunk.pageEnd,
           text: chunk.text,
+          leadSentence,
           hash: chunk.hash,
           version: args.version,
           citationKey

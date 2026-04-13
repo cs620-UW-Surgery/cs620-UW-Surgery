@@ -3,8 +3,9 @@
 import { useEffect, useRef, useState } from 'react';
 import type { AssistantTurn } from '@/lib/schemas';
 import CardRenderer from '@/components/cards/CardRenderer';
+import CitationList from '@/components/CitationList';
+import PipelineTraceCard from '@/components/cards/PipelineTraceCard';
 
-// Type declarations for Web Speech API
 declare global {
   interface SpeechRecognitionEvent extends Event {
     results: SpeechRecognitionResultList;
@@ -42,6 +43,7 @@ type ChatMessage = {
   role: 'user' | 'assistant';
   content: string;
   data?: AssistantTurn;
+  pipeline_trace?: any;
 };
 
 export default function ChatPage() {
@@ -86,29 +88,33 @@ export default function ChatPage() {
       }
     }
 
-    const loadHistory = async () => {
-      try {
-        const response = await fetch('/api/chat/history');
-        const payload = await response.json();
-        if (payload?.messages) {
-          const history = payload.messages.map((message: any) => ({
-            id: message.id ?? crypto.randomUUID(),
-            role: message.role,
-            content: message.content,
-            data: message.assistant_turn ?? undefined
-          }));
-          setMessages(history);
-          const lastAssistant = history.filter((msg: ChatMessage) => msg.role === 'assistant').pop();
-          if (lastAssistant?.data) {
-            sessionStorage.setItem('navigator_last_response', JSON.stringify(lastAssistant.data));
+    if (sessionStorage.getItem('navigator_session_active')) {
+      const loadHistory = async () => {
+        try {
+          const response = await fetch('/api/chat/history');
+          const payload = await response.json();
+          if (payload?.messages) {
+            const history = payload.messages.map((message: any) => ({
+              id: message.id ?? crypto.randomUUID(),
+              role: message.role,
+              content: message.content,
+              data: message.assistant_turn ?? undefined,
+              pipeline_trace: message.assistant_turn?.pipeline_trace ?? null
+            }));
+            setMessages(history);
+            const lastAssistant = history.filter((msg: ChatMessage) => msg.role === 'assistant').pop();
+            if (lastAssistant?.data) {
+              sessionStorage.setItem('navigator_last_response', JSON.stringify(lastAssistant.data));
+            }
           }
+        } catch (error) {
+          console.error('Failed to load history', error);
         }
-      } catch (error) {
-        console.error('Failed to load history', error);
-      }
-    };
+      };
 
-    loadHistory();
+      loadHistory();
+    }
+    sessionStorage.setItem('navigator_session_active', '1');
 
     const loadConfig = async () => {
       try {
@@ -126,7 +132,9 @@ export default function ChatPage() {
   }, []);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (messages.length > 0) {
+      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
   }, [messages, loading]);
 
   const handleSend = async () => {
@@ -161,7 +169,8 @@ export default function ChatPage() {
         id: crypto.randomUUID(),
         role: 'assistant',
         content: data.assistant_message,
-        data
+        data,
+        pipeline_trace: payload.pipeline_trace ?? null
       };
       setMessages((prev) => [...prev, assistantMessage]);
       if (typeof window !== 'undefined') {
@@ -305,6 +314,19 @@ export default function ChatPage() {
 
   return (
     <div className="grid gap-8">
+      <section className="card fade-in overflow-hidden p-0">
+        <video
+          controls
+          playsInline
+          preload="metadata"
+          className="w-full"
+          poster=""
+        >
+          <source src="https://0qduonpuurottffe.public.blob.vercel-storage.com/Patient%20adrenal%20copy.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
       <section className="card fade-in">
         <h1 className="font-serif text-3xl text-darkgray">Navigator Chat</h1>
         <p className="mt-2 text-muted">
@@ -440,17 +462,13 @@ export default function ChatPage() {
                   </div>
                 )}
 
-                <div>
-                  <div className="font-semibold text-darkgray">Citations</div>
-                  <ul className="mt-2 list-disc pl-5">
-                    {message.data.citations.map((item) => (
-                      <li key={`${item.citation_key}-${item.quote ?? 'none'}`}>
-                        {item.citation_key}
-                        {item.quote ? ` — "${item.quote}"` : ''}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                {message.data.citations.length > 0 && (
+                  <CitationList citations={message.data.citations} />
+                )}
+
+                {message.pipeline_trace && (
+                  <PipelineTraceCard trace={message.pipeline_trace} />
+                )}
               </div>
             )}
           </article>
@@ -483,7 +501,7 @@ export default function ChatPage() {
                 }
               }}
               rows={3}
-              placeholder="What is the usual workup after an incidental adrenal nodule?"
+              placeholder="Ask any question about adrenal nodules here."
               className="w-full rounded-2xl border border-accent bg-white/80 px-4 py-3 pr-12"
             />
             {speechSupported && (

@@ -1,0 +1,170 @@
+[
+  {
+    "text": "September 2023 ◆ Volume 108, Number 3 www.aafp.org/afp American Family Physician 275 ORAL SALT LOADING TEST For the oral salt loading test, a high-salt diet supplemented with sodium chloride tablets is consumed for three days with a goal sodium intake of 6 g per day. High salt intake should cause physiologic suppression of the RAAS and a marked decrease in aldosterone levels. A 24-hour urine col - lection is performed on the third day. Persistently elevated 24-hour urine aldosterone levels (more than 12 mcg in 24 hours) are consistent with nonphysiologic production of aldosterone and confirm the diagnosis of primary aldoste - ronism. The saline infusion test can also confirm pathologic aldosterone production if plasma aldosterone concentra - tion is greater than 10 ng per dL after an infusion of 2 L of normal saline. FLUDROCORTISONE TEST The fludrocortisone test involves administration of the syn - thetic mineralocorticoid fludrocortisone at a dosage of 0.1 mg every six hours for four days. Exogenous mineralocor - ticoid administration should suppress serum aldosterone levels. A plasma aldosterone concentration of greater than 6 ng per dL on day 4 confirms the diagnosis of primary aldosteronism. Subtyping Once primary aldosteronism has been diagnosed, the next step is to determine if aldosterone production is unilateral or bilateral. 13,18,19 Unilateral production is typically caused by an aldosterone-producing adenoma and should be treated surgically, whereas bilateral production is typically from idiopathic hyperplasia and is treated medically. This differentiation, termed subtyping, is accomplished with adrenal computed tomography (CT) and adrenal vein sampling. 13,18,19 Adrenal CT has three phases: an initial scan without contrast media, a scan at 60 to 75 seconds after con - trast media administration, and again at 15 minutes. By assessing baseline nodule density, as well as contrast media uptake and subsequent washout, benign",
+    "tokenCount": 450,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "1be443893ec2274d4c7747022b364c7fb565c683b2e249cb05ec9e2fe4c5dd44"
+  },
+  {
+    "text": "adenomas can be reliably distinguished from malignant masses. 20 CT has lim - ited sensitivity for the detection of sub-centimeter nodules. Additionally, CT is unable to distinguish nonfunctioning adenomas from functioning adenomas. A systematic review showed an almost 40% rate of discordance between CT and adrenal vein sampling in subtyping patients with primary aldosteronism. 21 Therefore, adrenal vein sampling is consid - ered the preferred method of subtyping. A systematic review and meta -analysis performed in 2022 found a statistically FIGURE 1 Suggested interpretation of initial case detection testing for primary aldosteronism. Note: An aldosterone-renin ratio > 30 is the most common cutoff during initial case detection when plasma aldosterone concentration and plasma renin activity are in conventional units (ng per dL and ng per mL per hour, respectively). Values above the threshold should not be viewed in isolation because the aldosterone-renin ratio may be exaggerated in cases of very low renin levels without significant elevation of aldosterone. Information from references 10, 13, and 15. Aldosterone-renin ratio Plasma renin activity > 1 ng per mL per hour Diagnosis unlikely Plasma renin activity 0.6 to 1 ng per mL per hour Perform confirmatory testing Plasma renin activity < 0.6 ng per mL per hour Plasma aldosterone concen - tration 20 to 29 ng per dL Plasma aldosterone con - centration ≥ 30 ng per dL Diagnosis confirmed Plasma aldosterone concen - tration 11 to 19 ng per dL Perform confirmatory testing Plasma aldosterone con - centration ≤ 10 ng per dL Diagnosis unlikely Potassium < 3.5 mEq per L Diagnosis confirmed Potassium ≥ 3.5 mEq per L Perform confirmatory testing > 30 Diagnosis unlikely ≤ 30",
+    "tokenCount": 389,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "ecae8350f8b196ea37b6df11b07d157f3c0a8445ae9a71345cc702722aabb733"
+  },
+  {
+    "text": "276 American Family Physician www.aafp.org/afp Volume 108, Number 3 ◆ September 2023 significant higher rate of complete biochemical success when adrenalectomy was guided by adrenal vein sampling com - pared with adrenalectomy guided by CT alone (odds ratio = 2.78; 95% CI, 1.88 to 4.12).",
+    "tokenCount": 76,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "347dbb1840718490ef3d70bec45fc56888a1039700af3d70e4f697f5592d8ef9"
+  },
+  {
+    "text": "18 Adrenal vein sampling is a nuanced procedure. Blood samples are taken from a peripheral vein and the right and left adrenal veins and tested for aldosterone and cortisol lev - els. 22 Success rates for adequate sampling range from 30.5% 23 to 99.2%.",
+    "tokenCount": 57,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "f1c779379f984475984dd4694989ac594a6a9189af58ca1d15a7b28d7caab4a0"
+  },
+  {
+    "text": "24 Operator experience at a center that performs at least 12 procedures per year has been shown to be associated with higher sampling adequacy. 25,26 An experienced and dedicated laboratory is necessary for a successful adrenal vein sampling program, 27 and the results should be interpreted based on expert consensus guidelines.",
+    "tokenCount": 58,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "beba1cd76cc46bda5662f46d3d1d8f587bd08382096fa17d32cf3007c620892e"
+  },
+  {
+    "text": "28,29 Treatment UNILATERAL ALDOSTERONE PRODUCTION Adrenalectomy is recommended in cases of uni - lateral aldosterone production. Although hyper - tension is cured in only approximately one-third of cases, biochemical cure is achieved in 94% of cases.",
+    "tokenCount": 57,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "223ada36a173b2c8656a3e2d3aa0a9d73499a4387251d32acf9fbaa46cef8ac0"
+  },
+  {
+    "text": "30 Compared with medical management, adrenalectomy reduces the rate of composite adverse cardiovascular outcomes by one-half 31 and is associated with superior quality of life. 32 BILATERAL ALDOSTERONE PRODUCTION When aldosterone production is bilateral, medi - cal therapy is necessary.",
+    "tokenCount": 58,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "f43e1e1d72b9abc450d464448572c0f027849ccf01ba787b8b9511e889f7d7a7"
+  },
+  {
+    "text": "Mineralocorticoid recep - tor antagonists are the cornerstone of therapy for patients with primary aldosteronism. They are often used concurrently with other antihyper - tensives. Dietary sodium restriction of less than 1,500 mg per day is recommended.",
+    "tokenCount": 54,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "2e33e5ea301a3d7e78f2e84eeb89a46839aee461ffa52a0ae033263d998650f1"
+  },
+  {
+    "text": "33 Spironolactone is a nonselective mineralocorti - coid receptor antagonist and is the initial medica - tion of choice. Typical starting dosages are 12.5 to 25 mg per day and are increased, as needed, to a maximum dosage of 400 mg per day.",
+    "tokenCount": 61,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "94d064b375926110cfa95049a0efbbddc09d4343b9dc4aee6daedf8c2bc6a2bb"
+  },
+  {
+    "text": "10 Its dose - dependent antiandrogenic properties can lead to adverse effects, such as gynecomastia (more than 10%), erectile dysfunction, decreased libido, and irregular menses (1% to 10%).",
+    "tokenCount": 46,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "b44f649a226f191e3a8a3ad68ebd04cd5fafa60d939d43dd304d74eadf1e901a"
+  },
+  {
+    "text": "34 If these adverse effects occur, eplerenone, a more selective but less potent and more expensive mineralocorticoid receptor blocker, may be used. 13,34 Recent observational studies have shown that titrating mineralocorticoid receptor antagonists based on plasma renin concentrations may lead to better outcomes.",
+    "tokenCount": 63,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "5d97d6819cd9ddc69f83581c0ca6a6a03dc5c04c43c3a6c8fd0b2748416b6efa"
+  },
+  {
+    "text": "35,36 Therefore, future guidelines may include interval measurements of renin as part of the mineralocorticoid receptor antagonist dosing strategy. 36 Data Sources: A PubMed search of clinical trials, meta-analyses, randomized controlled trials, and systematic reviews from 2000 to 2022 was completed using the key terms primary hyperaldo - steronism, primary aldosteronism, and hyperaldosteronism.",
+    "tokenCount": 84,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "3dfaa0c17cf448821b4564c696d07ad6ad507b5aa6ee50967d18d0a64d083c9b"
+  },
+  {
+    "text": "We also searched the Cochrane database, Agency for Healthcare Research and Quality (AHRQ), and Essential Evidence Plus using the same terms, but with limited results. If studies used race and/ or gender as a patient category but did not define how these TABLE 3 Medications to Hold Before Primary Aldosteronism Te s t in g* Medications Hold priority Duration of hold (weeks) Mineralocorticoid receptor antagonists † Mandatory 4 Angiotensin-converting enzyme inhib - itors, angiotensin receptor blockers, beta blockers, diuretics, dihydropyridine calcium channel blockers Optional 2 to 4 Alpha blockers, nondihydropyridine cal - cium channel blockers, vasodilators Continue — Note:",
+    "tokenCount": 154,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "f6e7f6246c1f0fef0229810759083d084af125fbaa1aa1b8755322a0b406afc0"
+  },
+  {
+    "text": "Because of interference with the renin -angiotensin-aldosterone system, certain antihypertensive medications may alter renin and angiotensin levels. *—Based on the 2016 Endocrine Society Guidelines.",
+    "tokenCount": 45,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "0b64056d505839be2028280aa720ba2dd85cda50a6a266513c5fb9b0d76aaeea"
+  },
+  {
+    "text": "† —Low-dose mineralocorticoid receptor antagonists may not need to be held before aldosterone-renin ratio testing, especially if renin levels are not suppressed. Information from reference 13.",
+    "tokenCount": 42,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "9959f9eb299f3a001c415e590dbfaf46e3e4746849b7bcf79c6e5f74dfc6b75c"
+  },
+  {
+    "text": "TABLE 2 Clinical Criteria for Patients Who Require Case Detection Testing for Primary Aldosteronism Controlled hypertension (any one of the following) Adrenal nodule Atrial fibrillation* Family history of early stroke (i.e., younger than 40 years) First-degree relative with primary aldosteronism Hypokalemia Obstructive sleep apnea Resistant hypertension † All patients Note:",
+    "tokenCount": 83,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "8ceeafc5ddf24294c74c71623822c48c66f0fc937da5f7c3d7a7de568c7b0f7b"
+  },
+  {
+    "text": "Criteria are based on the 2016 Endocrine Society Guidelines. *—The Endocrine Society does not distinctly list atrial fibrillation as criteria, but it acknowledges that some centers recommend testing given its association with primary aldosteronism.",
+    "tokenCount": 49,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "acfe3ee680d2f2c502a10ae24f381503982eb9e809096defc5f944d30293c8e6"
+  },
+  {
+    "text": "† —Resistant hypertension is hypertension that persists despite the concurrent use of three different classes of antihypertensive medications or the use of four antihypertensive medications to achieve adequate blood pressure control.",
+    "tokenCount": 40,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "2777a5e9acbe0cd35674c77edfb9239b1696b6c0cd96c55ab6563b6ba7583c97"
+  },
+  {
+    "text": "Information from reference 13. September 2023 ◆ Volume 108, Number 3 www.aafp.org/afp American Family Physician 277 PRIMARY ALDOSTERONISM categories were assigned, they were excluded. Studies may not represent all populations. Physicians may need to exercise caution in applying such guidelines to populations not included (e.g., patients of color, younger individuals). Search dates: Octo - ber 2, 2022, and May 19, 2023. The Authors KEITH B. QUENCER, MD, is an associate professor in the Department of Interventional Radiology at Oregon Health & Science University, Portland. J. B. (BRUIN) RUGGE, MD, is an associate professor in the Department of Family Medicine at Oregon Health & Science University. OLGA SENASHOVA, MD, is an assistant professor of otolar - yngology at Oregon Health & Science University. Address correspondence to Keith B. Quencer, MD, Oregon Health & Science University Hospital, 3181 SW Sam Jack - son Park Rd., Portland, OR 97239 (kbquencer@ gmail.com",
+    "tokenCount": 231,
+    "pageStart": 4,
+    "pageEnd": 5,
+    "hash": "72412e65735b94cb9b68e4b01765c8179279f3f44470916941db520417ad1d28"
+  },
+  {
+    "text": "Reprints are not available from the authors. References 1. Conn JW, Louis LH. Primary aldosteronism, a new clinical entity. Ann Intern Med . 1956; 44(1): 1-15. 2. Monticone S, Burrello J, et al. Prevalence and clinical manifestations of primary aldosteronism encountered in primary care practice. J Am Coll Cardiol . 2017; 69(14): 1811-1820. 3. Brown JM, Siddiqui M, et al. The unrecognized prevalence of primary aldo - steronism: a cross-sectional study. Ann Intern Med . 2020; 173(1): 10-20. 4. Cohen JB, Cohen DL, et al. Testing for primary aldosteronism and min - eralocorticoid receptor antagonist use among U.S. veterans: a retro - spective cohort study. Ann Intern Med . 2021; 174(3): 289-297. 5. Jaffe G, Gray Z, et al. Screening rates for primary aldosteronism in resis - tant hypertension: a cohort study. Hypertension . 2020; 75(3): 650-659. 6. Lim YY, Shen J, et al. Current pattern of primary aldosteronism diagno - sis: delayed and complicated. Aust J Gen Pract . 2018; 47(10): 712-718. 7. Gilbert KC, Brown NJ. Aldosterone and inflammation. Curr Opin Endo - crinol Diabetes Obes . 2010; 17(3): 199-204. 8. Brown NJ. Contribution of aldosterone to cardiovascular and renal inflammation and fibrosis. Nat Rev Nephrol . 2013; 9(8): 459-469. 9. Rosa J, Somlóová Z, et al. Peripheral arterial stiffness in primary aldostero - nism. Physiol Res . 2012; 61(5): 461-468. 10. Young WF Jr. Diagnosis and treatment of primary aldosteronism: prac - tical clinical perspectives. J Intern Med .",
+    "tokenCount": 450,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "76ea031d5a5f96cae2c34d03f7571b31377a1ad71144510568b81188f578c537"
+  },
+  {
+    "text": "2019; 285(2): 126-148. 11. Monticone S, D’Ascenzo F, et al. Cardiovascular events and target organ damage in primary aldosteronism compared with essential hyperten - sion: a systematic review and meta-analysis. Lancet Diabetes Endocri - nol . 2018; 6(1): 41-50. 12. Monticone S, Sconfienza E, et al. Renal damage in primary aldosteronism: a systematic review and meta-analysis. J Hypertens . 2020; 38(1): 3-12 . 13. Funder JW, Carey RM, et al. The management of primary aldosteronism: case detection, diagnosis, and treatment: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab . 2016; 101(5): 1889-1916. 14. Rossi GP, Bernini G, et al.; PAPY Study Investigators. A prospective study of the prevalence of primary aldosteronism in 1,125 hypertensive patients. J Am Coll Cardiol . 2006; 48(11): 2293-2300. 15. Kawashima J, Araki E, et al. Baseline plasma aldosterone level and renin activity allowing omission of confirmatory testing in primary aldostero - nism. J Clin Endocrinol Metab . 2020; 105(5): dgaa117. 16. Umakoshi H, Sakamoto R, et al. Role of aldosterone and potassium levels in sparing confirmatory tests in primary aldosteronism. J Clin Endocrinol Metab . 2020; 105(4): dgz148. 17. Wu S, Yang J, et al. Confirmatory tests for the diagnosis of primary aldo - steronism: a systematic review and meta-analysis. Clin Endocrinol (Oxf) . 2019; 90(5): 641-648. 18. Yan Y, Sun HW, et al. Prognosis of adrenalectomy guided by computed tomography versus adrenal vein sampling in patients with primary aldo -",
+    "tokenCount": 447,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "f68198ceb7d689c297a3195d7435a7a10ea76c6aaa3f6a3b55878f817bb7603d"
+  },
+  {
+    "text": "steronism: a systematic review and meta-analysis. J Clin Hypertens (Greenwich) . 2022; 24(2): 106-115. 19. Lim V, Guo Q, et al. Accuracy of adrenal imaging and adrenal venous sam - pling in predicting surgical cure of primary aldosteronism. J Clin Endocrinol Metab . 2014; 99(8): 2712-2719. 20. Peña CS, Boland GW, et al. Characterization of indeterminate (lip - id-poor) adrenal masses: use of washout characteristics at contrast-en - hanced CT. Radiology . 2000; 217(3): 798-802. 21. Kempers MJE, Lenders JWM, et al. Systematic review: diagnostic pro - cedures to differentiate unilateral from bilateral adrenal abnormality in primary aldosteronism. Ann Intern Med . 2009; 151(5): 329-337. 22. Monroe EJ, Carney BW, et al. An interventionist’s guide to endocrine consultations. Radiographics . 2017; 37(4): 1246-1267. 23. Vonend O, Ockenfels N, et al.; German Conn’s Registry. Adrenal venous sampling: evaluation of the German Conn’s registry. Hypertension . 2011; 57(5): 990-995. 24. Ota H, Seiji K, et al. Dynamic multidetector CT and non-contrast-en - hanced MR for right adrenal vein imaging: comparison with catheter venography in adrenal venous sampling. Eur Radiol . 2016; 26(3): 622-630. 25. Tan MO, Puar THK, et al. Improved adrenal vein sampling from a dedi - cated programme: experience of a low-volume single centre in Singa - pore. Singapore Med J . 2022; 63(2): 111-116. 26. Jakobsson H, Farmaki K, et al. Adrenal venous sampling: the learning curve of a single interventionalist with 282 consecutive",
+    "tokenCount": 450,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "4a7e0efb68233a2f9cc3d9c675777329f05caf4a44e59ecca9153cd061f2da89"
+  },
+  {
+    "text": "procedures. Diagn Interv Radiol . 2018; 24(2): 89-93. 27. Kline G, Holmes DT. Adrenal venous sampling for primary aldosteronism: laboratory medicine best practice. J Clin Pathol . 2017; 70(11): 911-916. 28. Kline GA, Harvey A, et al. Adrenal vein sampling may not be a gold-stan - dard diagnostic test in primary aldosteronism: final diagnosis depends upon which interpretation rule is used. Variable interpretation of adre - nal vein sampling. Int Urol Nephrol . 2008; 40(4): 1035-1043. 29. Rossi GP, Auchus RJ, et al. An expert consensus statement on use of adrenal vein sampling for the subtyping of primary aldosteronism. Hypertension . 2014; 63(1): 151-160. 30. Williams TA, Lenders JWM, et al.; Primary Aldosteronism Surgery Out - come (PASO) Investigators. Outcomes after adrenalectomy for unilat - eral primary aldosteronism: an international consensus on outcome measures and analysis of remission rates in an international cohort. Lancet Diabetes Endocrinol . 2017; 5(9): 689-699. 31. Huang WC, Chen YY, et al. Composite cardiovascular outcomes in patients with primary aldosteronism undergoing medical versus surgi - cal treatment: a meta-analysis. Front Endocrinol (Lausanne) . 2021; 12: 644260. 32. Velema M, Dekkers T, et al.; SPARTACUS Investigators. Quality of life in primary aldosteronism: a comparative effectiveness study of adrenalec - tomy and medical treatment. J Clin Endocrinol Metab . 2018; 103(1): 16-24. 33. Vaidya A, Hundemer GL, et al. Primary aldosteronism: state-of-the-art review. Am J Hypertens . 2022; 35(12): 967-988. 34. Lainscak M, Pelliccia",
+    "tokenCount": 450,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "1d40e3bb985f5ec9c89db05d54a0cab0db0635bd8efa3a2e3bd3f105babea788"
+  },
+  {
+    "text": "F, et al. Safety profile of mineralocorticoid receptor antagonists: spironolactone and eplerenone. Int J Cardiol . 2015; 200: 25-29. 35. Köhler A, Sarkis AL, et al. Renin, a marker for left ventricular hypertrophy, in primary aldosteronism: a cohort study. Eur J Endocrinol . 2021; 185(5): 663-672. 36. Hundemer GL, Curhan GC, et al. Cardiometabolic outcomes and mor - tality in medically treated primary aldosteronism: a retrospective cohort study. Lancet Diabetes Endocrinol . 2018; 6(1): 51-59.",
+    "tokenCount": 151,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "5af38d2eda7a3feef6ab2e58b00b4fbde5044bd6bf01ed50301dd2f9fff913ab"
+  }
+]

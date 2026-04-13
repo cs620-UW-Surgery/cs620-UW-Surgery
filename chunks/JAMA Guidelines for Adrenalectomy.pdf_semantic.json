@@ -1,0 +1,856 @@
+[
+  {
+    "text": "3% in patients without a history of malignancy and up to 8% in patients with a history of extra-adrenal malignancy. 8 Other features in addition to size should be considered when assess- ing risk of either a primary or secondary malignancy in an ad- renal incidentaloma (eTable 2 in the Supplement ).",
+    "tokenCount": 70,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "611c0d9d5affa2a2fdac4a6ab955a48cba1c1c5805ea796b509054175be7e459"
+  },
+  {
+    "text": "Recommendation 1.2. We recommend that all patients with an adrenal incidentaloma 1 cm or larger undergo biochemical testing for autonomous cortisol secretion. Patients with hy- pertension or hypokalemia also require biochemical evalua- tion for primary aldosteronism.",
+    "tokenCount": 55,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "7a0343ca2f338fc48c275a7fedd589b31f4f9c0f56bf036e1fb2acf86ec2f63e"
+  },
+  {
+    "text": "Patients with adrenal imaging findings that have noncontrast CT with HU greater than 10 should undergo evaluation for pheochromocytoma. (Strong recommendation, low-quality evidence.) Recommendation 1.3.",
+    "tokenCount": 46,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "fff848405c1f3428f584ca1f5b68d5f8554aa6ef346a2d6ef79d40d1b0cbb040"
+  },
+  {
+    "text": "We recommend that a primary ad- renal malignancy be considered in patients with an adrenal in- cidentaloma larger 4 cm and/or HU greater than 20 on non- contrast CT and in any patient younger than 18 years.",
+    "tokenCount": 49,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "45b02e37a79371b58f246904248192a4a1a188d11299696ec18f021a1ae74940"
+  },
+  {
+    "text": "We recommend that patients with a history of extra-adrenal ma- lignancy be recognized to be at increased risk for adrenal me- tastases. (Strong recommendation, low-quality evidence.) Most nonfunctional adrenal nodules with benign imaging characteristics remain stable in size 5,7,12 while up to 10% of ad- renal incidentalomas will grow 1 cm or more over 2 to 5 years of surveillance.",
+    "tokenCount": 87,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "f4a214f8dc6a8c0a9363f58a723b982b854e38709e6c6306294f58f9fd0e50d8"
+  },
+  {
+    "text": "13-15 Surgical resection may be considered for nodules that are larger than 2 cm at initial presentation and grow more than 1 cm by 12 months, while smaller nodules or those with less growth may undergo repeated short-interval imaging at 6 to 12 months.",
+    "tokenCount": 55,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "99ab1086f56ec07327787a29ea9f4ff9219c8f167d261550b6e03d84c0962138"
+  },
+  {
+    "text": "However, there are insufficient data to recommend specific criteria for nodule growth during sur- veillance that should prompt adrenalectomy. Topics and Questions in the Population, Intervention/Exposure, Comparison, and Outcome (PICO) Framework 1.",
+    "tokenCount": 50,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "38b03945d065e8cebc1cd8c38cfd81a6c457ecff868cde5800457fc6f6646e96"
+  },
+  {
+    "text": "Incidentalomas, myelolipomas, and cysts 1. In patients with an adrenal incidentaloma, does adrenal protocol computed tomography improve diagnostic accuracy for malignancy or pheochromocytoma compared with other imaging modalities?",
+    "tokenCount": 53,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "1911d8373369e835215bab63b4e602335b71f60b3d5ef9ac8cd1d8e4e51775e9"
+  },
+  {
+    "text": "In patients with an adrenal incidentaloma, should clinical and imaging characteristics influence the hormonal workup? In patients with an adrenal incidentaloma, what clinical and imaging characteristics increase the risk that malignancy is present? In patients with a nonfunctional adrenal incidentaloma, what are the outcomes during surveillance?",
+    "tokenCount": 62,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "b7c719ec4d2089357e661bdd4498e26135df0691ef979f2e978ec3829da3551d"
+  },
+  {
+    "text": "Does resection of a myelolipoma or an adrenal cyst improve quality of life compared with observation alone? Primary aldosteronism 1. In patients with primary aldosteronism (PA), does adrenalec- tomy compared with mineralocorticoid antagonist therapy alone improve related comorbidities and mortality?",
+    "tokenCount": 71,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "57a39dc11abfdf2f244978b4129fe40dd27696e167f99e939cfb86749604c31c"
+  },
+  {
+    "text": "In patients with PA and cross-sectional imaging consistent with a unilateral adenoma, does preoperative adrenal venous sampling increase the likelihood of a clinical or biochemical cure? In patients with PA due to unilateral disease, does laparo- scopic adrenalectomy improve health-related quality of life and/or reduce health care–related costs compared with medical management?",
+    "tokenCount": 74,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "c92a58644395e17716be128d95f67e367429758f0277460654938a8524b00afe"
+  },
+  {
+    "text": "Hypercortisolism 1. Do patients with mild autonomous cortisol secretion (MACS) who undergo laparoscopic adrenalectomy compared with conservative medical management have improvement in cardiometabolic comorbidities without major surgical (30-day) adverse events?",
+    "tokenCount": 53,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "6bc4a2877d4c77a25312e59151ba9ca513d8164eade85a82d3643bf3d162eb3d"
+  },
+  {
+    "text": "Do patients with Cushing syndrome and bilateral macronodu- lar hyperplasia who undergo unilateral laparoscopic adrenal- ectomy achieve biochemical remission of hypercortisolism when compared with patients treated with bilateral adrenalectomy? In patients with adrenocorticotropic hormone–dependent hypercortisolism, does bilateral laparoscopic adrenalectomy improve disease-free survival or mortality compared with pharmacologic management?",
+    "tokenCount": 86,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "822b22aee09e487b0020c4b0594627330fdb0fe27e89e4dd3780b793e42c99bc"
+  },
+  {
+    "text": "Is the incidence of postoperative adrenal insufficiency after unilateral adrenalectomy different between patients with overt Cushing syndrome vs those with MACS? Adrenocortical carcinoma 1. In patients with adrenocortical carcinoma (ACC), does treat- ment at a high-volume multidisciplinary center improve survival outcomes?",
+    "tokenCount": 67,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "3888c1a331fe91f2eb0a71750f3c35bc878447ea650e42a6a45107f5732c48ac"
+  },
+  {
+    "text": "In patients with ACC without evidence of distant metastatic disease at diagnosis, does operative technique affect survival? In patients with ACC and systemic disease at diagnosis, does resection of the primary tumor improve survival?",
+    "tokenCount": 40,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "03dd3d3b1369bec3035483f2082ac065d7a354bec42e47c6cf4101d22d874c42"
+  },
+  {
+    "text": "In patients with advanced ACC, what is the role of neoadju- vant therapy followed by resection vs surgery with or without adjuvant therapy? Metastasis to the adrenal gland 1.",
+    "tokenCount": 42,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "a03a845c858b408f7c7ef3ed5ad8a11197a18bf29882465514048404b7292e94"
+  },
+  {
+    "text": "In patients with an adrenal mass, does history of an extra- adrenal malignancy influence the hormonal evaluation? In a patient with a history of an extra-adrenal malignancy and an adrenal mass, when is image-guided needle biopsy recommended?",
+    "tokenCount": 56,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "ded2487af766d1274a0925439f83f9e14fe19545eb7c0193be9ae0863aa916b4"
+  },
+  {
+    "text": "In patients with an adrenal metastasis, does resection improve survival compared with systemic therapy alone? Pheochromocytoma and paraganglioma 1. In patients with pheochromocytoma and paraganglioma, how does selective α blockade affect perioperative hemodynamic stability when compared with nonselective blockade with phenoxybenzamine?",
+    "tokenCount": 78,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "6d9d21375d7f5a1a7ee4c61fb123709e63bc3070929b9e7df793267d3df68a89"
+  },
+  {
+    "text": "In patients with genetic mutations driving long-term develop- ment of bilateral pheochromocytomas, what is the impact of cortical-sparing adrenalectomy compared with bilateral total adrenalectomy on steroid dependence and disease recurrence?",
+    "tokenCount": 49,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "ac90ad95a96e7eeef47952c6f64d2aba85a9d3a0ba9264bee41adceb04b6e2ec"
+  },
+  {
+    "text": "In patients with metastatic pheochromocytoma and paragan- glioma, does surgical resection of primary disease improve survival compared with nonsurgical treatment? Technical aspects 1. In patients undergoing adrenalectomy, what is the benefit of minimally invasive surgery compared with open surgery on perioperative outcomes?",
+    "tokenCount": 65,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "27a572f31dd7190adc3e83e21df9571cf32758be09858a28680a9c451a94005e"
+  },
+  {
+    "text": "In patients who are appropriate candidates for minimally invasive adrenalectomy, does a retroperitoneal compared with a transperitoneal approach change perioperative outcomes? For surgeons performing adrenal surgery, does surgeon volume influence morbidity and mortality?",
+    "tokenCount": 50,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "8e7992d452339be8f34c6d960531d967e2b17e7c081e7bfe90ba649880059800"
+  },
+  {
+    "text": "In patients with adrenal tumors, what is the efficacy of radio- frequency ablation and stereotactic radiation compared with adrenalectomy? Research Original Investigation American Association of Endocrine Surgeons Guidelines for Adrenalectomy 872 JAMA Surgery October 2022 Volume 157, Number 10 (Reprinted) jamasurgery.com © 2022 American Medical Association.",
+    "tokenCount": 72,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "4aabd3a82f267a3c08fccc2137dcdac48718f18e96c58d05737461bb9f4e7d1c"
+  },
+  {
+    "text": "Downloaded from jamanetwork.com by University of Wisconsin -Madison user on 02/20/2026 Recommendation 1.4. We do not recommend routine scheduled follow-up of a nonfunctional adrenal nodule (size <4 cm) with benign imaging characteristics and noncontrast HU less than 10 because the risk of developing malignancy is very low.",
+    "tokenCount": 77,
+    "pageStart": 3,
+    "pageEnd": 4,
+    "hash": "663dccfeb8b3c54d0672820f76653a42e1753c12058e781f9d7cca8bcd862c08"
+  },
+  {
+    "text": "Nodules from 1 to 4 cm with indeterminate imaging characteristics (such as noncontrast CT with HU >10) have a slightly increased risk of malignancy and should undergo at least 1 repeated image at 6 to 12 months to confirm stability.",
+    "tokenCount": 53,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "efe852b1e11887078d899f112eff22464322197b7c0c8f0381ea657455fef873"
+  },
+  {
+    "text": "Autonomous cortisol secretion is the most common hor- monal excess to develop during surveillance and thus may be reevaluated at a 2- to 5-year interval. (Strong recommenda- tion, low-quality evidence.) Adrenalmyelolipomasandcystshavecharacteristicimaging features.",
+    "tokenCount": 64,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "d52062b642b1e338f45098e8c248ab2b122321d743473a48c793ba42bed71d0f"
+  },
+  {
+    "text": "4 Resection may be considered for indeterminate imaging, symptomatic tumors due to mass effect, substantive growth on surveillance, or those that have hemorrhaged. Recommendation 1.5. We do not suggest resecting a my- elolipoma or adrenal cyst with pathognomonic imaging features to improve the patient’s quality of life unless there are symptoms of mass effect.",
+    "tokenCount": 82,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "492310ccdb495da58ec1250b978fff23fa67584e5431546d122e21c8b482b997"
+  },
+  {
+    "text": "(Weak recommendation, low- quality evidence.) 2. Primary Aldosteronism Primary aldosteronism (PA) has been reported in 3% to 10% of hypertensive patients. 16 Once PA is diagnosed, mineralo- corticoid antagonists can be used to effectively manage PA-related hypertension and hypokalemia.",
+    "tokenCount": 68,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "fc6694df2947b057bac40fbf6ad4578f69ab08e16f2c3d968ce0659554b0fd16"
+  },
+  {
+    "text": "Primary aldoste- ronism may be caused by an aldosterone-secreting adenoma, unilateral adrenal hyperplasia, or bilateral adrenal hyperpla- sia, and adrenal venous sampling (AVS) may be necessary for lateralization (eTable 3 in the Supplement ).",
+    "tokenCount": 67,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "2fce7e4c79d8bd5b1f2e3c2c704ea7c9c164545cfa911326361962969bf06208"
+  },
+  {
+    "text": "After adrenalec- tomy, the majority of patients with PA have either complete or partial clinical success, with less than 20% requiring the same or higher doses of medication postoperatively. Studies to date have assessed cost and quality-of-life outcomes after adrenalectomy via laparoscopy, and whether similar conclu- sions can be made using other minimally invasive surgical ap- proaches is not yet known.",
+    "tokenCount": 89,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "ea2d2c52b00016c5866e853a0f802cb24ca47cdf4a016d56795cad4339911e8f"
+  },
+  {
+    "text": "Recommendation 2.1. We recommend that patients un- dergo laparoscopic adrenalectomy for unilateral PA because they are more likely to use fewer medications with lower de- fined daily doses to achieve normalization of blood pressure and potassium levels and have lower risks of new-onset atrial fibrillation, chronic kidney disease, stroke, and all-cause mor- tality.",
+    "tokenCount": 79,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "6d132c11f0231514db8738d2eb709909c1214213fa84f315c7db9027a578e5c8"
+  },
+  {
+    "text": "(Strong recommendation, low-quality evidence.) Recommendation 2.2. We suggest that in patients 35 years and younger with cross-sectional imaging demonstrat- ing a unilateral adenoma and a normal contralateral gland, AVS may be deferred because adrenalectomy directed by CT imaging alone has a cure rate similar to adrenalectomy guided by AVS.",
+    "tokenCount": 74,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "d98f68f1e2534203d206b16499510b7c30df1273d7ef89b9ab7ff52fa8fa4265"
+  },
+  {
+    "text": "However, AVS should still be considered for all patients older than 35 years. (Weak recommendation, low-quality evidence.) Recommendation 2.3. We recommend laparoscopic adre- nalectomy for primary aldosteronism due to unilateral dis- ease because it improves quality of life and reduces health care–related costs.",
+    "tokenCount": 69,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "0c40a02c8ee0b25f35b318f225e0e3bbab5f896a4df063948c2086c25b63be46"
+  },
+  {
+    "text": "(Strong recommendation, low-quality evidence.) 3. Hypercortisolism Previously known as subclinical Cushing syndrome (CS), MACS has been reported in 0.2% to 2% of the general adult popula- tion and in 5% to 30% of patients with an adrenal inciden- taloma (eTable 3 in the Supplement ).",
+    "tokenCount": 74,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "43f70c7def365062b698db9cb7d9d798075d1b5bb90322d6a3dc5f5a3c9c97c5"
+  },
+  {
+    "text": "17 Although patients with MACS may lack the classical stigmata of hypercortisolism, they have a high prevalence of associated comorbidities such as obesity, arterial hypertension, type 2 diabetes, vertebral frac- tures, and cardiovascular morbidity and mortality.",
+    "tokenCount": 58,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "a2fc1728a650b805a885886575befbb0d21f07d0417d75c17dae0eef123a9c53"
+  },
+  {
+    "text": "18,19 Recommendation 3.1. We recommend that patients with MACS secondary to a unilateral adenoma undergo laparo- scopic adrenalectomy because of anticipated significant improvements in cardiometabolic comorbidities.",
+    "tokenCount": 47,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "831627949389b08650ba2163d87e71ead6eaca1ceaeffe6b75cfcad3b374c9c4"
+  },
+  {
+    "text": "(Strong rec- ommendation, moderate-quality evidence.) Bilateraladrenocorticotropichormone(ACTH)–independent CS can be due to either macronodular or micronodular adre- nal hyperplasia.",
+    "tokenCount": 55,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "4840f3a4edd45241e8d3c7ffe152815d1e4b4cced18cf3a77a01e9ca4c0f7932"
+  },
+  {
+    "text": "20,21 There has been growing interest in whether unilateral adrenalectomy of the larger gland may produce bio- chemical normalization of hypercortisolism in select pa- tients. While surgical morbidity and mortality are minimal 17 and resolution of hypercortisolism occurs in 84% to 100% of pa- tients, recurrence can be seen in 13.3% to 68% of patients at 4 years.",
+    "tokenCount": 87,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "16e84622b4baf8e81eae999c9f2a678e2955e49441150164c269689f601a3e59"
+  },
+  {
+    "text": "22,23 Recommendation 3.2. In patients with bilateral mac- ronodular hyperplasia, we suggest consideration of unilat- eral laparoscopic adrenalectomy in patients with CS as an at- tempt to achieve biochemical remission of hypercortisolism without causing permanent adrenal insufficiency.",
+    "tokenCount": 67,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "d868765f190d35f42a7860e85ce29a09bf46ae73887d210631ec7a5432ee64e0"
+  },
+  {
+    "text": "(Weak rec- ommendation, low-quality evidence.) ACTH-dependent CS results from pituitary Cushing dis- ease or an ectopic ACTH source. Although CS can be resolved in most patients with treatment of the primary source, a sub- set of patients experience persistent, symptomatic CS from in- curable pituitary disease or metastatic or occult ectopic ACTH production.",
+    "tokenCount": 84,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "fe5bee6ca6e7debefb795773f09124feaf341f3e3529b189a7e00575617916b4"
+  },
+  {
+    "text": "Modern surgical techniques permit most pa- tients who require bilateral adrenalectomy to be managed with laparoscopic surgery, and operative morbidity in these pa- tients is approximately 10% with surgical mortality at 3%.",
+    "tokenCount": 44,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "9f0d90338a6069cde9d958ad42a83549b5496dc07bd57887628040e34967a893"
+  },
+  {
+    "text": "24-26 Recommendation 3.3. We suggest that patients with mod- erate to severe ACTH-dependent hypercortisolism refractory to source control undergo bilateral laparoscopic adrenalec- tomy to ameliorate cortisol excess and improve disease-free survival and mortality.",
+    "tokenCount": 62,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "925afa99b1f35afb27760a7a6cb65e609462eca48c67bb00adc06fcd55a34df8"
+  },
+  {
+    "text": "Postoperative adrenal insufficiency is a life-threatening condition that should be prevented and promptly managed in patients undergoing adrenalectomy. Symptoms include fa- tigue, hypotension, anorexia, abdominal pain, weakness, syn- cope, back pain, nausea, vomiting, fever, and confusion.",
+    "tokenCount": 62,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "d294211e1f9b5831483aed9d0377c3c3c708c31251587b6047b13b8254cdd349"
+  },
+  {
+    "text": "27 (Weak recommendation, low-quality evidence.) Recommendation 3.4. The incidence of adrenal insuffi- ciency after unilateral adrenalectomy is nearly 100% in pa- tients with overt CS and about 60% in patients with MACS.",
+    "tokenCount": 54,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "d5c5a21e6899c6f155b5b542e98fa5cfb464da8be22dbac9fffd52ef55c540e5"
+  },
+  {
+    "text": "We recommend empirical postoperative glucocorticoid replace- ment therapy for all patients with overt CS after undergoing unilateral adrenalectomy. However, we r ecommend that in patients with MACS, postoperative day 1 morning cortisol or corticotropin stimulation testing could be used to determine the need for glucocorticoid replacement therapy (eTable 4 American Association of Endocrine Surgeons Guidelines for Adrenalectomy Original Investigation Research jamasurgery.com (Reprinted) JAMA Surgery October 2022 Volume 157, Number 10 873 © 2022 American Medical Association.",
+    "tokenCount": 117,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "386b00dda3bd3ce64ded5905603ab0f31679070df3117b93d7493576380b5c3c"
+  },
+  {
+    "text": "Downloaded from jamanetwork.com by University of Wisconsin -Madison user on 02/20/2026 in the Supplement ). (Strong recommendation, low-quality evidence.) 4. Adrenocortical Carcinoma Adrenocortical carcinoma is a rare cancer and complete sur- gical resection is the only potential curative therapy (eTable 3 in the Supplement ).",
+    "tokenCount": 78,
+    "pageStart": 4,
+    "pageEnd": 5,
+    "hash": "461f6eb58786e7c79f737d80850e36f3430ebd5e5c7494a0dc6c92411a8948bc"
+  },
+  {
+    "text": "28 Given limited adjuvant therapies and the overall poor prognosis associated with recurrent ACC, com- plete resection to negative margins at the index operation is a key tenet of ACC management.",
+    "tokenCount": 40,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "1e246b22272e5bd6ec58654d50f9815de94e868c77b1a55f7accf56fe9ac9df3"
+  },
+  {
+    "text": "29 While radical surgery with en bloc resection and preservation of an intact tumor capsule is the standard of care for locoregionally invasive disease, the operative technique hinges on skill and experience. Recommendation 4.1.",
+    "tokenCount": 45,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "b948f36ac8a57da1097e8436b22071b7b0b214e621a1675961f76306f76bfcf8"
+  },
+  {
+    "text": "We recommend that patients with clinical and radiographic findings consistent with ACC should be treated at high-volume multidisciplinary centers to im- prove recurrence outcomes; data on overall survival are in- conclusive.",
+    "tokenCount": 41,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "e630d536600f5fd9cf77217b2b6e8dbf54513719c0dd778e8c224f1fea9506dd"
+  },
+  {
+    "text": "(Strong recommendation, low-quality evidence.) Recommendation 4.2. Regardless of operative approach, we recommend an en bloc radical resection with an intact cap- sule to microscopically negative (R0) margins because of im- proved survival.",
+    "tokenCount": 52,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "262e4a4ab959a189432ebb6241aee15cd4f850b08a114ac960f17e9711b05446"
+  },
+  {
+    "text": "Although open resection is preferred when ACC is suspected, the choice of operative approach should be based on the certainty of a complete R0 resection without tumor disruption. (Strong recommendation, low-quality evidence.) Approximately 22% to 35% of patients with ACC have evi- dence of distant metastatic disease at initial presentation. 29,30 Cases with oligometastatic but potentially resectable ACC pre- sent a challenge, as the benefits of primary resection and/or metastasectomy are incompletely understood.",
+    "tokenCount": 106,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "bb776c54f9a27950224e56f00b0a92f9628efaa808af8c13c715f2bc27161e15"
+  },
+  {
+    "text": "Careful pa- tient selection and clinical judgment should be integrated with the patient’s goals of care. Recommendation 4.3. We suggest that patients with sys- temic disease be offered resection of the primary tumor if all sites of disease are reasonably amenable to resection or local treatment and if performance status allows.",
+    "tokenCount": 68,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "b68386c0cbd3bcaa37f93c6b6d5923514109b2918cfd1849806b4d645efe8e45"
+  },
+  {
+    "text": "Surgery may also be considered in patients with hormone excess medically re- fractory to steroidogenic inhibition. (Weak recommenda- tion, low-quality evidence.) In ACC, the goal of systemic neoadjuvant therapy is pri- marily to reduce the burden of disease to facilitate later po- tential complete resection.",
+    "tokenCount": 67,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "342efccfd421b6687dd9970ece0d1b7ecd4a2c56569147024e285e1963a4de4d"
+  },
+  {
+    "text": "Although neoadjuvant therapy for advanced ACC has not been systemically evaluated, the ratio- nale for neoadjuvant treatment is extrapolated from the data on adjuvant therapy. Recommendation 4.4.",
+    "tokenCount": 45,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "9239cc63714d358d864201d071a05cf4352a6ebd2a523de11fc4dfef5f7d5c7a"
+  },
+  {
+    "text": "We recommend that neoadjuvant systemic therapy be administered for advanced ACC when R0 surgical resection is not initially feasible. We recommend up- front surgical intervention when R0 resection is possible. (Strong recommendation, low-quality evidence.) 5.",
+    "tokenCount": 51,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "92fe805a8292e81c7268cd53063aaf7faa09b9805a40a5c624700ad4c35c3f48"
+  },
+  {
+    "text": "Metastasis to the Adrenal Gland Adrenal metastases may have imaging features that make them potentially indistinguishable from other pathologies. Func- tional evaluation is imperative prior to biopsy, ablation, or re- section and should aim, at a minimum, to exclude excess hor- mone production.",
+    "tokenCount": 64,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "df2a17bbef30b6d79d56dbf0804be84f3e4e6968b2b0530693d44f5e8f2ca8c3"
+  },
+  {
+    "text": "If the indeterminate adrenal mass is the only site of potential metastatic disease and appears resectable in an otherwise fit operative candidate, surgical resection rather than biopsy may be considered for both diagnostic purposes and potential therapeutic benefit.",
+    "tokenCount": 48,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "70d7e0d95d5c2f0006bd950b6c35229153b4014ee6ab4fbe26a574f8aac7c5f3"
+  },
+  {
+    "text": "Recommendation 5.1. We recommend that a directed hor- monal evaluation should be performed in patients with an ad- renal mass regardless of history of extra-adrenal malignancy.",
+    "tokenCount": 40,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "86310af75420788ba0ba84fc3aa5ce9a7c4faed982fc04c61a476a15af377ed3"
+  },
+  {
+    "text": "(Strong recommendation, low-quality evidence.) Recommendation 5.2. We suggest that in the setting of a radiographically indeterminate mass, image-guided biopsy be rarely performed and reserved for patients in whom results would change overall disease management and that it be per- formed only after confirming lack of hormone excess.",
+    "tokenCount": 65,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "b9556d07e109d49da12efb1f84477dfecf5e53af8d46c6115b7028726175168a"
+  },
+  {
+    "text": "(Strong recommendation, low-quality evidence.) Adrenal metastasis commonly occurs in patients with ma- lignancy from the lung, kidney, breast, melanoma, and colon but may occur from many other primary sites.",
+    "tokenCount": 45,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "eef4d353a4af01666f84ab446687a3d55423bce4be2a18f252ae424f40958e41"
+  },
+  {
+    "text": "While there are currently no established criteria guiding patient selection for adrenal metastasectomy, consideration should be given to pa- thology, synchronous vs metachronous presentation, disease- free interval, and tumor size to help select appropriate surgi- cal candidates.",
+    "tokenCount": 54,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "d9091a1d115fed3c8b7c1a836979d2f7b7c2034ceb90131ae6a8683d04ba464e"
+  },
+  {
+    "text": "Adrenal metastasectomy may be more difficult because of reaction from systemic treatment but can be per- formed either open or minimally invasive with equivalent oncologic outcomes. Recommendation 5.3.",
+    "tokenCount": 41,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "4f3acbe37331994ef45661226e7d555bdbbd15066d001a46bea988703544f4c4"
+  },
+  {
+    "text": "We suggest that after multidisci- plinary review, resection may be offered to highly selected pa- tients to improve survival compared with systemic therapy alone. (Weak recommendation, low-quality evidence.) 6.",
+    "tokenCount": 44,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "8f0eaf36b7a51575cd2bfcb37e60f622a66fdae78b7f273e9285acb9f9accb5f"
+  },
+  {
+    "text": "Pheochromocytoma and Paraganglioma As recommended in the Endocrine Society clinic practice guideline for pheochromocytoma and paraganglioma (PPGL), initial biochemical testing for PPGLs should include measure- ment of plasma-free or urinary fractionated metanephrines and are typically more than 2 to 3 times the upper limit of normal in functional PPGLs.",
+    "tokenCount": 89,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "f54396e6d7564c302d2d151f08b6a502ec0487addd318966b58f4d479cf1f365"
+  },
+  {
+    "text": "31,32 Following the diagnosis, preopera- tive blockade for at least 7 days is routinely recommended to prevent dangerous perioperative hemodynamic instability. Recommendation 6.1. We recommend either selective or nonselective α blockade to safely prepare patients for surgical resection of PPGL, depending on the drug availability/cost, ex- perience, and preference of the care team.",
+    "tokenCount": 81,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "440635cdbc2d5050bafe0a5459bc9c8c2e006c02362e192bcfb4878f6a388f1d"
+  },
+  {
+    "text": "While there is no sig- nificant difference in morbidity or mortality between selective and nonselective α blockade, selective blockade (doxazosin, prazosin, terazosin) is associated with more intraoperative he- modynamic instability while nonselective blockade (phenoxy- benzamine) results in more postoperative hypotension.",
+    "tokenCount": 73,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "c3f172b7268c49795447deee8884f30245995c4e45dc2300108ad54a5c1d891a"
+  },
+  {
+    "text": "(Strong recommendation, moderate-quality evidence.) Pheochromocytomas (PCCs) and paragangliomas (PGLs) have the highest heritability of all adrenal tumors (about 40% are due to germline mutations), 33,34 and genetic testing is rec- ommended (eTable 3 in the Supplement ).",
+    "tokenCount": 73,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "74e258671c535a3c7527a7444f816c335b4e2a2d977777ac5d6f7471270ce452"
+  },
+  {
+    "text": "In the presence of bilateral or familial PCC, cortical-sparing adrenalectomy has been successfully used to preserve adrenal cortical tissue, pre- venting lifelong adrenal insufficiency. Studies report steroid dependency rates between 9% and 30% with recurrence rates from 9% to 30%.",
+    "tokenCount": 60,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "7527a06201975e06e9912e8c3c4d02267a2f0bc15e9d7445af6173ca20be4100"
+  },
+  {
+    "text": "35,36 While there are benefits to cortical- Research Original Investigation American Association of Endocrine Surgeons Guidelines for Adrenalectomy 874 JAMA Surgery October 2022 Volume 157, Number 10 (Reprinted) jamasurgery.com © 2022 American Medical Association.",
+    "tokenCount": 54,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "52b12de2bae72600673ef2237d4d2e84c662290ffdbb3435f557bf7b18cc7ce5"
+  },
+  {
+    "text": "Downloaded from jamanetwork.com by University of Wisconsin -Madison user on 02/20/2026 sparing adrenalectomy, considerations must include the in- creased technical difficulty and risk of recurrence in the adrenal remnant, which could necessitate a reoperative adre- nalectomy.",
+    "tokenCount": 63,
+    "pageStart": 5,
+    "pageEnd": 6,
+    "hash": "380838bf0e10bd19c9bae074dafd9803d10bb212e8e51048abd4ce58d5a09236"
+  },
+  {
+    "text": "If an attempt at cortical-sparing adrenalectomy in- creases concern for tumor disruption or incomplete resec- tion, it may not be appropriate. Recommendation 6.2. Because of the decreased rate of ste- roid dependence, we recommend consideration of cortical- sparing adrenalectomy in patients with bilateral PCCs if tech- nically feasible.",
+    "tokenCount": 74,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "a0b89cee560db9a3e644de4313973d22fcc61ccbc29e5d283a45c905d0274629"
+  },
+  {
+    "text": "However, the pa tient’s goals of care and a higher risk of recurrent pheochromocytoma should also be con- sidered. (Strong recommendation, low-quality evidence.) Approximately 2% to 25% of PCCs are metastatic, as com- pared with 2% to 60% of PGLs, and several studies suggest a sur- vival benefit associated with resection of the primary tumor in the presence of metastatic disease.",
+    "tokenCount": 98,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "b72e3523630183ab42e733b26fb4eee6a8ff1e42fff3c3a72e92d214b227d328"
+  },
+  {
+    "text": "However, more data are needed before potential positive effects of surgery, such as de- creasing symptoms of catecholamine excess and improving re- sponsetosystemicradiotherapies,canbeevaluatedandvalidated.",
+    "tokenCount": 49,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "d7c8de9aad486587e10c0f401c9a38b77fb338306c71c4ee06d5b708e004071e"
+  },
+  {
+    "text": "Recommendation 6.3. We suggest that in selected cases of metastatic PPGLs, resection of the primary tumor may be performed to improve overall survival. Patients should be care- fully evaluated by a multidisciplinary care team to determine if the benefits of resection of the primary tumor outweigh the risks.",
+    "tokenCount": 64,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "3678b8ff87f19f0210df120ecbd5aa46240c061bd0ebbe8cccb3d390b74dda93"
+  },
+  {
+    "text": "(Weak recommendation, low-quality evidence.) 7. Technical Aspects Adrenalectomy may be technically accomplished using either open or minimally invasive techniques via one of several ap- proaches (eTable 5 in the Supplement ).",
+    "tokenCount": 45,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "203aedc297b297de5b13a3eaf5ed62c4f9427e20554e58f5f7aecb30afd885c6"
+  },
+  {
+    "text": "Minimally invasive ad- renalectomy has become accepted as the gold-standard ap- proach for most small benign adrenal pathology because of multiple studies demonstrating decreased pain, shorter hos- pitalizations, and more rapid recovery compared with open adrenalectomy.",
+    "tokenCount": 54,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "708ab692be697349b17b36d2184f9496c07891aa0cd9deb0502765840a4f09ee"
+  },
+  {
+    "text": "37,38 There have been no prospective random- ized trials comparing laparoscopic to open adrenalectomy. Both laparoscopic transabdominal adrenalectomy and posterior ret- roperitoneal adrenalectomy (PRA) are effective and safe mini- mally invasive approaches.",
+    "tokenCount": 60,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "9ed6771f1c3eda823257c1dbffa5ab873661614e4bd19b20f6b1ed63a7121705"
+  },
+  {
+    "text": "Some studies suggest less pain and faster recovery after PRA, and in patients with extensive ab- dominal surgical history and/or bilateral tumors, PRA offers additional advantages (eTable 6 in the Supplement ).",
+    "tokenCount": 42,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "b3a9a33006fd4296aa35d08159601fe01ef994a358237b9c2364527c3bf6be8f"
+  },
+  {
+    "text": "Recommendation 7.1. When patient and tumor character- istics are appropriate, we recommend minimally invasive ad- renalectomy over open adrenalectomy because of improved perioperative morbidity.",
+    "tokenCount": 40,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "77f80668471edf7004a0e9e90836f2062fbde9763e1978a2212f8c1c24bb996c"
+  },
+  {
+    "text": "(Strong recommendation, low- quality evidence.) Recommendation 7.2. We recommend either a retroperito- neal or transperitoneal approach because of similar periopera- tive outcomes.",
+    "tokenCount": 43,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "19880ddd92a047418415da083faa9513ca1f2ba161533f244496f8c0c6beaa12"
+  },
+  {
+    "text": "The choice of approach should be determined by surgeon expertise and guided by tumor and patient character- istics. (Strong recommendation, moderate-quality evidence.) Several definitions of what would be a high volume for an adrenal surgeon have been proposed, ranging from 4 to 7 an- nual adrenalectomies.",
+    "tokenCount": 63,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "04232d560f4110948ef59bad5839f8583662713af814460fb3f307cf3c421bd0"
+  },
+  {
+    "text": "A threshold of 6 or more adrenal resec- tions per year was shown in assessment of the National Inpa- tient Sample to be associated with improved patient outcomes, including lower rates of complications, reduced in-hospital mortality, decreased cost of care, and shorter hospital stay.",
+    "tokenCount": 58,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "c85a878250942376eefae84695b37e2701cd4f9bda06883cdd2706b0c133d7db"
+  },
+  {
+    "text": "39 Since not all patients have access to high-volume adrenal sur- geons, lower-volume surgeons should exercise judgment and careful patient selection to provide safe care at their own cen- ter vs seeking referral or consultation with a more experi- enced adrenal surgeon when appropriate.",
+    "tokenCount": 59,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "58c5a5622c0814748cc32c61cf6d7d255086febb39da53b6f6a8535d14744eea"
+  },
+  {
+    "text": "Recommendation 7.3. We recommend that adrenalec- tomy be preferentially performed by a high-volume adrenal sur- geon to optimize outcomes, including lower rates of morbid- ity and mortality.",
+    "tokenCount": 46,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "d2f9b58f5e3bc5a87c08ed5b6213d5c36baf0b08a8e7d9191c710895dad4dd5b"
+  },
+  {
+    "text": "(Strong recommendation, moderate quality evidence.) The utility of percutaneous ablation, mainly with radio- frequency ablation, and stereotactic body radiation therapy for the destruction of hormonally active and inactive tumors and adrenal metastasis has been investigated in small retrospec- tive studies.",
+    "tokenCount": 60,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "37286cdf8bd6613001c3c65ca7e1e950a920336d5e5449ad35df06d8448481f3"
+  },
+  {
+    "text": "The studies suffer from small sample sizes and heterogeneity. Recommendation 7.4. We conditionally suggest ablation and stereotactic radiation not be used as an alternative to adrenalectomy for patients with adrenal lesions because there are inadequate data to support these modalities.",
+    "tokenCount": 54,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "dea750eb62d7325f452b52eb180fafbf348eb9be0e16ffdbbf9c2a2f7b98773c"
+  },
+  {
+    "text": "Sur- geons should be involved in the decision-making early in the treatment algorithm. (Weak recommendation, low-quality evidence.) Strengths and Limitations The study is limited in some sections by the paucity of strong evidence-based data available in the English literature.",
+    "tokenCount": 57,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "eba98fa00c1747d8c53741eddfad6959c0bb1860335f988a402f25361bef06d2"
+  },
+  {
+    "text": "In ad- dition, the PICO format (Population, Intervention/Exposure, Comparison, and Outcome) for comparing outcomes limited the sample size for which recommendations were crafted. How- ever, the strength of the article lies in the extensive review and rigorous attention to bias, strength of the literature that was reviewed, and the comprehensive considerations made by a diverse group of experts in the field.",
+    "tokenCount": 80,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "6f23de19faf63571abacad1b745c62ea472057b17ce779f12c85fcd8fc83e72a"
+  },
+  {
+    "text": "Conclusions We provide 26 evidence-based recommendations with clini- cally meaningful data to primarily assist surgeons with peri- operative adrenal care. Clinicians from multiple disciplines and patients may also find these recommendations useful.",
+    "tokenCount": 44,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "e2bf79afb93efa81180f681c1bb7a4ec38eb31d4b310484ac6f3d6f84c74a098"
+  },
+  {
+    "text": "We highlight topics that have low-quality data or little evidence available and propose these topics as opportunities for fur- ther research. ARTICLE INFORMATION Accepted for Publication: April 30, 2022. Published Online: August 17, 2022. 10.1001/jamasurg.2022.3544 Author Affiliations:",
+    "tokenCount": 63,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "cc0fb31ae7a231c27e37f468cf0781fa8f9d27fb91001d300d3af5667bf03e1f"
+  },
+  {
+    "text": "Division of Endocrine Surgery, University of Pittsburgh, Pennsylvania (Yip); Department of Surgery, University of California, San Francisco (Duh); Department of Surgery, Hospital of the University of Pennsylvania, University of Pennsylvania, Philadelphia (Wachtel); Division of Internal Medicine, Department of Endocrine Neoplasia and Hormonal Disorders, The University of Texas MD Anderson Cancer Center, Houston (Jimenez); Department of Surgery, American Association of Endocrine Surgeons Guidelines for Adrenalectomy Original Investigation Research jamasurgery.com (Reprinted) JAMA Surgery October 2022 Volume 157, Number 10 875 © 2022 American Medical Association.",
+    "tokenCount": 130,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "4b7a602a1c826d1e4d76b877186e397406e0d8df3fe4ab02dab5dc94ec3adbcd"
+  },
+  {
+    "text": "Downloaded from jamanetwork.com by University of Wisconsin -Madison user on 02/20/2026",
+    "tokenCount": 23,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "a24152b115a5667bb82733b63d71a65fc79599230d688ef2a4c1db33bb496ace"
+  },
+  {
+    "text": "Section of Endocrine Surgery, Northwestern University Feinberg School of Medicine, Chicago, Illinois (Sturgeon); Department of Surgery, University of Kentucky College of Medicine, Lexington (C. Lee); National Institute for Medical Sciences and Nutrition Salvador Zubirán, Mexico City, Mexico (Velázquez-Fernández); Center for Endocrine Surgery, Cleveland Clinic, Cleveland, Ohio (Berber); Department of Internal Medicine, University of Michigan, Ann Arbor (Hammer); Department of Cell & Developmental Biology, University of Michigan, Ann Arbor (Hammer); Department of Molecular & Integrative Physiology, University of Michigan, Ann Arbor (Hammer); Division of Endocrinology, Metabolism and Nutrition, Mayo Clinic, Rochester, Minnesota (Bancos); Department of Surgery, Department of Internal Medicine, Columbia University College of Physicians and Surgeons, New York, New York (J. A. Lee); Department of Radiology and Imaging Sciences, National Institutes of Health Clinical Center, Bethesda, Maryland (Marko); Division of Endocrine Surgery, Johns Hopkins Medicine, Baltimore, Maryland (Morris-Wiseman); Division of Surgical Oncology, Department of Surgery, Eastern Virginia Medical School, Norfolk (Hughes); Department of General Surgery, UCLA David Geffen School of Medicine, Los Angeles, California (Livhits); Department of Preventive Medicine, College of Medicine, Chosun University, Gwangju, Korea (Han); Department of Surgery, University of Virginia, Charlottesville (Smith); Department of Surgery, University Hospitals Cleveland Medical Center, Cleveland, Ohio (Wilhelm); Department of Pathology, University Hospitals Cleveland Medical Center, Case Western Reserve University, Cleveland, Ohio (Asa); Division of Endocrine & Minimally Invasive Surgery, Department of Surgery, Weill Cornell Medical College, New York– Presbyterian Hospital, New York (Fahey); Division of Endocrine and Metabolic Surgery, Department of Surgery, Mayo Clinic, Rochester, Minnesota (McKenzie); Department of Surgery, Gastric and Mixed Tumor Service, Memorial Sloan Kettering Cancer Center, New York, New York (Strong); Section of Surgical Endocrinology, Department of",
+    "tokenCount": 449,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "dbf0ad7a9f3f5e8bc43924875184b80d4f3f3116162c7108d0b219c6e9105ff4"
+  },
+  {
+    "text": "Surgical Oncology, The University of Texas MD Anderson Cancer Center, Houston (Perrier). Author Contributions : Drs Yip and Perrier had full access to all of the data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis. Concept and design: Yip, Jimenez, C. Lee, Velázquez-Fernández, Berber, Bancos, J. Lee, Hughes, Han, Smith, Wilhelm, Fahey, McKenzie, Perrier. Acquisition, analysis, or interpretation of data: Duh, Wachtel, Jimenez, Sturgeon, C. Lee, Velázquez-Fernández, Hammer, Bancos, J. Lee, Marko, Morris-Wiseman, Hughes, Livhits, Han, Smith, Asa, Fahey, McKenzie, Strong, Perrier. Drafting of the manuscript: Yip, Duh, Wachtel, Jimenez, Sturgeon, C. Lee, Velázquez-Fernández, Berber, Bancos, J. Lee, Morris-Wiseman, Hughes, Livhits, Han, Smith, Fahey, McKenzie, Strong, Perrier. Critical revision of the manuscript for important intellectual content: Duh, Wachtel, Jimenez, Sturgeon, C. Lee, Velázquez-Fernández, Berber, Hammer, Bancos, J. Lee, Marko, Morris-Wiseman, Hughes, Livhits, Han, Smith, Wilhelm, Asa, Fahey, McKenzie, Strong, Perrier. Statistical analysis: Yip, Velázquez-Fernández, J. Lee, Livhits, McKenzie. Administrative, technical, or material support: Yip, Jimenez, Velázquez-Fernández, Marko, Hughes, Han, Wilhelm, Fahey, McKenzie, Perrier. Supervision: Duh, Jimenez, Sturgeon, Velázquez-Fernández, Berber, Hammer, Hughes, Fahey, McKenzie, Strong,",
+    "tokenCount": 450,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "e37dc2b7042a9d5524828782291667d5874dc70ae34a6c8ed80dcdac7eef2825"
+  },
+  {
+    "text": "Perrier. Conflict of Interest Disclosures: Dr Wachtel reported grants from the National Institutes of Health (NIH), National Center for Advancing Translational Sciences (KL2 TR001879), during the conduct of the study. Dr Jimenez reported research support from Lantheus Pharmaceuticals, Progenics, Exelixis, MSD, and Pfizer and serving on an advisory board for HRA Pharma and Pfizer during the conduct of the study. Dr Berber reported consulting for Medtronic, Aesculap, and Ethicon outside the submitted work. Dr Hammer reported being a founder of and consultant for Vasaragen, having patents for diagnostics via Vasaragen and the University of Michigan, and being the editor or associate editor of two textbooks outside the submitted work. Dr Bancos reported grants from the NIH and fees to her institution from HRA Pharma, Corcept, Lantheus, Recordati, Spruce, Sparrow, and Adrenas outside the submitted work. Dr Asa reported serving as an advisor for Leica Biosystems, Ibex Medical Analytics, and Iron Mountain outside the submitted work. Dr Fahey reported being a consultant and investor in Mediflix Inc. No other disclosures were reported. Additional Contributions: The Adrenalectomy Guidelines Committee acknowledges the support and dedication of all contributors for the voluntary time and diligence of acquiring the detailed data and constructing the manuscript. In addition, we thank the American Association of Endocrine Surgeons (AAES) membership for their careful review of the manuscript and insightful feedback. We are also grateful for the National Adrenal Disease Foundation (NADF) for representing the voice of our patients as we constructed these guidelines. Many thanks to Yasmin J. Khawaja, MA, Department of Surgical Oncology, MD Anderson Cancer Center, for orchestrating the committee’s activities and her excellent administrative support and reference management. Written permission to include names has been obtained. No compensation was received by any of the individuals who worked on this manuscript. Additional Information: The International Association of Endocrine Surgeons (IAES), the American Association of Clinical Endocrinology (AACE), and the Society of",
+    "tokenCount": 450,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "34f444e933ac168747f4db8708e2576d2279bcf561e975e6eb7d4576d160146c"
+  },
+  {
+    "text": "Abdominal Radiology’s Adrenal Neoplasm Disease Focused Panel have fully endorsed the guidelines. REFERENCES 1 . Balshem H, Helfand M, Schünemann HJ, et al. GRADE guidelines: 3. Rating the quality of evidence. J Clin Epidemiol . 2011;64(4):401-406. doi: 10.1016/j. jclinepi.2010.07.015 2 . Fassnacht M, Arlt W, Bancos I, et al. Management of adrenal incidentalomas: European Society of Endocrinology Clinical Practice Guideline in collaboration with the European Network for the Study of Adrenal Tumors. Eur J Endocrinol . 2016;175 (2):G1-G34. doi: 10.1530/EJE-16-0467 3 . Zeiger MA, Thompson GB, Duh QY, et al; American Association of Clinical Endocrinologists; American Association of Endocrine Surgeons. American Association of Clinical Endocrinologists and American Association of Endocrine Surgeons Medical Guidelines for the Management of Adrenal Incidentalomas: executive summary of recommendations. Endocr Pract . 2009;15(5):450- 453. doi: 10.4158/EP.15.5.450 4 . Dinnes J, Bancos I, Ferrante di Ruffano L, et al. Management of Endocrine Disease: imaging for the diagnosis of malignancy in incidentally discovered adrenal masses: a systematic review and meta-analysis. Eur J Endocrinol . 2016;175(2):R51-R64. doi: 10.1530/EJE-16-0461 5 . Ichijo T, Ueshiba H, Nawata H, Yanase T. A nationwide survey of adrenal incidentalomas in Japan: the first report of clinical and epidemiological features. Endocr J . 2020;67(2):141- 152. doi: 10.1507/endocrj.EJ18-0486 6 . Ebbehoj A, Li D, Kaur RJ, et al.",
+    "tokenCount": 449,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "79d8464b1de0ad939f195204c86eefe27fe2e8863eba04a3e92b34d29bd4214d"
+  },
+  {
+    "text": "Epidemiology of adrenal tumours in Olmsted County, Minnesota, USA: a population-based cohort study. Lancet Diabetes Endocrinol . 2020;8(11):894-902. doi: 10.1016/S2213-8587(20)30314-4 7 . Hong AR, Kim JH, Park KS, et al. Optimal follow-up strategies for adrenal incidentalomas: reappraisal of the 2016 ESE-ENSAT guidelines in real clinical practice. Eur J Endocrinol . 2017;177(6): 475-483. doi: 10.1530/EJE-17-0372 8 . Cyranska-Chyrek E, Szczepanek-Parulska E, Olejarz M, Ruchala M. Malignancy risk and hormonal activity of adrenal incidentalomas in a large cohort of patients from a single tertiary reference center. Int J Environ Res Public Health . 2019;16(10):E1872. doi: 10.3390/ijerph16101872 9 . Bancos I, Taylor AE, Chortis V, et al; ENSAT EURINE-ACT Investigators. Urine steroid metabolomics for the differential diagnosis of adrenal incidentalomas in the EURINE-ACT study: a prospective test validation study. Lancet Diabetes Endocrinol . 2020;8(9):773-781. doi: 10.1016/S2213- 8587(20)30218-7 10 . Cawood TJ, Hunt PJ, O’Shea D, Cole D, Soule S. Recommended evaluation of adrenal incidentalomas is costly, has high false-positive rates and confers a risk of fatal cancer that is similar to the risk of the adrenal lesion becoming malignant: time for a rethink? Eur J Endocrinol . 2009;161(4):513-527. doi: 10.1530/EJE-09-0234 11 . Mansmann G, Lau J, Balk E, Rothberg M, Miyachi Y, Bornstein SR. The clinically inapparent adrenal",
+    "tokenCount": 449,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "377101d33275bf7b1ebc5452a4a793ddd240e29243865ed46f7ac3535a826dff"
+  },
+  {
+    "text": "Hannemann A, Wallaschofski H. Prevalence of primary aldosteronism in patient’s cohorts and in population-based studies: a review of the current literature. Horm Metab Res . 2012;44(3):157-162. 10.1055/s-0031-1295438 17 .",
+    "tokenCount": 74,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "1a6cdce5799a2c772e4894e6d2399230e46d60381bc8165d92df479bc813d204"
+  },
+  {
+    "text": "Iacobone M, Citton M, Scarpa M, Viel G, Boscaro M, Nitti D. Systematic review of surgical treatment of subclinical Cushing’s syndrome. Br J Surg . 2015;102(4):318-330. 10.1002/bjs.9742 18 . Park J, De Luca A, Dutton H, Malcolm JC, Doyle MA. Cardiovascular outcomes in autonomous cortisol secretion and nonfunctioning adrenal adenoma: a systematic review. J Endocr Soc . 2019;3 (5):996-1008. 10.1210/js.2019-00090 19 . Rossi R, Tauchmanova L, Luciano A, et al. Subclinical Cushing’s syndrome in patients with adrenal incidentaloma: clinical and biochemical features. J Clin Endocrinol Metab . 2000;85(4): 1440-1448 . Vassiliadi DA, Tsagarakis S. Diagnosis and management of primary bilateral macronodular adrenal hyperplasia. Endocr Relat Cancer . 2019;26 (10):R567-R581. 10.1530/ERC-19-0240 21 . Meloche-Dumas L, Mercier F, Lacroix A.",
+    "tokenCount": 273,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "ae6bc6c873bbee1e17405d18f019627ed6a07c0b52ac81120a31f85a9330e5e0"
+  },
+  {
+    "text": "Role of unilateral adrenalectomy in bilateral adrenal hyperplasias with Cushing’s syndrome. Best Pract Res Clin Endocrinol Metab . 2021;35(2):101486. 10.1016/j.beem.2021.101486 22 . Osswald A, Quinkler M, Di Dalmazi G, et al.",
+    "tokenCount": 75,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "4066c0d6932d65ac86ada26fb91151ca6555f330509451a21ea25961329c00fa"
+  },
+  {
+    "text": "Long-term outcome of primary bilateral macronodular adrenocortical hyperplasia after unilateral adrenalectomy. J Clin Endocrinol Metab . 2019;104(7):2985-2993. 10.1210/jc.2018-02204 23 . Xu Y, Rui W, Qi Y, et al.",
+    "tokenCount": 70,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "2150d7d75fc20ce4dd87e098cb30c142661fbf88dfc98aa2baa5a577d9db9ce4"
+  },
+  {
+    "text": "The role of unilateral adrenalectomy in corticotropin-independent bilateral adrenocortical hyperplasias. World J Surg . 2013;37(7):1626-1632. 10.1007/s00268-013- 2059-9 24 . Oßwald A, Plomer E, Dimopoulou C, et al. Favorable long-term outcomes of bilateral adrenalectomy in Cushing’s disease. Eur J Endocrinol . 2014;171(2):209-215. 10.1530/EJE-14-0214 25 .",
+    "tokenCount": 125,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "6c75effe1b5cfa0fdc340a8a96187decf9a80ad8516efe02c84bd6cd2257459d"
+  },
+  {
+    "text": "Szabo Yamashita T, Sada A, Bancos I, et al. Differences in outcomes of bilateral adrenalectomy in patients with ectopic ACTH producing tumor of known and unknown origin.",
+    "tokenCount": 43,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "1abf15b721d2798b2538fe173356644587e4f16aa353b433438163a0be666a2d"
+  },
+  {
+    "text": "Am J Surg . 2021;221(2): 460-464. 10.1016/j.amjsurg.2020.08.047 26 . Thompson SK, Hayman AV, Ludlam WH, Deveney CW, Loriaux DL, Sheppard BC.",
+    "tokenCount": 57,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "66f72f1517af0733f25aff466089480d1bf7fbbb846a8f3c449b79ebe3c1e6dc"
+  },
+  {
+    "text": "Improved quality of life after bilateral laparoscopic adrenalectomy for Cushing’s disease: a 10-year experience. Ann Surg . 2007;245(5):790-794.",
+    "tokenCount": 40,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "8ddd41e11d3bf2be6f2cb70c8a7c3d7a19308c0494f657c3a297baeb20a42c02"
+  },
+  {
+    "text": "10.1097/01.sla.0000251578.03883.2f 27 . Di Dalmazi G, Berr CM, Fassnacht M, Beuschlein F, Reincke M.",
+    "tokenCount": 50,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "28e219ee961985d2cac6d4bdc675c5f8897d14008392fe4481f58d83c1afffb4"
+  },
+  {
+    "text": "Adrenal function after adrenalectomy for subclinical hypercortisolism and Cushing’s syndrome: a systematic review of the literature. J Clin Endocrinol Metab . 2014;99(8): 2637-2645. 10.1210/jc.2014-1401 28 .",
+    "tokenCount": 64,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "5dd6edbe3e6242d8a497bc53c6504614f8128a04853cbc5fb410f3dfc6266775"
+  },
+  {
+    "text": "Else T, Williams AR, Sabolch A, Jolly S, Miller BS, Hammer GD. Adjuvant therapies and patient and tumor characteristics associated with survival of adult patients with adrenocortical carcinoma.",
+    "tokenCount": 43,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "46a19a85e0112328e8eaffd478b053c9ae4b31ef4576353a62b95fa9a2793ddc"
+  },
+  {
+    "text": "J Clin Endocrinol Metab . 2014;99(2):455-461. 10.1210/ jc.2013-2856 29 . Bilimoria KY, Shen WT, Elaraj D, et al. Adrenocortical carcinoma in the United States: treatment utilization and prognostic factors. Cancer . 2008;113(11):3130-3136. 10.1002/cncr.23886 30 .",
+    "tokenCount": 92,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "ba10b4dcffcefba3aa565c547cea1c2667c20b6b0da40f704bf088c08548372f"
+  },
+  {
+    "text": "Kebebew E, Reiff E, Duh QY, Clark OH, McMillan A. Extent of disease at presentation and outcome for adrenocortical carcinoma: have we made progress? World J Surg . 2006;30(5):872-878. 10.1007/s00268-005-0329-x 31 .",
+    "tokenCount": 77,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "93030a140f0e0372b01c1b208fcee1a728fa8e078a04fddd58bddc7b67e2cb90"
+  },
+  {
+    "text": "Lenders JW, Duh QY, Eisenhofer G, et al; Endocrine Society. Pheochromocytoma and paraganglioma: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab . 2014;99 (6):1915-1942. 10.1210/jc.2014-1498 32 .",
+    "tokenCount": 77,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "34448e649ce319c8c68a9efddd8e46033e8ba414d81f73294ed96aa9fa67c4bf"
+  },
+  {
+    "text": "Kunz PL, Reidy-Lagunes D, Anthony LB, et al; North American Neuroendocrine Tumor Society. Consensus guidelines for the management and treatment of neuroendocrine tumors. Pancreas . 2013;42(4):557-577. 10.1097/MPA. 0b013e31828e34a4 33 . Dahia PL. Pheochromocytoma and paraganglioma pathogenesis: learning from genetic heterogeneity. Nat Rev Cancer . 2014;14(2):108-119. 10.1038/nrc3648 34 .",
+    "tokenCount": 127,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "f12078f658f1f9578aa270bf5837501b66a026b71bc87456a891798dee7f2ac7"
+  },
+  {
+    "text": "Fishbein L, Leshchiner I, Walter V, et al; Cancer Genome Atlas Research Network. Comprehensive molecular characterization of pheochromocytoma and paraganglioma. Cancer Cell . 2017;31(2):181-193. 10.1016/j.ccell.2017.01.001 35 . Grubbs EG, Rich TA, Ng C, et al. Long-term outcomes of surgical treatment for hereditary pheochromocytoma. J Am Coll Surg . 2013;216(2): 280-289. 10.1016/j.jamcollsurg.2012.10.012 36 .",
+    "tokenCount": 136,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "ac6d6ac4a2869f46c88928afe9de2e29829f4a07a8a6e6c1f0ca1950f715f07d"
+  },
+  {
+    "text": "Neumann HPH, Tsoy U, Bancos I, et al; International Bilateral-Pheochromocytoma- Registry Group. Comparison of pheochromocytoma-specific morbidity and mortality among adults with bilateral pheochromocytomas undergoing total adrenalectomy vs cortical-sparing adrenalectomy.",
+    "tokenCount": 73,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "8f9489027899596c249dbe0640835d647cd859fa0a92d8dda142a2dcf5f043d0"
+  },
+  {
+    "text": "JAMA Netw Open . 2019;2(8):e198898. 10.1001/ jamanetworkopen.2019.8898 37 . Assalia A, Gagner M. Laparoscopic adrenalectomy. Br J Surg . 2004;91(10):1259-1274. 10.1002/bjs.4738 38 . Kebebew E, Siperstein AE, Duh QY. Laparoscopic adrenalectomy: the optimal surgical approach. J Laparoendosc Adv Surg Tech A . 2001;11 (6):409-413. 10.1089/10926420152761941 39 . Anderson KL Jr, Thomas SM, Adam MA, et al. Each procedure matters: threshold for surgeon volume to minimize complications and decrease cost associated with adrenalectomy. Surgery . 2018; 163(1):157-164.",
+    "tokenCount": 184,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "ce7648416e34060dd59968ea848b56dedad33684e7ebe69ddae9040cdca779b0"
+  },
+  {
+    "text": "10.1016/j.surg.2017.04.028 Invited Commentary Importance of a Multidisciplinary and Comprehensive Approach to Management of Adrenal Tumors Tracy S. Wang, MD, MPH; Carmen C.",
+    "tokenCount": 47,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "a56dd9028f78037eeac033784fca518ccc9819ce8844e93e300ec5f167b89e71"
+  },
+  {
+    "text": "Solórzano, MD The American Association of Endocrine Surgeons Guidelines for Adrenalectomy, published in this issue of JAMA Surgery , represent a series of 26 carefully composed recommenda- tions on the surgical management of patients with adrenal disease.",
+    "tokenCount": 53,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "08977bf3d128c53210db72973394c05ec75c4d3c824b8227ae9b30b14ef15011"
+  },
+  {
+    "text": "1 The authors are to be congratulated for this compre- hensive update, which focuses on 7 areas of clinical concern to the practicing adrenal surgeon. We would like to highlight the recommendations for a com- prehensive biochemical evaluation of patients with inciden- tally identified adrenal nodules more than 1 cm on cross- sectional imaging (recommendations 1.1-1.3) and emphasize the need for a multidisci- plinary approach to adrenal tumors.",
+    "tokenCount": 100,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "b947644760fd9f021a60464526e646488bf86d0f0dfcf6e4dd05c6ddfd25720f"
+  },
+  {
+    "text": "A systemwide algo- rithm for adrenal incidentalomas, including standardized ter- minology in the radiological assessment for evaluation and re- ferral to a multidisciplinary clinic (staffed by endocrinology and adrenal surgeons) at our institution(s), has resulted in an increase in the number of patients who have appropriate evalu- ation of adrenal incidentalomas; this anecdotal experience is supported by others.",
+    "tokenCount": 89,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "9fc3cfbcd807dc584c318450ee358791873007736d678a1e8d4b09f15e5c100f"
+  },
+  {
+    "text": "2-4 We encourage adrenal surgeons to lead the implementation of similar processes and the multidisci- plinary discussion of patients with adrenal tumors including those being considered for unconventional treatments (rec- ommendation 7.4), a point emphasized by the authors through- out these guidelines.",
+    "tokenCount": 60,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "86fdda45022bb434a88ded685add4b541e6fd2c47e8c0e6030e3e570b3b6d547"
+  },
+  {
+    "text": "Multidisciplinary care is particularly important in deter- mining the appropriate follow-up, both radiographic and bio- chemical, in patients who have nonfunctional adrenal tu- mors with benign imaging characteristics.",
+    "tokenCount": 42,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "8e83d258c011b61818ae1c47e37b30139a05f90fd1741fb25cc8963016055f96"
+  },
+  {
+    "text": "While the authors do not recommend routine scheduled follow-up in these pa- tients (recommendation 1.4), due to the low risk of malig- nancy and low incidence of developing hormonal excess, the level of evidence is “low quality” and the follow-up remains Related article page 870 American Association of Endocrine Surgeons Guidelines for Adrenalectomy Original Investigation Research jamasurgery.com (Reprinted) JAMA Surgery October 2022 Volume 157, Number 10 877 © 2022 American Medical Association.",
+    "tokenCount": 110,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "7f816528a02347b4fbd3bbc1a82639737a54bbe1a2726fb0a79ffbcc490c59e7"
+  },
+  {
+    "text": "Downloaded from jamanetwork.com by University of Wisconsin -Madison user on 02/20/2026",
+    "tokenCount": 23,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "a24152b115a5667bb82733b63d71a65fc79599230d688ef2a4c1db33bb496ace"
+  }
+]

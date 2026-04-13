@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Evaluating adrenal nodules *See next page for hormonal workup reference Incidental adrenal nodule > 1 cm Found on non-contrast (non-con) CT? DO NOT BIOPSY adrenal mass without hormone workup and consulation Assess imaging characteristics Obtain adrenal protocol CT Suspicious appearance Hormonal workup* Abnormal DST or metanephrines or aldosterone : renin Normal hormonal workup Refer to Endocrine Surgery Adrenal Nodules Clinic Benign appearance Hormonal workup* • Size ≥4 cm in diameter • >10 Hounsfield units (HU) on non-con CT • CT contrast washout <40–60% • On MRI, hyperintense on T2 imaging or no signal loss on chemical-shift analysis • On 18F-FDG PET-CT, SUVmax ≥5 or adrenal-to- spleen or adrenal-to liver signal-intensity ratio ≥1 • Catecholamine Excess – Plasma fractionated metanephrines – Abnormal:",
+    "tokenCount": 220,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "4419fbaa97a9f1c0b1b24bd865ba9cb6364e9bf24737b2c3d6f78a821897f791"
+  },
+  {
+    "text": ">2x Upper Limit of Normal (ULN) • Adrenal hypercortisolism – 1mg Dexamethasone suppression test (DST) – Abnormal: >1.8 mcg/dl • Adrenal hyperaldosteronism – If patient has a history of HTN – Plasma aldosterone and renin – Abnormal:",
+    "tokenCount": 74,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "2c29833c1fe3d5ee1831adc19a73181caee26e67fbaf79c01621e8728e31db9a"
+  },
+  {
+    "text": "aldosterone >10 and renin <1.0 • Size 1-4 cm in diameter • ≤10 Hounsfield units (HU) on non-con CT • CT contrast washout ≥40–60% • Signal loss on MRI chemical-shift analysis • On 18F-FDG PET-CT, SUVmax <5 or adrenal-to- spleen or adrenal-to liver signal-intensity ratio <1 • Adrenal hypercortisolism – 1mg Dexamethasone suppression test (DST) – Abnormal:",
+    "tokenCount": 116,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "621d65ce68ae4ef079456dca5e7aec1d3b59280e9befd94526f134f7ffcce4a6"
+  },
+  {
+    "text": ">1.8 mcg/dl • Adrenal hyperaldosteronism – If patient has a history of HTN – Plasma aldosterone and renin – Abnormal: aldosterone >10 and renin <1.0 Size > 4cm AND ≤10 HU on non-con CT • Repeat adrenal protocol CT in 1 year to confirm stability • Consider follow-up imaging at 6 months in patients younger than 40 years of age • Autonomous cortisol secretion = most common hormonal excess to develop during surveillance and may be reevaluated at a 2- to 5-year interval Size 1–4cm AND >10 HU on non-con CT Size 1–4 cm AND ≤10 HU on non-con CT • Follow up with primary care provider • No further follow-up imaging needed unless symptoms or signs indicating hormone excess develop Ye s No",
+    "tokenCount": 177,
+    "pageStart": 1,
+    "pageEnd": 1,
+    "hash": "e6b6af236be13560be76f178128bb80c7e3f55b996d103bf8a48afff8f26f72e"
+  },
+  {
+    "text": "GS-2727550-26 Hormonal workup reference 1. Cortisol evaluation Dexamethasone Suppression Test (DST) • Prescribe 1 mg of oral dexamethasone to be taken at 11 pm • The next morning at 8 am, a cortisol and dexamethasone level are drawn • If the 8 am cortisol is < 1.8 mcg/dL, cortisol excess is ruled out • If the am cortisol after dexamethasone is >1.8mcg/dL, then screening is POSITIVE or ABNORMAL • Cortisol between 1.8–5.0 mcg/dL may represent mild cortisol excess, therefore you need to proceed with confirmatory testing:",
+    "tokenCount": 150,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "5f8e23e321bca92b2885a9999c904c74544a4de70384170cca08e64c73120462"
+  },
+  {
+    "text": "– Morning serum corticotropin and cortisol levels – 24-hr urinary cortisol – 3 midnight/late-night salivary cortisol – Midnight serum cortisol – DHEAS (<40 mcg/dL) • Failure to suppress below 5.0 mcg/dL raises concern for cortisol excess 2.",
+    "tokenCount": 61,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "3f9e7ec19beb6a3815afe199f75ed3caa084b57ddc0f70f49af14798131849f9"
+  },
+  {
+    "text": "Screen for aldosteronoma Aldosterone level : Plasma Renin Activity (PRA) • Perform if patient has a history of hypertension or hypokalemia • Obtain mid-morning plasma aldosterone concentration and plasma renin activity – These must be drawn at the same time and should not be done with the DST • Divide the aldosterone level by the PRA to calculate the aldosterone :",
+    "tokenCount": 85,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "329a6fedec37030b61b3718c99b055128048e10481eb0b7df8a6a29b347a783f"
+  },
+  {
+    "text": "renin (ARR) • If the ARR is > 20, screen is POSITIVE or ABNORMAL for hyperaldosteronism • If aldosterone > 10 ng/dL AND renin < 1.0 ng/dL then screen is POSITIVE or ABNORMAL for hyperaldosteronism – Proceed to confirmatory testing with oral sodium load test, aldosterone suppression test or seated saline infusion test • If aldosterone < 10 ng/dL OR renin > 1.0 ng/dL, then screen is NEGATIVE or NORMAL for hyperaldosteronism • If aldosterone > 10 ng/dL AND renin > 1.0 ng/dL and is on a potentially interfering medication, then hold/replace medications for 4 weeks and repeat 3.",
+    "tokenCount": 163,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "a3a7a89a79b6c4214c9e6bdf8f3f3c5e142a8334c96d3caadae12833e3eb2b0a"
+  },
+  {
+    "text": "Screen for pheochromocytoma Plasma-free metanephrines • POSITIVE or ABNORMAL if elevated > 2x ULN • Elevations < 2x ULN may be false positives and should be considered equivocal • Elevations < 2x ULN and no classic signs of pheochromocytoma – Confirm with 24-hour urine metanephrines = less likely to be falsely positive • If mildly elevated or concern for false positive, stop medications:",
+    "tokenCount": 104,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "dacf9c336510e37ac3cfab0d94dad5c57ae16a1306dadc6592efe121f7e4c630"
+  },
+  {
+    "text": "– Tricyclic antidepressants – Phenoxybenzamine – Levodopa – Beta blockers – Labetalol – Amphetamines – Buspirone – Methyldopa – Chlorpromazine • Confirmatory testing = 24-hour urine metanephrines • Consider genetic testing in confirmed pheochromocytoma",
+    "tokenCount": 70,
+    "pageStart": 2,
+    "pageEnd": 2,
+    "hash": "00c31aad5838949bc50aa0f08788b70800bd1070a53d2e82d7b3a483bf671e00"
+  }
+]

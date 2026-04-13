@@ -13,6 +13,7 @@ model KnowledgeChunk {
   sourcePageStart Int?
   sourcePageEnd   Int?
   text            String
+  leadSentence    String?
   hash            String   @unique
   version         Int      @default(1)
   citationKey     String   @unique

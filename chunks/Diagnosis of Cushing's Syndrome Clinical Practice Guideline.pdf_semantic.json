@@ -1,0 +1,1969 @@
+[
+  {
+    "text": "about the balance between risks and benefits; strong recommen- dations based on low-quality evidence usually indicate the pan- el’s strong preference against the alternative course of action but are subject to change with new research. Given a weak recom- mendation, careful consideration of the patient’s circumstances, values, and preferences is appropriate to determine the best course of action. Linked to each recommendation is a description of the evi- dence , values that panelists considered in making the recommen- dation(whenmakingtheseexplicitwasnecessary),and remarks , asectioninwhichpanelistsoffertechnicalsuggestionsfortesting conditions, dosing, and monitoring. These technical comments reflect the best available evidence applied to a typical patient. Oftenthisevidencecomesfromtheunsystematicobservationsof the panelists and should therefore be considered suggestions. 1.0 Definition, pathophysiology, and etiology of hypercortisolism Cushing’s syndrome comprises a large group of signs and symp- tomsthatreflectprolongedandinappropriatelyhighexposureof tissue to glucocorticoids (Table 1). Whereas the most common cause is iatrogenic from medically prescribed corticosteroids, endogenous Cushing’s syndrome is an uncommon disorder. Eu- ropean population-based studies reported an incidence of two to three cases per 1 million inhabitants per year (4, 5",
+    "tokenCount": 298,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "c63b75de1b3e8a6fdbdcd080759dbf866fa5600f48a611f82d04f3058b8f3ee3"
+  },
+  {
+    "text": "Excess cor- tisol production, the biochemical hallmark of endogenous Cush- ing’s syndrome, may be caused by either excess ACTH secretion (from a pituitary or other ectopic tumor) or independent adrenal overproduction of cortisol. Although Cushing’s syndrome is clinically unmistakable when full blown, the spectrum of clinical presentation is broad, and the diagnosis can be challenging in mild cases. Few, if any, features of Cushing’s syndrome are unique, but some are more discriminatory than others, including reddish purple striae, plethora, proximal muscle weakness, bruising with no obvious trauma, and unexplained osteoporosis (6–8). More often pa- tientshaveanumberoffeaturesthatarecausedbycortisolexcess but that are also common in the general population, such as obesity, depression, diabetes, hypertension, or menstrual irreg- ularity. As a result, there is an overlap in the clinical presentation of individuals with and without the disorder (Table 1",
+    "tokenCount": 214,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "8c4074fc293d42357ddef46ed3915f272540088e3387ff7a4f231696becfe622"
+  },
+  {
+    "text": "We en- courage caregivers to consider Cushing’s syndrome as a second- ary cause of these conditions, particularly if additional features of the disorder are present. (see Who should be tested below.) If Cushing’s syndrome is not considered, the diagnosis is all too often delayed. In addition, overactivity of the hypothalamic-pituitary-adre- nal (HPA) axis occurs without true Cushing’s syndrome, so that there is an overlap between physiological and pathophysiolog- ical causes of hypercortisolism (Table 2). Thus, certain psychi- atric disorders (depression, anxiety disorder, obsessive-compul- sive disorder), poorly controlled diabetes mellitus, and alcoholism can be associated with mild hypercortisolism and may produce test results suggestive of Cushing’s syndrome, in- cluding abnormal dexamethasone suppressibility and mildly el- evated UFC (9",
+    "tokenCount": 200,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "db697c176d1cfeee1f0cb36c33f620ab11b9507de4cbfa8c04a2402f54b96a08"
+  },
+  {
+    "text": "Circulating cortisol concentrations are usually normal (or slightly reduced) in obesity, but severe obesity can raise UFC. It is thought that higher brain centers stimulate CRH release in these conditions, with subsequent activation of the entireHPAaxis(10).Thenegativefeedbackinhibitionofcortisol on CRH and pituitary ACTH release partially restrains the re- TABLE 1. Overlapping conditions and clinical features of Cushing’s syndrome a Symptoms Signs Overlapping conditions Features that best discriminate Cushing’s syndrome; most do not have a high sensitivity Easy bruising Facial plethora Proximal myopathy (or proximal muscle weakness) Striae (especially if reddish purple and \u0001 1 cm wide) In children, weight gain with decreasing growth velocity Cushing’s syndrome features in the general population that are common and/or less discriminatory Depression Dorsocervical fat pad ( \u0002 buffalo hump \u0002 ) Hypertension b Fatigue Facial fullness Incidental adrenal mass Weight gain Obesity Vertebral osteoporosis b Back pain Supraclavicular fullness Polycystic ovary syndrome Changes in appetite Thin skin b Type 2 diabetes b Decreased concentration Peripheral edema Hypokalemia Decreased libido Acne Kidney stones Impaired memory (especially short term) Hirsutism or female balding Unusual infections Insomnia Poor skin healing Irritability Menstrual abnormalities In children, slow growth In children, abnormal genital virilization In children, short stature In children, pseudoprecocious puberty or delayed puberty a Features are listed in random order. b Cushing’s syndrome is more likely if onset of the feature is at a younger age. 1528 Nieman et al. Guidelines for the Diagnosis of Cushing’s Syndrome J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 433,
+    "pageStart": 3,
+    "pageEnd": 3,
+    "hash": "f70a1ed0a1dee46477ac2c4a0dc975f7a585e8b947c79693ff07afa68fb6574a"
+  },
+  {
+    "text": "sulting hypercortisolemia. As a result, the overlap in UFC ex- cretion is limited to values up to about 4-fold normal. 2.0 Morbidity and mortality of Cushing’s syndrome:",
+    "tokenCount": 50,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "5a31899330222051d02d15cd19815d507298a1868d2aa533cb461b6db9624f5a"
+  },
+  {
+    "text": "rationale for diagnosis and treatment The earliest reports of mortality in Cushing’s syndrome likely described individuals with severe hypercortisolism, representing one end of the clinical spectrum. These reports documented a mediansurvivalof4.6yr,andin1952a5-yrsurvivalofjust50%, with most deaths caused by vascular (myocardial infarction, ce- rebrovascular accident) or infectious complications (11, 12).",
+    "tokenCount": 95,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "5f358a8ab3d6501224e9285790e4e5f1f0006dd69aa84e889529adcae1aec406"
+  },
+  {
+    "text": "However, with modern-day treatments the standard mortality ratio (SMR) after successful normalization of cortisol was sim- ilar to that of an age-matched population during 1–20 yr of follow-up evaluation in one study (13).",
+    "tokenCount": 50,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "ca3b8fd40e532a3e9553f6c325970fbbac8027e3a20f0aff415890c321de8f1a"
+  },
+  {
+    "text": "Because markers of car- diovascular risk remain abnormal for up to 5 yr after surgery, further studies are needed to assess long-term SMR (14). In pa- tients who have persistent moderate hypercortisolism despite treatment, SMR is increased 3.8- to 5.0-fold, compared with the general population (4, 5).",
+    "tokenCount": 75,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "dfaa357ee4f449b37e8c2920d9aac975417db86ed60e53927e0a4c5db640bb39"
+  },
+  {
+    "text": "These data are consistent with the increased cardiovascular mortality and morbidity reported in patients with iatrogenic Cushing’s syndrome secondary to the chronic use of synthetic corticosteroids (15).",
+    "tokenCount": 40,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "cb481f2466da0b3820cdce92d725c18bd4fd9b7c6075df2ee79200436404f92f"
+  },
+  {
+    "text": "Successful treatment of hypercortisolism reverses, but may not normalize, features of Cushing’s syndrome. Bone mineral density and cognitive dysfunction improve after successful sur- gical treatment of Cushing’s syndrome but do not normalize in all patients (16, 17).",
+    "tokenCount": 61,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "80a09b0e2b626b91e85624f1803520dac1ea776378b180c75e3fa0bde203bfff"
+  },
+  {
+    "text": "Additionally, quality of life improves after surgical treatment but remains below that of age- and gender- matched subjects for up to 15 yr (18). Indirect evidence support- ing the need for intervention includes the finding that the risk of infection is lower in patients with mild to moderate, compared with severe, hypercortisolism (19).",
+    "tokenCount": 68,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "51b20e4af68e098c89fe147b26f54742c895b93e9d78e42d6609515b368ca89a"
+  },
+  {
+    "text": "There are limited and conflicting data regarding whether sur- gical treatment of patients with mild hypercortisolism in the set- tingofanadrenalincidentalomaissuperiortomedicaltreatment of comorbidities alone (20–23).",
+    "tokenCount": 53,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "dc25a2da0ac4e1e930b14b71ec527bed06beaf53d2a4749bd287952f6d6b89aa"
+  },
+  {
+    "text": "Although there are no formal controlled studies of conse- quences of cure in pediatric Cushing’s syndrome, improvements in growth and body composition after treatment are reported in both patients with adrenal and those with pituitary causes (24, 25).",
+    "tokenCount": 52,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "523524dff8c086d4b25f02ef65826688687f8f1951d1f7e985f85c37e0568f24"
+  },
+  {
+    "text": "Final stature in patients with endogenous Cushing’s syn- drome was reported to be disappointing (26), but more recent data showed that most patients reach a final height within their predicted parental target range (24).",
+    "tokenCount": 44,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "cd2fe6a4b5ab8c0df6d2dca449a649393ed07eddcc602d4c64383812fb996cba"
+  },
+  {
+    "text": "Treatment of patients with moderate to severe Cushing’s syn- drome clearly reduces mortality and morbidity. Because Cush- ing’s syndrome tends to progress and severe hypercortisolism is probably associated with a worse outcome, it is likely that early recognition and treatment of mild disease would reduce the risk ofresidualmorbidity.However,nodataaddressingthisassump- tion have been reported.",
+    "tokenCount": 90,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "734238c364758a94ee36a40ffff46a70adf2491fbf61312d5b725f08728103e6"
+  },
+  {
+    "text": "OurrecommendationsfortestingforCushing’ssyndromeare based on direct evidence from observational studies indicating a large treatment effect (which we have rated as low to moderate quality evidence) on morbidity and mortality in patients diag- nosed with the condition.",
+    "tokenCount": 56,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "919c6772fcb57ac5ed8d59a3b3a127350be5e9ac330abd10a31bdfa7bb971ffb"
+  },
+  {
+    "text": "The next section of this document focuses on evidence that bears indirectly on these recommenda- tions. The research in this area yields data on the likelihood of Cushing’s syndrome in certain populations and on the accuracy of currently available tests in these populations.",
+    "tokenCount": 52,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "5bd6c859a2b95030089f380ee7d12b5b7243343eb7525c81ca339aeb84a2721b"
+  },
+  {
+    "text": "As a result, the majority of our recommendations are based on very low- to low-quality evidence. Higher-quality evidence to support testing should come from studies directly comparing the effect of testing strategies on patient-important outcomes.",
+    "tokenCount": 45,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "4a0f6995e9bd8603d9b93186cbc4c01a2136e6a590fa18984aa36e643bf995b9"
+  },
+  {
+    "text": "To date such evidence is not available in this field. These guidelines focus on the more common clinical scenar- ios, with brief mention of conditions and situations that are rare or more complicated than space limitations allow; we hope that the reader will investigate these further.",
+    "tokenCount": 53,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "16f151a079033501ce6cd98d1e58bc94e65a4e6d144ba57cc456e43bc1ad5ba7"
+  },
+  {
+    "text": "3.0 Diagnosis of Cushing’s syndrome Who should be tested 3.1Werecommendobtainingathoroughdrughistorytoexclude exogenous glucocorticoid exposure leading to iatrogenic Cush- ing’s syndrome before conducting biochemical testing (1 QQQQ ).",
+    "tokenCount": 67,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "e2026bea096b86114ece2b6374c884de736148b044dcfdf41a844207b7a8818b"
+  },
+  {
+    "text": "3.2 We recommend testing for Cushing’s syndrome in the fol- lowing groups: • Patients with unusual features for age ( e.g. osteoporosis, hypertension) (Table 1) (1 QQEE ) • Patientswithmultipleandprogressivefeatures,particularly those that are more predictive of Cushing’s syndrome (Ta- ble 1) (1 QQEE ) • Children with decreasing height percentile and increasing weight (1 QEEE ) • Patients with adrenal incidentaloma compatible with ade- noma (1 QEEE ).",
+    "tokenCount": 117,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "3308ccfdd4504de20abf7f34b3a6e3ca44b9afdd79a675d06deb33201a8f6087"
+  },
+  {
+    "text": "3.3 We recommend against widespread testing for Cushing’s syndrome in any other patient group (1 QEEE ). 3.1 Evidence Features of Cushing’s syndrome may occur as a result of exog- enousglucocorticoiduse.TheseverityoftheCushingoidfeatures TABLE 2.",
+    "tokenCount": 68,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "481d64c3d5700eb63bfa96855ce63badabed7450ad6a8cd8c9bbc793801a93a2"
+  },
+  {
+    "text": "Conditions associated with hypercortisolism in the absence of Cushing’s syndrome a Conditions Some clinical features of Cushing’s syndrome may be present Pregnancy Depression and other psychiatric conditions Alcohol dependence Glucocorticoid resistance Morbid obesity Poorly controlled diabetes mellitus Unlikely to have any clinical features of Cushing’s syndrome Physical stress (hospitalization, surgery, pain) Malnutrition, anorexia nervosa Intense chronic exercise Hypothalamic amenorrhea CBG excess (increased serum but not urine cortisol) a Whereas Cushing’s syndrome is unlikely in these conditions, it may rarely be present.",
+    "tokenCount": 133,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "88fb6fbecba8a8bbe18496fd26cce1ad60d657c5da00249ec93a4a2d9c2e01ce"
+  },
+  {
+    "text": "If there is a high clinical index of suspicion, the patient should undergo testing, particularly those within the first group. J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 jcem.endojournals.org 1529 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 93,
+    "pageStart": 4,
+    "pageEnd": 4,
+    "hash": "35baa0b845171cf48ffa67d54ffcc7aaaef05cab83fbb5b4face30c7e136ea41"
+  },
+  {
+    "text": "depends on the potency of the preparation used, its dose, the route and duration of its administration, and whether concom- itant medications prolong its half-life (27). A thorough drug his- tory noting current or recent use of these medications, oral, rec- tal, inhaled, topical, or injected, should be obtained before embarking on any biochemical testing (28).",
+    "tokenCount": 80,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "3c62b165c23cd435710d8042662869ec5e09c3e3b3834254a485c2ba621730c9"
+  },
+  {
+    "text": "In particular, glu- cocorticoid components of skin creams (including bleaching agents), herbal medications, “tonics,” and joint or nerve injec- tions may be overlooked.",
+    "tokenCount": 44,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "b3ce548f258243889af0a4a18d3d58f056b948fdfc6b012038aadcffdd61bd17"
+  },
+  {
+    "text": "Megestrol acetate (medroxyprogester- one acetate) is a synthetic progesterone derivative that has glu- cocorticoid activity and in high doses may cause Cushing’s syndrome (29).",
+    "tokenCount": 48,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "78d39fb93fe5b720050ddbb90e2e193a2d090ff6a64d0b46a435c7c5b9062f9b"
+  },
+  {
+    "text": "Our recommendation is based on high-quality evidence because it derives from the common observation that pursuing the alternative, testing to establish the diagnosis of Cushing’s syndrome without first excluding exogenous glu- cocorticoiduse,isassociatedwithaverylargeriskofundesirable effects (including unnecessary testing and the associated conse- quences) without expectation of benefit.",
+    "tokenCount": 77,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "9f3b423223899c0d551dac869739104a80f370024127f078b3159d01cbcbcb41"
+  },
+  {
+    "text": "3.2 Evidence Cushing’s syndrome is more likely to be present when a large number of signs and symptoms, especially those with high dis- criminatory index ( e.g. myopathy, plethora, red striae, easy bruising, and thin skin in the young) are present (6, 8).",
+    "tokenCount": 65,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "186f4fb9f663fad090e42b0c1da97fd4629f14c2328ec34a0e68f271f6cc1d52"
+  },
+  {
+    "text": "However, there is a wide spectrum of clinical manifestations at any given level of hypercortisolism. Because Cushing’s syndrome tends to progress, accumulation of new features increases the probability that the syndrome is present.",
+    "tokenCount": 45,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "d38af38c5407354ffbedeaaab17123bedb99595cdbc502b37c9c5fa3524a5bc8"
+  },
+  {
+    "text": "A review of old photographs of the patient may help the clinician better appreciate whether physical changes have occurred over time. In children, the sensitivity of combined reduced linear growth and increased weight is quite high.",
+    "tokenCount": 40,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "4d6e311a2459b05fbe584859a17ef6c7ce703c9883eee6597a96ffad034af281"
+  },
+  {
+    "text": "Although the probability of Cushing’s syndrome has not been evaluated in a large number of children, clinical experience suggests that the specificity of these clinical features for the diagnosis is also very high (30).",
+    "tokenCount": 41,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "a2c87f3ead1200975f031e49c2e34b546a0778cc2e010bafdb0627b2e83b6db8"
+  },
+  {
+    "text": "As a result, tests for Cushing’s syndrome are not indicated in obese children unless their statural growth rate has slowed. Clinicians often evaluate patients with an incidentally found adrenal nodule for autonomous adrenal cortisol excess.",
+    "tokenCount": 47,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "3f6357ee8d9e7218ae61977563a8b7ed4f635f2f1b503f62c217c2144cd3ed54"
+  },
+  {
+    "text": "Such patients usually do not present with overt clinical features of Cushing’s syndrome, but biochemical hypercortisolism is presentinalargefraction(upto10%).Bulow etal.",
+    "tokenCount": 41,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "bf66073aa30c19b8214eb3f5d6c8c7645aa588925e0951f917b1a7ef74f97ef8"
+  },
+  {
+    "text": "(31)reported 2% prevalence of Cushing’s syndrome; Libe et al. (32) reported 18%; Terzolo et al. (21) quoted 5–20%, depending on referral bias and diagnostic tests and criteria.",
+    "tokenCount": 50,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "b78b46268e7c967ea47c0b31944cc22cf7c5653bbb0178ece5f3fd3609b06027"
+  },
+  {
+    "text": "3.3 Evidence Testing for Cushing’s syndrome in certain high-risk populations has shown an unexpectedly high incidence of unrecognized Cushing’s syndrome as compared with the general population.",
+    "tokenCount": 40,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "53b3d37f4b333c06ba676ace33ea8a2194cd73f55c1cf0f1514c7c2ef55d4661"
+  },
+  {
+    "text": "Although there are limited data on the prevalence of the syn- drome in these disorders, the diagnosis should be considered. In one study, 2–3.3% of patients with poorly controlled di- abetes mellitus had surgically confirmed Cushing’s syndrome or mild hypercortisolism.",
+    "tokenCount": 64,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "a224eb4d0f2b79eb7051589e631cbb15504853dc9f5583d20bfe2b5e6a720abe"
+  },
+  {
+    "text": "Most of these patients had unilateral ad- renal adenomas (33). In another recent report, one of 99 patients with newly diagnosed diabetes mellitus had surgically proven Cushing’s disease (34).",
+    "tokenCount": 43,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "af920b22bc4498414fb5597d5ec524719eda69a88408a8e25c11ae962245cf59"
+  },
+  {
+    "text": "Another study of 86 consecutive obese subjects referred to an endocrine clinic with diabetes mellitus, hypertension, and/or the polycystic ovary syndrome found a 5.8% incidence of Cushing’s syndrome (35).",
+    "tokenCount": 47,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "800e905f192fd156837e823c9f98823b6ead15a729b840ae610ebec13e73c1ca"
+  },
+  {
+    "text": "Screening studies of patients with hypertension reported a 0.5–1% prevalence of Cushing’s syndrome (36, 37). Unsus- pected Cushing’s syndrome also was found in as many as 10.8% of older patients with osteoporosis and vertebral fracture in whom comprehensive testing was done for secondary causes (38).",
+    "tokenCount": 75,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "707027750c5e056ba124f39c2f701e7fdd5ebd06e39a79a01d4a06e421c19d0e"
+  },
+  {
+    "text": "Unfortunately, there is little information on additional co- morbidities and risk factors in these studies. The few data on the outcome, after surgical remission of hy- percortisolism, in patients with unsuspected Cushing’s syn- drome are mixed; hypertension and diabetes did not improve in all individuals (20–23).",
+    "tokenCount": 69,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "593a46c39a3c252c98032aa8982355a3fb9c4ad0a75df2c3b30f34bf55cfd0e5"
+  },
+  {
+    "text": "Patients with familial disease that puts them at risk of Cush- ing’s syndrome ( e.g. Carney complex, multiple endocrine neo- plasia-1) should be evaluated by an endocrinologist as part of a surveillance screening program.",
+    "tokenCount": 53,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "81af0342f5dea76979b60af9e1dfca793b990da123ecb43873ef64a7701876e2"
+  },
+  {
+    "text": "3.3 Values Because of the rarity of Cushing’s syndrome, the high prevalence of conditions such as diabetes mellitus, obesity, and depression, andthelimitationsofthescreeningtests,theriskoffalse-positive test results is high.",
+    "tokenCount": 53,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "6cf202d51f0f041082ebf8461aa15333ad0a3536fbabb713139a0b6ebee5057e"
+  },
+  {
+    "text": "False-positive results, with their attendant costs, are reduced if case detection is limited to individuals with an increased pretest probability of having the disorder. The sub- sequent testing, labeling, and treatment may harm individuals with false-positive results and distract attention from the treat- ment of the conditions that prompted testing.",
+    "tokenCount": 64,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "e1d5a0073ce6807fce241ae4dee1541580bd5799e246c119f906d07bf65a5d0d"
+  },
+  {
+    "text": "The proposed testing strategy places higher value on reducing the number of false-positive test results, particularly in patients with very mild disease in whom the benefits of intervention are unproven. Conversely, once the clinical scenario suggests a high pretest probability of the disorder, sensitivity needs to be high so that cases are not missed.",
+    "tokenCount": 63,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "c5f4c3bf1a042c1541aa1f2e893118a484468bbc5af410cc4d720034e66b9c76"
+  },
+  {
+    "text": "This approach also seeks to use more convenient and less expensive tests. Initial testing 3.4 For the initial testing for Cushing’s syndrome, we recom- mendoneofthefollowingtestsbasedonitssuitabilityforagiven patient (Fig.",
+    "tokenCount": 54,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "f027f41a87e8df8bf51e4781c347a45d4a598cc66fd15cd9997b34d0c06c7625"
+  },
+  {
+    "text": "1) (1 QEEE ): 3.4.1 UFC (at least two measurements) 3.4.2 Late-night salivary cortisol (two measurements) 3.4.3 1-mg overnight DST 3.4.4 Longer low-dose DST (2 mg/d for 48 h) 3.5 We recommend against the use of the following to test for Cushing’s syndrome (1 QEEE ):",
+    "tokenCount": 92,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "856b8e249178cd3af80b2bd507a8cbe0997c1b04db87c81b96e1b5a135db14dd"
+  },
+  {
+    "text": "• Random serum cortisol or plasma ACTH levels • Urinary 17-ketosteroids • Insulin tolerance test • Loperamide test • Tests designed to determine the cause of Cushing’s syn- drome ( e.g.",
+    "tokenCount": 49,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "9d7147562abaa28ae9ff580301b9bda686fddaa22feffe8e270dcd063a52941a"
+  },
+  {
+    "text": "pituitary and adrenal imaging, 8 mg DST). 3.6 In individuals with normal test results in whom the pretest probability is high (patients with clinical features suggestive of 1530 Nieman et al.",
+    "tokenCount": 45,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "b42f90b86387d1142995feb9fd36292f6bd69010482d93676a2195a571d12182"
+  },
+  {
+    "text": "Guidelines for the Diagnosis of Cushing’s Syndrome J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 72,
+    "pageStart": 5,
+    "pageEnd": 5,
+    "hash": "ff1fcbc856e62ff8dac438999f1d14b8790e11a636ff529706340a4bfea48f83"
+  },
+  {
+    "text": "Cushing’s syndrome and adrenal incidentaloma or suspected cy- clic hypercortisolism), we recommend further evaluation by an endocrinologist to confirm or exclude the diagnosis (1 QEEE ).",
+    "tokenCount": 43,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "01c776a8be4d2c631f34ddba25cda60af7ec5f200fcf48ad09b5d0f46b965e5b"
+  },
+  {
+    "text": "3.7 In other individuals with normal test results (in whom Cush- ing’s syndrome is very unlikely), we suggest reevaluation in 6 months if signs or symptoms progress (2 QEEE ).",
+    "tokenCount": 43,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "ece5bd5a3ac0db1628f4e6cbfc46280a200c133a96187d18fb646d514c492322"
+  },
+  {
+    "text": "3.8 In individuals with at least one abnormal test result (for whom the results could be falsely positive or indicate Cushing’s syndrome), we recommend further evaluation by an endocrinol- ogist to confirm or exclude the diagnosis (1 QEEE ).",
+    "tokenCount": 54,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "ffacfe937602f035dd98711f31be335935641dd22a2b5a7566a9a8bb648c9ed2"
+  },
+  {
+    "text": "3.4 Evidence In this section, we first discuss the testing strategies and then provide evidence for and remarks about each of the recom- mended tests that can be used to identify patients with Cushing’s syndrome.",
+    "tokenCount": 46,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "39bcf5cb2dc87db674d82e7a17211f9cfee7b5c9cfba78ded88ee324ca525cd9"
+  },
+  {
+    "text": "Nonendocrinologist clinicians may perform the initial eval- uation for Cushing’s syndrome (or refer to an endocrinologist). In this setting, the goal is to choose a test with a high sensitivity for the disorder; unfortunately, no test has optimally high spec- ificity, so that false-positive results may occur.",
+    "tokenCount": 70,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "1d513890bd7d6c1a7e357d2319cad810f57be7c5705f155ee9350744cd05d03a"
+  },
+  {
+    "text": "The four recom- mended tests have acceptable diagnostic accuracy when the sug- gested cutoff points are used (2, 30). If the initial testing results arenormal,assumingthatthereisnoreasontomistrusttheresult (see remarks below), then the patient is very unlikely to have Cushing’s syndrome.",
+    "tokenCount": 70,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "060a18d864c8003a323e90896ba56967750d13195398b7a0b3a167d7159fef62"
+  },
+  {
+    "text": "Thus, the patient can be reassured and no further testing need be done; a recommen- dation to return in 6 months if symptoms progress ensures that evolving symptoms or new features will not be ignored.",
+    "tokenCount": 41,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "7b6a1732a951340f4e343de4cfde20a9bb1d8966f24a65ae3cb6ef649d7d0868"
+  },
+  {
+    "text": "Inpatientswithahighpretestprobability of Cushing’s syndrome, to expedite diagno- sis, the physician may elect to perform two tests simultaneously. 3.4 Remarks for all tests Measurement of cortisol (urine, serum, or salivary) is the end point for each of the rec- ommended tests.",
+    "tokenCount": 77,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "ce0473c20cfe8c1312a8631b960f1b606434ddc4aa024706a31df9cc188f9ae7"
+  },
+  {
+    "text": "As with all hormone as- says, the physician must be aware that sev- eral collection and assay methods are available for the measurement of cortisol, and results for a single sample measured in various assays may be quite different (39).",
+    "tokenCount": 49,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "aab9a29d90c29d16afe7c17d396adc4df0f084267692ee745dc543854c143866"
+  },
+  {
+    "text": "Assays differ widely in their accuracy; re- sults near the cutoff value on a single mea- surement often can be explained by assay variability. In particular, the expected sali- vary and serum concentrations in these tests are close to the functional limit of detection of the assays.",
+    "tokenCount": 60,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "a713fac5f44bc3f3ab6a453908fbcf36265459cce251e897757b7faa58140d69"
+  },
+  {
+    "text": "Because precision deteriorates at these levels, assays should be chosen on the basis of their performance at this low range. Normal ranges vary substantially, de- pendingonthemethodused,soitisessential to interpret test results in the context of the appropriate normal range.",
+    "tokenCount": 53,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "a3edf23cf47d25aa78b20cc13677e6f2b41cb7b94915744a07f3eda11c081a82"
+  },
+  {
+    "text": "Antibody-based immunoassays such asunextractedRIAandELISAcanbeaffectedbycross-reactivity with cortisol metabolites and synthetic glucocorticoids. In con- trast, structurally based assays such as HPLC and tandem mass spectrometry (LC-MS/MS) do not pose this problem and are being used with increasing frequency.",
+    "tokenCount": 79,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "a16088cc36eb62a32589756259325e99c909875da3bde9e512741e982eb7942a"
+  },
+  {
+    "text": "However, there are also drugs (carbamazepine and fenofibrate) that may interfere with someofthesechromatographicmethods(Table3),therebycaus- ing falsely elevated values (40, 41).",
+    "tokenCount": 49,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "20ddfb20ccdba73ac4f362dd41714fcc19ba8a3772cf7e9116fd05c9206a2eb9"
+  },
+  {
+    "text": "Upper limits of normal are much lower with HPLC or LC-MS/MS than in antibody-based assays. For example, urine cortisol values obtained using HPLC may be as low as 40% of the value measured by RIA (42, 43).",
+    "tokenCount": 54,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "f8a166277688dcedd747d349c4070b3114d118d13ccd2b0790434b0a2e304414"
+  },
+  {
+    "text": "Estrogens increase the cortisol-binding globulin (CBG) con- centration in the circulation. Because serum assays measure total cortisol, false-positive rates for the overnight DST are seen in 50% of women taking the oral contraceptive pill (44).",
+    "tokenCount": 53,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "b120871a05b498f6eadf5e5b58f2f59eed01df8d47cb930eb9137b8c5879f44f"
+  },
+  {
+    "text": "Wherever possible, estrogen-containing drugs should be withdrawn for 6 wkbeforetestingorretesting(45).Conversely,decreasesinCBG or albumin, which occur in the critically ill or nephrotic patient, are associated with decreased serum cortisol values (39, 46).",
+    "tokenCount": 61,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "99abfb8f3de4b99082ed47a3afeab95e168c6e18c341c9191dcb182efec132b3"
+  },
+  {
+    "text": "Because the hypercortisolism of Cushing’s syndrome can be variable, we recommend that at least two measurements of urine or salivary cortisol be obtained. This strategy increases confi- denceinthetestresultsifconsistentlynormalorabnormalresults are obtained.",
+    "tokenCount": 59,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "8f75149c9c1dcbc93de130294d1b2ba6e2abc4ae1f96ef0411138b151308f728"
+  },
+  {
+    "text": "Cushing’s syndrome suspected Perform one of the following tests ANY ABNORMAL RESULT Normal (CS unlikely) Consult endocrinologist Discrepant (Suggest additional evaluation) Normal (CS unlikely) ABNORMAL Cushing’s syndrome Exclude exogenous glucocorticoid exposure (consider endocrinologist consultation) 24-h UFC (> 2 tests) Overnight Late night salivary 1-mg DST cortisol (> 2 tests) Consider caveats for each test (see text) Use 48-h, 2-mg DST in certain populations (see text) Perform 1 or 2 other studies shown above Suggest consider or repeating the abnormal study Suggest Dex-CRH or midnight serum cortisol in certain populations (see text) Exclude physiologic causes of hypercortisolism (Table 2) FIG.",
+    "tokenCount": 166,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "4dd61817a3e51aba08dc1313b4c02f5a41a016ed75a2e8787b2fe8983178b219"
+  },
+  {
+    "text": "Algorithm for testing patients suspected of having Cushing’s syndrome (CS). All statements are recommendations except for those prefaced by suggest. Diagnostic criteria that suggest Cushing’s syndrome are UFC greater than the normal range for the assay, serum cortisol greater than 1.8 \u0002 g/dl (50 nmol/liter) after 1 mg dexamethasone (1-mg DST), and late-night salivary cortisol greater than 145 ng/dl (4 nmol/liter).",
+    "tokenCount": 106,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "72473c186c8b76207b1097b4b296a306d50281bb9b3d5f8bacbf7f1f48fdecc2"
+  },
+  {
+    "text": "J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 jcem.endojournals.org 1531 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 70,
+    "pageStart": 6,
+    "pageEnd": 6,
+    "hash": "bfff484a1b7e37b4915c41b57740b40a60fe87d93e65ef471a34ef831bce0f89"
+  },
+  {
+    "text": "Remarks for dexamethasone tests Variable absorption and metabolism of dexamethasone may in- fluence the result of both the overnight 1-mg DST and the 48-h, 2 mg/d test.",
+    "tokenCount": 47,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "c1340552f8ad7ba4f99bfe40c45e88f494c64a304da560145222283b7215a54c"
+  },
+  {
+    "text": "Drugs such as phenytoin, phenobarbitone, carbam- azepine, rifampicin, and alcohol induce hepatic enzymatic clear- ance of dexamethasone, mediated through CYP 3A4, thereby reducing the plasma dexamethasone concentrations (Table 3) (47).",
+    "tokenCount": 71,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "76291247c665752126ee13f68155ce21e76acae36ef533b905c92b65ee8ffcc6"
+  },
+  {
+    "text": "Conversely, dexamethasone clearance may be reduced in patients with liver and/or renal failure. Dexamethasone levels show interindividual variation, however, even in healthy indi- viduals on no medication.",
+    "tokenCount": 49,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "974cc15d1da922a3ee52aa3acb85055d691862843ae32bf8d2d60aa62d941134"
+  },
+  {
+    "text": "To evaluate for false-positive and negative responses, some experts have advocated simultaneous measurement of both cor- tisol and dexamethasone for these tests to ensure adequate plasma dexamethasone concentrations [ \u0001 5.6 nmol/liter (0.22 \u0002 g/dl)] (48).",
+    "tokenCount": 64,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "2720a3f14e4971158b53426574850af3332df18bddd61ec2a403699092ec0869"
+  },
+  {
+    "text": "However, given the limited availability outside the United States and cost of the dexamethasone assay, this other- wise desirable approach may not be feasible. As noted above, false-positive rates for the overnight DST are seen in 50% of women taking the oral contraceptive pill because of increased CBG levels (44).",
+    "tokenCount": 66,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "e67de3dc799097f140beb7b81c9129eec8587fd61029df0ded00b2a2f524dd68"
+  },
+  {
+    "text": "3.4.1 Evidence for use of UFC The introduction of UFC represented a major advance over mea- surement of 17-hydroxycorticosteroids (17OHCS), which re- flects both urine metabolites and cortisol.",
+    "tokenCount": 51,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "0e6548648cfdb423f3d660ac43aa8af621b8a72e1bd77decf27edf46182bf894"
+  },
+  {
+    "text": "Because 17OHCS has high rates of false-positive and negative results, it is now rarely used. Since the 1970s, experts have advocated the use of UFC for making the diagnosis of Cushing’s syndrome (49, 50).",
+    "tokenCount": 49,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "a1972389ee1ec7c9055dee059c56041dd0d5f73a1469625cdf7cebd0ecc1eb54"
+  },
+  {
+    "text": "UFC pro- vides an integrated assessment of cortisol secretion over a 24-h period. It measures the cortisol that is not bound to CBG, which is filtered by the kidney unchanged. Therefore, unlike serum cortisol, which measures both CBG-bound and free hormone, UFC is not affected by conditions and medications that alter CBG.",
+    "tokenCount": 68,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "89e61a57418a8cf94f99979ccd48309a8fb12325c5c301b13be8aef7c3279a4b"
+  },
+  {
+    "text": "For example, healthy women taking oral estrogen may have increased CBG, and therefore high serum cortisol concen- tration, but their UFC remains normal. Because cortisol produc- tion is increased in Cushing’s syndrome, the amount of unbound hormone is higher, resulting in elevated UFC values.",
+    "tokenCount": 62,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "a323b2c805ca99728540ceac73012f9f27af192d2b2bd864d8f8a900eef3b51b"
+  },
+  {
+    "text": "As with any other test, sensitivity and specificity of UFC are subject to the cutoffs selected. When the assay upper limit of normal is used as a criterion, the overall evidence supports the diagnostic accuracy of UFC in adults suspected of having Cush- ing’s syndrome (2, 51).",
+    "tokenCount": 59,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "7747e212ccc0adc57bc91241abdd93e50cf1b7c2ae748f8f3b089c99c82f199f"
+  },
+  {
+    "text": "Sensitivity for Cushing’s syndrome in pediatric patients is high ( \u0003 89%) (30). Thus, to achieve the goal of high sensitivity, we recommend using the upper limit of normal for the particular assay as the criterion for a positive test, provided the creatinine shows that the collection is complete and there is not excessive volume.",
+    "tokenCount": 70,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "700751d55d8f7d3f88a81cde6057546ef449b2bd4a69be3e99ad6b8784eadeed"
+  },
+  {
+    "text": "For pediatric patients, the adult normal ranges may be used because most pediatric patients are of adult weight ( i.e. \u0001 45 kg). At the recommended cutoff point, false-positive elevations of UFC may be seen in several conditions.",
+    "tokenCount": 49,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "d789ad0a7a393d01fddba55018b17ceaca56bef657df23383102ee77b9a0fde2"
+  },
+  {
+    "text": "High fluid intake ( \u0003 5 liters/d) significantly increases UFC (52). Any physiological or pathological condition that increases cortisol production raises UFC (Table 2). Therefore, in these conditions a normal result is more reliable than an abnormal one. At the recommended cutoff point, false-negative results of urine cortisol collections also may occur.",
+    "tokenCount": 67,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "5d6f8bab5f79ee976359a3d53947f3305fcf30c4c1fde7cc69b2941549c4a098"
+  },
+  {
+    "text": "Because UFC reflects renal filtration, values are significantly lower in patients with moderate to severe renal impairment. A falsely low UFC can occur when creatinine clearance falls less than 60 ml/min, and UFC levels fall linearly with more severe renal failure (53).",
+    "tokenCount": 54,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "da68c36f39488f744e6a8941643bdcc74410a2525ee43bead9d2a75b2e87c485"
+  },
+  {
+    "text": "UFC can be normal if a patient has cyclic disease and collects urine when the disease is inactive. Finally, it may be normal in some patients with mild Cushing’s syndrome, in whom salivary cor- tisol may be more useful (54).",
+    "tokenCount": 54,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "8425a23e644ede87c2e279dc7c7e8797070035178db9b0cd346e1663c6363ca6"
+  },
+  {
+    "text": "3.4.1 Remarks for UFC Sample collection and instructions It is important to ensure that patients provide a complete 24-h urine collection with appropriate total volume and urinary cre- atininelevels.Thismayrequirepatienteducationusingbothoral and written instructions.",
+    "tokenCount": 54,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "ec3bf175b376c971e627e5043452d7056676d26d1efcc669070627d77ed82418"
+  },
+  {
+    "text": "The first morning void is discarded so that the collection begins with an empty bladder. All subsequent voids throughout the day and night should be included in the collection, which is kept refrigerated (but not frozen), up to and including the first morning void on the second day.",
+    "tokenCount": 55,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "671ded7d362cccd2f776891eabdab41c7536c5354243425015c28eda878cf05c"
+  },
+  {
+    "text": "Once the bladderhasbeenemptiedintothecollectiononthesecondmorn- ing, the sample is complete. Patients should be instructed not to drink excessive amounts of fluid and to avoid the use of any glucocorticoid preparations, including steroid-containing skin or hemorrhoid creams, during TABLE 3.",
+    "tokenCount": 63,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "2698d4c9000b1bf8edef731365fd90470c0b77ef64af8352b7a4c05513cd549f"
+  },
+  {
+    "text": "Selected drugs that may interfere with the evaluation of tests for the diagnosis of Cushing’s syndrome a Drugs Drugs that accelerate dexamethasone metabolism by induction of CYP 3A4 Phenobarbital Phenytoin Carbamazepine Primidone Rifampin Rifapentine Ethosuximide Pioglitazone Drugs that impair dexamethasone metabolism by inhibition of CYP 3A4 Aprepitant/fosaprepitant Itraconazole Ritonavir Fluoxetine Diltiazem Cimetidine Drugs that increase CBG and may falsely elevate cortisol results Estrogens Mitotane Drugs that increase UFC results Carbamazepine (increase) Fenofibrate (increase if measured by HPLC) Some synthetic glucocorticoids (immunoassays) Drugs that inhibit 11 \u0001 -HSD2 (licorice, carbenoxolone) a This should not be considered a complete list of potential drug interactions.",
+    "tokenCount": 212,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "6dab7a3a17e95475eb694766365a2b7f0c6f26114e4a30eff3f4f1915610a0fe"
+  },
+  {
+    "text": "Data regarding CYP3A4 obtained from http://medicine.iupui.edu/flockhart/table.htm. 1532 Nieman et al. Guidelines for the Diagnosis of Cushing’s Syndrome J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 107,
+    "pageStart": 7,
+    "pageEnd": 7,
+    "hash": "9f7974e4a0f883fce4bac0acd414951374bf407f368b22f7f9c2a46ef53e1f4c"
+  },
+  {
+    "text": "the collection. Because UFC levels in a patient with Cushing’s syndrome are variable, at least two collections should be per- formed, particularly in children in whom reproducibility can be low.",
+    "tokenCount": 41,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "52292ce31ef8f83ca01917ac2f403cc950d7f0233eda8a34b643993de825770c"
+  },
+  {
+    "text": "3.4.2 Evidence for late-night salivary cortisol In healthy individuals with stable conventional sleep-wake cy- cles, the level of serum cortisol begins to rise at 0300–0400 h, reaches a peak at 0700–0900 h, and then falls for the rest of the day to very low levels when the person is unstressed and asleep at midnight (55).",
+    "tokenCount": 81,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "fa599e21d7905c20337feb7f22f961278b5254d3a01f8897830f2006d4c07ef9"
+  },
+  {
+    "text": "The loss of circadian rhythm with absence of a late-night cortisol nadir is a consistent biochemical abnormality in patients with Cushing’s syndrome (56, 57). This difference in physiology forms the basis for measurement of a midnight serum or late-night salivary cortisol.",
+    "tokenCount": 58,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "e4206156b5a81c1095f365852b1f777efe1bdaa898b1b3c0600c6ef2b81d5585"
+  },
+  {
+    "text": "Biologically active free cortisol in the blood is in equilibrium with cortisol in the saliva, and the concentration of salivary cor- tisol does not appear to be affected by the rate of saliva produc- tion.",
+    "tokenCount": 44,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "7bcad8288a179ba51c08b1a655c575fb7f73b1bb9bd47f2e4e3d9b5f892d2405"
+  },
+  {
+    "text": "Furthermore, an increase in blood cortisol is reflected by a change in the salivary cortisol concentration within a few min- utes (58). Various methods have been used to measure cortisol in the saliva, resulting in different reference ranges and yielding differences in sensitivity and specificity (59–67).",
+    "tokenCount": 58,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "c68349eae98651cb823e30aee83d7566d17aabcde820320a9360ec22ee7f8389"
+  },
+  {
+    "text": "The best-vali- datedassaysusedintheUnitedStatestomeasuresalivarycortisol are an ELISA and an assay performed by LC-MS/MS (28).",
+    "tokenCount": 40,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "db1fd842253354fdae4069106f24458c6ec7e29931a36fbfca59a891b279fe82"
+  },
+  {
+    "text": "When these two assay techniques are used, normal subjects usually have salivary cortisol levels at bedtime, or between 2300 and 2400 h, of less than 145 ng/dl (4 nmol/liter).",
+    "tokenCount": 43,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "89c89082655f0e2aabec96367fa0ae0f66315b050b60b9376d499ebaece68e22"
+  },
+  {
+    "text": "Using a variety of assays and diagnostic criteria, investigators from different coun- tries have reported that late-night salivary cortisol levels yield a 92–100%sensitivityanda93–100%specificityforthediagnosis of Cushing’s syndrome (59–67).",
+    "tokenCount": 59,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "a633dda3a457387037c937d4577cb8a61720a70b1801a11705e059c7742ab323"
+  },
+  {
+    "text": "Overall, the evidence in adults suggeststhattheaccuracyofthistestissimilartothatofUFC(2). This easily performed, noninvasive test has been used in children to differentiate patients with Cushing’s syndrome from those with simple obesity.",
+    "tokenCount": 55,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "137616628d01a7a991707697833fd5fc751cdf59f5fc1a297d9feebf48c10a21"
+  },
+  {
+    "text": "Investigators have reported high sensitivity (100%) and specificity (95.2%) for Cushing’s syndrome in this setting (68). The influence of gender, age, and coexisting medical condi- tions on the late-night salivary cortisol concentrations has not beenfullycharacterized.Itisimportanttonotethatthecircadian rhythm is blunted in many patients with depressive illness and in shift workers (69, 70) and may be absent in the critically ill (71).",
+    "tokenCount": 102,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "154803a802b5aad2a103553985820bec20d7fb6321b0f4270a6d81f6fb343745"
+  },
+  {
+    "text": "Other populations may have a high percentage of false-positive results. For example, in a study of men aged 60 yr or older, Liu et al. (72) reported that 20% of all participants and 40% of diabetichypertensivesubjectshadatleastoneelevatedlate-night salivary cortisol measurement.",
+    "tokenCount": 72,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "9bfaec46baa80a38b5f31b43aaa143ccc996e6bcebc72f72cb887604d4edca5a"
+  },
+  {
+    "text": "Using the upper reference range of each assay as the cutoff point, Baid et al. (28) measured bed- time salivary cortisol levels in a large number of obese subjects and found a specificity of only 85% when they used a RIA tech- nique, but a better specificity of 92% when tandem mass spec- trometry was used.",
+    "tokenCount": 74,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "1bc5ca56ff690422ad6a5b9ae6b7f00ec85e214ed6a9ad729605283677f974fc"
+  },
+  {
+    "text": "3.4.2 Remarks for late-night salivary cortisol Most clinicians using the late-night salivary cortisol test ask pa- tientstocollectasalivasampleontwoseparateeveningsbetween 2300 and 2400 h.",
+    "tokenCount": 53,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "9382ee79666f7e358d784977531b9110cee9450faf17fccc9563452e95a3d11a"
+  },
+  {
+    "text": "Saliva is collected either by passive drooling into a plastic tube or by placing a cotton pledget (salivette) in the mouth and chewing for 1–2 min. The sample is stable at room or refrigerator temperature for several weeks and can be mailed to a reference laboratory.",
+    "tokenCount": 58,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "9e3323f6c87832cef5611903d0ea955151885084e1b8ece88eec2259ee10d1f7"
+  },
+  {
+    "text": "Reports show good correlation between salivary and simultaneous serum cortisol values in healthy vol- unteers(73,74).Whensampleswereobtainedatthesamesitting, those collected using the salivette device had lower cortisol con- centrations than those collected from passive drooling, but they correlated better with total and free serum cortisol levels (74).",
+    "tokenCount": 73,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "1df8a1c77e9f4ff6b975a2372006de76614661d671078ffd814ce1b8fc71631f"
+  },
+  {
+    "text": "Several factors that affect the salivary cortisol test should be considered when evaluating the results. The salivary glands ex- press 11 \u0001 -hydroxysteroid dehydrogenase type 2 (11 \u0001 -HSD2), which converts the biologically active cortisol to inactive corti- sone (75).",
+    "tokenCount": 64,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "72d9b6820f7a1aae15e5fcd1753b4e90acaab829dead213f62fe036f96f7c61e"
+  },
+  {
+    "text": "It is theoretically possible that individuals using lico- rice or chewing tobacco (both of which contain the 11 \u0001 -hydrox- ysteroid dehydrogenase type 2 inhibitor glycyrrhizic acid) may have a falsely elevated late-night salivary cortisol.",
+    "tokenCount": 57,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "aa13f0504c18767b09fc013d92c2391b4b9a338276fcae439efcc3f5e0f2c130"
+  },
+  {
+    "text": "Patients who smoke cigarettes also have been shown to have higher late-night salivary cortisol measurements than do nonsmokers (76). Al- though the duration of this effect is not known, it seems prudent to avoid cigarette smoking on the day of collection.",
+    "tokenCount": 53,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "58af8e6cb6fcedb8e10af038240ebb5b7b322b93e31d77a10097641f612e9e0a"
+  },
+  {
+    "text": "Direct con- tamination of the salivette by steroid-containing lotion or oral gels also may result in false-positive results. Because the test assumes a nadir of cortisol in the late evening, it may not be appropriate for shift workers or those with variable bedtimes, and the timing of the collection should be adjusted to the time of sleepingforthosewithbedtimesconsistentlylongaftermidnight.",
+    "tokenCount": 87,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "c0d70350c58e9c158816cdec631e25c38d57beea40c9d248579077b9e57693d2"
+  },
+  {
+    "text": "Similarly, nocturnal salivary cortisols may be transiently abnor- mal in individuals crossing widely different time zones. Finally, stress immediately before the collection also may increase sali- vary cortisol physiologically; therefore, ideally, samples should be collected on a quiet evening at home (64).",
+    "tokenCount": 62,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "984695e12961f03d4256ed4b9c0f4148481382af50a70986a1a3b8819a9c9f9c"
+  },
+  {
+    "text": "Theoretically, contamination with blood might increase sal- ivary cortisol levels. Although Kivlighan et al. (77) reported that minor to moderate blood leakage as a result of vigorous tooth brushing had no effect on salivary cortisol values, the possible effect of gingivitis or oral sores or injury is not known.",
+    "tokenCount": 70,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "16de53d9cf3aa0bc4e9029a7b6bf467da0bba13ee31f5006fb407df2aa028bae"
+  },
+  {
+    "text": "3.4.3 Evidence for the 1-mg DST In normal subjects, the administration of a supraphysiological dose of glucocorticoid results in suppression of ACTH and cor- tisol secretion.",
+    "tokenCount": 45,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "bb2446a44c618172787d0d414eba9b07a40adf90082f511564b36da24d767f75"
+  },
+  {
+    "text": "In endogenous Cushing’s syndrome of any cause, there is a failure of this suppression when low doses of the syn- thetic glucocorticoid dexamethasone are given (78).",
+    "tokenCount": 43,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "ba372a11cd85940b24cce0dc91c68a56d1477a13acb1eba47c2d772a3147efee"
+  },
+  {
+    "text": "Theovernighttestisasimpleoutpatienttest.Variousdosesof dexamethasone have been used, but 1 mg dexamethasone is usu- ally given between 2300 and 2400 h, and cortisol is measured between 0800 and 0900 h the following morning.",
+    "tokenCount": 61,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "1a3661b82ef96a92952a04999ae10b572579c019c4f4ef3bfc0532acc6db6ee6"
+  },
+  {
+    "text": "Higher doses (1.5or2mg)donotsignificantlyimprovetheaccuracyofthetest (49). Researchers have used cutoff values for the suppression of serum cortisol from 3.6 to 7.2 \u0002 g/dl (100–200 nmol/liter) when measured by modern RIA (79).",
+    "tokenCount": 66,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "a4e03e25e3af9698cabb8bcdf03347204d18a8881f657d6a37acd73a126c59e6"
+  },
+  {
+    "text": "A widely cited normal response is a serum cortisol less than 5 \u0002 g/dl ( \u0004 140 nmol/liter) (7, 80). Because some patients with Cushing’s disease demonstrate sup- pressibility to dexamethasone, use of this diagnostic criterion J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 jcem.endojournals.org 1533 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 128,
+    "pageStart": 8,
+    "pageEnd": 8,
+    "hash": "2dd8e769c005a5759b361f160ac1e83310a8be37cd1ae8cce39ef9be523d38d1"
+  },
+  {
+    "text": "misclassified up to 15% of such patients as negative (81, 82). Therefore,toenhancesensitivity,expertshaveadvocatedrequir- ing a lower cutoff for suppression of the postdexamethasone serum cortisol to less than 1.8 \u0002 g/dl (50 nmol/liter) to achieve sensitivityratesofgreaterthan95%(83).Atthe1.8 \u0002 g/dlcutoff, the sensitivity is high with specificity rates of 80%; specificity increasestogreaterthan95%ifthediagnosticthresholdisraised to 5 \u0002 g/dl (140 nmol/liter) (7).",
+    "tokenCount": 138,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "c9f5ec7160f4f4e27ba2cb454e1cfb58ac0b4f29df11ba5823a7f95493f2fc92"
+  },
+  {
+    "text": "Given our objective of using tests with high sensitivity at this stage, we recommend use of the more stringent cutoff of 1.8 \u0002 g/dl. Overall, the evidence in adults indicates that in studies with low prevalence of Cushing’s syndrome this test has similar per- formance as the others recommended for initial testing (2).",
+    "tokenCount": 69,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "917d0999cb2ee1ede75ba95cbdd2ba79c645699c9b95d900b1a59d641706e233"
+  },
+  {
+    "text": "Al- though the 1-mg overnight test is used as a screening test for pediatric patients, there are no specific data regarding its inter- pretation or performance in this population. 3.4.3 Remarks for the 1-mg DST See the earlier comments under 3.4 Remarks for dexamethasone tests .",
+    "tokenCount": 68,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "a54a52862baa96df9d13e9c35f1a6155b7ac768287839b76c2b01cc7b3392507"
+  },
+  {
+    "text": "3.4.4 Evidence for the 48-h, 2 mg/d DST Some endocrinologists prefer to use the 48-h, 2 mg/d low-dose DST(LDDST)asaninitialtestbecauseofitsimprovedspecificity as compared with the 1-mg test.",
+    "tokenCount": 64,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "7d07ff7c03fd2840fc9bbb21ddf6571943809b0435981d3cb735e79b029d171d"
+  },
+  {
+    "text": "With adequate written instruc- tions for the patient, the LDDST is easily performed in the out- patient setting. As described above ( Section 1.0 ), certain psychiatric condi- tions (depression, anxiety, obsessive compulsive disorder), mor- bid obesity, alcoholism, and diabetes mellitus can be character- ized by overactivation of the HPA axis but without true Cushing’s syndrome, i.e.",
+    "tokenCount": 93,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "770fae4ec9ef9e0020d7054d84de89a056e473d68c0096069a75d2eca8c349b8"
+  },
+  {
+    "text": "hypercortisolism is not autonomous. In these conditions, UFC measurements are less useful as an initial test. The optimal test is the LDDST. Previous studies using var- ious doses of dexamethasone and differing criteria for suppres- sion suggest that at least 2 wk of abstinence from alcohol are needed to reduce the false-positive rate (84).",
+    "tokenCount": 78,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "c6dd8032f3e1d0d26ff0df90da7d028ad6b7e84c1cefc693943fbdd2f5db702d"
+  },
+  {
+    "text": "First described by Liddle (85) in 1960, the LDDST initially evaluated urinary 17OHCS as an indicator of cortisol suppres- sion. However, using 17OHCS or UFC, sensitivity and specific- ity rates are less than 70–80%.",
+    "tokenCount": 55,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "3e1baef9de6a0ce35d0dab5a7f4b5375b9da2dc8cde3763693c919e8bfe21414"
+  },
+  {
+    "text": "Use of a serum cortisol end point is simpler and has higher diagnostic accuracy (78). With a cutoff value for suppression of 50 nmol/liter (1.8 \u0002 g/ dl), the initially reported sensitivity was greater than 95% for adultpatients(86).Withthisapproach,thesensitivityforCushing’s syndrome in 36 pediatric patients was 94% (87). With a slightly different protocol and a lower cortisol criterion [38 nmol/liter (1.4 \u0002 g/dl)], the sensitivity was 90% in another study (9).",
+    "tokenCount": 119,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "a14c12385b9faea93f4bbd58782ea113fc1253429075f30ba045808f7292b91f"
+  },
+  {
+    "text": "Subsequent reports showed lower diagnostic accuracy of the LDDST (7, 88–90). Overall, in 92 patients without Cushing’s syndrome, the specificity of the LDDST was 70% (95% confi- dence interval 69–87%). In 59 patients with Cushing’s syn- drome, sensitivity was 96% for the LDDST (91).",
+    "tokenCount": 81,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "89fa30df1515e2e399bc90ac48b4a6ce2ab7a726b1b2ee98dccf07587f67529d"
+  },
+  {
+    "text": "The reasons for this apparent decrease in specificity are unknown. Serum dexa- methasone levels were not evaluated; in healthy volunteers, dexamethasone levels 2 h after the last dose were 13.0 \u0005 6.1 \u0002 mol/liter (469.5 \u0005 220.4 \u0002 g/dl) (92).",
+    "tokenCount": 72,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "59fd700f60faca44f52e24b7eaccc335330e7f4701c1933f337d4b25a3003d1f"
+  },
+  {
+    "text": "Consequently, the overall evidence in adults indicates that this test has similar or slightly less diagnostic accuracy than the other tests recommended here for initial testing (2). 3.4.4 Remarks for the 48-h, 2 mg/d DST In addition to the general remarks on dexamethasone tests pre- sented in the Initial testing section, there are further consider- ationsfortheLDDST.Dexamethasoneisgivenindosesof0.5mg for 48 h, beginning at 0900 h on d 1, at 6-h intervals, i.e.",
+    "tokenCount": 124,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "4df26e4071c7d6407f89828e648230a1e8669b4d26d711fee6a2d60ef8178a09"
+  },
+  {
+    "text": "at 0900, 1500, 2100, and 0300 h. Serum cortisol is measured at 0900 h, 6 h after the last dose of dexamethasone. Yanovski et al. (9) proposed a different protocol:",
+    "tokenCount": 50,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "82684038d7dbef090f5569efb8220fcbc5ab437872d21596bc04c0fb8c246d80"
+  },
+  {
+    "text": "administering 48 h of dexameth- asone at 6-h intervals but beginning at 1200 h and obtaining serum cortisol at 0800 h, exactl y 2 h (rather than 6 h as in the usual protocol) after the last dexamethasone dose.",
+    "tokenCount": 57,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "72b58a777e5874eb38b419334e977d6cfaceb2feed4b87fd20a08e17358803ec"
+  },
+  {
+    "text": "For pediatric patients weighing more than 40 kg, the initial adult protocol described above and the adult threshold for nor- mal suppression [ \u0004 50 nmol/liter (1.8 \u0002 g/dl)] are used.",
+    "tokenCount": 45,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "93b60b7d05f3ff7ee6d9382a5e3009bcccecf70eccc405e3bfaf0ae73d57dc20"
+  },
+  {
+    "text": "For pa- tients weighing less than 40 kg, the dose is adjusted to 30 \u0002 g/kg \u0001 d (in divided doses) (87). 3.5 Evidence The diagnostic accuracy of various other tests previously advo- cated for the diagnosis of Cushing’s syndrome (urinary 17-ke- tosteroids,1600horotherrandomcortisollevels,andtheinsulin tolerance test) is too low to recommend them for testing (49).",
+    "tokenCount": 98,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "9ec45dbd7ca51e37251ac453c710a9d6e9aeab1e19ec99aa3a86f812185bc369"
+  },
+  {
+    "text": "Other tests, such as the loperamide test, have insufficient evi- dence for their diagnostic accuracy. The response to those tests used specifically to establish the cause of Cushing’s syndrome ( e.g.",
+    "tokenCount": 46,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "6bd62f51ace18f1baff2a502c7cec714b3f66eb431976004967651f3b201fd70"
+  },
+  {
+    "text": "pituitary, adrenal or thoracic imaging, plasma ACTH con- centration, CRH stimulation test, 8 mg dexamethasone suppres- sion test) may be both abnormal in healthy people and normal in patients with Cushing’s syndrome and therefore are not helpful in establishing the diagnosis (78).",
+    "tokenCount": 69,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "a8c2030647ce183f7b070d71e52b531d79115535ec99e43ce42b3e5b93af6d56"
+  },
+  {
+    "text": "3.6–3.8 Evidence Our recommendations for retesting patients with initially nor- mal test results who develop new or progressive signs or symp- toms of Cushing’s syndrome comes from the panel’s clinical ob- servations and relate to the recognition that the patient’s pretest probability of Cushing’s syndrome would be higher on retesting and that hypercortisolism may have evolved concomitantly with the progression of the clinical syndrome, enhancing the likeli- hood that repeat tests would be positive.",
+    "tokenCount": 113,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "dffb86febdc8549c5cb09e6d304bd8a8321df6e265615bb86aea5da7896e02ad"
+  },
+  {
+    "text": "Similarly, the recommendation to retest patients with sus- pected cyclic Cushing’s syndrome comes from the recognition that these individuals may have normal test results when the disorder is quiescent (93).",
+    "tokenCount": 43,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "8660637677ddcac471618f872fdf6d2bf29822f2377f9d821945c8f423ae116e"
+  },
+  {
+    "text": "The performance and interpretation of subsequent testing for Cushing’s syndrome requires considerable expertise (both in the clinic and in the laboratory) and may be followed by either com- plex testing to establish its cause and surgical treatments or ex- pert reassurance of patients that they do not have this condition.",
+    "tokenCount": 61,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "83a58d9eadc1c045aa3a8692c98a55ca30d9fad14d6e2f0dfa045bfa3fe97f2e"
+  },
+  {
+    "text": "Because of this, it is the panel’s observation that referral to en- docrinology centers with expertise and interest in Cushing’s syn- drome in patients with abnormal initial testing is likely to be associated with better patient outcomes.",
+    "tokenCount": 51,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "186b2ce49c40e8292391757457aac840e679f5aa602f240b0326590179e29520"
+  },
+  {
+    "text": "1534 Nieman et al. Guidelines for the Diagnosis of Cushing’s Syndrome J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 78,
+    "pageStart": 9,
+    "pageEnd": 9,
+    "hash": "ad1fe37d58d077ef07bd921f5aea6f817f1c983719c1ebf15591ec9854d8ffdc"
+  },
+  {
+    "text": "The recommendation to perform additional testing in pa- tients with discordant results derives from the knowledge that some patients with Cushing’s syndrome, usually those with mild or cyclic disease, may have discordant results.",
+    "tokenCount": 45,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "c6d9d8c6012ea500338ea9a1216c3f8b215782846690cedda4ca5cf5008bfa9c"
+  },
+  {
+    "text": "Also, some pa- tients without Cushing’s syndrome may have only a minimally abnormal but discordant result. The distinction between these groupsisdifficult,andthereisnoonecorrectdiagnosticstrategy.",
+    "tokenCount": 46,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "295076d4a646ed54187a727166b41c81774e012e27a1dec85f1d2f4bb92f787f"
+  },
+  {
+    "text": "The test results’ validity should be evaluated in light of the ca- veats mentioned for specific patient situations and for each test and assay. For example, an abnormal UFC may not be accepted if the specimen volume and creatinine suggest overcollection.",
+    "tokenCount": 51,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "fd227db51fcddeee67f60cc57b26f0db9c54360a11e8ae3a91a40cd420f475a8"
+  },
+  {
+    "text": "Underlying disorders that may cause mild hypercortisolism (Ta- ble 2) should be considered and testing repeated when these are treated or resolved. Postponing additional testing to allow pro- gression of clinical and biochemical features may be useful.",
+    "tokenCount": 51,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "81d6b5fbd7dff201c629f5f8276cdc514c09920256a95a9196f8d3285ee5aa4e"
+  },
+  {
+    "text": "The patient should be reassured that this poses minimal risk in the setting of mild hypercortisolism. Subsequent evaluation 3.8 For the subsequent evaluation of abnormal test results from one of the high-sensitivity tests, we recommend performing an- other recommended test (Fig.",
+    "tokenCount": 56,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "7dffc95c4f4164269f0d39053de8e92cfd4267902b68032dbb96924b3852f9ca"
+  },
+  {
+    "text": "1, 1 QEEE ). 3.8.1 We suggest the additional use of the dexamethasone- CRHtestorthemidnightserumcortisoltestinspecificsituations (Fig. 1, 1 QEEE ).",
+    "tokenCount": 53,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "0d81f731d1a5af4f6b41aa81aea86a47711704983956319865f5ab7a2c6fa870"
+  },
+  {
+    "text": "3.8.2 We suggest against the use of the desmopressin test, exceptinresearchstudies,untiladditionaldatavalidateitsutility (2 QEEE ). 3.8.3 We recommend against any further testing for Cush- ing’s syndrome in individuals with concordantly negative results on two different tests (except in patients suspected of having the very rare case of cyclical disease) (1 QEEE ).",
+    "tokenCount": 91,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "e40e17c53deac1a0a8621862fc11a19b142df4b92a0a57e7ec5196575783d683"
+  },
+  {
+    "text": "3.8.4 We recommend tests to establish the cause of Cushing’s syndrome in patients with concordantly positive results from two different tests, provided there is no concern regarding pos- sible non-Cushing’s hypercortisolism (Table 2) (1 QQEE ). 3.8.5Wesuggestfurtherevaluationandfollow-upforthefew patients with concordantly negative results who are suspected of having cyclical disease and also for patients with discordant re- sults, especially if the pretest probability of Cushing’s syndrome is high (2 QEEE ).",
+    "tokenCount": 130,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "ffaf03fe66566b3515da28b9a2b832621a192abde9be3d637f7b537f6dc3797e"
+  },
+  {
+    "text": "3.8 Remarks If the initial test result is abnormal, further evaluation by an endocrinologist will ensure that the disorder is confirmed or re- futed and that the possibility of a false-positive result will be considered.",
+    "tokenCount": 46,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "f524b0b6e3861ed38423e08e9d5f287152ef4a8c9e1b08272812428174c5597a"
+  },
+  {
+    "text": "Conversely, in cases in which there is a high pretest proba- bility of Cushing’s syndrome but a normal initial test, use of an additional alternative test has the potential benefit of disclosing those with milder disease.",
+    "tokenCount": 49,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "14ce4dcea8b1a8be36681e0aa34238dc64c51c917da91a1ffe383dea8a34977c"
+  },
+  {
+    "text": "3.8.1 Evidence for the 48-h, 2 mg/d LDDST with CRH In an effort to improve the sensitivity of the 48-h, 2 mg/d test, researchers developed a combined CRH stimulation test.",
+    "tokenCount": 50,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "490b964bdd13bde62d4d04e659b788fc69986657d2671ff8d2aae857979ba1db"
+  },
+  {
+    "text": "In the- ory, dexamethasone suppresses serum cortisol levels in individ- uals without Cushing’s syndrome as well as a small number of those with Cushing’s disease, but if given CRH, patients with Cushing’s disease should respond with an increase in ACTH and cortisol.",
+    "tokenCount": 70,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "89906db0bfca11c802221ac612e0840793ccad8af57cec3c64c4e2004405b8e5"
+  },
+  {
+    "text": "The test is done by administering the 48-h 2 mg/d DST, followedbyadministrationofCRH(1 \u0002 g/kg,iv )2hafterthelast dose of dexamethasone.",
+    "tokenCount": 47,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "f8527450711a7f511b4c43d020d4fea5d4fb5fbf141a325e423494f34e36b342"
+  },
+  {
+    "text": "Cortisol is measured 15 min later. The initial report of this strategy showed high diagnostic ac- curacy (92, 94). All eight of 59 patients with proven Cushing’s disease who suppressed pre-CRH cortisol to less than 1.4 \u0002 g/dl ( \u0004 38 nmol/liter; sensitivity 86%) were properly characterized after CRH administration.",
+    "tokenCount": 78,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "5c67fae5c447f463f09d51471656e178a1e6ff676883a3566281c6176b8bf0eb"
+  },
+  {
+    "text": "Subsequent reports showed lower diagnostic accuracy of both the DST and the combined test (7, 88–90). Overall, in 92 patients without Cushing’s syndrome, the specificity of the LDDST was 70% (95% confidence interval 69–87%), com- pared with a 60% specificity for the dexamethasone-CRH test (95% confidence interval 59–79%). In 59 patients with Cush- ing’ssyndrome,sensitivitywas96%fortheLDDSTand98%for the dexamethasone-CRH test.",
+    "tokenCount": 124,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "1611781e810c7e8e95258b5802efa3b9df1bcfc744e15bd8e24a5840b3fd238a"
+  },
+  {
+    "text": "The reasons for the differences in the responses to the LDDST and the combined test are not clear. As discussed above, any dexamethasone test may give either false-positive or false-neg- ativeresultsinconditionsthatalterthemetabolicclearanceofthe agent; additionally, differences in the performance of cortisol assays may contribute.",
+    "tokenCount": 74,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "a3e27ea6ece6fa3c411dc4270f97363906f37f4e85e7ef8c61d5f607a44ed5d2"
+  },
+  {
+    "text": "3.8.1 Remarks for the dexamethasone-CRH test The dexamethasone-CRH test can be useful in patients with equivocal results for UFC.",
+    "tokenCount": 41,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "75a144ebae4d84e2122a4cfb6cdcb8e95733db1409d7e5d4f3595cd3ef76c13c"
+  },
+  {
+    "text": "A dexamethasone level should be measured at the time of CRH administration to exclude a false- positive result, and the serum cortisol assay must be accurate at these low levels of detection.",
+    "tokenCount": 40,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "45145479980c6dcb5211c8604c6fd802bee07f0e308d9d6f7a108689de3c6eaa"
+  },
+  {
+    "text": "Additionally, it is possible that the 2-h time interval between dexamethasone and CRH administra- tion is critical so that compliance must be assured. In the United States, ovine-sequence CRH is available com- mercially (ACTHREL; Ferring Corp., Malmo, Sweden) with Food and Drug Administration-approved labeling for the dif- ferential diagnosis of Cushing’s syndrome.",
+    "tokenCount": 89,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "0e285f2e79a4987252f4f842d5fe7b75a9f4d49cde709478d347a3ad72f5bdad"
+  },
+  {
+    "text": "In Europe, the hu- man-sequence peptide is in widespread use (Ferring) but has lower stimulatory effect than the ovine-sequence CRH (95). 3.8.1 Evidence for the midnight serum cortisol test As noted above, the nocturnal nadir of serum cortisol values is lost in patients with Cushing’s syndrome, forming the basis of this test.",
+    "tokenCount": 83,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "edf1de56f521679eee1214cd04cf67425388bf586cf64d6dc2fd7ee3f8e11ebd"
+  },
+  {
+    "text": "Because the test is cumbersome to perform, we do not suggest its use in initial testing for Cushing’s syndrome. How- ever, the test may be useful in specific situations detailed below.",
+    "tokenCount": 40,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "0f76a2201d3c7e706719eac8a9381db0dffcee64bfe30432087b064e8827d256"
+  },
+  {
+    "text": "Midnightserumcortisolmaybeassessedinthesleepingorawake state, using different diagnostic criteria. As with all tests, use of a higher diagnostic criterion is associated with reduced sensitiv- ity but increased specificity.",
+    "tokenCount": 49,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "109f5dab8750813b8a510ce62e3c52c28263ad8e2a6140c3192ea8db5bb11eff"
+  },
+  {
+    "text": "Sleeping midnight serum cortisol In one study, a single sleeping serum cortisol greater than 1.8 \u0002 g/dl ( \u0001 50 nmol/liter) had high sensitivity (100%) for the di- agnosis of Cushing’s syndrome (96).",
+    "tokenCount": 56,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "48794533941c2c1d5b91f6082448ddc771026117c1ce3bcb03fda698cddad3eb"
+  },
+  {
+    "text": "More recent larger studies confirm the poor specificity for this criterion (20.2%), with a cutoff point of 7.5 \u0002 g/dl having higher specificity (87%) (7). J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 jcem.endojournals.org 1535 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 108,
+    "pageStart": 10,
+    "pageEnd": 10,
+    "hash": "50fa9b36b4bee1806ecd330025da4777511341c3fa787c46ca7a01359aca4449"
+  },
+  {
+    "text": "In 105 children with Cushing’s syndrome, measurement of sleepingmidnightcortisolhadhighersensitivitythanUFC(99 vs. 88%) (30). When used in patients with a high clinical index of suspicion of Cushing’s syndrome and who had normal UFC and full sup- pression on dexamethasone testing, a sleeping midnight serum cortisol of greater than 1.8 \u0002 g/dl or an awake value of greater than 7.5 \u0002 g/dl increases the probability of Cushing’s syndrome (96). Conversely, where there is a low clinical index of suspicion, such as in simple obesity, but lack of suppression on dexameth- asone testing and mildly elevated UFC, a sleeping midnight se- rum cortisol less than 1.8 \u0002 g/dl effectively excludes Cushing’s syndrome at the time of assessment (7).",
+    "tokenCount": 183,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "fb918342af3cd2a7ff14084422bedad1213d51f63267ac6dc2933eb8d0accb2e"
+  },
+  {
+    "text": "The midnight serum cortisoltestalsohasutilityinthecontextoffailureofsuppression on dexamethasone testing due to anticonvulsant medication, in which a sleeping midnight serum cortisol less than 1.8 \u0002 g/dl has been used to exclude Cushing’s syndrome (97).",
+    "tokenCount": 67,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "55c043a75ff715919afb1f1f593a0146d475e46be9668225026cc214ea57c9d7"
+  },
+  {
+    "text": "It is likely that similar values for awake measurements would have similar util- ity, but this has not been tested directly. Overall, the evidence in adult patients for the midnight serum cortisol accuracy is limited and inconsistent across studies, with at least one study showing that this test can enhance the accuracy of the UFC and 1-mg dexamethasone tests (2).",
+    "tokenCount": 74,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "9bcf5797295d75b26623da7553956eae0ec9e9dbe366454f0c57a2091ac8a2b0"
+  },
+  {
+    "text": "Awake midnight serum cortisol Sampling for midnight serum cortisol when the patient is awake is far easier. Initial studies suggested that an awake midnight serum cortisol greater than 7.5 \u0002 g/dl ( \u0001 207 nmol/liter) had a sensitivity and specificity greater than 96% (98, 99).",
+    "tokenCount": 62,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "e7ba014eb33472d364a8f0199d24468fd337413287826ce3d48acc3a0119cdb6"
+  },
+  {
+    "text": "However, when applied to an obese cohort, the specificity was only 83% (100). In an effort to improve on specificity, higher cutoff points have been advocated, inevitably at the cost of sensitivity:",
+    "tokenCount": 40,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "7095ef54b61492e7cc3d1372e6c4fed65fe26fb04e0e30e8214bec35e1f7fcca"
+  },
+  {
+    "text": "values of serum midnight cortisol greater than 8.3–12 \u0002 g/dl had 90– 92% sensitivity with specificity of 96% (63, 101). 3.8.1 Remarks for the midnight serum cortisol test The sleeping midnight cortisol requires inpatient admission for a period of 48 h or longer to avoid false-positive responses due tothestressofhospitalization;thisapproachmaynotbepossible in some practice settings.",
+    "tokenCount": 90,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "d1a42b37d1152e5234d78e965c84388648a06f85c722af42a625a6750abb3351"
+  },
+  {
+    "text": "If a sleeping value is desired, the blood sample must be drawn within 5–10 min of waking the patient, or through an indwelling line, to avoid false-positive results (96).",
+    "tokenCount": 40,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "9627b77618020f0bb2fd34045330d1f70c9339389e3d45f3f458640cd31d9bdc"
+  },
+  {
+    "text": "Young children may have their cortisol nadir earlier than midnight. In children, precatheterization is essential so that a sleeping sample for serum cortisol can be obtained. 3.8.2 Remarks for the desmopressin stimulation test The desmopressin stimulation test involves measurement of plasma ACTH just before and 10, 20, and 30 min after iv ad- ministration of 10 \u0002 g 1-desamino-8- D -arginine vasopressin.",
+    "tokenCount": 101,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "be21b290c424a2ee832a9ec92d4ab02f0067ceb6119793752a2fba2e0dcb2839"
+  },
+  {
+    "text": "In general, patients with Cushing’s disease show an increase in ACTH, but those with other causes of Cushing’s syndrome or those without Cushing’s syndrome do not respond (7, 22, 102).",
+    "tokenCount": 49,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "100100fdc08ff058cfe067c754dd4267386cf7acaf53fa716131bda1ef589273"
+  },
+  {
+    "text": "The sensitivity for patients with Cushing’s disease was 82–87%; whenotherpatientswithCushing’ssyndromewereincluded,the sensitivity was 63–75%.",
+    "tokenCount": 41,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "5e727a35b9568714e05185ddd92effea95247d2a5f7e03330bbda062abef243c"
+  },
+  {
+    "text": "The specificity ranged from 85 to 91%. Until additional data validate the utility of the test in a larger population of patients with all causes of Cushing’s syndrome, it seems prudent to restrict this test to research studies.",
+    "tokenCount": 45,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "bb7c9b7def21b15618962dd79c98d7235e179b5722814ac188f1322cf7aef800"
+  },
+  {
+    "text": "4.0 Special populations/considerations 4.1 Pregnancy: We recommend the use of UFC and against the useofdexamethasonetestingintheinitialevaluationofpregnant women (1 QQQE ).",
+    "tokenCount": 49,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "a9233d0f4d043f2ee445610f4533db97c6332cae8420f8685bba5cd895c970f2"
+  },
+  {
+    "text": "4.2 Epilepsy: We recommend against the use of dexamethasone testing in patients receiving antiepileptic drugs known to en- hance dexamethasone clearance and recommend instead mea- surements of nonsuppressed cortisol in blood, saliva, or urine (1 QQQE ).",
+    "tokenCount": 67,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "c5cf11573c90615d674aee9d33551c06fb9dd9794401ca0b59ca6b4a2e21f0d7"
+  },
+  {
+    "text": "4.3 Renal failure: We suggest using the 1-mg overnight DST rather than UFC for initial testing for Cushing’s syndrome in patients with severe renal failure (2 QEEE ).",
+    "tokenCount": 41,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "05942311edd893b76301da224497f46d45161c0c8acaf2aa8ab25665f4cc69f0"
+  },
+  {
+    "text": "4.4 Cyclic Cushing’s syndrome: We suggest use of UFC or mid- night salivary cortisol tests rather than DSTs in patients sus- pected of having cyclic Cushing’s syndrome (2 QEEE ).",
+    "tokenCount": 52,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "2bdbc5aabc8fbe0e58b6218963789ed97abfbb073ea16773a0bfbaa20b232c9f"
+  },
+  {
+    "text": "4.5 Adrenal incidentaloma: We suggest use of the 1-mg DST or late-night cortisol test, rather than UFC in patients suspected of having mild Cushing’s syndrome (2 QQEE ).",
+    "tokenCount": 46,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "1ea35ad666be27ba7928a1655561afcf19a2da4a9d61d9830d5e57c97d028660"
+  },
+  {
+    "text": "4.1 Evidence for choice of tests in pregnant women Screening for hypercortisolism is more difficult in pregnancy, particularly in the second and third trimesters. UFC excretion is normal in the first trimester; however, it increases up to 3-fold by term to overlap values seen in women with Cushing’s syndrome (103).",
+    "tokenCount": 73,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "605ae78b2382c1faed1c549a857099e4d0f29adabce693e41a49162f342335ae"
+  },
+  {
+    "text": "Thus, only UFC values in the second or third trimester greater than 3 times the upper limit of normal can be taken to indicate Cushing’s syndrome. Serum cortisol circadian variation is preserved in normal pregnancy, albeit with a higher midnight nadir. Whereas loss of circadian variation is characteristic of Cushing’s syndrome, diagnostic thresholds for evening serum or salivary cortisol in pregnant patients are not known (103, 104).",
+    "tokenCount": 89,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "8a446a8f9efe6e0c68150cf3db3ecb95835fd29f3296f264629ca97b2aceb930"
+  },
+  {
+    "text": "Furthermore,suppressionofserumandurinarycortisolbydexa- methasone is blunted in pregnancy (105). Thus, dexamethasone testing has an increased potential for false-positive results in pregnancy.",
+    "tokenCount": 50,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "18c5849ae798bf9ba542d4d623b2cf0ac5b79e6684a256e75d7d21523418f57f"
+  },
+  {
+    "text": "4.2 Evidence for choice of tests in patients receiving anticonvulsants As discussed above (see 3.4 Remarks for dexamethasone tests ), commonly used anticonvulsant medications, including phenyt- oin, phenobarbitone, and carbamazepine, induce hepatic enzy- matic clearance of dexamethasone, mediated through CYP 3A4, and may cause false-positive responses on testing.",
+    "tokenCount": 95,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "b0e4fa9c037a2cd515031a593af49b77fed3ca0029d75b780cfb26a453585dcb"
+  },
+  {
+    "text": "There are, however, no data to guide the length of time needed after with- drawal of such medication to allow dexamethasone metabolism to return to normal, and such a medication change may not be clinically possible.",
+    "tokenCount": 46,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "c90f179e9408967c1dbdcc6a7177aa7e8ceaba83ee1d394967b3c42a8259f43b"
+  },
+  {
+    "text": "Switching to nonenzyme-inducing medica- tion may correct this situation, but an alternative and more prac- tical approach is to use another test, such as assessment of mid- night salivary or serum cortisol, to exclude Cushing’s syndrome in these patients (97).",
+    "tokenCount": 62,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "732dc4d18b94c7b37ee938f04787ecb0c0dce22606f6b84cd371060bc0d75f9d"
+  },
+  {
+    "text": "4.3 Evidence for choice of tests in chronic renal failure As noted above (see 3.4.1), excreted urine cortisol values de- creasebelowcreatinineclearanceof60ml/minandarequitelow, 1536 Nieman et al.",
+    "tokenCount": 57,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "c3a042d296f90f040c3ae29a9965426e822f8ef981df38c571bce5efdf6568ec"
+  },
+  {
+    "text": "Guidelines for the Diagnosis of Cushing’s Syndrome J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 72,
+    "pageStart": 11,
+    "pageEnd": 11,
+    "hash": "ff1fcbc856e62ff8dac438999f1d14b8790e11a636ff529706340a4bfea48f83"
+  },
+  {
+    "text": "below 20 ml/min (53). Although the cortisol circadian rhythm was present in one study, neither serum nor salivary midnight cortisol concentrations have been reported in this population (106 However, serum free cortisol values measured over a 24-h period were reported to be elevated (106). As a result, a normal (low) midnight cortisol value probably excludes Cushing’s syn- drome, but the diagnostic threshold for either serum or salivary cortisol is not known. The absorption and metabolism of 1 mg dexamethasone, as well as the cortisol response, have been re- ported to be both normal and abnormal (107–109",
+    "tokenCount": 132,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "0dde4803c18edcb0d433fee0a17afc09bf5e608252159ddb82343bdd3c7928b7"
+  },
+  {
+    "text": "Responses to administration of 3 and 8 mg dexamethasone were normal in some but not all patients (106, 108). In the absence of additional data, a normal response to 1 mg dexamethasone is likely to ex- clude Cushing’s syndrome, but an abnormal response is not diagnostic. 4.4 Evidence for choice of tests in cyclic Cushing’s syndrome Rarely patients have been described with episodic secretion of cortisol excess in a cyclical pattern with peaks occurring at in- tervals of several days to many months (93",
+    "tokenCount": 120,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "312a3136bc0de124bb1e135bcee3a9ca60379380b80d0bd6d263890ead777270"
+  },
+  {
+    "text": "Because the DST results may be normal in patients who are cycling out of hyper- cortisolism, these tests are not recommended for patients sus- pected of having cyclic disease. Instead, measurement of UFC or salivary cortisol may best demonstrate cyclicity. In patients for whom clinical suspicion is high but initial tests are normal, fol- low-up is recommended with repeat testing, if possible to coin- cide with clinical symptoms. 4.5 Evidence for choice of tests in adrenal incidentaloma UFC appears to be less sensitive than the 1-mg DST or late-night cortisol for the identification of Cushing’s syndrome in this pop- ulation (20–23). There is no consensus on the best algorithm or the best diagnostic criterion for the 1-mg DST. A suppressed ACTH or dehydroepiandrosterone sulfate concentration sup- ports the diagnosis of Cushing’s syndrome in patients with ad- renal masses (20–23",
+    "tokenCount": 200,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "6317b5f50e9e681cc846c72460e7ac988cabb00cfc1040010c3b7a033ceb08c9"
+  },
+  {
+    "text": "Measurement of ACTH or dehydroepi- androsteronesulfateisnotpartofinitialdiagnosticevaluationof a patient presenting with clinical features of Cushing’s syn- drome, but it may indicate subtle adrenal hyperfunction in this specific population. 5. Future directions and recommended research The evidence on which many of these recommendations have been made is of low to very low quality because there are limited data linking diagnostic strategies to patient outcomes as much of theworkhasfocusedondeveloping,validating,andascertaining diagnostic test performance. This focus may be due to the rarity of the disease and the availability of diverse diagnostic methods. In addition, published data, which are often from larger tertiary referral centers, might be biased toward more diagnostically challenging cases, higher pretest probability, and greater disease severity. Such bias may result in an overly sanguine view of the diagnostic performance of these tests, particularly compared with their expected performance in unselected populations in usual clinical practice. These issues highlight the need for further research and for improvements in the research methods used to determine whether testing will lead to improved patient outcomes. Investigation in the following areas would significantly im- prove the future care of patients with hypercortisolism: 1. Pooled information . A commitment from endocrinologists supported by national and international endocrine organiza- tions and funding agencies to establish databases of consecutive patients tested for Cushing’s syndrome allowing for prospective pooling of the diagnostic test information. This pooled infor- mation would help to define discriminatory symptoms and signs and provide data on the most accurate testing strategies. 2. Standardization of assays . The diagnosis of Cushing’s syn- drome is critically dependent on the quality and performance of cortisolassays,betheyfromserum,saliva,orurineandmeasured by RIA, ELISA, or LC-MS/MS. Clinicians need a greater appre- ciation of the robustness (or otherwise) of their particular assay and its variance from published cutoff data. National laborato- ries of excellence might be used as referral centers in difficult cases; approval by the health",
+    "tokenCount": 447,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "30592414355bcbfcd7f2743f551fd5a8624f52aeec54852676e0ffaeeffabc38"
+  },
+  {
+    "text": "authorities/insurance companies for such use would be important. 3. Improved clinical outcome data and targeted clinical trials . Initial testing for hypercortisolism may be desirable to the extent that its results will favorably affect outcomes that matter to pa- tients.Thereisapressingneedtoinvestigateoutcomesinpatients cured of Cushing’s syndrome with modern-day practice. In par- ticular, there are conflicting data on the need to treat mild or so-called subclinical Cushing’s syndrome, notably in patients with adrenal incidentalomas. Appropriately powered and rigor- ously designed randomized clinical trials to compare diagnostic- treatment strategies should be established to inform clinicians and patients on optimal management. Acknowledgments The members of the Task Force thank Dr. Robert Vigersky, the members of the Clinical Guidelines Subcommittee, the Clinical Affairs Core Com- mittee, and The Endocrine Society Council for their careful review of earlier versions of this manuscript and their helpful suggestions. We thank Patricia A. Stephens, Ph.D., medical writer on this guideline, who meticulously checked the references and formatted the guideline into its currentform.Inaddition,wethankthemanymembersofTheEndocrine Society who reviewed the draft version of this guideline when it was posted on the The Endocrine Society Web site and who sent a great number of comments, most of which were incorporated into the final version of the manuscript. We thank the European Society of Endocri- nology for their co-sponsorship of this guideline. Finally, we thank the staff at The Endocrine Society office for their helpful support during the development of this guideline. Address all correspondence to: The Endocrine Society, 8401 Con- necticut Avenue, Suite 900, Chevy Chase, Maryland 20815. E-mail: govt-prof@endo.society.org. Address all reprint requests for orders of 101 and more to: Heather Edwards, Reprint Sales Specialist, Cadmus Professional Communications, 8621 Robert Fulton Drive, Columbia, Maryland 21046. E-mail: endoreprints@cadmus.com. Address all re- print requests for orders of 100 or less to Society",
+    "tokenCount": 450,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "33ca849b11d763aea6089973e8a2b09b91ad6e1d3ce4dfd2a417210898ad38af"
+  },
+  {
+    "text": "Services. E-mail: societyservices@endo-society.org. J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 jcem.endojournals.org 1537 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 89,
+    "pageStart": 12,
+    "pageEnd": 12,
+    "hash": "e90714d441c5c70c00bacba626397cb8185f76a1d8c08e36e4c15cb3aa1299e3"
+  },
+  {
+    "text": "Disclaimer Statement Clinical practice guidelines are developed to be of assistance to physi- cians by providing guidance and recommendations for particular areas of practice. The guidelines should not be considered inclusive of all proper approaches or methods, or exclusive of others. The guidelines cannot guarantee any specific outcome, nor do they establish a standard of care. The guidelines are not intended to dictate the treatment of a particular patient. Treatment decisions must be made based on the in- dependent judgment of health care providers and each patient’s individ- ual circumstances. The Endocrine Society makes no warranty, express or implied, re- garding the guidelines and specifically excludes any warranties of mer- chantability and fitness for a particular use or purpose. The Endocrine Society shall not be liable for direct, indirect, special, incidental, or con- sequential damages related to the use of the information contained herein. Disclosure of Task Force Lynnette K. Nieman , M.D. (chair)—Financial or Business/Organiza- tional Interests: UpToDate, HRA Pharma, Significant Financial Interest or Leadership Position: none declared; Beverly M. K. Biller , M.D.— Financial or Business/Organizational Interests: Novartis, consultant, Significant Financial or Leadership Position: none declared; James W. Findling , M.D.— Financial or Business/Organizational Interests: No- vartis, Corcept, Significant Financial or Leadership Position: none de- clared; John D. C. Newell-Price , M.D., F.R.C.P., Ph.D.—Financial or Business/Organizational Interests: Society for Endocrinology, United Kingdom, Clinical Endocrinology , Trustee to Pituitary Foundation , United Kingdom, Significant Financial Interest or Leadership Position: none declared; Martin Savage , M.D.—Financial or Business/Organiza- tional Interests: Society of Endocrinology, RDE, Significant Financial Interest or Leadership Position: Hormone Reproduction, Ipsen; Paul MichaelStewart ,M.D.,F.R.C.P.—FinancialorBusiness/Organizational Interests: International Society for Endocrinology, Significant Financial or Leadership",
+    "tokenCount": 450,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "3440ebbcbd810fca2572e3400800bd323f33d536c7bffea49c592b2a3644a130"
+  },
+  {
+    "text": "Position: none declared; * Victor M. Montori , M.D.— Financial or Business/Organizational Interests: none declared, Signifi- cant Financial or Leadership Position: none declared. *Evidence-based reviews for this guideline were prepared under contract with The Endo- crine Society. References 1. Atkins D, Best D, Briss PA, Eccles M, Falck-Ytter Y, Flottorp S, Guyatt GH, Harbour RT, Haugh MC, Henry D, Hill S, Jaeschke R, Leng G, Liberati A, Magrini N, Mason J, Middleton P, Mrukowicz J, O’Connell D, Oxman AD, Phillips B, Schunemann HJ, Edejer TT, Varonen H, Vist GE, Williams Jr JW, Zaza S 2004 Grading quality of evidence and strength of recommendations. BMJ 328:1490 2. Elamin MB, Murad MH, Mullan R, Erickson D, Harris K, Nadeem S, Ennis R, Erwin PJ, Montori VM 2008 Accuracy of diagnostic tests for Cushing syndrome: a systematic review and meta-analyses. J Clin Endocrinol Metab 93:1553–1562 3. Swiglo BA, Murad MH, Schu ̈nemann HJ, Kunz R, Vigersky RA, Guyatt GH, Montori VM 2008 A case for clarity, consistency, and helpfulness: state-of- the-artclinicalpracticeguidelinesinendocrinologyusingtheGRADEsystem. J Clin Endocrinol Metab 93:666–673 4. Etxabe J, Vazquez JA 1994 Morbidity and mortality in Cushing’s disease: an epidemiological approach. Clin Endocrinol (Oxf) 40:479–484 5. Lindholm J, Juul S, Jorgensen JO, Astrup J, Bjerre P, Feldt-Rasmussen U, Hagen C, Jorgensen J, Kosteljanetz M, Kristensen L, Laurberg",
+    "tokenCount": 450,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "5d205b6f357688c604c1912843dee64e7f93dbdee909f5f2420b673ec3ca89e5"
+  },
+  {
+    "text": "P, Schmidt K, Weeke J 2001 Incidence and late prognosis of Cushing’s syndrome: a popu- lation-based study. J Clin Endocrinol Metab 86:117–123 6. Nugent CA, Warner HR, Dunn JT, Tyler FH 1964 Probability theory in the diagnosis of Cushing’s syndrome. J Clin Endocrinol Metab 24:621–627 7. Pecori Giraldi F, Pivonello R, Ambrogio AG, De Martino MC, De Martin M, Scacchi M, Colao A, Toja PM, Lombardi G, Cavagnini F 2007 The dexam- ethasone-suppressed corticotropin-releasing hormone stimulation test and the desmopressin test to distinguish Cushing’s syndrome from pseudo-Cush- ing’s states. Clin Endocrinol (Oxf) 66:251–257 8. Ross EJ, Linch DC 1982 Cushing’s syndrome—killing disease: discrimina- tory value of signs and symptoms aiding early diagnosis. Lancet 2:646–649 9. Yanovski JA, Cutler GB, Jr., Chrousos GP, Nieman LK 1993 Corticotropin- releasing hormone stimulation following low-dose dexamethasone adminis- tration.AnewtesttodistinguishCushing’ssyndromefrompseudo-Cushing’s states. JAMA 269:2232–2238 10. Gold PW, Loriaux DL, Roy A, Kling MA, Calabrese JR, Kellner CH, Nieman LK, Post RM, Pickar D, Gallucci W, et al 1986 Responses to corticotropin- releasing hormone in the hypercortisolism of depression and Cushing’s dis- ease.Pathophysiologicanddiagnosticimplications.NEnglJMed314:1329– 1335 11. Cushing H 1932 The basophil adenomas of the pituitary body and their clinical manifestations. Bull Johns Hopkins Hosp 50:137–195",
+    "tokenCount": 450,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "e3e7c3b9a591ad2652edfd7aaa00a30e835d3d7a8869024bedea728bb922263c"
+  },
+  {
+    "text": "12. Plotz CM, Knowlton AI, Ragan C 1952 The natural history of Cushing’s syndrome. Am J Med 13:597–614 13. Swearingen B, Biller BM, Barker 2nd FG, Katznelson L, Grinspoon S, Kli- banski A, Zervas NT 1999 Long-term mortality after transsphenoidal sur- gery for Cushing disease. Ann Intern Med 130:821–824 14. ColaoA,PivonelloR,SpieziaS,FaggianoA,FeroneD,FilippellaM,Marzullo P, Cerbone G, Siciliani M, Lombardi G 1999 Persistence of increased car- diovascular risk in patients with Cushing’s disease after five years of success- ful cure. J Clin Endocrinol Metab 84:2664–2672 15. Wei L, MacDonald TM, Walker BR 2004 Taking glucocorticoids by pre- scription is associated with subsequent cardiovascular disease. Ann Intern Med 141:764–770 16. Bourdeau I, Bard C, Noel B, Leclerc I, Cordeau MP, Belair M, Lesage J, Lafontaine L, Lacroix A 2002 Loss of brain volume in endogenous Cushing’s syndrome and its reversibility after correction of hypercortisolism. J Clin Endocrinol Metab 87:1949–1954 17. Hermus AR, Smals AG, Swinkels LM, Huysmans DA, Pieters GF, Sweep CF, CorstensFH,KloppenborgPW 1995Bonemineraldensityandboneturnover before and after surgical cure of Cushing’s syndrome. J Clin Endocrinol Metab 80:2859–2865 18. Lindsay JR, Nansel T, Baid S, Gumowski J, Nieman LK 2006 Long-term impaired quality of life in Cushing’s syndrome despite initial improvement after surgical remission. J Clin Endocrinol Metab 91:447–453 19. Sarlis NJ, Chanock",
+    "tokenCount": 450,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "b617d96922ef080f1fb979956e454162b98f851b8a1de2e9104ee1fbf3523d45"
+  },
+  {
+    "text": "SJ, Nieman LK 2000 Cortisolemic indices predict severe infections in Cushing syndrome due to ectopic production of adrenocortico- tropin. J Clin Endocrinol Metab 85:42–47 20. Reincke M 2000 Subclinical Cushing’s syndrome. Endocrinol Metab Clin North Am 29:43–56 21. Terzolo M, Reimondo G, Bovio S, Angeli A 2004 Subclinical Cushing’s syndrome. Pituitary 7:217–223 22. Tsagarakis S, Vassiliadi D, Thalassinos N 2006 Endogenous subclinical hy- percortisolism: diagnostic uncertainties and clinical implications. J Endocri- nol Invest 29:471–482 23. Mitchell IC, Auchus RJ, Juneja K, Chang AY, Holt SA, Snyder WH, 3rd, Nwariaku FE 2007 “Subclinical Cushing’s syndrome” is not subclinical: im- provement after adrenalectomy in 9 patients. Surgery 142:900–905 24. Davies JH, Storr HL, Davies K, Monson JP, Besser GM, Afshar F, Plowman PN, Grossman AB, Savage MO 2005 Final adult height and body mass index aftercureofpaediatricCushing’sdisease.ClinEndocrinol(Oxf)62:466–472 25. StorrHL,MitchellH,SwordsFM,MainKM,HindmarshPC,BettsPR,Shaw NJ, Johnston DI, Clark AJ, Reznek RH, Grossman AB, Savage MO 2004 Clinical features, diagnosis, treatment and molecular studies in paediatric Cushing’ssyndromeduetoprimarynodularadrenocorticalhyperplasia.Clin Endocrinol (Oxf) 61:553–559 26. Magiakou MA, Mastorakos G, Chrousos GP 1994 Final stature in patients with endogenous Cushing’s syndrome. J Clin Endocrinol Metab 79:1082–",
+    "tokenCount": 450,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "e026607b9160673a2552d21cef5205eecfb352502d3176d46f4c45258c8776bf"
+  },
+  {
+    "text": "1085 27. Samaras K, Pett S, Gowers A, McMurchie M, Cooper DA 2005 Iatrogenic Cushing’s syndrome with osteoporosis and secondary adrenal failure in hu- man immunodeficiency virus-infected patients receiving inhaled corticoste- roids and ritonavir-boosted protease inhibitors: six cases. J Clin Endocrinol Metab 90:4394–4398 28. BaidSK,SinaiiN,WadeM,RubinoD,NiemanLK 2007Radioimmunoassay and tandem mass spectrometry measurement of bedtime salivary cortisol levels:acomparisonofassaystoestablishhypercortisolism.JClinEndocrinol Metab 92:3102–3107 29. Mann M, Koller E, Murgo A, Malozowski S, Bacsanyi J, Leinung M 1997 1538 Nieman et al. Guidelines for the Diagnosis of Cushing’s Syndrome J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 280,
+    "pageStart": 13,
+    "pageEnd": 13,
+    "hash": "b17715bed546220d9e366e8e226d99682c9569f39aae99ff358636f15575fcd7"
+  },
+  {
+    "text": "Glucocorticoidlike activity of megestrol. A summary of Food and Drug Ad- ministration experience and a review of the literature. Arch Intern Med 157: 1651–1656 30.",
+    "tokenCount": 43,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "a261838c3d353bdb8f4bf82cc58a2ad7dd9efe76deeefd05f40c63e7a0a77313"
+  },
+  {
+    "text": "Batista DL, Riar J, Keil M, Stratakis CA 2007 Diagnostic tests for children who are referred for the investigation of Cushing syndrome. Pediatrics 120: e575–e586 31.",
+    "tokenCount": 42,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "0fec63808566724da501d9223f3289f7fa7fd916eb790d3a17ebfb22442df2d6"
+  },
+  {
+    "text": "Bulow B, Jansson S, Juhlin C, Steen L, Thoren M, Wahrenberg H, Valde- marsson S, Wangberg B, Ahren B 2006 Adrenal incidentaloma—follow-up results from a Swedish prospective study.",
+    "tokenCount": 56,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "6143d2feb89a89eb478d3db7e964605eb68de93de49c37d731651d19ccf0b6e1"
+  },
+  {
+    "text": "Eur J Endocrinol 154:419–423 32. LibeR,Dall’AstaC,BarbettaL,BaccarelliA,Beck-PeccozP,AmbrosiB 2002 Long-term follow-up study of patients with adrenal incidentalomas. Eur J Endocrinol 147:489–494 33.",
+    "tokenCount": 75,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "a7ad583e002f363cb474615e181acfaf469d76ae675ed709b83a38d79935949b"
+  },
+  {
+    "text": "Catargi B, Rigalleau V, Poussin A, Ronci-Chaix N, Bex V, Vergnot V, Gin H, Roger P, Tabarin A 2003 Occult Cushing’s syndrome in type-2 diabetes.",
+    "tokenCount": 56,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "9d6a81f8b8eb9dfc49bd63cf142d923bee2bbd58ed7aa192072646ed4c9c233d"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 88:5808–5813 34. Reimondo G, Pia A, Allasino B, Tassone F, Bovio S, Borretta G, Angeli A, Terzolo M 2007 Screening of Cushing’s syndrome in adult patients with newly diagnosed diabetes mellitus.",
+    "tokenCount": 73,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "9d1f031d92d73ff7ad2d25c968afd8f8268c77a10baa4390ea28057a2cd8a122"
+  },
+  {
+    "text": "Clin Endocrinol (Oxf) 67:225–229 35. Ness-Abramof R, Nabriski D, Apovian CM, Niven M, Weiss E, Shapiro MS, Shenkman L 2002 Overnight dexamethasone suppression test:",
+    "tokenCount": 58,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "8ef744ebdb87b31a1f80c34de234a52e88a736f8f6069bbafcbe344244ff66cf"
+  },
+  {
+    "text": "a reliable screen for Cushing’s syndrome in the obese. Obes Res 10:1217–1221 36. Anderson Jr GH, Blakeman N, Streeten DH 1994 The effect of age on prev- alence of secondary forms of hypertension in 4429 consecutively referred patients.",
+    "tokenCount": 60,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "2f7e2abbd75a6d01185a9fe3050fd879ed19728324a4daa0387797e9c55aa9bc"
+  },
+  {
+    "text": "J Hypertens 12:609–615 37. Omura M, Saito J, Yamaguchi K, Kakuta Y, Nishikawa T 2004 Prospective study on the prevalence of secondary hypertension among hypertensive pa- tients visiting a general outpatient clinic in Japan. Hypertens Res 27:193–202 38.",
+    "tokenCount": 67,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "0efcdf2963c96a27fe716ae334b7472fcb3a370329f5d03740495f3f9f10b533"
+  },
+  {
+    "text": "Chiodini I, Mascia ML, Muscarella S, Battista C, Minisola S, Arosio M, Santini SA, Guglielmi G, Carnevale V, Scillitani A 2007 Subclinical hyper- cortisolism among outpatients referred for osteoporosis.",
+    "tokenCount": 68,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "d645c2473af0e8de3f69191ef93a0127d652aa93f6568c9f77eb7f612eccb4f8"
+  },
+  {
+    "text": "Ann Intern Med 147:541–548 39. Klose M, Lange M, Rasmussen AK, Skakkebaek NE, Hilsted L, Haug E, Andersen M, Feldt-Rasmussen U 2007 Factors influencing the adrenocorti- cotropin test:",
+    "tokenCount": 61,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "858f50ccdeafa974af7df6097100f05f766fc23fe6fcaa01d4b56e975ce60dd6"
+  },
+  {
+    "text": "role of contemporary cortisol assays, body composition, and oral contraceptive agents. J Clin Endocrinol Metab 92:1326–1333 40. Findling JW, Pinkstaff SM, Shaker JL, Raff H, Nelson JC 1998 Pseudohy- percortisoluria:",
+    "tokenCount": 63,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "68d7c95a544e5422db764299f25b63f67c953158f5e78bbb063a9b8d7baf6fae"
+  },
+  {
+    "text": "spurious elevation of urinary cortisol due to carbamazepine. Endocrinologist 8:51–54 41. Meikle AW, Findling J, Kushnir MM, Rockwood AL, Nelson GJ, Terry AH 2003 Pseudo-Cushing syndrome caused by fenofibrate interference with uri- nary cortisol assayed by high-performance liquid chromatography.",
+    "tokenCount": 78,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "d6d25e3809d9ce43f558f3259e42c801a8f2570cc2c8c2416b65f5acd81adb41"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 88:3521–3524 42. Lin CL, Wu TJ, Machacek DA, Jiang NS, Kao PC 1997 Urinary free cortisol and cortisone determined by high performance liquid chromatography in the diagnosis of Cushing’s syndrome. J Clin Endocrinol Metab 82:151–155 43.",
+    "tokenCount": 74,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "56b89c3e308a52f97f85fddba6015e99417bbf36622ad7ef7e7394aff74ccb41"
+  },
+  {
+    "text": "Turpeinen U, Markkanen H, Valimaki M, Stenman UH 1997 Determination of urinary free cortisol by HPLC. Clin Chem 43:1386–1391 44.",
+    "tokenCount": 42,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "5f7fb9fcf56d45dc2a7e1d35431f3142bfa5a2455c9e5a16cdfb4fc5e0e59af6"
+  },
+  {
+    "text": "Nickelsen T, Lissner W, Schoffling K 1989 The dexamethasone suppression test and long-term contraceptive treatment: measurement of ACTH or sali- vary cortisol does not improve the reliability of the test.",
+    "tokenCount": 49,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "60530693e4e8859881f14c50f9b9abb7ecbca7c7291657fb55bed60863273fae"
+  },
+  {
+    "text": "Exp Clin Endocrinol 94:275–280 45. Qureshi AC, Bahri A, Breen LA, Barnes SC, Powrie JK, Thomas SM, Carroll PV 2007 The influence of the route of oestrogen administration on serum levels of cortisol-binding globulin and total cortisol.",
+    "tokenCount": 62,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "b99ffe5a56467f94fbd4cd525bd7d5f5b36f904844b3dc9e1a2c7684f64f63dd"
+  },
+  {
+    "text": "Clin Endocrinol (Oxf) 66:632–635 46. Hamrahian AH, Oseni TS, Arafah BM 2004 Measurements of serum free cortisol in critically ill patients.",
+    "tokenCount": 43,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "9ae90b7fb2bcb1f98a315505dfab3b6ce3308688e48b53d3b1278b1206f1bb57"
+  },
+  {
+    "text": "N Engl J Med 350:1629–1638 47. Kyriazopoulou V, Vagenakis AG 1992 Abnormal overnight dexamethasone suppression test in subjects receiving rifampicin therapy.",
+    "tokenCount": 47,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "d8bbc07f7f503e38d52bf6cb2c21866e2a9274e501281dee6ceed39751d816bd"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 75:315–317 48. Meikle AW 1982 Dexamethasone suppression tests: usefulness of simulta- neous measurement of plasma cortisol and dexamethasone.",
+    "tokenCount": 46,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "daa21dab86e7577bcfb416cd9c6876881feafd27426a983d73ae82911b1b5e90"
+  },
+  {
+    "text": "Clin Endocrinol (Oxf) 16:401–408 49. Crapo L 1979 Cushing’s syndrome: a review of diagnostic tests. Metabolism 28:955–977 50. Melby JC 1971 Assessment of adrenocortical function. N Engl J Med 285: 735–739 51.",
+    "tokenCount": 72,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "4588b45ac3ccb653dde79a005a03feea3362a7b83814c504b620fd02e907de46"
+  },
+  {
+    "text": "Pecori Giraldi F, Ambrogio AG, De Martin M, Fatti LM, Scacchi M, Cav- agnini F 2007 Specificity of first-line tests for the diagnosis of Cushing’s syndrome:",
+    "tokenCount": 50,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "d4fb5db7f77f84e043c96c0abd7f208d28b0a3c5aa8301ae2c73fd8f5f51884f"
+  },
+  {
+    "text": "assessment in a large series. J Clin Endocrinol Metab 92:4123– 4129 52. Mericq MV, Cutler Jr GB 1998 High fluid intake increases urine free cortisol excretion in normal subjects.",
+    "tokenCount": 45,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "7151bb5265faf901bdf985fc38fdba87be8fff1c1f3ff14a276ccf9217a422d0"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 83:682–684 53. Chan KC, Lit LC, Law EL, Tai MH, Yung CU, Chan MH, Lam CW 2004 Diminished urinary free cortisol excretion in patients with moderate and severe renal impairment.",
+    "tokenCount": 52,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "df7b7c8aba4dec2c51ce7b4a1f5f3a8e5b252198e3a043d6fd01b1f4ac716e18"
+  },
+  {
+    "text": "Clin Chem 50:757–759 54. Kidambi S, Raff H, Findling JW 2007 Limitations of nocturnal salivary cor- tisol and urine free cortisol in the diagnosis of mild Cushing’s syndrome.",
+    "tokenCount": 53,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "6ff5a93d3b8331c5a62f140842803192d0e4566346af50c8d2b15d5b3b291a53"
+  },
+  {
+    "text": "Eur J Endocrinol 157:725–731 55. Krieger DT, Allen W, Rizzo F, Krieger HP 1971 Characterization of the normal temporal pattern of plasma corticosteroid levels.",
+    "tokenCount": 47,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "a6a15baa8d3766f748a77538392476d181c1097f0982b7db0a6db9457888121b"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 32:266–284 56. Glass AR, Zavadil 3rd AP, Halberg F, Cornelissen G, Schaaf M 1984 Cir- cadian rhythm of serum cortisol in Cushing’s disease. J Clin Endocrinol Metab 59:161–165 57.",
+    "tokenCount": 68,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "dfb6e51a79470e19a986b97f359e6f27b6b438000b52f788917a821984481bfa"
+  },
+  {
+    "text": "Refetoff S, Van Cauter E, Fang VS, Laderman C, Graybeal ML, Landau RL 1985 The effect of dexamethasone on the 24-hour profiles of adrenocorti- cotropin and cortisol in Cushing’s syndrome.",
+    "tokenCount": 60,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "43a911186e219d63db8cc1e0f8acf8c7a8f87330af13ac67605265049091a0f5"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 60: 527–535 58. Read GF, Walker RF, Wilson DW, Griffiths K 1990 Steroid analysis in saliva for the assessment of endocrine function.",
+    "tokenCount": 41,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "0ad7f363e3bffa9c70e5be474c711fb4a5f31e7a2ecd5082404dedd763b80dcc"
+  },
+  {
+    "text": "Ann NY Acad Sci 595:260–274 59. Castro M, Elias PC, Quidute AR, Halah FP, Moreira AC 1999 Out-patient screening for Cushing’s syndrome:",
+    "tokenCount": 43,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "15e08c5da36fba2239de365fccdd108e678ee3ac36b9efa46ec1bb09d3e89e84"
+  },
+  {
+    "text": "the sensitivity of the combination of cir- cadian rhythm and overnight dexamethasone suppression salivary cortisol tests. J Clin Endocrinol Metab 84:878–882 60.",
+    "tokenCount": 40,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "e2bba5910fb2a7bf9a28e4e21c1ae180c6f21f5de040773f40e9d749e6a1ade4"
+  },
+  {
+    "text": "Laudat MH, Cerdas S, Fournier C, Guiban D, Guilhaume B, Luton JP 1988 Salivary cortisol measurement: a practical approach to assess pituitary-ad- renal function. J Clin Endocrinol Metab 66:343–348 61.",
+    "tokenCount": 63,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "17127cfcdb7786197f47e6ca8537aae8d74b96928a7a004f313f289c07f47c87"
+  },
+  {
+    "text": "Luthold WW, Marcondes JA, Wajchenberg BL 1985 Salivary cortisol for the evaluation of Cushing’s syndrome. Clin Chim Acta 151:33–39 62.",
+    "tokenCount": 42,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "ebdbf86767ac98d4899a94ee0c735e949ab51575d52814ea6fea8c6ae3c9eeaa"
+  },
+  {
+    "text": "Papanicolaou DA, Mullen N, Kyrou I, Nieman LK 2002 Nighttime salivary cortisol: a useful test for the diagnosis of Cushing’s syndrome. J Clin Endo- crinol Metab 87:4515–4521 63.",
+    "tokenCount": 60,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "5d96c9618604fd521c48b0322b54c5a68428c22f5bf677feba770620a359ab65"
+  },
+  {
+    "text": "Putignano P, Toja P, Dubini A, Pecori Giraldi F, Corsello SM, Cavagnini F 2003 Midnight salivary cortisol versus urinary free and midnight serum cor- tisol as screening tests for Cushing’s syndrome.",
+    "tokenCount": 56,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "f0d98da8f07ea5870a6df8e80861c4d9d58bac4b780971a26949a6af3d69eee4"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 88:4153–4157 64. Raff H, Raff JL, Findling JW 1998 Late-night salivary cortisol as a screening test for Cushing’s syndrome. J Clin Endocrinol Metab 83:2681–2686 65.",
+    "tokenCount": 65,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "805f782552e8fdb1d263c525ecdec6bd26d7cecd7913d0aefeb2287e79831aae"
+  },
+  {
+    "text": "Trilck M, Flitsch J, Ludecke DK, Jung R, Petersenn S 2005 Salivary cortisol measurement—a reliable method for the diagnosis of Cushing’s syndrome.",
+    "tokenCount": 41,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "f0ebce3622396a04d37ae01bc102d8aacd932f545df4fd5caed7d39638f58e12"
+  },
+  {
+    "text": "Exp Clin Endocrinol Diabetes 113:225–230 66. Viardot A, Huber P, Puder JJ, Zulewski H, Keller U, Muller B 2005 Repro- ducibility of nighttime salivary cortisol and its use in the diagnosis of hyper- cortisolism compared with urinary free cortisol and overnight dexametha- sone suppression test.",
+    "tokenCount": 78,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "7cc1e0244b0b3d09df1273bf6ab0a9a453e4d36792ca5c4fb5805b37a487ef62"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 90:5730–5736 67. Yaneva M, Mosnier-Pudar H, Dugue MA, Grabar S, Fulla Y, Bertagna X 2004 Midnight salivary cortisol for the initial diagnosis of Cushing’s syn- drome of various causes. J Clin Endocrinol Metab 89:3345–3351 68.",
+    "tokenCount": 85,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "c9de0c6a400be46114d0651221915e8eac56d3ede935d8546ef81c23c545fa81"
+  },
+  {
+    "text": "Martinelli Jr CE, Sader SL, Oliveira EB, Daneluzzi JC, Moreira AC 1999 Salivary cortisol for screening of Cushing’s syndrome in children. Clin En- docrinol (Oxf) 51:67–71 69.",
+    "tokenCount": 56,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "76555cc2c4d08902a2cccbac213a17d98b39ea9a7559b315daf928278b895199"
+  },
+  {
+    "text": "Butler PW, Besser GM 1968 Pituitary-adrenal function in severe depressive illness. Lancet 1:1234–1236 70. Pfohl B, Sherman B, Schlechte J, Stone R 1985 Pituitary-adrenal axis rhythm disturbances in psychiatric depression.",
+    "tokenCount": 62,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "6bc7383848fd76e5796b32181d1e6a235742e53913811663525f0e4d60e1e34b"
+  },
+  {
+    "text": "Arch Gen Psychiatry 42:897–903 71. Ross RJ, Miell JP, Holly JM, Maheshwari H, Norman M, Abdulla AF, Buchanan CR 1991 Levels of GH binding activity, IGFBP-1, insulin, blood glucose and cortisol in intensive care patients.",
+    "tokenCount": 62,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "a16953a5c8f33b83332cbc1441889afe53fbb8f192d148a21daaa397e17602d1"
+  },
+  {
+    "text": "Clin Endocrinol (Oxf) 35:361– 367 72. Liu H, Bravata DM, Cabaccan J, Raff H, Ryzen E 2005 Elevated late-night salivary cortisol levels in elderly male type 2 diabetic veterans.",
+    "tokenCount": 53,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "260644273dfd29679420ea13c0410114604eaa5e22d2f6f6d87275922c20ef02"
+  },
+  {
+    "text": "Clin Endo- crinol (Oxf) 63:642–649 73. DornLD,LuckeJF,LoucksTL,BergaSL 2007Salivarycortisolreflectsserum cortisol:",
+    "tokenCount": 48,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "ffd6c302ddae52e0179a7dd12fb733c10d63cfd04a1a904fa4005fad0794788c"
+  },
+  {
+    "text": "analysis of circadian profiles. Ann Clin Biochem 44:281–284 74. Poll EM, Kreitschmann-Andermahr I, Langejuergen Y, Stanzel S, Gilsbach JM, Gressner A, Yagmur E 2007 Saliva collection method affects predict- ability of serum cortisol.",
+    "tokenCount": 67,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "c37fa53b6d91bf46126aedd7cd5feb32297df58229c91aeb3bc6152be8d3613f"
+  },
+  {
+    "text": "Clin Chim Acta 382:15–19 75. Smith RE, Maguire JA, Stein-Oakley AN, Sasano H, Takahashi K, Fuku- shima K, Krozowski ZS 1996 Localization of 11 \u0001 -hydroxysteroid dehydro- genase type II in human epithelial tissues.",
+    "tokenCount": 73,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "cd43453eceeaeea8df51a9c320d87f221264118887af038917bdcdc8830b5469"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 81:3244– 3248 76. Badrick E, Kirschbaum C, Kumari M 2007 The relationship between smok- ing status and cortisol secretion. J Clin Endocrinol Metab 92:819–824 77.",
+    "tokenCount": 57,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "22c1ae1e67bfa8fefc553e236fd8ec376f2104201b4938d8ee74c933cf175167"
+  },
+  {
+    "text": "Kivlighan KT, Granger DA, Schwartz EB, Nelson V, Curran M, Shirtcliff EA 2004 Quantifying blood leakage into the oral mucosa and its effects on the measurementofcortisol,dehydroepiandrosterone,andtestosteroneinsaliva.",
+    "tokenCount": 61,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "75f6cae190e1b2666b67dcf769e2265a657075e40220f200810d6b8cbc8c5907"
+  },
+  {
+    "text": "Horm Behav 46:39–46 78. Newell-Price J, Trainer P, Besser M, Grossman A 1998 The diagnosis and J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 jcem.endojournals.org 1539 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 102,
+    "pageStart": 14,
+    "pageEnd": 14,
+    "hash": "a201cec8c4335cae5c1baaf747d215c6f7ee5e5d2ea8d80db3b62f2cfaff2d5d"
+  },
+  {
+    "text": "differential diagnosis of Cushing’s syndrome and pseudo-Cushing’s states. Endocr Rev 19:647–672 79. Cronin C, Igoe D, Duffy MJ, Cunningham SK, McKenna TJ 1990 The over- night dexamethasone test is a worthwhile screening procedure.",
+    "tokenCount": 64,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "d8176f52859a379d7a738f5bd2d563513b556e61508dc4dc0742775727f00791"
+  },
+  {
+    "text": "Clin Endo- crinol (Oxf) 33:27–33 80. Invitti C, Pecori Giraldi F, de Martin M, Cavagnini F 1999 Diagnosis and management of Cushing’s syndrome:",
+    "tokenCount": 52,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "5db314143793e91acad4ef4f71f24e56ce84961a295dd7f7e0f8fde790d8d905"
+  },
+  {
+    "text": "results of an Italian multicentre study. Study Group of the Italian Society of Endocrinology on the Pathophysiology of the Hypothalamic-Pituitary-Adrenal Axis.",
+    "tokenCount": 40,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "b97a87bee0d4e9af1bf43909adf815ab2c51633e28714f349d48c2c9eb342e1b"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 84: 440–448 81. Findling JW, Raff H, Aron DC 2004 The low-dose dexamethasone suppres- sion test:",
+    "tokenCount": 43,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "ec03961b0bfbe38f4994899b86c06db63dca212cdb4cc6b2f2a664adf9f3582c"
+  },
+  {
+    "text": "a reevaluation in patients with Cushing’s syndrome. J Clin Endo- crinol Metab 89:1222–1226 82. Gorges R, Knappe G, Gerl H, Ventz M, Stahl F 1999 Diagnosis of Cushing’s syndrome:",
+    "tokenCount": 65,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "96ae17053529deec6e9a41a6133ab926de638b96e69551c577ba59bbaf082ce7"
+  },
+  {
+    "text": "re-evaluation of midnight plasma cortisol vs urinary free cortisol and low-dose dexamethasone suppression test in a large patient group. J Endocrinol Invest 22:241–249 83.",
+    "tokenCount": 41,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "48a405de49681275a438e2c6b9af189b3205c42d81563e00077e4eb431bb9d60"
+  },
+  {
+    "text": "Wood PJ, Barth JH, Freedman DB, Perry L, Sheridan B 1997 Evidence for the low dose dexamethasone suppression test to screen for Cushing’s syndrome– recommendations for a protocol for biochemistry laboratories.",
+    "tokenCount": 48,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "27e148a3dc4017f3dacc68c0dc557ba01309ea086af5dcf4ff6b6394aa060923"
+  },
+  {
+    "text": "Ann Clin Biochem 34(Pt 3):222–229 84. Khan A, Ciraulo DA, Nelson WH, Becker JT, Nies A, Jaffe JH 1984 Dexa- methasone suppression test in recently detoxified alcoholics:",
+    "tokenCount": 54,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "5c9b7d013cb541b0f0c56faeb4ceec903db211270d981812c96a85dc8851b245"
+  },
+  {
+    "text": "clinical impli- cations. J Clin Psychopharmacol 4:94–97 85. Liddle GW 1960 Tests of pituitary-adrenal suppressibility in the diagnosis of Cushing’s syndrome.",
+    "tokenCount": 46,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "a9b963988b621e4feb9b8e18a55eae73d82d7c058d38058965dac8cb2233dc34"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 20:1539–1560 86. Kennedy L, Atkinson AB, Johnston H, Sheridan B, Hadden DR 1984 Serum cortisol concentrations during low dose dexamethasone suppression test to screen for Cushing’s syndrome.",
+    "tokenCount": 56,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "518b40558f99cbbacdf7238819010d8f50e7d103df0b538ac30f602d03aaa193"
+  },
+  {
+    "text": "Br Med J (Clin Res Ed) 289:1188–1191 87. Magiakou MA, Mastorakos G, Oldfield EH, Gomez MT, Doppman JL, CutlerJrGB,NiemanLK,ChrousosGP 1994Cushing’ssyndromeinchildren and adolescents.",
+    "tokenCount": 71,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "0738e1b57e1e71c1fae337ae361d160e9144057682b149811ded69f5eef6e0aa"
+  },
+  {
+    "text": "Presentation, diagnosis, and therapy. N Engl J Med 331: 629–636 88. Erickson D, Natt N, Nippoldt T, Young Jr WF, Carpenter PC, Petterson T, Christianson T 2007 Dexamethasone-suppressed corticotropin-releasing hormone stimulation test for diagnosis of mild hypercortisolism.",
+    "tokenCount": 80,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "b726a557953024440191f94fa3a854d2e74e2c2ff8cb16f6470ef93cc9044e5d"
+  },
+  {
+    "text": "J Clin En- docrinol Metab 92:2972–2976 89. Gatta B, Chabre O, Cortet C, Martinie M, Corcuff JB, Roger P, Tabarin A 2007 Reevaluation of the combined dexamethasone suppression-cortico- tropin-releasing hormone test for differentiation of mild Cushing’s disease from pseudo-Cushing’s syndrome. J Clin Endocrinol Metab 92:4290–4293 90.",
+    "tokenCount": 107,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "fdfdf51136a2d5082b4d9461acf37c9e893bd83d1c783bc8a0b59b9a23447324"
+  },
+  {
+    "text": "MartinNM,DhilloWS,BanerjeeA,AbdulaliA,JayasenaCN,DonaldsonM, Todd JF, Meeran K 2006 Comparison of the dexamethasone-suppressed corticotropin-releasing hormone test and low-dose dexamethasone suppres- sion test in the diagnosis of Cushing’s syndrome.",
+    "tokenCount": 83,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "5d15edb008aae09ad291dd91c80baf791a420d1abf41b63ba98e377837989138"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 91:2582–2586 91. Nieman L 2007 The dexamethasone-suppressed corticotropin-releasing hor- mone test for the diagnosis of Cushing’s syndrome:",
+    "tokenCount": 52,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "5ebb5cc590a3c4eb08e3afd8324c39db5a974d0e4f7cfd5c1eae4b092c593f32"
+  },
+  {
+    "text": "what have we learned in 14 years? J Clin Endocrinol Metab 92:2876–2878 (Editorial) 92. Yanovski JA, Cutler Jr GB, Chrousos GP, Nieman LK 1998 The dexametha- sone-suppressed corticotropin-releasing hormone stimulation test differen- tiates mild Cushing’s disease from normal physiology.",
+    "tokenCount": 84,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "25c7d6bd03b22ed731812ea1ddff864051535ea15296cf35135d2e090562f4f9"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 83:348–352 93. Meinardi JR, Wolffenbuttel BH, Dullaart RP 2007 Cyclic Cushing’s syn- drome:",
+    "tokenCount": 43,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "2657a20ad20e498a95f21928f50921e06c7d23cfbbc5eb7ac7ffb690211a4823"
+  },
+  {
+    "text": "a clinical challenge. Eur J Endocrinol 157:245–254 94. Yanovski J, Cutler Jr BG, Chrousos GB, Nieman LK Prospective evaluation ofthedexamethasone-suppressedcorticotropin-releasinghormonetestinthe differential diagnosis of Cushing syndrome and pseudo-Cushing states.",
+    "tokenCount": 74,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "bba2439ea58994c0d76b6a0aed2c2d1e792dde1af560d35142a60609eed8118e"
+  },
+  {
+    "text": "Pro- gramofthe77thAnnualMeetingofTheEndocrineSociety,Washington,DC, 1995, p 99 (Abstract OR39-2) 95. Nieman LK, Cutler Jr GB, Oldfield EH, Loriaux DL, Chrousos GP 1989 The ovine corticotropin-releasing hormone (CRH) stimulation test is superior to the human CRH stimulation test for the diagnosis of Cushing’s disease.",
+    "tokenCount": 96,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "3913ca6a08a32c93883839eb8991b25adb30347bf030fe9db717eee1faa7033e"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 69:165–169 96. Newell-Price J, Trainer P, Perry L, Wass J, Grossman A, Besser M 1995 A single sleeping midnight cortisol has 100% sensitivity for the diagnosis of Cushing’s syndrome.",
+    "tokenCount": 58,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "59862bfd45685ed28084b78378d22de3b1f81c1f5276d62a7dc51fb2d9a26754"
+  },
+  {
+    "text": "Clin Endocrinol (Oxf) 43:545–550 97. Ma RC, Chan WB, So WY, Tong PC, Chan JC, Chow CC 2005 Carbam- azepine and false positive dexamethasone suppression tests for Cushing’s syndrome.",
+    "tokenCount": 59,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "1aaf76e7a0aab3068eb67cc8c75429141ad81dbc63c6e6f03844983cf623172f"
+  },
+  {
+    "text": "BMJ 330:299–300 98. Papanicolaou DA, Yanovski JA, Cutler Jr GB, Chrousos GP, Nieman LK 1998 A single midnight serum cortisol measurement distinguishes Cushing’s syndrome from pseudo-Cushing states.",
+    "tokenCount": 55,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "d9ad8f2afad4936c3c0b381e9fda206d1af480afb09b24bdd4bd5ee8aee13a64"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 83:1163– 1167 99. Pikkarainen L, Alfthan H, Markkanen H, Sane T 2002 Midnight serum cortisol:",
+    "tokenCount": 39,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "7903ae2921469ed8288ab8d08b1e3058e854462957d3e44d8363de85490082e9"
+  },
+  {
+    "text": "comparison of healthy volunteers and hospitalized patients with Cushing’s syndrome. Scand J Clin Lab Invest 62:357–360 100. Putignano P, Bertolini M, Losa M, Cavagnini F 2003 Screening for Cushing’s syndrome in obese women with and without polycystic ovary syndrome.",
+    "tokenCount": 69,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "277f8ae7ddc0047b10e380c175ddbf3ef0085e6d11fce2a8ea1f8b7b92ca6a61"
+  },
+  {
+    "text": "J Endocrinol Invest 26:539–544 101. Reimondo G, Allasino B, Bovio S, Paccotti P, Angeli A, Terzolo M 2005 Evaluation of the effectiveness of midnight serum cortisol in the diagnostic procedures for Cushing’s syndrome.",
+    "tokenCount": 62,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "eb4aa89cdaf7761d29207062468ae3444434f3b859c8178a3564c19b239ae88e"
+  },
+  {
+    "text": "Eur J Endocrinol 153:803–809 102. Moro M, Putignano P, Losa M, Invitti C, Maraschini C, Cavagnini F 2000 The desmopressin test in the differential diagnosis between Cushing’s disease and pseudo-Cushing states.",
+    "tokenCount": 65,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "1f0b3f133f07cc44b5e67a570ae32f139ed11201b955ebaf1de5f8fcaf6188b2"
+  },
+  {
+    "text": "J Clin Endocrinol Metab 85:3569–3574 103. Carr BR, Parker Jr CR, Madden JD, MacDonald PC, Porter JC 1981 Ma- ternal plasma adrenocorticotropin and cortisol relationships throughout hu- man pregnancy.",
+    "tokenCount": 54,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "065e8861c4476fbbae40a115e4c1b6655495b97263cde213a8287b62594095fe"
+  },
+  {
+    "text": "Am J Obstet Gynecol 139:416–422 104. Lindsay JR, Jonklaas J, Oldfield EH, Nieman LK 2005 Cushing’s syndrome during pregnancy:",
+    "tokenCount": 42,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "cacd990267b16e3b82d326a9b9c74e4f56e2e5ac7591e0d1df6d91b38bc86beb"
+  },
+  {
+    "text": "personal experience and review of the literature. J Clin Endocrinol Metab 90:3077–3083 105. Lindsay JR, Nieman LK 2005 The hypothalamic-pituitary-adrenal axis in pregnancy:",
+    "tokenCount": 47,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "e2f2f48f1ae82ce616f914f06571ca718d76b30d4c5ed7dfd9dbfefa8b79ae26"
+  },
+  {
+    "text": "challenges in disease detection and treatment. Endocr Rev 26: 775–799 106. Wallace EZ, Rosman P, Toshav N, Sacerdote A, Balthazar A 1980 Pituitary- adrenocortical function in chronic renal failure:",
+    "tokenCount": 55,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "c95d44c0337f36cb8e08c3024e920e0b0596968d896bfbaea8eeb4c960f2b34a"
+  },
+  {
+    "text": "studies of episodic secretion of cortisol and dexamethasone suppressibility. J Clin Endocrinol Metab 50: 46–51 107. Oguz Y, Oktenli C, Ozata M, Ozgurtas T, Sanisoglu Y, Yenicesu M, Vural A, Bulucu F, Kocar IH 2003 The midnight-to-morning urinary cortisol in- crement method is not reliable for the assessment of hypothalamic-pituitary- adrenal insufficiency in patients with end-stage kidney disease.",
+    "tokenCount": 117,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "a41cfe9712d5584f6e35a0a7ee0b22d92ac5e28e40f76028dd227d70f8e38562"
+  },
+  {
+    "text": "J Endocrinol Invest 26:609–615 108. Ramirez G, Gomez-Sanchez C, Meikle WA, Jubiz W 1982 Evaluation of the hypothalamic hypophyseal adrenal axis in patients receiving long-term he- modialysis.",
+    "tokenCount": 54,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "ac97450dda29e29eb867fc4bbce64ab8a1c22b0c251e85fd0d43d22c9547ec97"
+  },
+  {
+    "text": "Arch Intern Med 142:1448–1452 109. Workman RJ, Vaughn WK, Stone WJ 1986 Dexamethasone suppression testing in chronic renal failure: pharmacokinetics of dexamethasone and demonstration of a normal hypothalamic-pituitary-adrenal axis.",
+    "tokenCount": 62,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "e9649d2a9ac1c347541c8c3b34428ad5ea36eaa690c920077c67e9b7f67a7150"
+  },
+  {
+    "text": "J Clin En- docrinol Metab 63:741–746 1540 Nieman et al. Guidelines for the Diagnosis of Cushing’s Syndrome J Clin Endocrinol Metab, May 2008, 93(5):1526–1540 Downloaded from https://academic.oup.com/jcem/article/93/5/1526/2598096 by University of Wisconsin System user on 20 February 2026",
+    "tokenCount": 94,
+    "pageStart": 15,
+    "pageEnd": 15,
+    "hash": "f390107d266322c58149d63d7d6ade23cc6d77414cf48332132863fad569e4c5"
+  }
+]
