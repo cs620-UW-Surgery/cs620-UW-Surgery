@@ -6,10 +6,15 @@ const baseChunk = {
   sourcePageStart: 1,
   sourcePageEnd: 1,
   text: '',
+  rawText: null,
   leadSentence: null,
   hash: 'hash',
   version: 1,
   citationKey: 'DOC:Doc|CHUNK:|P:1-1',
+  sectionPath: [] as string[],
+  bboxes: null,
+  isTable: false,
+  isPicture: false,
   createdAt: '2026-02-01',
   updatedAt: '2026-02-01'
 };

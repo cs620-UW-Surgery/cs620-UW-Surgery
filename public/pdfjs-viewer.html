@@ -23,6 +23,22 @@
     border-radius: 3px;
   }
 
+  /* Bbox overlay (Docling chunk citation regions) */
+  .bbox-layer {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 3;
+  }
+  .bbox-hl {
+    position: absolute;
+    background: rgba(197, 5, 12, 0.18);
+    border: 2px solid rgba(197, 5, 12, 0.55);
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.6) inset;
+  }
+
   #loading { color: #fff; text-align: center; padding: 48px; font-size: 14px; }
   #error-msg { color: #fca5a5; text-align: center; padding: 48px; font-size: 14px; display: none; }
 </style>
@@ -45,8 +61,26 @@ const targetPage = parseInt(params.get('page') || '0', 10);
 const targetPageEnd = parseInt(params.get('pageEnd') || '0', 10) || targetPage;
 const search = (params.get('search') || '').trim();
 
+let bboxes = [];
+try {
+  const raw = params.get('bboxes');
+  if (raw) bboxes = JSON.parse(raw);
+} catch (err) {
+  console.warn('[pdfjs-viewer] failed to parse bboxes param:', err);
+  bboxes = [];
+}
+const useBboxOverlay = bboxes.length > 0;
+
+const bboxesByPage = new Map();
+for (const bb of bboxes) {
+  if (!bb || typeof bb.page !== 'number') continue;
+  if (!bboxesByPage.has(bb.page)) bboxesByPage.set(bb.page, []);
+  bboxesByPage.get(bb.page).push(bb);
+}
+
 console.log('[pdfjs-viewer] search text:', JSON.stringify(search));
 console.log('[pdfjs-viewer] targetPage:', targetPage, 'targetPageEnd:', targetPageEnd);
+console.log('[pdfjs-viewer] bboxes:', bboxes.length, 'on pages:', [...bboxesByPage.keys()]);
 
 if (!file) {
   showError('No document specified.');
@@ -110,17 +144,31 @@ async function main(url) {
 
     viewerEl.appendChild(wrap);
 
-    // --- highlight on the target page range, or all pages if no page specified ---
-    if (search && (targetPage === 0 || (num >= targetPage && num <= targetPageEnd))) {
-      const found = highlightSearch(textLayerDiv, search);
-      console.log(`[pdfjs-viewer] page ${num}: highlight ${found ? 'FOUND' : 'NOT FOUND'}`);
-      if (!found && num === targetPage) {
-        // Log what the page text looks like for debugging
-        const pageText = Array.from(textLayerDiv.querySelectorAll('span')).map(s => s.textContent).join(' ');
-        console.log('[pdfjs-viewer] page text (first 300):', pageText.slice(0, 300));
-        console.log('[pdfjs-viewer] search norm:', norm(search).slice(0, 200));
-        console.log('[pdfjs-viewer] page norm:', norm(pageText).slice(0, 300));
+    // --- bbox overlay (preferred when available; precise highlighting from Docling) ---
+    let bboxRendered = false;
+    if (useBboxOverlay && bboxesByPage.has(num)) {
+      const bboxLayer = document.createElement('div');
+      bboxLayer.className = 'bbox-layer';
+      wrap.appendChild(bboxLayer);
+      for (const bb of bboxesByPage.get(num)) {
+        const rect = bboxToCanvasRect(bb, viewport, page);
+        if (!rect) continue;
+        const hl = document.createElement('div');
+        hl.className = 'bbox-hl';
+        hl.style.left = rect.left + 'px';
+        hl.style.top = rect.top + 'px';
+        hl.style.width = rect.width + 'px';
+        hl.style.height = rect.height + 'px';
+        bboxLayer.appendChild(hl);
+        bboxRendered = true;
       }
+      if (bboxRendered && !scrollTarget) scrollTarget = wrap;
+    }
+
+    // --- text-search highlight: only used as a fallback when no bbox overlay ---
+    if (!bboxRendered && search && (targetPage === 0 || (num >= targetPage && num <= targetPageEnd))) {
+      const found = highlightSearch(textLayerDiv, search);
+      console.log(`[pdfjs-viewer] page ${num}: text-search highlight ${found ? 'FOUND' : 'NOT FOUND'}`);
       if (found && !scrollTarget) scrollTarget = wrap;
     }
     if (num === targetPage && !scrollTarget) scrollTarget = wrap;
@@ -131,6 +179,37 @@ async function main(url) {
       scrollTarget.scrollIntoView({ behavior: 'smooth', block: 'center' })
     );
   }
+}
+
+/* ---- Bbox → canvas-space rectangle ----
+   Docling bboxes are in PDF user-space points. Origin is per the bbox's
+   `coordOrigin` field ("BOTTOMLEFT" or "TOPLEFT").
+   pdf.js's viewport.convertToViewportRectangle takes a PDF-space rect
+   in BOTTOMLEFT-origin and returns canvas-space (top-left, display pixels). */
+function bboxToCanvasRect(bb, viewport, page) {
+  const origin = (bb.coordOrigin || 'BOTTOMLEFT').toUpperCase();
+  let l = bb.l, r = bb.r, t = bb.t, b = bb.b;
+
+  // pdf.js convertToViewportRectangle expects [x1, y1, x2, y2] in PDF user-space
+  // with the origin at the page's bottom-left. If Docling emitted TOPLEFT,
+  // flip the y coordinates against the page height.
+  if (origin === 'TOPLEFT') {
+    const pageH = (page.view && page.view[3]) || bb.pageHeight;
+    if (!pageH) return null;
+    const newT = pageH - t;
+    const newB = pageH - b;
+    t = newT; b = newB;
+  }
+
+  // viewport.convertToViewportRectangle returns [x1, y1, x2, y2] where
+  // (x1,y1) and (x2,y2) are diagonally opposite. Normalize to top-left + size.
+  const [vx1, vy1, vx2, vy2] = viewport.convertToViewportRectangle([l, b, r, t]);
+  const left = Math.min(vx1, vx2);
+  const top = Math.min(vy1, vy2);
+  const width = Math.abs(vx2 - vx1);
+  const height = Math.abs(vy2 - vy1);
+  if (width <= 0 || height <= 0) return null;
+  return { left, top, width, height };
 }
 
 /* ---- Search & Highlight ---- */

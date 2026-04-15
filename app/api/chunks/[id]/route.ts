@@ -18,6 +18,11 @@ export async function GET(
     leadSentence: chunk.leadSentence,
     sourceDoc: chunk.sourceDoc,
     pageStart: chunk.sourcePageStart,
-    pageEnd: chunk.sourcePageEnd
+    pageEnd: chunk.sourcePageEnd,
+    sectionPath: chunk.sectionPath,
+    bboxes: chunk.bboxes,
+    isTable: chunk.isTable,
+    isPicture: chunk.isPicture,
+    version: chunk.version
   });
 }
