@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { AssistantTurn } from '@/lib/schemas';
 import CardRenderer from '@/components/cards/CardRenderer';
 import CitationList from '@/components/CitationList';
+import PipelineTraceCard from '@/components/cards/PipelineTraceCard';
 
 declare global {
   interface SpeechRecognitionEvent extends Event {
@@ -463,6 +464,10 @@ export default function ChatPage() {
 
                 {message.data.citations.length > 0 && (
                   <CitationList citations={message.data.citations} />
+                )}
+
+                {message.pipeline_trace && (
+                  <PipelineTraceCard trace={message.pipeline_trace} />
                 )}
               </div>
             )}

@@ -3,7 +3,6 @@ export type ParsedCitation = {
   chunkId: string;
   pageStart: number | null;
   pageEnd: number | null;
-  kind: string | null;
   displayTitle: string;
   pageLabel: string;
   pdfPath: string;
@@ -23,13 +22,12 @@ const DOC_DISPLAY_NAMES: Record<string, string> = {
 };
 
 export function parseCitationKey(citationKey: string): ParsedCitation | null {
-  const match = citationKey.match(/^DOC:(.+?)\|CHUNK:(.+?)\|P:([^|]+)(?:\|KIND:(.+))?$/);
+  const match = citationKey.match(/^DOC:(.+?)\|CHUNK:(.+?)\|P:(.+)$/);
   if (!match) return null;
 
   const sourceDoc = match[1];
   const chunkId = match[2];
   const pageRange = match[3];
-  const kind = match[4] ?? null;
 
   let pageStart: number | null = null;
   let pageEnd: number | null = null;
@@ -69,7 +67,6 @@ export function parseCitationKey(citationKey: string): ParsedCitation | null {
     chunkId,
     pageStart,
     pageEnd,
-    kind,
     displayTitle,
     pageLabel,
     pdfPath,
