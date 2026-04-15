@@ -11,7 +11,6 @@ import {
   dedupeChunksByHash,
   extractLeadSentence
 } from '../lib/ingest/chunking';
-import { ingestDoclingChunks } from '../lib/ingest/doclingIngest';
 
 const DEFAULT_FILES = [
   'FINAL Adrenal Nodual Workflow Flyer copy.pdf',
@@ -30,7 +29,6 @@ type Args = {
   paths: string[];
   version: number;
   dryRun: boolean;
-  source: 'pdf-parse' | 'docling';
   minTokens?: number;
   maxTokens?: number;
   targetTokens?: number;
@@ -41,22 +39,11 @@ function parseArgs(argv: string[]): Args {
   const args: Args = {
     paths: [],
     version: 1,
-    dryRun: false,
-    source: 'pdf-parse'
+    dryRun: false
   };
 
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
-    if (arg === '--source' && argv[i + 1]) {
-      const value = argv[i + 1];
-      if (value === 'docling' || value === 'pdf-parse') {
-        args.source = value;
-      } else {
-        console.warn(`Unknown --source value "${value}"; using pdf-parse.`);
-      }
-      i += 1;
-      continue;
-    }
     if (arg === '--path' && argv[i + 1]) {
       args.paths.push(argv[i + 1]);
       i += 1;
@@ -177,15 +164,6 @@ async function main() {
 
   const args = parseArgs(process.argv.slice(2));
   const openai = process.env.OPENAI_API_KEY ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY }) : null;
-
-  if (args.source === 'docling') {
-    const stats = await ingestDoclingChunks({ dryRun: args.dryRun, openai });
-    console.log(
-      `Docling ingest complete. files=${stats.filesProcessed} created=${stats.chunksCreated} skipped=${stats.chunksSkipped} embeddings=${stats.embeddingsCreated} embed_errors=${stats.embeddingErrors}`
-    );
-    await prisma.$disconnect();
-    return;
-  }
 
   let totalCreated = 0;
   let totalSkipped = 0;
