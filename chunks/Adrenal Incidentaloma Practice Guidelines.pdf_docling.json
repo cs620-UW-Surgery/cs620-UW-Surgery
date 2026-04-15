@@ -1,0 +1,812 @@
+[
+  {
+    "text": "From  the  Division  of  General  Surgery, Department of Surgery, Stanford University  School  of  Medicine,  Stanford,  CA. Address reprint requests to Dr. Kebebew at  the  Division  of  General  Surgery,  Department of Surgery, Stanford University School  of  Medicine,  300  Pasteur  Dr., H3642,  Stanford,  CA  94305-2200,  or  at kebebew@  stanford  .  edu.\nN Engl J Med 2021;384:1542-51. DOI: 10.1056/NEJMcp2031112 Copyright \u00a9 2021 Massachusetts Medical Society.\nAn audio version of this article is available at NEJM.org",
+    "raw_text": "From  the  Division  of  General  Surgery, Department of Surgery, Stanford University  School  of  Medicine,  Stanford,  CA. Address reprint requests to Dr. Kebebew at  the  Division  of  General  Surgery,  Department of Surgery, Stanford University School  of  Medicine,  300  Pasteur  Dr., H3642,  Stanford,  CA  94305-2200,  or  at kebebew@  stanford  .  edu.\nN Engl J Med 2021;384:1542-51. DOI: 10.1056/NEJMcp2031112 Copyright \u00a9 2021 Massachusetts Medical Society.\nAn audio version of this article is available at NEJM.org",
+    "sectionPath": [],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 1,
+        "l": 31.0,
+        "t": 529.9300000000001,
+        "r": 161.8822548800001,
+        "b": 451.4858755760369,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 1,
+        "l": 31.0,
+        "t": 442.6,
+        "r": 151.38199360000002,
+        "b": 418.7860759493671,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 1,
+        "l": 104.8229,
+        "t": 306.71299999999997,
+        "r": 161.7509,
+        "b": 271.3411774744028,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 1,
+    "pageEnd": 1,
+    "tokenCount": 72
+  },
+  {
+    "text": "Adrenal Incidentaloma\nElectron Kebebew, M.D.\nThis Journal feature begins with a case vignette highlighting a common clinical problem. Evidence supporting various strategies is then presented, followed by a review of formal guidelines, when they exist. The article ends with the author's clinical recommendations.\nA 42-year-old woman has been in a motor vehicle accident in which her seat belt tightened. She has upper abdominal pain and is evaluated with computed tomography (CT). This imaging shows no evidence of intraabdominal trauma but reveals a wellcircumscribed and homogeneous left adrenal mass that is 3.2 cm in diameter. The mass has an attenuation value of 7 Hounsfield units on unenhanced CT. The patient's history is remarkable for obesity and newly diagnosed mild hypertension. On physical examination, the blood pressure is 142/90 mm Hg. There is sternal and upper abdominal bruising but no striae, moon facies, or fat accumulation over the dorsocervical spine ('buffalo hump'). How should this patient be further evaluated and treated?",
+    "raw_text": "Electron Kebebew, M.D.\nThis Journal feature begins with a case vignette highlighting a common clinical problem. Evidence supporting various strategies is then presented, followed by a review of formal guidelines, when they exist. The article ends with the author's clinical recommendations.\nA 42-year-old woman has been in a motor vehicle accident in which her seat belt tightened. She has upper abdominal pain and is evaluated with computed tomography (CT). This imaging shows no evidence of intraabdominal trauma but reveals a wellcircumscribed and homogeneous left adrenal mass that is 3.2 cm in diameter. The mass has an attenuation value of 7 Hounsfield units on unenhanced CT. The patient's history is remarkable for obesity and newly diagnosed mild hypertension. On physical examination, the blood pressure is 142/90 mm Hg. There is sternal and upper abdominal bruising but no striae, moon facies, or fat accumulation over the dorsocervical spine ('buffalo hump'). How should this patient be further evaluated and treated?",
+    "sectionPath": [
+      "Adrenal Incidentaloma"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 1,
+        "l": 287.3865,
+        "t": 604.33,
+        "r": 389.1144654000001,
+        "b": 595.7378341013825,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 1,
+        "l": 171.63791869999997,
+        "t": 578.562,
+        "r": 504.23822309999935,
+        "b": 551.0174852780807,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 1,
+        "l": 169.0,
+        "t": 531.46,
+        "r": 507.08223821999934,
+        "b": 426.97955898566704,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 1,
+    "pageEnd": 1,
+    "tokenCount": 159
+  },
+  {
+    "text": "The Clinical Problem\nA drenal incidentaloma is defined as  a  clinically  unapparent adrenal lesion (\u22651 cm in diameter) that is detected on imaging performed for indications other than evaluation for adrenal disease. 1 This definition excludes patients who are undergoing screening and surveillance because of hereditary  syndromes  or  those  with  known  extraadrenal  cancer  who  are  undergoing imaging for staging or during follow-up after treatment.\nAmong adults, the prevalence of adrenal incidentaloma has been reported to be 1 to 6%, 2,3  and the prevalence has increased with the growing use of and technological advances in imaging and with the aging of the population. 4,5 The prevalence is higher among older adults, with a peak (\u22647%) in the fifth to seventh decades. 3 Most adrenal incidentalomas are nonfunctioning benign tumors; 75% are nonfunctioning  cortical  adenomas. 6-9 However,  there  are  important  clinical  consequences in a subset of these masses. For example, approximately 14% of adrenal incidentalomas are functional tumors that secrete excess cortisol, aldosterone, or (rarely)  both.  Other  masses  with  clinical  significance  are  pheochromocytomas (approximately  7%)  and  primary  adrenal  cancers  or  metastases  to  the  adrenal glands (approximately 4%). 6-9 When an adrenal mass is incidentally identified, the key clinical questions are whether it is functioning and whether it is malignant. These determinations are guided by clinical and radiographic features and biochemical assessments.",
+    "raw_text": "A drenal incidentaloma is defined as  a  clinically  unapparent adrenal lesion (\u22651 cm in diameter) that is detected on imaging performed for indications other than evaluation for adrenal disease. 1 This definition excludes patients who are undergoing screening and surveillance because of hereditary  syndromes  or  those  with  known  extraadrenal  cancer  who  are  undergoing imaging for staging or during follow-up after treatment.\nAmong adults, the prevalence of adrenal incidentaloma has been reported to be 1 to 6%, 2,3  and the prevalence has increased with the growing use of and technological advances in imaging and with the aging of the population. 4,5 The prevalence is higher among older adults, with a peak (\u22647%) in the fifth to seventh decades. 3 Most adrenal incidentalomas are nonfunctioning benign tumors; 75% are nonfunctioning  cortical  adenomas. 6-9 However,  there  are  important  clinical  consequences in a subset of these masses. For example, approximately 14% of adrenal incidentalomas are functional tumors that secrete excess cortisol, aldosterone, or (rarely)  both.  Other  masses  with  clinical  significance  are  pheochromocytomas (approximately  7%)  and  primary  adrenal  cancers  or  metastases  to  the  adrenal glands (approximately 4%). 6-9 When an adrenal mass is incidentally identified, the key clinical questions are whether it is functioning and whether it is malignant. These determinations are guided by clinical and radiographic features and biochemical assessments.",
+    "sectionPath": [
+      "The Clinical Problem"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 1,
+        "l": 169.0,
+        "t": 387.72209200000003,
+        "r": 508.0205271599982,
+        "b": 318.88830970556165,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 1,
+        "l": 168.99672019999997,
+        "t": 315.46000000000004,
+        "r": 508.0329910999985,
+        "b": 150.8883097055616,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 1,
+    "pageEnd": 1,
+    "tokenCount": 219
+  },
+  {
+    "text": "Strategies and Evidence\nIn the absence of randomized, controlled trials in which various approaches to evaluation are compared, the workup is guided by data from prospective and retrospective observational studies. A careful history taking and physical examination",
+    "raw_text": "In the absence of randomized, controlled trials in which various approaches to evaluation are compared, the workup is guided by data from prospective and retrospective observational studies. A careful history taking and physical examination",
+    "sectionPath": [
+      "Strategies and Evidence"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 1,
+        "l": 169.0,
+        "t": 111.46000000000004,
+        "r": 508.0152195599984,
+        "b": 78.8883097055616,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 1,
+    "pageEnd": 1,
+    "tokenCount": 37
+  },
+  {
+    "text": "Adrenal Incidentaloma\n- All patients with an adrenal mass that is discovered during diagnostic testing for another condition (an 'incidentaloma') should undergo biochemical testing to detect pheochromocytoma and excess cortisol secretion, and those who also have high blood pressure should undergo biochemical testing to detect primary hyperaldosteronism.\n- Patients with pheochromocytoma should undergo adrenalectomy after adequate presurgical alphablockade and beta-blockade, if necessary.\n- Patients with mild autonomous cortisol excess and primary hyperaldosteronism may benefit from adrenalectomy, but treatment should be individualized.\n- Nonfunctioning adrenal tumors that have an attenuation of 10 Hounsfield units or less on computed tomographic (CT) evaluation and that are smaller than 4 cm in greatest diameter generally do not warrant intervention or long-term follow-up.\n- All other adrenal incidentalomas with indeterminate features on imaging may warrant additional imaging with contrast-enhanced CT, magnetic resonance imaging with chemical-shift analysis, positron-emission tomography-CT with  18 F-fluorodeoxyglucose, or all of these tests. The management of these masses should be individualized and should involve a multidisciplinary team consisting of an endocrinologist, an endocrine surgeon, and a radiologist.\nfocusing  on  signs  and  symptoms  that  may  be associated with hormonal hypersecretion or cancer  are  essential  (Fig.  1,  and  Table  S1  in  the Supplementary Appendix, available with the full text of this article at NEJM.org).",
+    "raw_text": "- All patients with an adrenal mass that is discovered during diagnostic testing for another condition (an 'incidentaloma') should undergo biochemical testing to detect pheochromocytoma and excess cortisol secretion, and those who also have high blood pressure should undergo biochemical testing to detect primary hyperaldosteronism.\n- Patients with pheochromocytoma should undergo adrenalectomy after adequate presurgical alphablockade and beta-blockade, if necessary.\n- Patients with mild autonomous cortisol excess and primary hyperaldosteronism may benefit from adrenalectomy, but treatment should be individualized.\n- Nonfunctioning adrenal tumors that have an attenuation of 10 Hounsfield units or less on computed tomographic (CT) evaluation and that are smaller than 4 cm in greatest diameter generally do not warrant intervention or long-term follow-up.\n- All other adrenal incidentalomas with indeterminate features on imaging may warrant additional imaging with contrast-enhanced CT, magnetic resonance imaging with chemical-shift analysis, positron-emission tomography-CT with  18 F-fluorodeoxyglucose, or all of these tests. The management of these masses should be individualized and should involve a multidisciplinary team consisting of an endocrinologist, an endocrine surgeon, and a radiologist.\nfocusing  on  signs  and  symptoms  that  may  be associated with hormonal hypersecretion or cancer  are  essential  (Fig.  1,  and  Table  S1  in  the Supplementary Appendix, available with the full text of this article at NEJM.org).",
+    "sectionPath": [
+      "Adrenal Incidentaloma"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 2,
+        "l": 77.0,
+        "t": 665.4275,
+        "r": 453.7223679200003,
+        "b": 628.1361589861751,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 2,
+        "l": 77.0,
+        "t": 625.4435000000001,
+        "r": 435.2401853600001,
+        "b": 608.1441589861752,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 2,
+        "l": 77.0,
+        "t": 605.4515000000001,
+        "r": 432.86021336000016,
+        "b": 588.1521589861752,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 2,
+        "l": 77.0,
+        "t": 585.4595000000002,
+        "r": 451.843040030001,
+        "b": 558.1641589861753,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 2,
+        "l": 77.0,
+        "t": 555.4715000000002,
+        "r": 450.1201103000007,
+        "b": 508.13215898617517,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 2,
+        "l": 62.0,
+        "t": 471.48,
+        "r": 263.03097929999996,
+        "b": 414.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 2,
+    "pageEnd": 2,
+    "tokenCount": 210
+  },
+  {
+    "text": "Mild Autonomous Cortisol Excess\nAbnormal cortisol secretion that is independent of normal hypothalamic-pituitary control in the absence of overt clinical signs of Cushing's syndrome is called mild autonomous cortisol excess (also known as subclinical Cushing's syndrome). A careful history taking and physical examination  should  focus  on  determining  whether  the patient has had recent weight gain or has a history  of  easy  bruising,  general  weakness,  poor wound  healing,  or  decreases  in  memory  and cognitive function. The patient should also be evaluated  for  the  presence  of  central  obesity, purple striae, facial rounding and plethora, supraclavicular and dorsocervical fat pads, acne, and hirsutism.\nMild autonomous cortisol excess, the most common functional disorder detected in patients with adrenal incidentaloma, occurs in approximately  10%  of  such  patients  (range,  1  to  29), depending on the diagnostic  criteria  used  and the  population  studied. 3,6,7,9 Patients  with  mild autonomous cortisol excess have a higher incidence of coexisting conditions such as hypertension, obesity, glucose intolerance or type 2 diabetes mellitus, dyslipidemia, and osteopenia or osteoporosis than patients with nonfunctioning adrenal tumors. 10\nAn overnight dexamethasone (1 mg) suppression  test  should  be  performed  in  all  patients with adrenal incidentaloma (Table 1). The most appropriate cutoff value for the morning serum cortisol level to make a diagnosis of mild autonomous cortisol excess is controversial. A level of more  than  1.8  \u03bcg  per  deciliter  (>50  nmol  per liter) has high sensitivity (95 to 100%) but low specificity (60 to 80%), whereas a level of more than 5.0 \u03bcg per deciliter (>138 nmol per liter) has lower sensitivity (86%) but higher specificity (92  to  97%). 3,7,11-13 Additional  findings  on  biochemical tests (e.g., a low corticotropin level, an elevated 24-hour urinary cortisol level, a high latenight salivary cortisol level, and a low dehydroepiandrosterone sulfate level) may help to confirm  the  diagnosis  and  magnitude  of  cortisol excess (Table 1). 14",
+    "raw_text": "Abnormal cortisol secretion that is independent of normal hypothalamic-pituitary control in the absence of overt clinical signs of Cushing's syndrome is called mild autonomous cortisol excess (also known as subclinical Cushing's syndrome). A careful history taking and physical examination  should  focus  on  determining  whether  the patient has had recent weight gain or has a history  of  easy  bruising,  general  weakness,  poor wound  healing,  or  decreases  in  memory  and cognitive function. The patient should also be evaluated  for  the  presence  of  central  obesity, purple striae, facial rounding and plethora, supraclavicular and dorsocervical fat pads, acne, and hirsutism.\nMild autonomous cortisol excess, the most common functional disorder detected in patients with adrenal incidentaloma, occurs in approximately  10%  of  such  patients  (range,  1  to  29), depending on the diagnostic  criteria  used  and the  population  studied. 3,6,7,9 Patients  with  mild autonomous cortisol excess have a higher incidence of coexisting conditions such as hypertension, obesity, glucose intolerance or type 2 diabetes mellitus, dyslipidemia, and osteopenia or osteoporosis than patients with nonfunctioning adrenal tumors. 10\nAn overnight dexamethasone (1 mg) suppression  test  should  be  performed  in  all  patients with adrenal incidentaloma (Table 1). The most appropriate cutoff value for the morning serum cortisol level to make a diagnosis of mild autonomous cortisol excess is controversial. A level of more  than  1.8  \u03bcg  per  deciliter  (>50  nmol  per liter) has high sensitivity (95 to 100%) but low specificity (60 to 80%), whereas a level of more than 5.0 \u03bcg per deciliter (>138 nmol per liter) has lower sensitivity (86%) but higher specificity (92  to  97%). 3,7,11-13 Additional  findings  on  biochemical tests (e.g., a low corticotropin level, an elevated 24-hour urinary cortisol level, a high latenight salivary cortisol level, and a low dehydroepiandrosterone sulfate level) may help to confirm  the  diagnosis  and  magnitude  of  cortisol excess (Table 1). 14",
+    "sectionPath": [
+      "Mild Autonomous Cortisol Excess"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 2,
+        "l": 62.0,
+        "t": 375.48,
+        "r": 263.06297865999954,
+        "b": 198.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 2,
+        "l": 61.99999999999999,
+        "t": 195.48000000000002,
+        "r": 263.0399791199996,
+        "b": 78.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 2,
+        "l": 268.9996486,
+        "t": 471.48,
+        "r": 470.0456276000007,
+        "b": 450.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 2,
+        "l": 269.00024,
+        "t": 447.48,
+        "r": 470.04496715999875,
+        "b": 234.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 2,
+    "pageEnd": 2,
+    "tokenCount": 305
+  },
+  {
+    "text": "Mild Autonomous Cortisol Excess\nIn  a  meta-analysis  assessing  outcomes  in 4121 patients with adrenal incidentalomas that were either nonfunctioning or were causing mild autonomous cortisol excess, the risk of progression  to  overt  Cushing's  syndrome  was  low (<0.1%) in both groups during a mean follow-up of 50.2 months. 15  Furthermore, mild autonomous cortisol  excess  developed  in  only  4.3%  of  the patients with nonfunctioning tumors, and fewer than 0.1% of the patients with mild autonomous cortisol excess had spontaneous resolution during follow-up. The prevalence of type 2 diabetes mellitus,  hypertension,  obesity,  dyslipidemia,",
+    "raw_text": "In  a  meta-analysis  assessing  outcomes  in 4121 patients with adrenal incidentalomas that were either nonfunctioning or were causing mild autonomous cortisol excess, the risk of progression  to  overt  Cushing's  syndrome  was  low (<0.1%) in both groups during a mean follow-up of 50.2 months. 15  Furthermore, mild autonomous cortisol  excess  developed  in  only  4.3%  of  the patients with nonfunctioning tumors, and fewer than 0.1% of the patients with mild autonomous cortisol excess had spontaneous resolution during follow-up. The prevalence of type 2 diabetes mellitus,  hypertension,  obesity,  dyslipidemia,",
+    "sectionPath": [
+      "Mild Autonomous Cortisol Excess"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 2,
+        "l": 268.9992754,
+        "t": 231.48000000000002,
+        "r": 470.0512189000008,
+        "b": 78.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 2,
+    "pageEnd": 2,
+    "tokenCount": 90
+  },
+  {
+    "text": "Key Clinical Points\nThis figure is a flowchart. Below is the textual representation in markdown format:\n\n```markdown\nComprehensive history taking and physical examination to assess for features of hormonal hypersecretion\n\n### Imaging\n- Tumor size and attenuation on unenhanced CT\n- Additional imaging (enhanced CT, MRI, 18F-FDG PET-CT) in some patients\n\n### Hormonal evaluation\n- Overnight 1-mg dexamethasone suppression test\n- Measurement of plasma-free metanephrine level or fractionated metanephrine level in 24-hr urinary specimen\n- If hypertension or hypokalemia present, measurement of plasma aldosterone concentration and plasma renin activity\n\n#### Negative results\n- No further follow-up after hormonal evaluation unless symptoms or signs indicating hormonal excess develop\n\n#### Positive results\n- Confirmatory testing for mild autonomous cortisol excess and primary hyperaldosteronism, if necessary\n\n### Appearance of Tumors\n#### Benign appearance\n- Tumor <4 cm in diameter\n- \u226410 Hounsfield units on CT\n- CT contrast washout 40-60%\n- Signal loss on MRI chemical-shift analysis\n- On 18F-FDG PET-CT, SUVmax <5 or adrenal-to-spleen or adrenal-to-liver signal-intensity ratio <1\n\n#### Suspicious appearance\n- Tumor \u22654 cm in diameter\n- >10 Hounsfield units on CT\n- CT contrast washout <40-60%\n- On MRI, hypertension on T2 imaging or no signal loss on chemical-shift analysis\n- On 18F-FDG PET-CT, SUVmax \u22655 or adrenal-to-spleen or adrenal-to-liver signal-intensity ratio \u22651\n\n### No further follow-up imaging needed unless symptoms or signs indicating hormone excess develop\n\n### Consider adrenalectomy\n- Adrenalectomy for pheochromocytoma after alpha-blockade (and after beta-blockade, if necessary)\n- Consider adrenalectomy for autonomous cortisol hypersecretion and primary hyperaldosteronism\n\n### Notes\n- Treatment should be individualized according to the patient\u2019s coexisting conditions, preferences, and the clinical expertise available.\n- Hormonal evaluations and imaging should be performed in parallel.\n- Adrenalectomy is not warranted for all patients; the care plan should be discussed by a multidisciplinary team considering the patient\u2019s coexisting conditions, response to medical treatment, and risk associated with adrenalectomy.\n- Most adrenalectomies can be performed with a minimally invasive approach, but for a tumor that arouses suspicion for cancer, an open adrenalectomy is usually recommended.\n- Adrenalectomy may be considered in patients with mild autonomous cortisol excess, depending on existing conditions and other factors, and it is generally recommended in patients who have cortisol levels higher than 5.0 \u00b5g per deciliter (>138 nmol per liter) after a 1-mg dexamethasone suppression test.\n- Follow-up imaging at 6 months may be considered in patients younger than 40 years of age because adrenal incidentalomas are not common in this age group.\n```",
+    "raw_text": "This figure is a flowchart. Below is the textual representation in markdown format:\n\n```markdown\nComprehensive history taking and physical examination to assess for features of hormonal hypersecretion\n\n### Imaging\n- Tumor size and attenuation on unenhanced CT\n- Additional imaging (enhanced CT, MRI, 18F-FDG PET-CT) in some patients\n\n### Hormonal evaluation\n- Overnight 1-mg dexamethasone suppression test\n- Measurement of plasma-free metanephrine level or fractionated metanephrine level in 24-hr urinary specimen\n- If hypertension or hypokalemia present, measurement of plasma aldosterone concentration and plasma renin activity\n\n#### Negative results\n- No further follow-up after hormonal evaluation unless symptoms or signs indicating hormonal excess develop\n\n#### Positive results\n- Confirmatory testing for mild autonomous cortisol excess and primary hyperaldosteronism, if necessary\n\n### Appearance of Tumors\n#### Benign appearance\n- Tumor <4 cm in diameter\n- \u226410 Hounsfield units on CT\n- CT contrast washout 40-60%\n- Signal loss on MRI chemical-shift analysis\n- On 18F-FDG PET-CT, SUVmax <5 or adrenal-to-spleen or adrenal-to-liver signal-intensity ratio <1\n\n#### Suspicious appearance\n- Tumor \u22654 cm in diameter\n- >10 Hounsfield units on CT\n- CT contrast washout <40-60%\n- On MRI, hypertension on T2 imaging or no signal loss on chemical-shift analysis\n- On 18F-FDG PET-CT, SUVmax \u22655 or adrenal-to-spleen or adrenal-to-liver signal-intensity ratio \u22651\n\n### No further follow-up imaging needed unless symptoms or signs indicating hormone excess develop\n\n### Consider adrenalectomy\n- Adrenalectomy for pheochromocytoma after alpha-blockade (and after beta-blockade, if necessary)\n- Consider adrenalectomy for autonomous cortisol hypersecretion and primary hyperaldosteronism\n\n### Notes\n- Treatment should be individualized according to the patient\u2019s coexisting conditions, preferences, and the clinical expertise available.\n- Hormonal evaluations and imaging should be performed in parallel.\n- Adrenalectomy is not warranted for all patients; the care plan should be discussed by a multidisciplinary team considering the patient\u2019s coexisting conditions, response to medical treatment, and risk associated with adrenalectomy.\n- Most adrenalectomies can be performed with a minimally invasive approach, but for a tumor that arouses suspicion for cancer, an open adrenalectomy is usually recommended.\n- Adrenalectomy may be considered in patients with mild autonomous cortisol excess, depending on existing conditions and other factors, and it is generally recommended in patients who have cortisol levels higher than 5.0 \u00b5g per deciliter (>138 nmol per liter) after a 1-mg dexamethasone suppression test.\n- Follow-up imaging at 6 months may be considered in patients younger than 40 years of age because adrenal incidentalomas are not common in this age group.\n```",
+    "sectionPath": [
+      "Key Clinical Points"
+    ],
+    "isTable": false,
+    "isPicture": true,
+    "bboxes": [
+      {
+        "page": 3,
+        "l": 30.17388343811035,
+        "t": 701.8077278137207,
+        "r": 505.619873046875,
+        "b": 146.01171875,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 3,
+    "pageEnd": 3,
+    "tokenCount": 413
+  },
+  {
+    "text": "Key Clinical Points\nThe figure appears to be a medical imaging illustration (axial CT or MRI scans).\n\n### Textual Representation:\n\n#### Figure A\n- **Left Image:** \n  - Arrows pointing at specific anatomical structures.\n  \n- **Right Image:** \n  - Arrows indicating different findings.\n\n#### Figure B\n- **Left Image:** \n  - Arrows pointing to highlighted areas of interest.\n  \n- **Right Image:** \n  - Arrows indicating key features, potentially involving pathologies.\n\n#### Figure C\n- **Left Image:** \n  - Arrows indicating anatomical structures or findings.\n  \n- **Right Image:** \n  - Arrows highlighting significant observations.\n\n*Note: The specific details indicated by the arrows (labels or annotations) are not provided in the request.*",
+    "raw_text": "The figure appears to be a medical imaging illustration (axial CT or MRI scans).\n\n### Textual Representation:\n\n#### Figure A\n- **Left Image:** \n  - Arrows pointing at specific anatomical structures.\n  \n- **Right Image:** \n  - Arrows indicating different findings.\n\n#### Figure B\n- **Left Image:** \n  - Arrows pointing to highlighted areas of interest.\n  \n- **Right Image:** \n  - Arrows indicating key features, potentially involving pathologies.\n\n#### Figure C\n- **Left Image:** \n  - Arrows indicating anatomical structures or findings.\n  \n- **Right Image:** \n  - Arrows highlighting significant observations.\n\n*Note: The specific details indicated by the arrows (labels or annotations) are not provided in the request.*",
+    "sectionPath": [
+      "Key Clinical Points"
+    ],
+    "isTable": false,
+    "isPicture": true,
+    "bboxes": [
+      {
+        "page": 5,
+        "l": 2.744185930888238,
+        "t": 755.9999999875133,
+        "r": 8.918604698181532,
+        "b": 750.5405406136879,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 5,
+        "l": 31.333215713500977,
+        "t": 701.047794342041,
+        "r": 504.6346435546875,
+        "b": 593.5525970458984,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 5,
+        "l": 37.75,
+        "t": 584.7053,
+        "r": 194.55843987000006,
+        "b": 577.797860834299,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 5,
+        "l": 37.75,
+        "t": 572.7053,
+        "r": 499.7354251100006,
+        "b": 525.831567281106,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 5,
+        "l": 100.0,
+        "t": 495.48,
+        "r": 301.04297905999965,
+        "b": 414.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 5,
+    "pageEnd": 5,
+    "tokenCount": 104
+  },
+  {
+    "text": "Key Clinical Points\nThe care of patients with mild autonomous cortisol excess may involve active surveillance or adrenalectomy. Data comparing outcomes with the use of these strategies are limited. One small randomized, controlled trial comparing adrenalectomy (in 23 patients) with surveillance (in 22 patients)  for  mild  autonomous  cortisol  excess showed that after surgery, there was normalization or improvement in the condition of patients with type 2 diabetes mellitus (in 5 of 8 patients [62%]), hypertension (in 12 of 18 patients [67%]), and hyperlipidemia (in 3 of 8 patients [38%]), as compared with no normalization or no improvement in these conditions in patients in the surveillance group. 21 Three of 6 patients in the surgical  group  were  reported  to  have  postoperative decreases  in  obesity,  whereas  no  changes  in bone measures were seen in 5 patients who had osteoporosis; comparative data were lacking for the control group. In retrospective cohort studies, patients who underwent adrenalectomy had lower glucose levels and less hypertension and dyslipidemia than those who were cared for with surveillance. 22,23",
+    "raw_text": "The care of patients with mild autonomous cortisol excess may involve active surveillance or adrenalectomy. Data comparing outcomes with the use of these strategies are limited. One small randomized, controlled trial comparing adrenalectomy (in 23 patients) with surveillance (in 22 patients)  for  mild  autonomous  cortisol  excess showed that after surgery, there was normalization or improvement in the condition of patients with type 2 diabetes mellitus (in 5 of 8 patients [62%]), hypertension (in 12 of 18 patients [67%]), and hyperlipidemia (in 3 of 8 patients [38%]), as compared with no normalization or no improvement in these conditions in patients in the surveillance group. 21 Three of 6 patients in the surgical  group  were  reported  to  have  postoperative decreases  in  obesity,  whereas  no  changes  in bone measures were seen in 5 patients who had osteoporosis; comparative data were lacking for the control group. In retrospective cohort studies, patients who underwent adrenalectomy had lower glucose levels and less hypertension and dyslipidemia than those who were cared for with surveillance. 22,23",
+    "sectionPath": [
+      "Key Clinical Points"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 5,
+        "l": 100.00024,
+        "t": 411.48,
+        "r": 301.06321865999985,
+        "b": 126.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 5,
+    "pageEnd": 5,
+    "tokenCount": 171
+  },
+  {
+    "text": "Pheochromocytoma\nAlthough pheochromocytoma may manifest as an adrenal incidentaloma, on careful history and physical examination, many patients are found to have classic symptoms or signs of pheochromocytoma, a family history of these masses, or both. A total of 1.5 to 14.0% of adrenal incidentalomas are found to be pheochromocytomas. 9 Imaging features on CT may be helpful in suggesting pheochromocytoma (Fig. 2). These features  include  an  attenuation  of  more  than  10 Hounsfield units on unenhanced CT, the presence of areas of increased vascularity and necrosis  on  enhanced  CT,  and  delayed  washout  of contrast medium. On magnetic resonance imaging (MRI), pheochromocytoma may have high T2-weighted intensity (Fig. 2).\nGuidelines recommend that all patients with adrenal incidentaloma  undergo  biochemical screening for pheochromocytoma because these tumors may be clinically  silent. 9,24-27 However, some investigators have suggested that biochemical  screening  for  pheochromocytoma  is  not necessary in a patient who has a lipid-rich tumor with a CT attenuation of 10 Hounsfield units or less, because these tumors are rarely pheochromocytomas (<0.5% of cases). 28,29  The most accurate screening tests to detect pheochromocytoma are  measurement  of  the  levels  of  plasma-free metanephrines  (sensitivity,  89  to  100%,  and specificity, 79 to 98%) or 24-hour urinary fractionated  metanephrine  level  (sensitivity,  86  to 97%, and specificity, 69 to 95%). 30  To minimize the risk of perioperative illness and death, patients  with  a  diagnosis  of  pheochromocytoma should undergo adrenalectomy only after sufficient alpha-blockade followed by beta-blockade, if necessary, is achieved (Fig. 1).",
+    "raw_text": "Although pheochromocytoma may manifest as an adrenal incidentaloma, on careful history and physical examination, many patients are found to have classic symptoms or signs of pheochromocytoma, a family history of these masses, or both. A total of 1.5 to 14.0% of adrenal incidentalomas are found to be pheochromocytomas. 9 Imaging features on CT may be helpful in suggesting pheochromocytoma (Fig. 2). These features  include  an  attenuation  of  more  than  10 Hounsfield units on unenhanced CT, the presence of areas of increased vascularity and necrosis  on  enhanced  CT,  and  delayed  washout  of contrast medium. On magnetic resonance imaging (MRI), pheochromocytoma may have high T2-weighted intensity (Fig. 2).\nGuidelines recommend that all patients with adrenal incidentaloma  undergo  biochemical screening for pheochromocytoma because these tumors may be clinically  silent. 9,24-27 However, some investigators have suggested that biochemical  screening  for  pheochromocytoma  is  not necessary in a patient who has a lipid-rich tumor with a CT attenuation of 10 Hounsfield units or less, because these tumors are rarely pheochromocytomas (<0.5% of cases). 28,29  The most accurate screening tests to detect pheochromocytoma are  measurement  of  the  levels  of  plasma-free metanephrines  (sensitivity,  89  to  100%,  and specificity, 79 to 98%) or 24-hour urinary fractionated  metanephrine  level  (sensitivity,  86  to 97%, and specificity, 69 to 95%). 30  To minimize the risk of perioperative illness and death, patients  with  a  diagnosis  of  pheochromocytoma should undergo adrenalectomy only after sufficient alpha-blockade followed by beta-blockade, if necessary, is achieved (Fig. 1).",
+    "sectionPath": [
+      "Pheochromocytoma"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 5,
+        "l": 100.0,
+        "t": 99.48000000000002,
+        "r": 301.02197947999986,
+        "b": 78.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 5,
+        "l": 306.99586,
+        "t": 495.48,
+        "r": 508.0499789199995,
+        "b": 330.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 5,
+        "l": 306.99662939999996,
+        "t": 327.48,
+        "r": 508.04071256000043,
+        "b": 78.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 5,
+    "pageEnd": 5,
+    "tokenCount": 241
+  },
+  {
+    "text": "Primary Hyperaldosteronism\nAmong patients with adrenal incidentaloma, primary hyperaldosteronism is less common than mild autonomous cortisol excess and pheochromocytoma; primary hyperaldosteronism accounts for 1.6 to 3.3% of incidentalomas. 9  However, any patient  with  adrenal  incidentaloma  and  hypertension or hypokalemia should be screened for primary hyperaldosteronism with measurement of the mid-morning plasma aldosterone concentration and plasma renin activity; patients should not be taking medications that could cause false positive or false negative results (Table 1). 31\nAlthough  studies  have  used  various  cutoff values to identify hyperaldosteronism, a ratio of the plasma aldosterone concentration to plasma renin activity that is higher than 20 is considered to be a reliable indicator of the diagnosis; if the ratio is high but below this level, confirmatory  testing  is  recommended  (Table  1). 31,32 Once the diagnosis is established, patient-specific factors guide decisions regarding medical versus surgical therapy (Fig. 1).",
+    "raw_text": "Among patients with adrenal incidentaloma, primary hyperaldosteronism is less common than mild autonomous cortisol excess and pheochromocytoma; primary hyperaldosteronism accounts for 1.6 to 3.3% of incidentalomas. 9  However, any patient  with  adrenal  incidentaloma  and  hypertension or hypokalemia should be screened for primary hyperaldosteronism with measurement of the mid-morning plasma aldosterone concentration and plasma renin activity; patients should not be taking medications that could cause false positive or false negative results (Table 1). 31\nAlthough  studies  have  used  various  cutoff values to identify hyperaldosteronism, a ratio of the plasma aldosterone concentration to plasma renin activity that is higher than 20 is considered to be a reliable indicator of the diagnosis; if the ratio is high but below this level, confirmatory  testing  is  recommended  (Table  1). 31,32 Once the diagnosis is established, patient-specific factors guide decisions regarding medical versus surgical therapy (Fig. 1).",
+    "sectionPath": [
+      "Primary Hyperaldosteronism"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 6,
+        "l": 62.0,
+        "t": 687.48,
+        "r": 263.03799702,
+        "b": 546.9083097055616,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 6,
+        "l": 62.00024,
+        "t": 543.48,
+        "r": 263.04721897999957,
+        "b": 426.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 6,
+    "pageEnd": 6,
+    "tokenCount": 143
+  },
+  {
+    "text": "Additional Hormonal Secretion\nIt is extremely rare for patients with adrenal incidentaloma to have sex hormone (estrogen or testosterone)-secreting  tumors  without  appreciable clinical manifestations. In women, excess testosterone is associated with features of virilization  such  as  facial  hair  growth,  acne,  and deepening of the voice, and excess estrogen is associated  with  irregular  uterine  bleeding  and breast tenderness. In men, estrogen-secreting tumors can cause gynecomastia, testicular atrophy, and decreased libido.",
+    "raw_text": "It is extremely rare for patients with adrenal incidentaloma to have sex hormone (estrogen or testosterone)-secreting  tumors  without  appreciable clinical manifestations. In women, excess testosterone is associated with features of virilization  such  as  facial  hair  growth,  acne,  and deepening of the voice, and excess estrogen is associated  with  irregular  uterine  bleeding  and breast tenderness. In men, estrogen-secreting tumors can cause gynecomastia, testicular atrophy, and decreased libido.",
+    "sectionPath": [
+      "Additional Hormonal Secretion"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 6,
+        "l": 62.0,
+        "t": 399.48,
+        "r": 263.03597919999993,
+        "b": 270.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 6,
+    "pageEnd": 6,
+    "tokenCount": 69
+  },
+  {
+    "text": "Assessment for Cancer\nAn  adrenal  incidentaloma  may  be  a  primary malignant tumor that has arisen from the adrenal cortex  (adrenocortical  carcinoma)  or  medulla (pheochromocytoma), or, rarely, a metastatic tumor. Adrenocortical carcinoma, which accounts for 1.2 to 11.0% of adrenal incidentalomas, 9 depending on the study population, may secrete excess hormones or be nonfunctioning. Up to 21% of adrenal incidentalomas in patients with a  history  of  or  known  current  primary  cancer indicate adrenal metastasis. 9,33  Cancers that are most likely to spread to the adrenal glands are lung cancer, gastrointestinal cancer, melanoma, and renal-cell carcinoma. 33  Tumor size and imag- ing  features  are  key  to  determining  the  likelihood of cancer and guiding treatment (Table 2 and Figs. 1 and 2).",
+    "raw_text": "An  adrenal  incidentaloma  may  be  a  primary malignant tumor that has arisen from the adrenal cortex  (adrenocortical  carcinoma)  or  medulla (pheochromocytoma), or, rarely, a metastatic tumor. Adrenocortical carcinoma, which accounts for 1.2 to 11.0% of adrenal incidentalomas, 9 depending on the study population, may secrete excess hormones or be nonfunctioning. Up to 21% of adrenal incidentalomas in patients with a  history  of  or  known  current  primary  cancer indicate adrenal metastasis. 9,33  Cancers that are most likely to spread to the adrenal glands are lung cancer, gastrointestinal cancer, melanoma, and renal-cell carcinoma. 33  Tumor size and imag- ing  features  are  key  to  determining  the  likelihood of cancer and guiding treatment (Table 2 and Figs. 1 and 2).",
+    "sectionPath": [
+      "Assessment for Cancer"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 6,
+        "l": 62.0,
+        "t": 243.48000000000002,
+        "r": 263.0824184199998,
+        "b": 78.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 6,
+        "l": 268.9950976,
+        "t": 699.48,
+        "r": 470.0160770999987,
+        "b": 666.9083097055616,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 6,
+    "pageEnd": 6,
+    "tokenCount": 119
+  },
+  {
+    "text": "Tumor Size\nAlthough  many  studies  of  the  risks  of  cancer associated with tumor size are limited by small samples, retrospective design, and selection bias, data  consistently  support  associations  between tumors  that  are  larger  than  4  cm  in  greatest diameter and an increased risk of cancer among patients  with  a  unilateral  adrenal  mass  (Table 2). 35,36  The risk of adrenocortical carcinoma is  less  than  2%  among  patients  with  tumors smaller than 4 cm in diameter, 6% among those with tumors between 4 cm and 6 cm in diameter, and  25%  or  higher  among  those  with  tumors that  are  at  least  6  cm  in  diameter. 35 However, patient age is an important factor in estimating cancer risk; because benign incidentalomas are uncommon in patients younger than 40 years of age, cancer is a concern even with smaller tumors (<4 cm in diameter) in this age group. It is important to measure the adrenal tumor in three dimensions (the greatest length, width, and height) because two-dimensional (cross-sectional) measurements often underestimate size.",
+    "raw_text": "Although  many  studies  of  the  risks  of  cancer associated with tumor size are limited by small samples, retrospective design, and selection bias, data  consistently  support  associations  between tumors  that  are  larger  than  4  cm  in  greatest diameter and an increased risk of cancer among patients  with  a  unilateral  adrenal  mass  (Table 2). 35,36  The risk of adrenocortical carcinoma is  less  than  2%  among  patients  with  tumors smaller than 4 cm in diameter, 6% among those with tumors between 4 cm and 6 cm in diameter, and  25%  or  higher  among  those  with  tumors that  are  at  least  6  cm  in  diameter. 35 However, patient age is an important factor in estimating cancer risk; because benign incidentalomas are uncommon in patients younger than 40 years of age, cancer is a concern even with smaller tumors (<4 cm in diameter) in this age group. It is important to measure the adrenal tumor in three dimensions (the greatest length, width, and height) because two-dimensional (cross-sectional) measurements often underestimate size.",
+    "sectionPath": [
+      "Tumor Size"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 6,
+        "l": 269.0,
+        "t": 639.48,
+        "r": 470.05215453999995,
+        "b": 378.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 6,
+    "pageEnd": 6,
+    "tokenCount": 168
+  },
+  {
+    "text": "Imaging Features Suggestive of Cancer\nOn CT imaging, features other than tumor size can help to differentiate benign from malignant adrenal incidentalomas, although the ultimate diagnosis  is  based  on  histologic  findings  or clinical follow-up. 34,37 Irregular tumor margins, heterogeneity, necrosis, vascularity, and calcification are features that arouse suspicion for cancer  (Table  2).  An  attenuation  of  10  Hounsfield units  or  less  on  unenhanced  CT  is  consistent with a benign lesion; in a series of 1161 adrenal tumors  with  an  attenuation  of  10  Hounsfield units  or  less,  no  malignant  tumors  were  observed. 38\nIn patients who have incidentalomas with an attenuation of more than 10 Hounsfield units, follow-up imaging may include contrast-enhanced CT (to measure the percentage of washout of contrast  medium  at  various  times),  MRI  with chemical-shift analysis, or positron-emission tomography (PET)-CT with  18 F-fluorodeoxyglucose ( 18 F-FDG). On contrast-enhanced CT, adenomas commonly enhance more rapidly and have faster washout of intravenous contrast medium when",
+    "raw_text": "On CT imaging, features other than tumor size can help to differentiate benign from malignant adrenal incidentalomas, although the ultimate diagnosis  is  based  on  histologic  findings  or clinical follow-up. 34,37 Irregular tumor margins, heterogeneity, necrosis, vascularity, and calcification are features that arouse suspicion for cancer  (Table  2).  An  attenuation  of  10  Hounsfield units  or  less  on  unenhanced  CT  is  consistent with a benign lesion; in a series of 1161 adrenal tumors  with  an  attenuation  of  10  Hounsfield units  or  less,  no  malignant  tumors  were  observed. 38\nIn patients who have incidentalomas with an attenuation of more than 10 Hounsfield units, follow-up imaging may include contrast-enhanced CT (to measure the percentage of washout of contrast  medium  at  various  times),  MRI  with chemical-shift analysis, or positron-emission tomography (PET)-CT with  18 F-fluorodeoxyglucose ( 18 F-FDG). On contrast-enhanced CT, adenomas commonly enhance more rapidly and have faster washout of intravenous contrast medium when",
+    "sectionPath": [
+      "Imaging Features Suggestive of Cancer"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 6,
+        "l": 269.0,
+        "t": 351.48,
+        "r": 470.04013239999966,
+        "b": 198.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 6,
+        "l": 269.00024,
+        "t": 195.48000000000002,
+        "r": 470.0336520600005,
+        "b": 78.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 6,
+    "pageEnd": 6,
+    "tokenCount": 154
+  },
+  {
+    "text": "Imaging Features Suggestive of Cancer\nmeasured at 60 to 90 seconds (early enhancement) and at 10 to 15 minutes (delayed enhancement) after the administration of contrast medium than adrenocortical carcinomas. Absolute washout is defined as the attenuation value in Hounsfield units on early enhanced CT minus Hounsfield units on delayed CT, divided by Hounsfield units on early enhanced CT minus Hounsfield units on unenhanced CT, multiplied by 100%, and relative washout is defined as Hounsfield units on early enhanced CT minus Hounsfield units on delayed CT, divided by Hounsfield units on enhanced CT, multiplied by 100%. Absolute washout of more than 60% of the contrast medium and relative washout of more than 40% of the contrast medium are suggestive of an adenoma, but the sensitivities  and  specificities  of  these  cutoff  values vary across studies owing to variations in technique and timing of measurement of washout. 34\nMRI with chemical-shift analysis, which assesses qualitative loss of signal intensity, quantitative loss of signal intensity, or both between in-phase and out-of-phase imaging, is especially useful to avoid radiation exposure in pregnant women and children and in patients who are allergic to iodinated contrast medium. In a systematic review, qualitative (visual) analysis of the adrenal signal-intensity index and quantitative assessment  of  the  adrenal-to-spleen  ratio  (i.e., the signal intensity of the adrenal mass divided by the signal intensity of the spleen) both had high accuracy (pooled sensitivities and specificities, 94% and 95%, respectively) for identifying adenomas. 37 In  a  meta-analysis  of  29  studies, findings on 18 F-FDG PET-CT adrenal imaging that determined the maximum standardized uptake value and the ratio of the maximum standardized uptake value in the adrenal tumor as compared with the spleen or liver effectively distinguished benign from malignant tumors (pooled sensitivities, 85 to 91%, and pooled specificities, 89 to 91%). 39",
+    "raw_text": "measured at 60 to 90 seconds (early enhancement) and at 10 to 15 minutes (delayed enhancement) after the administration of contrast medium than adrenocortical carcinomas. Absolute washout is defined as the attenuation value in Hounsfield units on early enhanced CT minus Hounsfield units on delayed CT, divided by Hounsfield units on early enhanced CT minus Hounsfield units on unenhanced CT, multiplied by 100%, and relative washout is defined as Hounsfield units on early enhanced CT minus Hounsfield units on delayed CT, divided by Hounsfield units on enhanced CT, multiplied by 100%. Absolute washout of more than 60% of the contrast medium and relative washout of more than 40% of the contrast medium are suggestive of an adenoma, but the sensitivities  and  specificities  of  these  cutoff  values vary across studies owing to variations in technique and timing of measurement of washout. 34\nMRI with chemical-shift analysis, which assesses qualitative loss of signal intensity, quantitative loss of signal intensity, or both between in-phase and out-of-phase imaging, is especially useful to avoid radiation exposure in pregnant women and children and in patients who are allergic to iodinated contrast medium. In a systematic review, qualitative (visual) analysis of the adrenal signal-intensity index and quantitative assessment  of  the  adrenal-to-spleen  ratio  (i.e., the signal intensity of the adrenal mass divided by the signal intensity of the spleen) both had high accuracy (pooled sensitivities and specificities, 94% and 95%, respectively) for identifying adenomas. 37 In  a  meta-analysis  of  29  studies, findings on 18 F-FDG PET-CT adrenal imaging that determined the maximum standardized uptake value and the ratio of the maximum standardized uptake value in the adrenal tumor as compared with the spleen or liver effectively distinguished benign from malignant tumors (pooled sensitivities, 85 to 91%, and pooled specificities, 89 to 91%). 39",
+    "sectionPath": [
+      "Imaging Features Suggestive of Cancer"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 8,
+        "l": 62.0,
+        "t": 699.48,
+        "r": 263.0529788599997,
+        "b": 474.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 8,
+        "l": 62.00024000000002,
+        "t": 471.48,
+        "r": 263.0362192,
+        "b": 198.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 8,
+    "pageEnd": 8,
+    "tokenCount": 300
+  },
+  {
+    "text": "Adrenal Biopsy\nBiopsy of an adrenal incidentaloma is rarely indicated, 33 since it has low accuracy for distinguishing benign from malignant adrenal tumors and may lead to tumor seeding if the mass is an adrenocortical carcinoma. An exception is the rare case in which adrenal metastasis is strongly suspected and biopsy confirmation would change the treatment plan; in such cases, biochemical testing to exclude a pheochromocytoma should be  performed  first  to  avoid  precipitation  of  a hyperadrenergic crisis by biopsy.",
+    "raw_text": "Biopsy of an adrenal incidentaloma is rarely indicated, 33 since it has low accuracy for distinguishing benign from malignant adrenal tumors and may lead to tumor seeding if the mass is an adrenocortical carcinoma. An exception is the rare case in which adrenal metastasis is strongly suspected and biopsy confirmation would change the treatment plan; in such cases, biochemical testing to exclude a pheochromocytoma should be  performed  first  to  avoid  precipitation  of  a hyperadrenergic crisis by biopsy.",
+    "sectionPath": [
+      "Adrenal Biopsy"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 8,
+        "l": 62.0,
+        "t": 171.48000000000002,
+        "r": 263.0279559200002,
+        "b": 78.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 8,
+        "l": 269.0,
+        "t": 699.48,
+        "r": 470.0459790000007,
+        "b": 666.9083097055616,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 8,
+    "pageEnd": 8,
+    "tokenCount": 79
+  },
+  {
+    "text": "Assessment of Bilateral Adrenal Masses\nApproximately 15% of patients with adrenal incidentaloma have bilateral adrenal masses. 40 The differential diagnosis of bilateral adrenal masses includes primary bilateral macronodular adrenal hyperplasia and adenomas, bilateral pheochromocytomas, congenital adrenal hyperplasia, bilateral adrenal hyperplasia due to Cushing's disease or ectopic corticotropin secretion, metastases or primary cancers, myelolipomas, infections, hemorrhage, and partial glucocorticoid resistance. In addition to the hormonal assessments described for a solitary adrenal incidentaloma, measurement of the serum 17-hydroxyprogesterone level is indicated to rule out congenital adrenal hyperplasia. 41 In addition, if bilateral adrenal masses appear on imaging to be hemorrhagic or infiltrative, the patient should undergo testing for adrenal insufficiency. In patients with bilateral adrenal  masses,  the  imaging  characteristics  of each adrenal lesion should be evaluated independently in determining appropriate management.",
+    "raw_text": "Approximately 15% of patients with adrenal incidentaloma have bilateral adrenal masses. 40 The differential diagnosis of bilateral adrenal masses includes primary bilateral macronodular adrenal hyperplasia and adenomas, bilateral pheochromocytomas, congenital adrenal hyperplasia, bilateral adrenal hyperplasia due to Cushing's disease or ectopic corticotropin secretion, metastases or primary cancers, myelolipomas, infections, hemorrhage, and partial glucocorticoid resistance. In addition to the hormonal assessments described for a solitary adrenal incidentaloma, measurement of the serum 17-hydroxyprogesterone level is indicated to rule out congenital adrenal hyperplasia. 41 In addition, if bilateral adrenal masses appear on imaging to be hemorrhagic or infiltrative, the patient should undergo testing for adrenal insufficiency. In patients with bilateral adrenal  masses,  the  imaging  characteristics  of each adrenal lesion should be evaluated independently in determining appropriate management.",
+    "sectionPath": [
+      "Assessment of Bilateral Adrenal Masses"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 8,
+        "l": 268.99793139999997,
+        "t": 639.48,
+        "r": 470.04067962000113,
+        "b": 390.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 8,
+    "pageEnd": 8,
+    "tokenCount": 129
+  },
+  {
+    "text": "Follow-up in Patients with Nonfunctioning Lesions\nNonfunctioning adrenal incidentalomas with features that are consistent with an adenoma on imaging  (\u226410  Hounsfield  units)  and  that  are smaller than 4 cm in greatest diameter usually have a benign course and do not warrant additional follow-up imaging. In a meta-analysis involving 4121 patients with nonfunctioning adrenal lesions, the mean tumor growth was 2 mm over a median of 52.8 months of follow-up; only 2.5% of the patients had tumor enlargement of 1 cm or more, and adrenocortical carcinoma did not develop in any of the patients. 15\nFollow-up with imaging and biochemical tests is recommended for patients with nonfunctioning tumors with indeterminate features on imaging. However, the most appropriate time intervals for reassessment are unclear, and they vary among different guidelines.",
+    "raw_text": "Nonfunctioning adrenal incidentalomas with features that are consistent with an adenoma on imaging  (\u226410  Hounsfield  units)  and  that  are smaller than 4 cm in greatest diameter usually have a benign course and do not warrant additional follow-up imaging. In a meta-analysis involving 4121 patients with nonfunctioning adrenal lesions, the mean tumor growth was 2 mm over a median of 52.8 months of follow-up; only 2.5% of the patients had tumor enlargement of 1 cm or more, and adrenocortical carcinoma did not develop in any of the patients. 15\nFollow-up with imaging and biochemical tests is recommended for patients with nonfunctioning tumors with indeterminate features on imaging. However, the most appropriate time intervals for reassessment are unclear, and they vary among different guidelines.",
+    "sectionPath": [
+      "Follow-up in Patients with Nonfunctioning Lesions"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 8,
+        "l": 269.0,
+        "t": 351.48,
+        "r": 470.05797876000076,
+        "b": 210.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 8,
+        "l": 269.00024,
+        "t": 207.48000000000002,
+        "r": 470.0212194999998,
+        "b": 138.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 8,
+    "pageEnd": 8,
+    "tokenCount": 128
+  },
+  {
+    "text": "Areas of Uncertainty\nThe diagnostic criteria for and management of mild autonomous cortisol excess are uncertain.\nMore data are needed to better identify patients with metabolic abnormalities that are most likely to be related to the adrenal lesion and to reverse the metabolic abnormalities with surgery. Studies are lacking to compare outcomes of various follow-up strategies for patients who have a nonfunctioning  adrenal  incidentaloma  with  intermediate imaging features.",
+    "raw_text": "The diagnostic criteria for and management of mild autonomous cortisol excess are uncertain.\nMore data are needed to better identify patients with metabolic abnormalities that are most likely to be related to the adrenal lesion and to reverse the metabolic abnormalities with surgery. Studies are lacking to compare outcomes of various follow-up strategies for patients who have a nonfunctioning  adrenal  incidentaloma  with  intermediate imaging features.",
+    "sectionPath": [
+      "Areas of Uncertainty"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 8,
+        "l": 269.0,
+        "t": 99.48000000000002,
+        "r": 470.0369791800009,
+        "b": 78.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      },
+      {
+        "page": 9,
+        "l": 100.0,
+        "t": 699.48,
+        "r": 301.0349792199999,
+        "b": 606.9083097055616,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 8,
+    "pageEnd": 9,
+    "tokenCount": 68
+  },
+  {
+    "text": "Guidelines\nGuidelines for the management of adrenal incidentaloma have been published by several professional societies. 9,24-27  All recommend biochemical testing to rule out functional tumors (mild autonomous cortisol excess, pheochromocytoma, and  primary  hyperaldosteronism)  at  the  initial evaluation. However, guidelines vary in the criteria  recommended  to  diagnose  mild  autonomous cortisol excess and the need for additional biochemical testing,  the  other  imaging  recommended when further evaluation is needed, and the criteria for adrenal tumor size used to recommend adrenalectomy for nonfunctioning tumors, although recent guidelines support a cutoff  value  of  4  cm  in  diameter.  Guidelines also differ  with  respect  to  follow-up  recommendations for nonfunctioning tumors that are smaller than  4  cm  in  diameter  with  attenuation  of  10 Hounsfield  units  or  less,  but  the  most  recent guidelines recommend that no follow-up imaging is needed unless clinical manifestations develop. 9  The present recommendations are generally concordant with most of these guidelines. 9",
+    "raw_text": "Guidelines for the management of adrenal incidentaloma have been published by several professional societies. 9,24-27  All recommend biochemical testing to rule out functional tumors (mild autonomous cortisol excess, pheochromocytoma, and  primary  hyperaldosteronism)  at  the  initial evaluation. However, guidelines vary in the criteria  recommended  to  diagnose  mild  autonomous cortisol excess and the need for additional biochemical testing,  the  other  imaging  recommended when further evaluation is needed, and the criteria for adrenal tumor size used to recommend adrenalectomy for nonfunctioning tumors, although recent guidelines support a cutoff  value  of  4  cm  in  diameter.  Guidelines also differ  with  respect  to  follow-up  recommendations for nonfunctioning tumors that are smaller than  4  cm  in  diameter  with  attenuation  of  10 Hounsfield  units  or  less,  but  the  most  recent guidelines recommend that no follow-up imaging is needed unless clinical manifestations develop. 9  The present recommendations are generally concordant with most of these guidelines. 9",
+    "sectionPath": [
+      "Guidelines"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 9,
+        "l": 100.0,
+        "t": 567.48,
+        "r": 301.0526966799996,
+        "b": 294.90830970556163,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 9,
+    "pageEnd": 9,
+    "tokenCount": 148
+  },
+  {
+    "text": "Conclusions and Recommendations\nThe patient described in the vignette has an adrenal incidentaloma that is 3.2 cm in diameter",
+    "raw_text": "The patient described in the vignette has an adrenal incidentaloma that is 3.2 cm in diameter",
+    "sectionPath": [
+      "Conclusions and Recommendations"
+    ],
+    "isTable": false,
+    "isPicture": false,
+    "bboxes": [
+      {
+        "page": 9,
+        "l": 100.0,
+        "t": 243.48000000000002,
+        "r": 301.0359791999997,
+        "b": 222.90830970556158,
+        "pageWidth": 567.0,
+        "pageHeight": 756.0,
+        "coordOrigin": "BOTTOMLEFT"
+      }
+    ],
+    "pageStart": 9,
+    "pageEnd": 9,
+    "tokenCount": 19
+  }
+]

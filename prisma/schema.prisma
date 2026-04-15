@@ -8,18 +8,26 @@ generator client {
 }
 
 model KnowledgeChunk {
-  id              String   @id @default(uuid())
+  id              String              @id @default(uuid())
   sourceDoc       String
   sourcePageStart Int?
   sourcePageEnd   Int?
   text            String
+  rawText         String?
   leadSentence    String?
-  hash            String   @unique
-  version         Int      @default(1)
-  citationKey     String   @unique
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
+  hash            String              @unique
+  version         Int                 @default(1)
+  citationKey     String              @unique
+  sectionPath     String[]            @default([])
+  bboxes          Json?
+  isTable         Boolean             @default(false)
+  isPicture       Boolean             @default(false)
+  createdAt       DateTime            @default(now())
+  updatedAt       DateTime            @updatedAt
   embedding       KnowledgeEmbedding?
+
+  @@index([version])
+  @@index([sourceDoc, version])
 }
 
 model KnowledgeEmbedding {
@@ -33,8 +41,8 @@ model KnowledgeEmbedding {
 }
 
 model Session {
-  id             String         @id
-  createdAt      DateTime       @default(now())
+  id             String          @id
+  createdAt      DateTime        @default(now())
   messages       Message[]
   checklistItems ChecklistItem[]
 }

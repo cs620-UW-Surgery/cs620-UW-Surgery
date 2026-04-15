@@ -11,6 +11,7 @@ function CitationViewer() {
   const quote = searchParams.get('quote');
   const chunkId = searchParams.get('chunkId');
   const [chunkSearchText, setChunkSearchText] = useState<string | null>(null);
+  const [chunkBboxes, setChunkBboxes] = useState<unknown[] | null>(null);
   const [chunkLoaded, setChunkLoaded] = useState(!chunkId);
 
   useEffect(() => {
@@ -18,8 +19,10 @@ function CitationViewer() {
     fetch(`/api/chunks/${encodeURIComponent(chunkId)}`)
       .then((res) => res.json())
       .then((data) => {
-        // Prefer lead sentence for highlighting — it's short and verbatim from the PDF.
-        // Fall back to first ~300 chars of chunk text if no lead sentence.
+        if (Array.isArray(data?.bboxes) && data.bboxes.length > 0) {
+          setChunkBboxes(data.bboxes);
+        }
+        // Lead sentence still set as a fallback for v1 chunks or if bbox rendering fails.
         if (data?.leadSentence) {
           setChunkSearchText(data.leadSentence);
         } else if (data?.text) {
@@ -55,6 +58,9 @@ function CitationViewer() {
   if (page) viewerParams.set('page', page);
   if (pageEnd) viewerParams.set('pageEnd', pageEnd);
   if (searchText) viewerParams.set('search', searchText);
+  if (chunkBboxes && chunkBboxes.length > 0) {
+    viewerParams.set('bboxes', JSON.stringify(chunkBboxes));
+  }
 
   const viewerUrl = `/pdfjs-viewer.html?${viewerParams.toString()}`;
 
