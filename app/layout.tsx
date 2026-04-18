@@ -32,6 +32,9 @@ export default function RootLayout({
       <body>
         <PiiWarningModal />
         <div className="page-shell">
+          <div className="bg-uwred text-white text-center text-sm py-1.5 px-4">
+            UW Endocrine Surgery Clinic: <a href="tel:+16082422888" className="font-semibold underline underline-offset-2 hover:no-underline">(608) 242-2888</a>
+          </div>
           <header className="sticky top-0 z-40 border-b-2 border-uwred bg-white/90 backdrop-blur">
             <div className="container-shell py-4 md:py-5">
               <Nav />

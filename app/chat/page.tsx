@@ -312,9 +312,20 @@ export default function ChatPage() {
     setIsRecording(true);
   };
 
+  const starterPrompts = [
+    { label: 'What happens next?', value: 'What are the usual next steps after an adrenal nodule is found?' },
+    { label: 'Do I need blood or urine tests?', value: 'Do I need blood or urine tests for my adrenal nodule?' },
+    { label: 'When is specialty care needed?', value: 'When would I need to see a specialist for my adrenal nodule?' },
+    { label: 'How do I prepare for testing?', value: 'How do I prepare for adrenal nodule testing?' }
+  ];
+
   return (
-    <div className="grid gap-8">
+    <div className="grid gap-6">
       <section className="card fade-in overflow-hidden p-0">
+        <div className="px-5 pt-4 pb-2">
+          <h2 className="font-serif text-xl text-darkgray">Understanding Your Adrenal Nodule</h2>
+          <p className="mt-1 text-sm text-muted">Watch this short overview from the UW Endocrine Surgery team about what an adrenal nodule is and what to expect.</p>
+        </div>
         <video
           controls
           playsInline
@@ -327,10 +338,37 @@ export default function ChatPage() {
         </video>
       </section>
 
-      <section id="chat" className="card fade-in scroll-mt-24 mt-7">
-        <h1 className="font-serif text-3xl text-darkgray">Navigator Chat</h1>
+      <section className="card fade-in">
+        <h2 className="font-serif text-xl text-darkgray">Your Usual Care Pathway</h2>
+        <p className="mt-1 text-sm text-muted">
+          Here is what typically happens after an adrenal nodule is found. Your care team will guide you through each step.
+        </p>
+        <ol className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            { step: '1', title: 'Nodule Found', desc: 'An adrenal nodule is discovered on imaging done for another reason. Your doctor reviews the scan.' },
+            { step: '2', title: 'Hormone Testing', desc: 'Blood and sometimes urine tests check whether the nodule is making extra hormones. Your doctor orders these.' },
+            { step: '3', title: 'Results Review', desc: 'Your care team reviews test results and imaging to determine if the nodule needs further action or monitoring.' },
+            { step: '4', title: 'Next Steps', desc: 'Based on results, you may be monitored with follow-up imaging, referred to a specialist, or reassured that no further action is needed.' }
+          ].map((item) => (
+            <li key={item.step} className="flex gap-3 rounded-xl border border-accent/60 bg-white/70 p-3">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-uwred text-xs font-bold text-white">{item.step}</span>
+              <div>
+                <div className="text-sm font-semibold text-darkgray">{item.title}</div>
+                <p className="mt-0.5 text-xs text-muted leading-relaxed">{item.desc}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <p className="text-center text-sm text-muted -mt-2">
+        After watching the video, use the chat below to ask follow-up questions about your care.
+      </p>
+
+      <section id="chat" className="card fade-in scroll-mt-24">
+        <h1 className="font-serif text-3xl text-darkgray">Ask Your Questions</h1>
         <p className="mt-2 text-muted">
-          Ask about typical testing steps, prep instructions, or what to expect after your referral.
+          Ask about what happens next, how to prepare for tests, or what to expect after your referral.
         </p>
         {appConfig.clinic_description && (
           <div className="mt-4 rounded-2xl border border-accent bg-white/70 px-4 py-3 text-sm text-muted">
@@ -338,6 +376,21 @@ export default function ChatPage() {
           </div>
         )}
       </section>
+
+      {messages.length === 0 && (
+        <section className="flex flex-wrap justify-center gap-2 -mt-2">
+          {starterPrompts.map((prompt) => (
+            <button
+              key={prompt.label}
+              type="button"
+              onClick={() => handleQuickReply(prompt.value)}
+              className="rounded-full border border-uwred/40 bg-white/80 px-4 py-2 text-sm text-uwred transition hover:border-uwred hover:bg-uwred/5"
+            >
+              {prompt.label}
+            </button>
+          ))}
+        </section>
+      )}
 
       <section className="grid gap-4">
         {messages.map((message) => (
