@@ -539,7 +539,7 @@ export default function ChatPage() {
             </div>
           )}
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted">
-            <span>Please avoid entering sensitive identifiers like DOB, SSN, or insurance numbers.</span>
+            <span>To protect your privacy, please do not share any sensitive details, such as your date of birth, Social Security Number, or insurance information.</span>
             <button
               type="button"
               onClick={handleClearHistory}
