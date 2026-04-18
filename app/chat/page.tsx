@@ -320,7 +320,7 @@ export default function ChatPage() {
           playsInline
           preload="metadata"
           className="w-full"
-          poster=""
+          poster="/poster.png"
         >
           <source src="https://0qduonpuurottffe.public.blob.vercel-storage.com/Patient%20adrenal%20copy.mp4" type="video/mp4" />
           Your browser does not support the video tag.
