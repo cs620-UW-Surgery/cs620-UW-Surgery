@@ -34,10 +34,9 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({
           mode: 'triage',
           assistant_message:
-            'Your symptoms may require immediate medical attention. ' +
-            'Please contact emergency services right away:\n\n' +
-            '• **Emergency Services** — Call **911** (or your local emergency number)\n\n' +
-            'Do not wait — if you are experiencing severe symptoms, seek emergency care immediately.',
+            'What you are describing sounds like it needs help right away.\n\n' +
+            'Please call **911** or go to your nearest emergency room now.\n\n' +
+            'Do not wait — get help as soon as you can.',
           disclaimer: DISCLAIMER,
           citations: [],
           ui_cards: [],
@@ -51,14 +50,14 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({
           mode: 'faq',
           assistant_message:
-            'This tool is not equipped to help with this type of request. ' +
-            'If you have a medical question about adrenal nodules, please rephrase your question and try again.\n\n' +
-            'If you are in crisis, please call **911** or your local emergency number.',
+            'Sorry, I can only answer questions about adrenal nodules (spots on the adrenal gland). ' +
+            'Try asking your question in a different way.\n\n' +
+            'If this is an emergency, please call **911**.',
           disclaimer: DISCLAIMER,
           citations: [],
           ui_cards: [],
           suggested_actions: [
-            { label: 'Rephrase my question', action_type: 'quick_reply', payload: { href: null, value: null } }
+            { label: 'Try a different question', action_type: 'quick_reply', payload: { href: null, value: null } }
           ],
           triage_level: 'none',
           pipeline_trace: pipelineTrace
@@ -73,7 +72,7 @@ export async function POST(request: NextRequest) {
           citations: [],
           ui_cards: [],
           suggested_actions: [
-            { label: 'Rephrase my question', action_type: 'quick_reply', payload: { href: null, value: null } }
+            { label: 'Try a different question', action_type: 'quick_reply', payload: { href: null, value: null } }
           ],
           triage_level: 'none',
           pipeline_trace: pipelineTrace

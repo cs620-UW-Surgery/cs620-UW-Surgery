@@ -183,7 +183,7 @@ export default function ChatPage() {
         {
           id: crypto.randomUUID(),
           role: 'assistant',
-          content: 'Sorry, we could not process that message. Please try again.'
+          content: 'Sorry, something went wrong. Please try again.'
         }
       ]);
     } finally {
@@ -330,7 +330,7 @@ export default function ChatPage() {
       <section className="card fade-in">
         <h1 className="font-serif text-3xl text-darkgray">Navigator Chat</h1>
         <p className="mt-2 text-muted">
-          Ask about typical testing steps, prep instructions, or what to expect after your referral.
+          Ask about your tests, how to get ready, or what happens next after your referral.
         </p>
         {appConfig.clinic_description && (
           <div className="mt-4 rounded-2xl border border-accent bg-white/70 px-4 py-3 text-sm text-muted">
@@ -396,12 +396,12 @@ export default function ChatPage() {
                         const handoffMessage = handoffCard?.content?.handoff?.message?.trim();
                         if (handoffMessage) return handoffMessage;
                         if (message.data.triage_level === 'contact_clinic') {
-                          return 'Please contact your clinic for timely guidance based on your symptoms.';
+                          return 'Please call your clinic to talk about your symptoms.';
                         }
                         if (message.data.triage_level === 'urgent') {
-                          return 'Seek urgent evaluation (urgent care or same-day clinical review) for your symptoms.';
+                          return 'Please go to urgent care or call your doctor today about your symptoms.';
                         }
-                        return 'Seek emergency evaluation or call emergency services if symptoms are severe.';
+                        return 'If your symptoms are serious, call 911 or go to the emergency room right away.';
                       })()}
                     </div>
                   </div>
@@ -539,7 +539,7 @@ export default function ChatPage() {
             </div>
           )}
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-muted">
-            <span>Please avoid entering sensitive identifiers like DOB, SSN, or insurance numbers.</span>
+            <span>Please do not type personal info like your date of birth, Social Security number, or insurance number.</span>
             <button
               type="button"
               onClick={handleClearHistory}

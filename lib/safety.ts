@@ -1,7 +1,7 @@
 export const BASE_DISCLAIMERS = [
-  'This information is general education and not a diagnosis.',
-  'Do not change medications or stop prescribed treatment without your clinician.',
-  'This tool does not recommend biopsy or individual treatment decisions.'
+  'This is general information, not a diagnosis.',
+  'Do not change or stop any medicine without talking to your doctor first.',
+  'This tool does not tell you whether you need a biopsy or any specific treatment.'
 ];
 
 const RED_FLAG_PATTERNS: { pattern: RegExp; label: string }[] = [
@@ -36,6 +36,6 @@ export function detectRedFlags(message: string): RedFlagResult {
     hasRedFlags: true,
     redFlags: hits,
     escalationAdvice:
-      'These symptoms can be urgent. Please seek immediate medical care or call emergency services in your area.'
+      'These symptoms could be serious. Please get medical help right away or call 911.'
   };
 }
