@@ -3,7 +3,7 @@ import { runDialogueEngine } from '@/lib/dialogueEngine';
 import { runAgentPipeline } from '@/lib/agents/pipeline';
 import type { PipelineTrace } from '@/lib/agents/schemas';
 import { prisma } from '@/lib/prisma';
-import { BASE_DISCLAIMERS } from '@/lib/safety';
+import { BASE_DISCLAIMERS, stripPromptInjection } from '@/lib/safety';
 
 export const runtime = 'nodejs';
 
@@ -17,6 +17,27 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Message is required.' }, { status: 400 });
     }
 
+    const injectionScan = stripPromptInjection(userMessage);
+    const cleanedMessage = injectionScan.cleaned;
+    const sanitizedMessage = cleanedMessage || userMessage.trim();
+
+    if (injectionScan.isLikely && !cleanedMessage) {
+      return NextResponse.json({
+        mode: 'faq',
+        assistant_message:
+          'I can help with general questions about adrenal nodules and testing, but I cannot follow requests to ' +
+          'change system rules or reveal internal prompts. Please rephrase your medical question.',
+        disclaimer: DISCLAIMER,
+        citations: [],
+        ui_cards: [],
+        suggested_actions: [
+          { label: 'Rephrase my question', action_type: 'quick_reply', payload: { href: null, value: null } }
+        ],
+        triage_level: 'none',
+        pipeline_trace: null
+      });
+    }
+
     const sessionId = typeof body?.session_id === 'string' ? body.session_id : request.cookies.get('session_id')?.value;
 
     // Run agent pipeline before dialogue engine
@@ -27,7 +48,7 @@ export async function POST(request: NextRequest) {
       process.env.NODE_ENV !== 'test';
 
     if (agentsEnabled) {
-      const pipelineResult = await runAgentPipeline(userMessage);
+      const pipelineResult = await runAgentPipeline(sanitizedMessage);
       pipelineTrace = pipelineResult.trace;
 
       if (pipelineResult.action === 'medical_emergency') {
@@ -84,7 +105,7 @@ export async function POST(request: NextRequest) {
 
     const response = await runDialogueEngine({
       sessionId,
-      userMessage,
+      userMessage: sanitizedMessage,
       clientState: body?.client_state
     });
 
@@ -95,7 +116,7 @@ export async function POST(request: NextRequest) {
     };
 
     if (sessionId && process.env.DATABASE_URL) {
-      const sanitizedUserMessage = userMessage.trim().slice(0, 1200);
+      const sanitizedUserMessage = sanitizedMessage.trim().slice(0, 1200);
 
       await prisma.session.upsert({
         where: { id: sessionId },

@@ -8,7 +8,7 @@ import {
   RouteDecisionJsonSchema,
   RouteDecisionSchema
 } from '@/lib/schemas';
-import { BASE_DISCLAIMERS } from '@/lib/safety';
+import { BASE_DISCLAIMERS, stripPromptInjection } from '@/lib/safety';
 import { retrieveRelevantChunks, type RetrievalChunk } from '@/lib/knowledge';
 import { getAppConfigMap } from '@/lib/appConfig';
 
@@ -28,7 +28,8 @@ const CARD_TITLES: Record<(typeof CardTypeEnum.options)[number], string> = {
 };
 
 function sanitizeUserMessage(message: string) {
-  const trimmed = message.trim();
+  const stripped = stripPromptInjection(message);
+  const trimmed = stripped.cleaned.trim();
   if (trimmed.length <= 1200) return trimmed;
   return trimmed.slice(0, 1200);
 }

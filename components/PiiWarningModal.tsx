@@ -28,12 +28,10 @@ export default function PiiWarningModal() {
         <h2 className="font-serif text-2xl text-uwred">Important Notice</h2>
         <div className="mt-4 space-y-3 text-sm text-darkgray">
           <p>
-            <strong>Do not enter personally identifiable information</strong> such as
-            your full name, date of birth, Social Security number, insurance ID,
-            or medical record number.
+            To protect your privacy, please do not share any sensitive details, such as your date of birth, Social Security Number, or insurance information.
           </p>
           <p>
-            Your chat history is being <strong>recorded and saved</strong> for
+            Your chat history is being recorded and saved for
             quality improvement and research purposes. All conversations are
             stored on our servers.
           </p>
