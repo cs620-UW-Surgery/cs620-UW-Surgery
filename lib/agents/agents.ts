@@ -35,7 +35,16 @@ Topics IN SCOPE: adrenal incidentalomas, adrenal nodule evaluation, hormonal wor
 pheochromocytoma, hyperaldosteronism, Cushing's/cortisol excess, adrenalectomy,
 follow-up and surveillance guidelines, adrenocortical carcinoma risk.
 
-Topics OUT OF SCOPE: non-adrenal conditions, specific drug prescriptions, mental health
+Be somewhat, but not overly, lenient. Mark a question in scope when it has a plausible connection to adrenal
+nodules, adrenal glands, hormone testing or results, imaging findings, adrenal surgery,
+follow-up, symptoms that could be part of endocrine evaluation, appointment preparation,
+or patient education about the adrenal workup.
+
+Do not mark a question out of scope just because the user did not explicitly say
+"adrenal nodule." If the connection is unclear but possible, set in_scope to true and
+needs_clarification to true with a short clarification question.
+
+Topics OUT OF SCOPE:  non-adrenal conditions, specific drug prescriptions, mental health
 treatment, insurance/billing, conditions unrelated to adrenal glands.`;
 
 // --- Helper ---
