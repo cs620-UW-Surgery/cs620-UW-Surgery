@@ -4,43 +4,66 @@ Patient-facing web app that explains typical adrenal nodule workups, testing ins
 
 Website Link: https://cs620-uw-surgery.vercel.app
 
+Repository Link: https://github.com/cs620-UW-Surgery/cs620-UW-Surgery
+
 ## Stack
 - Next.js (App Router) + TypeScript
 - Tailwind CSS
 - PostgreSQL + Prisma
 - OpenAI Responses API (structured outputs)
 
+## How the Code Works
+The main chat experience lives in `app/chat/page.tsx`. It sends the user's message to
+`app/api/chat/route.ts`, which sanitizes prompt-injection attempts and then runs the
+agent pipeline when OpenAI is configured.
+
+The agent pipeline in `lib/agents/pipeline.ts` runs a gatekeeper, question analyzer, and
+scope validator from `lib/agents/agents.ts`. These decide whether the app should proceed,
+ask a clarification question, block unsafe or out-of-scope content, or show emergency
+guidance.
+
+When a message can be answered, `lib/dialogueEngine.ts` retrieves relevant knowledge from
+`lib/knowledge.ts`, combines it with clinic configuration, and asks the model to return a
+structured JSON response. The frontend renders that response as chat text, citations, and
+optional UI cards such as checklists, test instructions, symptom checks, and handoff
+guidance.
+
+PDF reference documents are ingested by `scripts/ingest.ts`, chunked by
+`lib/ingest/chunking.ts`, and stored in PostgreSQL through Prisma. If the database or
+OpenAI key is missing, the app falls back to safer built-in responses and sample knowledge.
+
 ## Local Setup
 1. Install dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 2. Create a `.env` file (or run `pnpm demo` once to auto-create from `.env.example`):
 
 ```bash
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/adrenal_navigator"
-OPENAI_API_KEY="your-key"
-OPENAI_MODEL="gpt-4.1-mini"
+DATABASE_URL="postgresql://navigator:navigator@localhost:5432/adrenal_navigator?schema=public"
+OPENAI_API_KEY="sk-your-api-key"
+OPENAI_MODEL="gpt-4.1"
+OPENAI_ROUTER_MODEL="gpt-4.1"
 OPENAI_EMBEDDING_MODEL="text-embedding-3-small"
+ADMIN_TOKEN="set-a-strong-token"
 NEXT_PUBLIC_BILLING_URL="https://example.com/billing"
 NEXT_PUBLIC_ESTIMATE_URL="https://example.com/estimate"
 NEXT_PUBLIC_SCHEDULING_URL="https://example.com/schedule"
-ADMIN_TOKEN="set-a-strong-token"
 ```
 
 3. Initialize Prisma:
 
 ```bash
-npm run prisma:generate
-npm run prisma:migrate
+pnpm prisma:generate
+pnpm prisma:migrate
 ```
 
 4. Run the app:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## One-Command Demo
