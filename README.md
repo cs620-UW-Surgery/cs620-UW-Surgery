@@ -138,3 +138,19 @@ and require citations when clinical keywords appear in the assistant message.
 - Knowledge chunks: `lib/knowledge.ts`
 - Chat API: `app/api/chat/route.ts`
 - AppConfig admin: `app/admin/config/page.tsx`
+
+### What Works
+- The agent pipeline correctly filters unsafe or out-of-scope questions
+- RAG-based responses provide relevant, grounded, and cited medical information
+- The UI supports structured outputs such as checklists and test instructions
+- The system runs reliably with a properly configured OpenAI API
+
+### What Doesn’t Work (Yet)
+- Limited real-world validation with actual patients and clinicians
+- Some edge cases may still bypass safety filters or require manual review
+- Response quality can still be improved for complex or ambiguous queries
+
+### What We Would Work on Next
+In the next phase, we plan to focus on testing and evaluation.
+We will conduct real-world testing by involving both medical professionals and patients. This includes gathering feedback from doctors to ensure the medical accuracy and usefulness of the system, as well as testing with patients to improve usability and clarity.
+Based on this feedback, we aim to further refine the system, especially in terms of safety, response quality, and overall user experience.
